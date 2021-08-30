@@ -114,7 +114,7 @@
 	"setup.info.dashboard": "More settings are available on the [dashboard](https://panel.ticketsbot.net)",
 	"setup.info.easy": "Prompts you with a series of questions to set up the bot",
 	"setup.info.panels": "Visit the [dashboard](https://panel.ticketsbot.net/manage/%d/panels) to create reaction panels",
-	"setup.info.prefix": "Changes the prefix (e.g. `/`) of the bot.\\n**Example:** `/setup prefix -`",
+	"setup.info.prefix": "Changes the prefix (e.g. `t!`) of the bot.\\n**Example:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Sets the maximum amount of tickets a **single user** can open **at once**.\\n**Example:** `/setup limit 3`",
 	"setup.info.transcripts": "Sets the channel ticket transcripts are sent to.\\n**Example:** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "Type the message that should be sent by the bot when a ticket is opened",
