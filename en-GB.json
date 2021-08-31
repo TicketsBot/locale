@@ -130,5 +130,6 @@
 	"help.autoclose": "Autoclose related commands",
 	"help.autoclose.exclude": "Excludes the current ticket from being automatically closed",
 	"help.autoclose.configure": "Edit autoclose related settings",
-	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed"
+	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
+	"commands.claim.no_permission": "Only staff members can claim tickets"
 }
