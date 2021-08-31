@@ -7,7 +7,7 @@
 	"commands.add.no_permission": "Du hast keine Berechtigung, um Benutzer zu diesem Ticket hinzuzufügen",
 	"commands.add.not_ticket": "Der erwähnte Kanal ist kein Ticket",
 	"commands.addadmin.no_members": "Du mußt einen Benutzer bzw. einie Rollen erwähnen, um ihnen Administratorenberechtigungen zu erteilen",
-	"commands.addadmin.owner": "Dieser Benutzer ist bereits ein Administrator",
+	"commands.addadmin.owner": "Der Serverbesitzer ist bereits ein Administrator",
 	"commands.addsupport.no_members": "Du mußt Benutzer bzw. Rollen erwähnen, um sie als Support-Mitarbeiter hinzuzufügen",
 	"commands.blacklist.no_members": "Du mußt einen Benutzer erwähnen, um ihn von der Blacklist zu löschen oder zur Blacklist hinzuzufügen",
 	"commands.blacklist.self": "Du kannst Dich nicht selbst auf die Blacklist setzen",
@@ -21,7 +21,7 @@
 	"commands.panel": "Besuche <https://panel.ticketsbot.net/manage/%d/panels>, um einen Panel zu konfigurieren",
 	"commands.premium": "Du kannst ein Premium-Abonnement auf <https://www.patreon.com/ticketsbot> kaufen.\\nPremium gibt Dir viele Vorteile, hier ein paar Beispiele:\\n```diff\\n+ Erstellen von unlimitierten Ticket-Panels\\n+ Anpaßen des Bot-Namen, Avatar und Status (Whitelabel)\\n+ Detaillierte Statistiken über den Server, Benutzer und Support-Mitarbeiter\\n+ Kein Branding am Ende von Nachrichten\\n+ Unterstütze die Enwicklung und hilf mir, die Server-Kosten zu decken\\n```\\n\\nAls Alternative kannst Du auf <https://vote.ticketsbot.net> abstimmen, um Premium für 24 Stunden gratis zu erhalten",
 	"commands.premium.already_premium": "Dieser Server hat bereits Premium. Es verfällt am %s",
-	"commands.premium.invalid_key": "Ungültiger Schlüßel. Stelle sicher, daß Du den Schlüßel rightig kopiert hast.",
+	"commands.premium.invalid_key": "Ungültiger Schlüssel. Stelle sicher, dass Du den Schlüssel richtig kopiert hast.",
 	"commands.remove.no_members": "Du mußt Benutzer erwähnen, um sie vom Ticket zu entfernen",
 	"commands.remove.no_permission": "Du hast keine Berechtigungen, um Benutzer von diesem Ticket zu entfernen",
 	"commands.remove.staff": "Du kannst Support-Mitarbeiter nicht von einem Ticket entfernen",
@@ -127,5 +127,8 @@
 	"setup.welcome_message.invalid": "Willkommensnachrichten dürfen maximal 1024 Zeichen lang sein\\n**Beispiel:** `/setup welcomemessage Danke für's Öffnen eines Tickets!`",
 	"setup.welcome_message.success": "Die Willkommensnachricht wurde aktualisiert. Öffne ein Ticket, um es in Aktion zu sehen",
 	"commands.language.help_wanted": "Sprichst Du eine andere Sprache? Trete unserem [Support-Server](https://discord.gg/bh6aAfP) bei, wenn du daran interessiert bist, den Bot in weitere Sprachen zu übersetzen",
-	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein"
+	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein",
+	"commands.autoclose.configure": "Besuche das [dashboard](https://panel.ticketsbot.net/manage/%d/settings) um die \"autoclose\" Einstellungen zu ändern",
+	"help.autoclose": "Befehle bezüglich \"Autoclose\"",
+	"help.autoclose.configure": "Bearbeite \"Autoclose\"-Einstellungen"
 }
