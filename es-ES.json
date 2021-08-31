@@ -75,7 +75,6 @@
 	"help.setup": "Te permite configurar fácilmente el bot",
 	"help.stats": "Muestra estadísticas sobre usuarios, staff de soporte y el servidor",
 	"help.statsserver": "Muestra estadísticas sobre el servidor",
-	"help.sync": "Sincroniza la base de datos del bot con los canales: útil si se ha producido una interrupción de Discord",
 	"help.tag": " Envía un fragmento de mensaje",
 	"help.tagdelete": "Elimina una etiqueta",
 	"help.taggadd": "Agrega una nueva etiqueta",

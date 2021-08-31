@@ -77,7 +77,6 @@
 	"help.setup": "Botu kolayca kurmanızı sağlar",
 	"help.stats": "Kullanıcılar, yetkililer ve sunucu hakkındaki istatistikleri gösterir",
 	"help.statsserver": "Sunucu ile ilgili istatistikleri gösterir",
-	"help.sync": "Botun veritabanını kanallarla senkronize eder - Discord çökmesi veya kesintisi olduğunda kullanışlıdır",
 	"help.tag": "Hazır mesajları gönderir",
 	"help.tagdelete": "Bir etiketi siler",
 	"help.taggadd": "Yeni bir etiket ekler",

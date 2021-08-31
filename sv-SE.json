@@ -68,7 +68,6 @@
 	"help.rename": "Byter namn på den aktuella ticketen",
 	"help.setup": "Låter dig enkelt sätta upp botten",
 	"help.statsserver": "Visar serverstatistik",
-	"help.sync": "Synkroniserar bottens databas till kanalerna - användbart om det har skett ett Discord-avbrott",
 	"help.tag": "Skickar ett meddelandeavsnitt",
 	"help.tagdelete": "Tar bort en tagg",
 	"help.taggadd": "Lägger till en ny tagg",

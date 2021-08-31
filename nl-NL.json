@@ -77,7 +77,6 @@
 	"help.setup": "Hiermee kunt u de bot eenvoudig configureren",
 	"help.stats": "Toont u statistieken over gebruikers, ondersteunend personeel en de server",
 	"help.statsserver": "Toont u statistieken over de server",
-	"help.sync": "Synchroniseert de database van de bot met de kanalen - handig als je een Discord-storing hebt gehad",
 	"help.tag": "Verzendt een berichtfragment",
 	"help.tagdelete": "Verwijdert een tag",
 	"help.taggadd": "Voegt een nieuwe tag toe",
