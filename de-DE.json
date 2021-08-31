@@ -125,7 +125,5 @@
 	"setup.transcript.invalid": "Du musst einen gültigen Kanal im Server erwähnen (z.B. <#%d>)\\n**Beispiel:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Der Transkript-Kanal wurde auf <#%d> geändert",
 	"setup.welcome_message.invalid": "Willkommensnachrichten dürfen maximal 1024 Zeichen lang sein\\n**Beispiel:** `/setup welcomemessage Danke für's Öffnen eines Tickets!`",
-	"setup.welcome_message.success": "Die Willkommensnachricht wurde aktualisiert. Öffne ein Ticket, um es in Aktion zu sehen",
-	"unused.already_in_setup": "Du bist bereits im Setup-Modus (benutze `/cancel` zum Beenden)",
-	"unused.modmail_open": "Dein Ticket wurde in %s geöffnet! Benutze `/close`, um das Ticket zu schließen."
+	"setup.welcome_message.success": "Die Willkommensnachricht wurde aktualisiert. Öffne ein Ticket, um es in Aktion zu sehen"
 }

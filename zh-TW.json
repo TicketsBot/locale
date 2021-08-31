@@ -119,6 +119,5 @@
 	"setup.ticket_limit.success": "問題單限制已經更改為`%d`",
 	"setup.transcript.invalid": "您必須提供伺服器的有效頻道（例如 <#%d>）\\n**Example:** `t!setup transcripts #logs`",
 	"setup.transcript.success": "問題單記錄頻道已更改到 <#%d>",
-	"setup.welcome_message.success": "歡迎信息已更新。打開問題單以查看其運行情況",
-	"unused.modmail_open": "您在 %s 中的 modmail 問題單已打開！使用 `t!close` 關閉會話。"
+	"setup.welcome_message.success": "歡迎信息已更新。打開問題單以查看其運行情況"
 }
