@@ -125,5 +125,7 @@
 	"setup.transcript.invalid": "Du musst einen gültigen Kanal im Server erwähnen (z.B. <#%d>)\\n**Beispiel:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Der Transkript-Kanal wurde auf <#%d> geändert",
 	"setup.welcome_message.invalid": "Willkommensnachrichten dürfen maximal 1024 Zeichen lang sein\\n**Beispiel:** `/setup welcomemessage Danke für's Öffnen eines Tickets!`",
-	"setup.welcome_message.success": "Die Willkommensnachricht wurde aktualisiert. Öffne ein Ticket, um es in Aktion zu sehen"
+	"setup.welcome_message.success": "Die Willkommensnachricht wurde aktualisiert. Öffne ein Ticket, um es in Aktion zu sehen",
+	"commands.language.help_wanted": "Sprichst Du eine andere Sprache? Trete unserem [Support-Server](https://discord.gg/bh6aAfP) bei, wenn du daran interessiert bist, den Bot in weitere Sprachen zu übersetzen",
+	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein"
 }
