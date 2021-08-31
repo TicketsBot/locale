@@ -127,5 +127,10 @@
 	"setup.welcome_message.invalid": "Les messages de bienvenue peuvent comporter 1024 caractères au maximum\\n**Exemple :**`/setup welcomemessage Merci d'avoir ouvert un ticket !`",
 	"setup.welcome_message.success": "Le message de bienvenue a été mis à jour. Ouvrez un ticket pour le voir fonctionner",
 	"commands.language.help_wanted": "Vous parlez une autre langue ? Rejoignez notre [serveur de support](https://discord.gg/bh6aAfP) si vous souhaitez participer à la traduction du bot dans d'autres langues",
-	"commands.rename.too_long": "Le nom du salon ne peut pas excéder 100 caractères"
+	"commands.rename.too_long": "Le nom du salon ne peut pas excéder 100 caractères",
+	"commands.autoclose.configure": "Visitez le [dashboard](https://panel.ticketsbot.net/manage/%d/settings) pour modifier les paramètres de fermeture automatique",
+	"help.autoclose": "Commandes associées à la fermeture automatique",
+	"help.autoclose.exclude": "Empêche le ticket en cours d'être automatiquement fermé",
+	"help.autoclose.configure": "Modifier les paramètres de fermeture automatique",
+	"commands.autoclose.exclude.success": "Ce ticket ne sera pas fermé automatiquement"
 }
