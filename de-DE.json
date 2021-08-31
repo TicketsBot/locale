@@ -130,5 +130,7 @@
 	"commands.rename.too_long": "Der Name des Kanals darf nicht länger als 100 Zeichen sein",
 	"commands.autoclose.configure": "Besuche das [dashboard](https://panel.ticketsbot.net/manage/%d/settings) um die \"autoclose\" Einstellungen zu ändern",
 	"help.autoclose": "Befehle bezüglich \"Autoclose\"",
-	"help.autoclose.configure": "Bearbeite \"Autoclose\"-Einstellungen"
+	"help.autoclose.exclude": "Schließt das aktuelle Ticket vom automatischen Schließen aus",
+	"help.autoclose.configure": "Bearbeite \"Autoclose\"-Einstellungen",
+	"commands.autoclose.exclude.success": "Dieses Ticket wurde vom automatischen Schließen ausgeschlossen"
 }
