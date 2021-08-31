@@ -127,5 +127,6 @@
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
 	"setup.welcome_message.invalid": "Welcome messages must be a maximum of 1024 characters long\\n**Example:**`/setup welcomemessage Thanks for opening a ticket!`",
 	"setup.welcome_message.success": "The welcome message has been updated. Open a ticket to see it in action",
-	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/bh6aAfP) if you're interested in helping translating the bot into more languages"
+	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/bh6aAfP) if you're interested in helping translating the bot into more languages",
+	"commands.rename.too_long": "Channel names cannot be longer than 100 characters"
 }
