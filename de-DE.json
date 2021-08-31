@@ -83,7 +83,6 @@
 	"help.removesupport": "Widerruft die Support-Berechtigungen eines Benutzers oder einer Rolle",
 	"help.rename": "Benennt das aktuelle Ticket um",
 	"help.setup": "Erlaubt Dir, den Bot einfach zu konfigurieren",
-	"help.setup.easy": "",
 	"help.stats": "Zeigt Dir Statistiken über Benutzer, Support-Mitarbeiter und den Server",
 	"help.statsserver": "Zeigt Dir Statistiken über den Server",
 	"help.sync": "Synchronisiert die Datenbank des Bots mit den Kanälen - nutzvoll, wenn Discord einen Ausfall hatte",
