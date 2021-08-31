@@ -25,6 +25,6 @@ jobs:
       with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ github.event.pull_request.number }}
-          allowed-usernames-regex: ^rxdn$
+          allowed-usernames-regex: ^TicketsBot-Locale$
           merge-method: squash
           merge-title: "🤖 Automatically merge translations from Crowdin 🌎"
