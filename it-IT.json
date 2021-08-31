@@ -1,8 +1,8 @@
 {
-	"close.no_permission": "You are not permitted to close this ticket",
-	"command.blacklist.staff": "You cannot blacklist staff",
-	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nCommands: Type `/help`\\nGet started by running `/setup`",
-	"commands.add.no_channel": "You need to mention a ticket channel to add the user(s) in",
+	"close.no_permission": "Non ti è permesso chiudere questo ticket",
+	"command.blacklist.staff": "Non puoi aggiungere lo staff alla blacklist",
+	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer per il supporto: https://discord.gg/VtV3rSk\\nComandi: Type `/help`\\nInizia eseguendo `/setup`",
+	"commands.add.no_channel": "Devi menzionare un canale di un ticket per aggiungervi utenti",
 	"commands.add.no_members": "You need to mention members to add to the ticket",
 	"commands.add.no_permission": "You don't have permission to add people to this ticket",
 	"commands.add.not_ticket": "The mentioned channel is not a ticket",
