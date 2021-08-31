@@ -76,7 +76,6 @@
 	"help.setup": "Umożliwia łatwą konfigurację bota",
 	"help.stats": "Pokazuje statystyki użytkowników, administracji i serwera",
 	"help.statsserver": "Pokazuje statystyki serwera",
-	"help.sync": "Synchronizuje bazę danych bota z kanałami - użyteczne w wypadku, gdy nastąpiła awaria discorda",
 	"help.tag": "Wysyła wiadomość tekstową",
 	"help.tagdelete": "Usuwa tag",
 	"help.taggadd": "Dodaje nowy tag",
