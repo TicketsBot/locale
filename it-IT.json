@@ -1,1 +1,22 @@
-{}
+{
+	"close.no_permission": "Non ti è permesso chiudere questo ticket",
+	"command.blacklist.staff": "Non puoi aggiungere lo staff alla blacklist",
+	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer per il supporto: https://discord.gg/VtV3rSk\\nComandi: Type `/help`\\nInizia eseguendo `/setup`",
+	"commands.add.no_channel": "È necessario menzionare un canale di un ticket per aggiungervi utenti",
+	"commands.add.no_members": "È necessario menzionare i membri da aggiungere al ticket",
+	"commands.add.no_permission": "Non hai i permessi per aggiungere persone a questo ticket",
+	"commands.add.not_ticket": "Il canale menzionato non è un ticket",
+	"commands.addadmin.no_members": "È necessario menzionare un utente o il nome di un ruolo per concedergli privilegi da amministratore",
+	"commands.addadmin.owner": "Il proprietario del server è già un amministratore",
+	"commands.addsupport.no_members": "È necessario menzionare un utente o il nome di un ruolo per concedergli i privilegi da rappresentativi del supporto",
+	"commands.blacklist.no_members": "È necessario menzionare un utente per aggiungerlo o toglierlo dalla blacklist",
+	"commands.blacklist.self": "Non puoi aggiungerti alla blacklist",
+	"commands.blacklist.success": "Sei nella blacklist in questo server!",
+	"commands.claim.success": "Il tuo ticket verrà gestito da %s",
+	"commands.help.failed": "Non sono riuscito ad inviarti un messaggio diretto: assicurati che le tue impostazioni sulla privacy non siano troppo alte",
+	"commands.invite": "[Clicca qui](<https://invite.ticketsbot.net>)",
+	"commands.language.invalid": "È necessario specificare un codice lingua o una bandiera.\nLingue disponibili:\\n%s",
+	"commands.open.ticket_limit": "Sei in grado di aprire %d %s alla volta",
+	"commands.open.too_many_tickets": "Ci sono troppi ticket nella categoria dei ticket. Chiedi ad un admin di chiuderne alcuni o di spostarli in un'altra categoria",
+	"commands.panel": "Visita\n<https://panel.ticketsbot.net/manage/%d/panels> per configurare un pannello"
+}
