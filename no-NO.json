@@ -126,5 +126,10 @@
 	"setup.welcome_message.invalid": "Velkommen meldinger må være maksimalt 1024 tegn lange\\n**Eksempel:**`/setup welcomemessage Takk for å åpne en ticket!`",
 	"setup.welcome_message.success": "Velkomstmeldingen har blitt oppdatert. Åpne en ticket for å se den i handling",
 	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/bh6aAfP) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
-	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn"
+	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
+	"commands.autoclose.configure": "Besøk [dashboard](https://panel.ticketsbot.net/manage/%d/settings) for å endre autoclose innstillinger",
+	"help.autoclose": "Autoclose relaterte kommandoer",
+	"help.autoclose.exclude": "Ekskluderer gjeldende ticket fra å bli automatisk lukket",
+	"help.autoclose.configure": "Rediger autoclose relaterte innstillinger",
+	"commands.autoclose.exclude.success": "Denne ticketen har blitt ekskludert fra å bli automatisk lukket"
 }
