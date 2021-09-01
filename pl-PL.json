@@ -107,5 +107,7 @@
 	"setup.ticket_limit.success": "Limit biletów został zaktualizowany do `%d`",
 	"setup.welcome_message.invalid": "Wiadomość powitalna nie może być dłuższa niż 1024 znaki\\n**Przykład:**`/setup welcomemessage Dziękujemy za otworzenie biletu!`",
 	"commands.language.help_wanted": "Mówisz w innym języku? Dołącz do naszego [serwera wsparcia](https://discord.gg/bh6aAfP), jeśli jesteś zainteresowany pomocą w tłumaczeniu bota na większą ilość języków",
-	"commands.rename.too_long": "Nazwa kanału nie może być dłuższa niż 100 znaków"
+	"commands.rename.too_long": "Nazwa kanału nie może być dłuższa niż 100 znaków",
+	"commands.autoclose.configure": "Odwiedź [dashboard](https://panel.ticketsbot.net/manage/%d/settings), aby zmienić ustawienia automatycznego zamykania",
+	"commands.claim.no_permission": "Tylko członkowie personelu mogą obsłużyć ten bilet"
 }
