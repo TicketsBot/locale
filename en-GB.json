@@ -132,5 +132,6 @@
 	"help.autoclose.configure": "Edit autoclose related settings",
 	"commands.autoclose.exclude.success": "This ticket has been excluded from being automatically closed",
 	"commands.claim.no_permission": "Only staff members can claim tickets",
-	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```"
+	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
+	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)"
 }
