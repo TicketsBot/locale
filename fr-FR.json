@@ -130,5 +130,7 @@
 	"help.autoclose": "Commandes associées à la fermeture automatique",
 	"help.autoclose.exclude": "Empêche le ticket en cours d'être automatiquement fermé",
 	"help.autoclose.configure": "Modifier les paramètres de fermeture automatique",
-	"commands.autoclose.exclude.success": "Ce ticket ne sera pas fermé automatiquement"
+	"commands.autoclose.exclude.success": "Ce ticket ne sera pas fermé automatiquement",
+	"commands.claim.no_permission": "Seuls les membres du personnel peuvent réclamer les tickets",
+	"commands.open.from": "Ce ticket a été ouvert à partir de [ce message](%s).\n\n<@%d> dit dans <#%d> :\n```%s```"
 }
