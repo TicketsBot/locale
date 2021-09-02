@@ -135,5 +135,7 @@
 	"commands.open.from": "This ticket was opened from [this message](%s).\r\n\r\n<@%d> said in <#%d>:\r\n```%s```",
 	"commands.open.from.moved": "Conversation has been moved to a ticket (<#%d>)",
 	"help.close_request": "Sends a message asking the user to confirm the ticket is able to be closed",
-	"close.reason_too_long": "The reason cannot be longer than 255 characters"
+	"close.reason_too_long": "The reason cannot be longer than 255 characters",
+	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
+	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\r\n```%s```\r\n\r\nPlease accept or deny using the buttons below."
 }
