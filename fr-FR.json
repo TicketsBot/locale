@@ -132,5 +132,7 @@
 	"help.autoclose.configure": "Modifier les paramètres de fermeture automatique",
 	"commands.autoclose.exclude.success": "Ce ticket ne sera pas fermé automatiquement",
 	"commands.claim.no_permission": "Seuls les membres du personnel peuvent réclamer les tickets",
-	"commands.open.from": "Ce ticket a été ouvert à partir de [ce message](%s).\n\n<@%d> dit dans <#%d> :\n```%s```"
+	"commands.open.from": "Ce ticket a été ouvert à partir de [ce message](%s).\n\n<@%d> dit dans <#%d> :\n```%s```",
+	"help.close_request": "Envoie un message demandant à l'utilisateur de confirmer la fermeture du ticket",
+	"close.reason_too_long": "La raison ne peut pas excéder 255 caractères"
 }
