@@ -130,5 +130,14 @@
 	"help.autoclose": "Befehle bezüglich \"Autoclose\"",
 	"help.autoclose.exclude": "Schließt das aktuelle Ticket vom automatischen Schließen aus",
 	"help.autoclose.configure": "Bearbeite \"Autoclose\"-Einstellungen",
-	"commands.autoclose.exclude.success": "Dieses Ticket wurde vom automatischen Schließen ausgeschlossen"
+	"commands.autoclose.exclude.success": "Dieses Ticket wurde vom automatischen Schließen ausgeschlossen",
+	"commands.claim.no_permission": "Nur Support-Mitarbeiter können Tickets beanspruchen",
+	"commands.open.from": "Dieses Ticket wurde von [dieser Nachricht](%s) geöffnet.\n\n<@%d> sagte in <#%d>:\n```%s```",
+	"commands.open.from.moved": "Unterhaltung wurde auf ein Ticket verschoben (<#%d>)",
+	"help.close_request": "Sendet eine Nachricht, in der der Benutzer gebeten wird, das Ticket zu schließen",
+	"close.reason_too_long": "Der Grund darf nicht länger als 255 Zeichen sein",
+	"commands.close_request.no_reason": "<@%d> hat das Schließen dieses Tickets angefordert.\n\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+	"commands.close_request.with_reason": "<@%d> hat das Schließen dieses Tickets angefordert. Grund:\n```\n%s\n```\nBitte akzeptiere oder verweigere mit den untenstehenden Schaltflächen.",
+	"commands.close_request.no_permission": "Nur der Benutzer, der das Ticket geöffnet hat, kann auf die Schließungsanfrage antworten",
+	"commands.close_request.denied": "<@%d> hat die Schließungsanfrage abgelehnt"
 }
