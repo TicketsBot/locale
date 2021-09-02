@@ -62,6 +62,7 @@
 	"help.admin.generate_premium": "Generer premium nøkler",
 	"help.admin.get_owner": "Henter eieren av en server",
 	"help.admin.ping": "Sjekker WS ventetid til Discord",
+	"help.admin.seed": "Fordeler cachen med medlemmer",
 	"help.admin.set_message": "Overskriv en melding",
 	"help.admin.unblacklist": "Fjern en guild fra guild svartelisten",
 	"help.admin.update_schema": "Oppdaterer databaseskjemaet",
@@ -129,5 +130,10 @@
 	"help.autoclose": "Autoclose relaterte kommandoer",
 	"help.autoclose.exclude": "Ekskluderer gjeldende ticket fra å bli automatisk lukket",
 	"help.autoclose.configure": "Rediger autoclose relaterte innstillinger",
-	"commands.autoclose.exclude.success": "Denne ticketen har blitt ekskludert fra å bli automatisk lukket"
+	"commands.autoclose.exclude.success": "Denne ticketen har blitt ekskludert fra å bli automatisk lukket",
+	"commands.claim.no_permission": "Bare stabb medlemer kan kreve tickets",
+	"commands.open.from": "Denne ticketen ble åpnet fra [denne meldingen](%s)\n\n<@%d> sa i <#%d>:\n```%s```",
+	"commands.open.from.moved": "Samtalen har blitt flyttet til ticketen (<#%d>)",
+	"help.close_request": "Sender en melding som spør brukeren om å bekrefte at ticketen kan lukkes",
+	"close.reason_too_long": "Årsaken kan ikke være lengre enn 255 tegn"
 }
