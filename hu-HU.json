@@ -55,7 +55,6 @@
 	"help.admin.unblacklist": "Csoport levétele a feketelistáról.",
 	"help.admin.update_schema": "Frissíti az adatbázis sémáját.",
 	"help.blacklist": "Beállítja, hogy a felhasználók interakcióba léphetnek-e a bottal.",
-	"help.cancel": "Törli a beállítási folyamatot.",
 	"help.claim": "Adott jegy lefoglalása egy személy részére.",
 	"help.close": "Bezárja az adott jegyet.",
 	"help.help": "Megjeleníti az elérhető parancsokat.",
