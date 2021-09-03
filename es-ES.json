@@ -9,7 +9,6 @@
 	"commands.addsupport.no_members": "Debe mencionar un usuario o nombrar un rol para otorgarle privilegios de representante de soporte ",
 	"commands.blacklist.no_members": "Debe mencionar a un usuario para alternar el estado de la lista negra ",
 	"commands.blacklist.self": "No puedes ponerte en la lista negra",
-	"commands.blacklist.success": "¡Estás en la lista negra de este servidor!",
 	"commands.claim.success": "Su ticket será manejado por %s",
 	"commands.help.failed": "No pude enviarte un mensaje directo: asegúrate de que tu configuración de privacidad no sea demasiado alta",
 	"commands.language.invalid": "Debes especificar un código de idioma o una marca. Idiomas disponibles:\\n%s",
