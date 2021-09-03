@@ -52,7 +52,6 @@
 	"help.admin.get_owner": "Haalt de eigenaar van een server op",
 	"help.admin.update_schema": "Werkt het databaseschema bij",
 	"help.blacklist": "Schakelt in of gebruikers met de bot mogen communiceren",
-	"help.cancel": "Annuleert het installatieproces",
 	"help.claim": "Wijst één medewerker toe aan een ticket",
 	"help.close": "Sluit het huidige ticket",
 	"help.help": "Toont u een lijst met commando's",
