@@ -52,7 +52,6 @@
 	"help.admin.get_owner": "Obtiene el líder de un servidor.",
 	"help.admin.update_schema": "Actualiza el esquema de la base de datos.",
 	"help.blacklist": "Alterna si los usuarios pueden interactuar con el bot.",
-	"help.cancel": "Cancela el proceso de configuración.",
 	"help.claim": "Asigna un solo miembro del staff a un ticket.",
 	"help.close": "Cierra el ticket actual.",
 	"help.help": "Te muestra una lista de comandos",
