@@ -11,7 +11,6 @@
 	"commands.addsupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui accorder des privilèges de  support",
 	"commands.blacklist.no_members": "Vous devez mentionner un utilisateur pour changer son état sur la liste noire",
 	"commands.blacklist.self": "Vous ne pouvez pas vous mettre vous-même sur liste noire",
-	"commands.blacklist.success": "Vous êtes sur liste noire de ce serveur !",
 	"commands.claim.success": "Votre ticket sera traité par %s",
 	"commands.help.failed": "Je ne peux pas vous envoyer un message privé : assurez-vous que vos paramètres de confidentialité ne sont pas trop stricts",
 	"commands.invite": "[Cliquez ici](<https://invite.ticketsbot.net>)",
