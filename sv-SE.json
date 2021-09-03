@@ -59,7 +59,6 @@
 	"help.admin.unblacklist": "Ta bort en guild från guild svartlistan",
 	"help.admin.update_schema": "Uppdaterar databasschemat",
 	"help.blacklist": "Växlar om användare får använda botten eller inte",
-	"help.cancel": "Avbryter setup processen",
 	"help.claim": "Tilldelar en enda personal till en ticket",
 	"help.close": "Stänger den aktuella ticketen ",
 	"help.help": "Visar dig en lista av kommandon",
@@ -130,5 +129,11 @@
 	"commands.close_request.no_reason": "<@%d> har begärt att avsluta detta ärende.\n\nVänligen acceptera eller neka med knapparna nedan.",
 	"commands.close_request.with_reason": "<@%d> har begärt att avsluta detta ärende. Anledning:\n```\n%s\n```\nVänligen acceptera eller neka med knapparna nedan.",
 	"commands.close_request.no_permission": "Endast den användare som öppnat ärendet kan svara på stängningsbegäran",
-	"commands.close_request.denied": "<@%d> nekade stängningsbegäran"
+	"commands.close_request.denied": "<@%d> nekade stängningsbegäran",
+	"generic.error": "Fel",
+	"feedback.disabled": "Den här servern har inaktiverat feedback",
+	"feedback.success": "Din feedback har spelats in",
+	"generic.success": "Lyckades",
+	"button.guild_only": "Denna knapp måste användas i en server",
+	"button.dms_only": "Denna knapp måste användas i direktmeddelanden"
 }
