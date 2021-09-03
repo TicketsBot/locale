@@ -9,7 +9,6 @@
 	"commands.addsupport.no_members": "Meg kell említened egy felhasználót vagy meg kell neveznie egy szerepkört, amelyhez kisegítői jogosultságokat biztosít.",
 	"commands.blacklist.no_members": "Meg kell említened azt a felhasználót amelyiket feketelistára szeretnéd tenni.",
 	"commands.blacklist.self": "Nem teheted feketelistára saját magad.",
-	"commands.blacklist.success": "Sajnos feketelistán vagy ezen a szerveren.",
 	"commands.claim.success": "A jegyed kivizsgálását %s kezdte el!",
 	"commands.help.failed": "Nem tudtam privát üzenetet küldeni Önnek: ellenőrizze, hogy az adatvédelmi beállításai nincsenek-e túl erősre állítva.",
 	"commands.language.invalid": "Meg kell adnia egy nyelvi kódot vagy zászlót. Elérhető nyelvek: \\ n% s",
