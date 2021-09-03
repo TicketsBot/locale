@@ -101,7 +101,6 @@
 	"setup.auto.roles.success": "Opprettet `Ticket Admin` og `Ticket Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.transcript.success": "Opprettet <#%d> kanal",
-	"setup.category.invalid": "Du må oppgi navnet på en [**kanalkategori**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Eksempel:** `/setup kategori Tickets`",
 	"setup.category.success": "Ticket kategorien har blitt endret til `%s`",
 	"setup.category_created": "Jeg har lagd en kanal kategori kalt %s for deg; du kan trenge å justere den selv",
 	"setup.disabling_archiving": "Ugyldig kanal; fjerner loggkanalen fra bruk",
