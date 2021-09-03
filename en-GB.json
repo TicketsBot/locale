@@ -135,5 +135,6 @@
 	"commands.close_request.no_reason": "<@%d> has requested to close this ticket.\r\n\r\nPlease accept or deny using the buttons below.",
 	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
-	"commands.close_request.denied": "<@%d> denied the close request"
+	"commands.close_request.denied": "<@%d> denied the close request",
+	"generic.error": "Error"
 }
