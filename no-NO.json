@@ -11,7 +11,6 @@
 	"commands.addsupport.no_members": "Du må oppgi en bruker eller rolle å gi støttekontaktprivilegier til",
 	"commands.blacklist.no_members": "Du må oppgi en bruker å endre svartelistestatusen til",
 	"commands.blacklist.self": "Du kan ikke svarteliste deg selv",
-	"commands.blacklist.success": "Du er svartelistet i denne sørveren!",
 	"commands.claim.success": "Støtteforespurselen din vil bli tatt hånd av av %s",
 	"commands.help.failed": "Jeg kunne ikke sende deg en direktemelding: pass på at du ikke har for høye privatlivsinnstillinger",
 	"commands.invite": "[Klikk her](<https://invite.ticketsbot.net>)",
