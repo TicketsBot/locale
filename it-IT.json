@@ -54,8 +54,6 @@
 	"help.addsupport": "Aggiunge un utente o un ruolo come personale del supporto",
 	"help.admin": "Gestione del bot",
 	"help.admin.blacklist": "Blacklist un organizzazione dall'uso del bot",
-	"help.admin.check_permissions": "Controlla i permessi del bot per il canale",
 	"help.admin.check_premium": "Verifica lo stato premium di un server",
-	"help.admin.debug": "Fornisce informazioni di debug",
 	"help.admin.force_close": "Imposta lo stato dei ticket forniti a chiuso"
 }
