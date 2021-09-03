@@ -10,7 +10,6 @@
 	"commands.addsupport.no_members": "Você precisa mencionar um usuário ou um cargo para atribuir os privilégios de atendente de suporte",
 	"commands.blacklist.no_members": "Você precisa mencionar um usuário para alternar o seu estado de bloqueio",
 	"commands.blacklist.self": "Você não pode bloquear a si mesmo",
-	"commands.blacklist.success": "Você está bloqueado neste servidor!",
 	"commands.claim.success": "O seu ticket será atendido por %s",
 	"commands.help.failed": "Eu não consegui lhe enviar uma mensagem privada: certifique-se de que suas configurações de privacidade não estão muito limitadas",
 	"commands.invite": "[Clique aqui](<https://invite.ticketsbot.net>)",

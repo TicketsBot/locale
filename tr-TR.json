@@ -9,7 +9,6 @@
 	"commands.addsupport.no_members": "Destek yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
 	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
 	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
-	"commands.blacklist.success": "Bu sunucuda kara listeye alındınız!",
 	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
 	"commands.help.failed": "Yardım mesajlarının olduğu özel mesajı gönderemedim: Gizlilik ayarlarınızın buna izin verdiğine emin olun.",
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",

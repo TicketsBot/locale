@@ -11,7 +11,6 @@
 	"commands.addsupport.no_members": "Musisz oznaczyć użytkownika lub rolę, aby przypisać mu uprawnienia supporta",
 	"commands.blacklist.no_members": "Musisz oznaczyć użytkownika, aby dodać go na blacklistę",
 	"commands.blacklist.self": "Nie możesz dodać na blacklistę samego siebie",
-	"commands.blacklist.success": "Jesteś na tym serwerze na blackliście!",
 	"commands.claim.success": "Twój ticket będzie obsłużony przez %s",
 	"commands.help.failed": "Nie mogłem ci wysłać wiadomości: upewnij się, że twoje ustawienia prywatności nie są zbyt wysokie",
 	"commands.invite": "[Kliknij tutaj](<https://invite.ticketsbot.net>)",

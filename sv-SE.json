@@ -11,7 +11,6 @@
 	"commands.addsupport.no_members": "Du måste nämna en användare eller en roll att ge support-representativa privilegier till",
 	"commands.blacklist.no_members": "Du måste nämna en användare att förbjuda",
 	"commands.blacklist.self": "Du kan inte stänga av dig själv",
-	"commands.blacklist.success": "Du är avstängd i denna server",
 	"commands.claim.success": "Din ticket kommer att hanteras av %s",
 	"commands.help.failed": "Jag kan inte skicka ett direktmeddelande, se till att dina integritetsinställningar inte är för höga!",
 	"commands.invite": "[Klicka här](<https://invite.ticketsbot.net>)",

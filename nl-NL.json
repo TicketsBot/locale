@@ -9,7 +9,6 @@
 	"commands.addsupport.no_members": "U moet een gebruiker vermelden of een rol noemen om support rechten te verlenen",
 	"commands.blacklist.no_members": "U moet een gebruiker vermelden om de blacklist-status in te schakelen",
 	"commands.blacklist.self": "Je kunt jezelf niet op de zwarte lijst zetten",
-	"commands.blacklist.success": "U staat op de zwarte lijst op deze server!",
 	"commands.claim.success": "Uw ticket wordt afgehandeld door %s",
 	"commands.help.failed": "Ik kan je geen direct bericht sturen: zorg ervoor dat je privacyinstellingen niet te hoog zijn",
 	"commands.language.invalid": "U moet een taalcode of vlag opgeven. Beschikbare talen:\\n%s",

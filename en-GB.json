@@ -11,7 +11,6 @@
 	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
 	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
 	"commands.blacklist.self": "You cannot blacklist yourself",
-	"commands.blacklist.success": "You are blacklisted in this server!",
 	"commands.claim.success": "Your ticket will be handled by %s",
 	"commands.help.failed": "I couldn't send you a direct message: make sure your privacy settings aren't too high",
 	"commands.invite": "[Click here](<https://invite.ticketsbot.net>)",
@@ -146,5 +145,17 @@
 	"commands.tags.delete.success": "Tag `%s` has been deleted",
 	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Premium Only Command",
-	"generic.admin": "Admin"
+	"generic.admin": "Admin",
+	"commands.tags.create.success": "Tag created - you can use it by running `/tag %s`",
+	"generic.title.about": "About",
+	"generic.title.vote": "Vote",
+	"generic.title.tags": "Tags",
+	"generic.title.autoclose": "Autoclose",
+	"generic.title.invite": "Invite",
+	"generic.title.close": "Close",
+	"generic.title.claim": "Claim",
+	"generic.title.blacklisted": "Blacklisted",
+	"generic.title.blacklist": "Blacklist",
+	"generic.error.blacklisted": "You are blacklisted in this server",
+	"commands.blacklist.add.success": "<@%d> has been blacklisted"
 }
