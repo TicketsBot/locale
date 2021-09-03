@@ -59,7 +59,6 @@
 	"help.admin.unblacklist": "Usuwa serwer z czarnej listy serwerów",
 	"help.admin.update_schema": "Aktualizuje schemat bazy danych",
 	"help.blacklist": "Ustawia, czy poszczególni użytkownicy mają mieć możliwość interakcji z botem",
-	"help.cancel": "Anuluje proces ustawiania bota",
 	"help.claim": "Przypisuje pojedynczego członka administracji do ticketa",
 	"help.close": "Zamyka aktualny ticket",
 	"help.help": "Pokazuje listę komend",
