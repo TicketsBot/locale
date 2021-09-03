@@ -55,7 +55,6 @@
 	"help.admin.unblacklist": "将该服务器从黑名单移除",
 	"help.admin.update_schema": "更新资料库方案",
 	"help.blacklist": "切换是否允许用户与机器人互动（表情符号回馈等等）",
-	"help.cancel": "取消设定过程",
 	"help.claim": "将成员分配到该问题单中",
 	"help.close": "关闭现有问题单",
 	"help.help": "显示所有可以用的指令",
