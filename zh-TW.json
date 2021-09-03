@@ -10,7 +10,6 @@
 	"commands.addsupport.no_members": "您需要提及用戶或命身份組以授予支持代表權限",
 	"commands.blacklist.no_members": "您需要提及一個用戶來切換黑名單狀態",
 	"commands.blacklist.self": "你想不開是不是？幹嘛黑名單自己",
-	"commands.blacklist.success": "你的伺服器在黑名單中唷",
 	"commands.claim.success": "你的問題單將由 %s 為您服務",
 	"commands.help.failed": "我無法傳送給您訊息唷",
 	"commands.language.invalid": "您需要指定語言代碼或標誌。可用語言:\\n%s",
