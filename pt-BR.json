@@ -20,7 +20,6 @@
 	"commands.premium": "Você pode comprar uma assinatura premium subscription em <https://www.patreon.com/ticketsbot>.\\nO premium fornece vários benefícios, como:\\n```diff\\n+ Criar painéis de ticket ilimitados\\n+ Customizar o nome, avatar e status do bot (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, usuários e equipe de suporte\\n+ Sem propaganda no rodapé das mensagens\\n+ Apoia o desenvolvimento e me ajuda a pagar os custos com servidores\\n```\\n\\nAlternativamente, você pode votar em <https://vote.ticketsbot.net> para obter o premium gratuitamente por 24 horas.",
 	"commands.premium.already_premium": "Esta guilda já possui premium. Expira em %s",
 	"commands.premium.invalid_key": "Chave inválida. Certifique-se de que a copiou ela corretamente.",
-	"commands.remove.no_members": "Você precisa mencionar membros para remover do ticket",
 	"commands.remove.no_permission": "Você não tem permissão para remover usuários deste ticket",
 	"commands.remove.staff": "Você não pode remover membros da equipe de um ticket",
 	"commands.removeadmin.no_members": "Você precisa mencionar um usuário ou cargo para remover os privilégios de admin",
