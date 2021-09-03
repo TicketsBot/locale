@@ -136,5 +136,10 @@
 	"commands.close_request.with_reason": "<@%d> has requested to close this ticket. Reason:\n```\n%s\n```\nPlease accept or deny using the buttons below.",
 	"commands.close_request.no_permission": "Only the user who opened the ticket can respond to the close request",
 	"commands.close_request.denied": "<@%d> denied the close request",
-	"generic.error": "Error"
+	"generic.error": "Error",
+	"feedback.disabled": "This server has feedback disabled",
+	"feedback.success": "Your feedback has been recorded",
+	"generic.success": "Success",
+	"button.guild_only": "This button must be used in a server",
+	"button.dms_only": "This button must be used in direct messages"
 }
