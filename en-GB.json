@@ -141,5 +141,10 @@
 	"feedback.success": "Your feedback has been recorded",
 	"generic.success": "Success",
 	"button.guild_only": "This button must be used in a server",
-	"button.dms_only": "This button must be used in direct messages"
+	"button.dms_only": "This button must be used in direct messages",
+	"commands.tag.generic": "Tag",
+	"commands.tags.delete.success": "Tag `%s` has been deleted",
+	"generic.ticket": "Ticket",
+	"generic.title.premium_only": "Premium Only Command",
+	"generic.admin": "Admin"
 }
