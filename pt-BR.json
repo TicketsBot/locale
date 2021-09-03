@@ -50,7 +50,6 @@
 	"help.addsupport": "Adiciona um usuário ou cargo como atendente de suporte",
 	"help.admin": "Gerenciamento do bot",
 	"help.blacklist": "Define se os usuários podem interagir com o bot",
-	"help.cancel": "Cancela o processo de configuração",
 	"help.claim": "Atribui um único membro da equipe a um ticket",
 	"help.close": "Fecha o ticket atual",
 	"help.help": "Mostra uma lista de comandos",

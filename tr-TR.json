@@ -52,7 +52,6 @@
 	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
 	"help.admin.update_schema": "Veritabanı şemasını günceller",
 	"help.blacklist": "Kullanıcıların botu kullanmasına izin verilip, verilmediğini değiştirir",
-	"help.cancel": "Kurulum işlemini iptal eder",
 	"help.claim": "Talebi tek bir yetkiliye devreder",
 	"help.close": "Talebi kapatır",
 	"help.help": "Komutların listesini gösterir",

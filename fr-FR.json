@@ -59,7 +59,6 @@
 	"help.admin.unblacklist": "Supprime un serveur de la liste noire",
 	"help.admin.update_schema": "Met à jour le schéma de la base de données",
 	"help.blacklist": "Contrôle de la permission des utilisateurs d'interagir avec le bot",
-	"help.cancel": "Annule le processus de configuration",
 	"help.claim": "Affecte un seul membre du staff à un ticket",
 	"help.close": "Ferme le ticket actuel",
 	"help.help": "Affiche la liste des commandes",

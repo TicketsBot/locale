@@ -57,7 +57,6 @@
 	"help.admin.unblacklist": "將該伺服器從黑名單移除",
 	"help.admin.update_schema": "更新資料庫方案",
 	"help.blacklist": "切換是否允許用戶與機器人互動（表情符號回饋等等）",
-	"help.cancel": "取消設定過程",
 	"help.claim": "將成員分配到該問題單中",
 	"help.close": "關閉現有問題單",
 	"help.help": "顯示所有可以用的指令",

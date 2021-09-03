@@ -59,7 +59,6 @@
 	"help.admin.unblacklist": "Entferne einen Server von der Sperrliste",
 	"help.admin.update_schema": "Aktualisiert das Datenbankschema",
 	"help.blacklist": "Schaltet um, ob es Benutzern erlaubt ist mit dem Bot zu interagieren",
-	"help.cancel": "Bricht den Setup-Prozeß ab",
 	"help.claim": "Ordnet einen Support-Mitarbeiter einem Ticket zu",
 	"help.close": "Schließt das aktuelle Ticket",
 	"help.help": "Zeigt Dir eine Liste aller Befehle an",

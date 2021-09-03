@@ -59,7 +59,6 @@
 	"help.admin.unblacklist": "Fjern en guild fra guild svartelisten",
 	"help.admin.update_schema": "Oppdaterer databaseskjemaet",
 	"help.blacklist": "Endrer brukeres tilgang til roboten",
-	"help.cancel": "Stopper oppsettsprosessen",
 	"help.claim": "Tildeler den oppgitte støtteforespurselen et stabmedlem",
 	"help.close": "Lukker den nåværende støtteforespurselen",
 	"help.help": "Viser deg en liste av tilgjengelige kommandoer",
