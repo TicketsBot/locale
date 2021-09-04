@@ -10,7 +10,6 @@
 	"commands.blacklist.no_members": "Kullanıcının kara liste durumunu değiştirmek için kullanıcıyı etiketlemeniz gerekir.",
 	"commands.blacklist.self": "Kendinizi kara listeye alamazsınız.",
 	"commands.claim.success": "Talebin ile yetkili %s ilgilenecek.",
-	"commands.help.failed": "Yardım mesajlarının olduğu özel mesajı gönderemedim: Gizlilik ayarlarınızın buna izin verdiğine emin olun.",
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
 	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
@@ -76,10 +75,7 @@
 	"help.viewstaff": "Yetkilendirilmiş kullanıcı ve rolleri listeler",
 	"help.vote": "Ücretsiz premium üyelik için oy bağlantısı",
 	"open.success": "Talebin oluşturuldu: %s",
-	"setup.category_created": "%s kanal kategorisini senin için oluşturdum, fakat izinleri ayarlaman gerekebilir.",
-	"setup.disabling_archiving": "Geçersiz kanal, log kanalı devre dışı bırakılıyor.",
 	"setup.info.archive_channel": "Lütfen talepler kapatıldıktan sonra talep kayıtlarının gönderilmesini istediğiniz kanalı belirtin.\nÖrneğin: `#kayıtlar`",
 	"setup.info.category": "Talep kanallarının hangi **kanal kategorisi** altında oluşmasını istiyorsanız o kategorinin **adını** belirtin.",
-	"setup.info.welcome_message": "Talep açıldığı zaman bot tarafından gönderilmesini istediğiniz mesajı yazın.",
-	"setup.invalid_category": "Geçersiz kategori:\nVarsayılan olarak herhangi bir kategori kullanılmaz."
+	"setup.info.welcome_message": "Talep açıldığı zaman bot tarafından gönderilmesini istediğiniz mesajı yazın."
 }

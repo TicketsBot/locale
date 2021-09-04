@@ -6,7 +6,6 @@
 	"commands.addadmin.owner": "Chủ của kênh đã là quản trị viên theo mặc định",
 	"commands.blacklist.self": "Bạn không thể chặn chính mình",
 	"commands.claim.success": "%s sẽ xử lý phiếu hỗ trợ của bạn",
-	"commands.help.failed": "Không thể nhắn tin trực tiếp cho bạn: hãy kiểm tra lại cài đặt",
 	"commands.invite": "[Ấn vào đây](<https://invite.ticketsbot.net>)",
 	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc"

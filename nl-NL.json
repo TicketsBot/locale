@@ -10,7 +10,6 @@
 	"commands.blacklist.no_members": "U moet een gebruiker vermelden om de blacklist-status in te schakelen",
 	"commands.blacklist.self": "Je kunt jezelf niet op de zwarte lijst zetten",
 	"commands.claim.success": "Uw ticket wordt afgehandeld door %s",
-	"commands.help.failed": "Ik kan je geen direct bericht sturen: zorg ervoor dat je privacyinstellingen niet te hoog zijn",
 	"commands.language.invalid": "U moet een taalcode of vlag opgeven. Beschikbare talen:\\n%s",
 	"commands.open.ticket_limit": "U kunt %d %s slechts in één keer openen",
 	"commands.open.too_many_tickets": "Er zijn te veel tickets in de ticketcategorie. Vraag een beheerder om sommige te sluiten of om ze naar een andere categorie te verplaatsen",
@@ -76,10 +75,7 @@
 	"help.viewstaff": "Geeft de medewerkers en rollen weer",
 	"help.vote": "Geeft een link waarop u gratis premium krijgt door te stemmen",
 	"open.success": "Een nieuw ticket is geopend: %s",
-	"setup.category_created": " Ik heb de kanaalcategorie %s voor u gemaakt,  het kan zijn dat u de rechten zelf moet aanpassen.",
-	"setup.disabling_archiving": " Ongeldig kanaal, logboekkanaal uitschakelen",
 	"setup.info.archive_channel": "Geef aan dat je wilt dat ticketlogboeken worden verzonden nadat tickets zijn gesloten\\nVoorbeeld: `#logs`",
 	"setup.info.category": "Typ de **naam** van de **kanaalcategorie** waaronder u tickets wilt laten aanmaken",
-	"setup.info.welcome_message": "Typ het bericht dat door de bot moet worden verzonden wanneer een ticket wordt geopend",
-	"setup.invalid_category": "Ongeldige categorie\\nStandaard geen categorie gebruiken"
+	"setup.info.welcome_message": "Typ het bericht dat door de bot moet worden verzonden wanneer een ticket wordt geopend"
 }

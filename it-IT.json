@@ -12,7 +12,6 @@
 	"commands.blacklist.no_members": "È necessario menzionare un utente per aggiungerlo o toglierlo dalla blacklist",
 	"commands.blacklist.self": "Non puoi aggiungerti alla blacklist",
 	"commands.claim.success": "Il tuo ticket verrà gestito da %s",
-	"commands.help.failed": "Non sono riuscito ad inviarti un messaggio diretto: assicurati che le tue impostazioni sulla privacy non siano troppo alte",
 	"commands.invite": "[Clicca qui](<https://invite.ticketsbot.net>)",
 	"commands.language.invalid": "È necessario specificare un codice lingua o una bandiera.\nLingue disponibili:\\n%s",
 	"commands.open.ticket_limit": "Sei in grado di aprire %d %s alla volta",
