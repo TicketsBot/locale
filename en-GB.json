@@ -172,5 +172,8 @@
 	"generic.title.remove": "Remove",
 	"generic.title.help": "Help",
 	"generic.title.close_confirmation": "Close Confirmation",
-	"close.confirmation": "Please confirm that you want to close this ticket"
+	"close.confirmation": "Please confirm that you want to close this ticket",
+	"generic.title.close_request": "Close Request",
+	"commands.close_request.accept": "Accept & Close",
+	"commands.close_request.deny": "Deny & Keep Open"
 }
