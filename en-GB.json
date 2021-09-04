@@ -175,5 +175,9 @@
 	"close.confirmation": "Please confirm that you want to close this ticket",
 	"generic.title.close_request": "Close Request",
 	"commands.close_request.accept": "Accept & Close",
-	"commands.close_request.deny": "Deny & Keep Open"
+	"commands.close_request.deny": "Deny & Keep Open",
+	"commands.premium.success": "Premium has been activated for **%d** days",
+	"generic.title.claimed": "Claimed Ticket",
+	"generic.title.unclaimed": "Unclaimed Ticket",
+	"generic.title.add": "Add"
 }
