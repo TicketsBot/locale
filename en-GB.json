@@ -170,5 +170,7 @@
 	"generic.title.panel": "Panel",
 	"generic.title.rename": "Rename",
 	"generic.title.remove": "Remove",
-	"generic.title.help": "Help"
+	"generic.title.help": "Help",
+	"generic.title.close_confirmation": "Close Confirmation",
+	"close.confirmation": "Please confirm that you want to close this ticket"
 }
