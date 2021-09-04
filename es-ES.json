@@ -10,7 +10,6 @@
 	"commands.blacklist.no_members": "Debe mencionar a un usuario para alternar el estado de la lista negra ",
 	"commands.blacklist.self": "No puedes ponerte en la lista negra",
 	"commands.claim.success": "Su ticket será manejado por %s",
-	"commands.help.failed": "No pude enviarte un mensaje directo: asegúrate de que tu configuración de privacidad no sea demasiado alta",
 	"commands.language.invalid": "Debes especificar un código de idioma o una marca. Idiomas disponibles:\\n%s",
 	"commands.open.ticket_limit": "Solo puede abrir %d %s a la vez",
 	"commands.open.too_many_tickets": "Hay demasiados tickets en la categoría de boletos. Pide a un administrador que cierre algunos o que los mueva a otra categoría",
@@ -75,10 +74,7 @@
 	"help.viewstaff": "Enumera los miembros del staff y los roles",
 	"help.vote": " Te da un enlace para votar por una premium gratis",
 	"open.success": "Abrió un nuevo ticket: %s",
-	"setup.category_created": "He creado un canal de categoría solo para ti, es posible que necesites ajustar los permisos por ti mismo",
-	"setup.disabling_archiving": "Canal inválido, deshabilitando el canal de registo",
 	"setup.info.archive_channel": "Especifica que deseas que se envíen los registros de tickets después de que se hayan cerrado los tickets\\nEjemplo: `#logs`",
 	"setup.info.category": "Escribe el **nombre** de la **categoría de canal** en la que desea que se creen tickets",
-	"setup.info.welcome_message": "Escribe el mensaje que debe enviar el bot cuando se abre un ticket",
-	"setup.invalid_category": "Categoría no válida\\nPor defecto no se utiliza ninguna categoría"
+	"setup.info.welcome_message": "Escribe el mensaje que debe enviar el bot cuando se abre un ticket"
 }
