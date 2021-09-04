@@ -1,7 +1,7 @@
 {
 	"close.no_permission": "Nie masz uprawnień, aby zamknąć ten ticket",
 	"command.blacklist.staff": "Nie możesz dodać administracji na blacklistę",
-	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: https://discord.gg/VtV3rSk\\nKomendy: Wpisz `t!help`\\nAby rozpocząć wpisz `t!setup`",
+	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: https://discord.gg/VtV3rSk\\nKomendy: Wpisz `/help`\\nAby rozpocząć wpisz `/setup`",
 	"commands.add.no_channel": "Musisz oznaczyć kanał z ticketem, żeby dodać do niego użytkownika(ów)",
 	"commands.add.no_members": "Musisz oznaczyć użytkowników, aby ich dodać do ticketa",
 	"commands.add.no_permission": "Nie masz uprawnień, aby dodać użytkowników do tego ticketa",
