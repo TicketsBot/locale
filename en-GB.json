@@ -12,6 +12,7 @@
 	"commands.blacklist.no_members": "You need to mention a user to toggle the blacklist state for",
 	"commands.blacklist.self": "You cannot blacklist yourself",
 	"commands.claim.success": "Your ticket will be handled by %s",
+	"commands.help.failed": "I couldn't send you a direct message: make sure your privacy settings aren't too high",
 	"commands.invite": "[Click here](<https://invite.ticketsbot.net>)",
 	"commands.language.invalid": "You need to specify a language code or flag. Available languages:\\n%s",
 	"commands.open.ticket_limit": "You are only able to open %d %s at once",
@@ -93,6 +94,8 @@
 	"setup.auto.transcript.success": "Created <#%d> channel",
 	"setup.category.invalid": "You must provide the name of a [**channel category**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Example:** `/setup category Tickets`",
 	"setup.category.success": "The ticket channel category has been changed to `%s`",
+	"setup.category_created": "I have created the channel category %s for you, you may need to adjust permissions yourself",
+	"setup.disabling_archiving": "Invalid channel, disabling log channel",
 	"setup.info.archive_channel": "Please specify you wish ticket logs to be sent to after tickets have been closed\\nExample: `#logs`",
 	"setup.info.auto": "Automatically selects options & creates the required channels",
 	"setup.info.category": "Type the **name** of the **channel category** that you would like tickets to be created under",
@@ -103,7 +106,10 @@
 	"setup.info.ticket_limit": "Sets the maximum amount of tickets a **single user** can open **at once**.\\n**Example:** `/setup limit 3`",
 	"setup.info.transcripts": "Sets the channel ticket transcripts are sent to.\\n**Example:** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "Type the message that should be sent by the bot when a ticket is opened",
+	"setup.invalid_category": "Invalid category\\nDefaulting to using no category",
+	"setup.prefix.invalid": "Prefixes must be a maximum of 8 characters and **not** include the command\\n**Example:** `/setup prefix -`",
 	"setup.prefix.success": "The prefix has been changed to `%s`. You can use `%sopen` to open a ticket",
+	"setup.ticket_limit.invalid": "The ticket limit must be a number in the range 1-10. It is a **per-user** limit for tickets open **at one time**\\n**Example:** `/setup limit 1`",
 	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
 	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
@@ -173,7 +179,5 @@
 	"commands.premium.success": "Premium has been activated for **%d** days",
 	"generic.title.claimed": "Claimed Ticket",
 	"generic.title.unclaimed": "Unclaimed Ticket",
-	"generic.title.add": "Add",
-	"commands.add.success": "<@%d> has been added to <#%d>",
-	"commands.remove.success": "<@%d> has been removed from <#%d>"
+	"generic.title.add": "Add"
 }
