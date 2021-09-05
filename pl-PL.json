@@ -163,5 +163,17 @@
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
 	"generic.title.rename": "Zmień nazwę",
-	"generic.title.remove": "Usuń"
+	"generic.title.remove": "Usuń",
+	"generic.title.help": "Pomoc",
+	"generic.title.close_confirmation": "Potwierdzenie zamknięcia",
+	"close.confirmation": "Proszę potwierdź, że chcesz zamknąć ten bilet",
+	"generic.title.close_request": "Zamknij żądanie",
+	"commands.close_request.accept": "Zaakceptuj i zamknij",
+	"commands.close_request.deny": "Odrzuć i pozostaw otwarte",
+	"commands.premium.success": "Premium zostało aktywowane na **%d** dni",
+	"generic.title.claimed": "Obsłużony bilet",
+	"generic.title.unclaimed": "Nieobsłużony bilet",
+	"generic.title.add": "Dodaj",
+	"commands.add.success": "<@%d> został dodany do <#%d>",
+	"commands.remove.success": "<@%d> został usunięty z <#%d>"
 }
