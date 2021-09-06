@@ -1,11 +1,13 @@
 {
 	"close.no_permission": "U mag dit ticket niet sluiten",
 	"command.blacklist.staff": "U kunt personeel niet op de zwarte lijst zetten",
+	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/VtV3rSk\\nCommands: Typ `t!help`\\nGa aan de slag door het commando `t!setup` te doen.",
 	"commands.add.no_channel": "Je moet een ticketkanaal vermelden om de gebruiker(s) aan toe te voegen",
 	"commands.add.no_members": "U moet leden vermelden om aan het ticket toe te voegen",
 	"commands.add.no_permission": "Je hebt geen toestemming om mensen aan dit ticket toe te voegen",
 	"commands.add.not_ticket": "Het genoemde kanaal is geen ticket",
 	"commands.addadmin.no_members": "U moet een gebruiker vermelden of een rol noemen om beheerdersrechten te verlenen",
+	"commands.addadmin.owner": "The eigenaar van de server is al beheerder.",
 	"commands.addsupport.no_members": "U moet een gebruiker vermelden of een rol noemen om support rechten te verlenen",
 	"commands.blacklist.no_members": "U moet een gebruiker vermelden om de blacklist-status in te schakelen",
 	"commands.blacklist.self": "Je kunt jezelf niet op de zwarte lijst zetten",
@@ -54,6 +56,7 @@
 	"help.claim": "Wijst één medewerker toe aan een ticket",
 	"help.close": "Sluit het huidige ticket",
 	"help.help": "Toont u een lijst met commando's",
+	"help.invite": "Voorziet in een uitnodigingslink voor de bot",
 	"help.language": "Verandert de taal die de bot gebruikt",
 	"help.managetags": "Tags toevoegen, verwijderen of weergeven",
 	"help.open": "Opent een nieuwe ticket",
@@ -75,7 +78,12 @@
 	"help.viewstaff": "Geeft de medewerkers en rollen weer",
 	"help.vote": "Geeft een link waarop u gratis premium krijgt door te stemmen",
 	"open.success": "Een nieuw ticket is geopend: %s",
+	"setup.auto.completed": "Installatie voltooid! Klik [hier](https://panel.ticketsbot. et/manage/%d/panels) om een reactiescherm op te zetten, en voeg de <@&%d> en <@&%d> rollen toe aan je medewerkers",
 	"setup.info.archive_channel": "Geef aan dat je wilt dat ticketlogboeken worden verzonden nadat tickets zijn gesloten\\nVoorbeeld: `#logs`",
 	"setup.info.category": "Typ de **naam** van de **kanaalcategorie** waaronder u tickets wilt laten aanmaken",
-	"setup.info.welcome_message": "Typ het bericht dat door de bot moet worden verzonden wanneer een ticket wordt geopend"
+	"setup.info.welcome_message": "Typ het bericht dat door de bot moet worden verzonden wanneer een ticket wordt geopend",
+	"setup.transcript.invalid": "Je moet een geldig kanaal vermelden op de server (bijv. <#%d>)\\n**Voorbeeld:** `/setup transcripts #logs`",
+	"setup.welcome_message.invalid": "Welkomstberichten mogen maximaal 1024 tekens lang zijn\\n**Voorbeeld:**`/setup welcomemessage Bedankt voor het openen van een ticket!`",
+	"help.autoclose": "Autoclose gerelateerde commando's",
+	"help.autoclose.configure": "Autoclose gerelateerde instellingen bewerken"
 }
