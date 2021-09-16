@@ -19,6 +19,7 @@
 	"commands.panel": "Odwiedź <https://panel.ticketsbot.net/manage/%d/panels>, aby skonfigurować panel",
 	"commands.premium": "Możesz kupić subskrybcję premium na <https://www.patreon.com/ticketsbot>.\\nPremium zapewnia wiele korzyści, takich jak:\\n```diff\\n+ Tworzenie panelów bez limitu\\n+ Customowa nazwa, awatar & status (whitelabel)\\n+ Dokładne statystyki o serwerze, użytkownikach i administracji\\n+ Brak reklamy w stopkach wiadomości\\n+ Wspieraj rozwój i pomóż mi opłacić koszty serwera\\n```\\n\\nOpcjonalnie, możesz zagłosować na <https://vote.ticketsbot.net> aby dostać darmowe premium na 24 godziny",
 	"commands.premium.already_premium": "Ten serwer ma już premium. Kończy się on %s",
+	"commands.premium.invalid_key": "Nieprawidłowy klucz. Upewnij się, że skopiowałeś go prawidłowo.",
 	"commands.remove.no_permission": "Nie masz uprawnień, aby usuwać użytkowników z ticketów",
 	"commands.remove.staff": "Nie możesz usunąć administracji z ticketa",
 	"commands.removeadmin.no_members": "Musisz oznaczyć użytkownika lub rolę, aby zabrać mu uprawnienia administratora",
@@ -174,5 +175,6 @@
 	"generic.title.unclaimed": "Nieobsłużony bilet",
 	"generic.title.add": "Dodaj",
 	"commands.add.success": "<@%d> został dodany do <#%d>",
-	"commands.remove.success": "<@%d> został usunięty z <#%d>"
+	"commands.remove.success": "<@%d> został usunięty z <#%d>",
+	"open.ratelimited": "Na tym serwerze bilety otwierane są za szybko"
 }
