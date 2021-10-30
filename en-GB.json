@@ -176,5 +176,6 @@
 	"generic.title.add": "Add",
 	"commands.add.success": "<@%d> has been added to <#%d>",
 	"commands.remove.success": "<@%d> has been removed from <#%d>",
-	"open.ratelimited": "Tickets are being opened too quickly in this server"
+	"open.ratelimited": "Tickets are being opened too quickly in this server",
+	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads"
 }
