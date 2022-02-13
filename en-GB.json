@@ -178,5 +178,6 @@
 	"commands.remove.success": "<@%d> has been removed from <#%d>",
 	"open.ratelimited": "Tickets are being opened too quickly in this server",
 	"commands.claim.thread": "Due to Discord limitations, claiming does not support threads",
-	"generic.join_support_server": "Join Support Server"
+	"generic.join_support_server": "Join Support Server",
+	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels"
 }
