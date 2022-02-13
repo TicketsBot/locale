@@ -176,5 +176,6 @@
 	"generic.title.add": "Hinzufügen",
 	"commands.add.success": "<@%d> wurde zu <#%d> hinzugefügt",
 	"commands.remove.success": "<@%d> wurde von <#%d> entfernt",
-	"open.ratelimited": "Tickets werden zu schnell in diesem Server geöffnet"
+	"open.ratelimited": "Tickets werden zu schnell in diesem Server geöffnet",
+	"commands.claim.thread": "Aufgrund von Discord-Einschränkungen unterstützt das Beanspruchen keine Threads"
 }
