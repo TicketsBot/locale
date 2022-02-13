@@ -176,5 +176,7 @@
 	"generic.title.add": "Dodaj",
 	"commands.add.success": "<@%d> został dodany do <#%d>",
 	"commands.remove.success": "<@%d> został usunięty z <#%d>",
-	"open.ratelimited": "Na tym serwerze bilety otwierane są za szybko"
+	"open.ratelimited": "Na tym serwerze bilety otwierane są za szybko",
+	"commands.claim.thread": "Ze względu na ograniczenia Discorda, funkcja obsługiwania biletów nie wspiera wątków",
+	"generic.join_support_server": "Dołącz do serweru wsparcia"
 }
