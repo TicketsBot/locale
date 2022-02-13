@@ -176,5 +176,6 @@
 	"generic.title.add": "Ajouter",
 	"commands.add.success": "<@%d> a été ajouté à <#%d>",
 	"commands.remove.success": "<@%d> a été retiré de <#%d>",
-	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur"
+	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
+	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion"
 }
