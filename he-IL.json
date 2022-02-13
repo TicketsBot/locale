@@ -1,1 +1,9 @@
-{}
+{
+	"close.no_permission": "את/ה לא יכול/ה לסגור את ה ערוץ הזה",
+	"command.blacklist.staff": "אינך יכול/ה לחסום חבר",
+	"commands.add.no_channel": "אפשר להוסיף משתמשים רק אם עושים להם mention בערוץ עזרה",
+	"commands.add.no_members": "אפשר להוסיף משתמשים לערוץ עזרה רק אם עושים להם mention",
+	"commands.add.no_permission": "אין לך הרשאה להוספת משתמשים לערוץ זה",
+	"commands.add.not_ticket": "הערוץ שעשתה לו mention הוא לא ערוץ עזרה",
+	"commands.invite": "[לחצו כאן](<https://invite.ticketsbot.net>)"
+}

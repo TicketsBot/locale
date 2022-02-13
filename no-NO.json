@@ -176,5 +176,6 @@
 	"generic.title.add": "Legg til",
 	"commands.add.success": "<@%d> har blitt lagt til <#%d>",
 	"commands.remove.success": "<@%d> er fjernet fra <#%d>",
-	"open.ratelimited": "Tickets åpnes for raskt i denne serveren"
+	"open.ratelimited": "Tickets åpnes for raskt i denne serveren",
+	"commands.claim.thread": "På grunn av Discord begrensninger støtter ikke threads claming"
 }
