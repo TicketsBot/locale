@@ -177,5 +177,8 @@
 	"commands.add.success": "<@%d> a été ajouté à <#%d>",
 	"commands.remove.success": "<@%d> a été retiré de <#%d>",
 	"open.ratelimited": "Des tickets sont ouverts trop rapidement sur ce serveur",
-	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion"
+	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
+	"generic.join_support_server": "Rejoindre le serveur de support",
+	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
+	"commands.open.missing_form_answer": "Vous devez répondre à la question `%s`"
 }
