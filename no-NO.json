@@ -1,5 +1,4 @@
 {
-	"command.blacklist.staff": "Du kan ikke svarteliste stabmedlemmer",
 	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandoer: Skriv `t!help`\\nKom i gang ved å bruke `t!setup`",
 	"commands.add.no_channel": "Du må oppgi en støtteforespurselskanal å legge brukeren(e) til i",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
@@ -181,7 +180,8 @@
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
 	"generic.use_slash_commands": "",
+	"close.no_permission": "",
 	"": {
-		"close.no_permission": ""
+		"command.blacklist.staff": ""
 	}
 }

@@ -1,5 +1,4 @@
 {
-	"command.blacklist.staff": "Yetkilileri kara listeye alamazsınız.",
 	"commands.about": "",
 	"commands.add.no_channel": "Talebe kullanıcı(ları) eklemek için talep kanalını etiketlemeniz gerekiyor.",
 	"commands.add.no_members": "Talebe kullanıcı eklemek için kullanıcıyı etiketlemeniz gerekiyor.",
@@ -181,7 +180,8 @@
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
 	"generic.use_slash_commands": "",
+	"close.no_permission": "",
 	"": {
-		"close.no_permission": ""
+		"command.blacklist.staff": ""
 	}
 }
