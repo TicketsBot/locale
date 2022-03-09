@@ -175,13 +175,5 @@
 	"commands.add.success": "<@%d> беше добавен към настоящия тикет <#%d>",
 	"commands.remove.success": "<@%d> беше премахнат от настоящия тикет <#%d>",
 	"open.ratelimited": "Тикетите в този сървър се отварят много бързо, моля изчакайте...",
-	"commands.claim.thread": "Поради ограничения, claim-ването не се поддържа под-темите",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
-	"": {
-		"command.blacklist.staff": ""
-	}
+	"commands.claim.thread": "Поради ограничения, claim-ването не се поддържа под-темите"
 }

@@ -174,14 +174,5 @@
 	"generic.title.add": "Aggiungi",
 	"commands.add.success": "<@%d> è stato aggiunto a <#%d>",
 	"commands.remove.success": "<@%d> è stato rimosso da <#%d>",
-	"open.ratelimited": "I ticket vengono aperti troppo velocemente in questo server",
-	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
-	"": {
-		"command.blacklist.staff": ""
-	}
+	"open.ratelimited": "I ticket vengono aperti troppo velocemente in questo server"
 }
