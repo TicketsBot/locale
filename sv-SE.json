@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Du har inte behörighet för att stänga den här ticketen",
 	"command.blacklist.staff": "Du kan inte stänga av en staff",
 	"commands.about": "Tickets är en lätt att använda och hög konfigurerbar ticket och support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandon: Skriv `/help`\\nBörja med att skriva `/setup`",
 	"commands.add.no_channel": "Du måste nämna en ticketkanal för att lägga till användare i",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
