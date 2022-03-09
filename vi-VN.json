@@ -1,5 +1,4 @@
 {
-	"command.blacklist.staff": "Bạn không thể chặn người quản lý",
 	"commands.about": "Phiếu hỗ trợ là một người máy dễ dùng và có thể thiết lập theo ý của bạn.\\nHội hỗ trợ: https://discord.gg/VtV3rSk\\nLệnh: Gõ `/help`\\nBắt đầu bằng lệnh `/setup`\\n",
 	"commands.add.no_channel": "Bạn cần nhắc đến một kênh phiếu hỗ trợ để thêm một hoặc các thành viên vào",
 	"commands.add.no_members": "Bạn cần nhắc đến các thành viên mà bạn muốn thêm vào phiếu hỗ trợ",
@@ -181,7 +180,8 @@
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
 	"generic.use_slash_commands": "",
+	"close.no_permission": "",
 	"": {
-		"close.no_permission": ""
+		"command.blacklist.staff": ""
 	}
 }
