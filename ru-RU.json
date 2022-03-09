@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Вы не можете закрыть данный билет.",
 	"command.blacklist.staff": "Вы не можете заблокировать помощников или админов",
 	"commands.about": "Tickets - это бот, который прост в использовании и имеет много настроек.\\nНужна помощь?: https://discord.gg/VtV3rSk\\nНапиши '/help', если хочешь узнать команды, а '/setup', чтобы начать настройку бота",
 	"commands.add.no_channel": "Вам нужно указать текстовый чат билета, куда вы хотите добавить пользователя(-ей).",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "Присоединиться к официальному серверу",
 	"commands.open.guild_channel_limit": "Этот сервер достиг лимита Discord в 500 каналов",
 	"commands.open.missing_form_answer": "Вы должны ответить на вопрос `%s`",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
