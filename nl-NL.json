@@ -175,5 +175,13 @@
 	"generic.title.unclaimed": "Onopgeëist ticket",
 	"generic.title.add": "Toevoegen",
 	"commands.add.success": "<@%d> is toegevoegd aan <#%d>",
-	"commands.remove.success": "<@%d> is verwijderd van <#%d>"
+	"commands.remove.success": "<@%d> is verwijderd van <#%d>",
+	"open.ratelimited": "",
+	"commands.claim.thread": "",
+	"generic.join_support_server": "",
+	"commands.open.guild_channel_limit": "",
+	"commands.open.missing_form_answer": "",
+	"generic": {
+		"use_slash_commands": ""
+	}
 }
