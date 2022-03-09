@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Nemáte oprávnění zavřít tento ticket",
 	"command.blacklist.staff": "Nelze přidat staff na černou listinu",
 	"commands.about": "Tickety jsou snadné na použití, a vysoce konfigurovatelný ticket, podpora bota.\\nPomocný server: https://discord.gg/VtV3rSk\\nPříkazy: Napište `/help`\\nZačněte spuštěním `/setup`",
 	"commands.add.no_channel": "Musíte zmínit kanál ticketu pro přidání uživatelů do",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
