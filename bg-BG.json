@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Нямате привилегии да затворите този тикет",
 	"command.blacklist.staff": "Не можете да блеклистнете член на екипа",
 	"commands.about": "Tickets е лесен за използване и високо-функционален бот. \nСъпорт за него може да откриете тук https://discord.gg/VtV3rSk\nИзползвайте /help за лист с команди\nЗапочнете настройка с /setup",
 	"commands.add.no_channel": "Трябва да поясните тикет канала, в който желаете да добавите конкретните потребители",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }

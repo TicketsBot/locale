@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "U mag dit ticket niet sluiten",
 	"command.blacklist.staff": "U kunt personeel niet op de zwarte lijst zetten",
 	"commands.about": "Tickets is een eenvoudig te gebruiken en zeer configureerbare ticket- en ondersteuningsbot.\\nSupport server: https://discord.gg/VtV3rSk\\nCommands: Typ `t!help`\\nGa aan de slag door het commando `t!setup` te doen.",
 	"commands.add.no_channel": "Je moet een ticketkanaal vermelden om de gebruiker(s) aan toe te voegen",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }

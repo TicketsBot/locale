@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "את/ה לא יכול/ה לסגור את ה ערוץ הזה",
 	"command.blacklist.staff": "אינך יכול/ה לחסום חבר",
 	"commands.about": "",
 	"commands.add.no_channel": "אפשר להוסיף משתמשים רק אם עושים להם mention בערוץ עזרה",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }

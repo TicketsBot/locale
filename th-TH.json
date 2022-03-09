@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "คุณไม่ได้รับอนุญาตให้ปิดตั๋วนี้",
 	"command.blacklist.staff": "คุณไม่สามารถขึ้นบัญชีดำเจ้าหน้าที่",
 	"commands.about": "ตั๋วเป็นตั๋วที่ใช้งานง่ายและกำหนดค่าได้สูง และบอทสนับสนุน\\nเซิร์ฟเวอร์สนับสนุน: https://discord.gg/VtV3rSk\\nคำสั่ง: พิมพ์ `/help`\\nเริ่มต้นใช้งานโดยเรียกใช้ `/setup'",
 	"commands.add.no_channel": "",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }

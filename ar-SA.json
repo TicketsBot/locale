@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "لا يسمح لك بإغلاق هذه التذكرة",
 	"command.blacklist.staff": "لا يمكنك إدراج الموظفين في القائمة السوداء",
 	"commands.about": "",
 	"commands.add.no_channel": "يجب أن تذكر قناة التذكرة لإضافة المستخدم (المستخدمين) إليها",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }

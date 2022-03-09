@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "你無法關閉問題單，請等待工作人員關閉",
 	"command.blacklist.staff": "你想不開是不是？幹嘛黑名單工作人員",
 	"commands.about": "Tickets 是一個易於使用且幾乎可以完全自定義的問題單機器人\\n支援頻道: https://discord.gg/VtV3rSk\\n指令: 請輸入 `t!help`\\n輸入`t!setup`開始設定吧！",
 	"commands.add.no_channel": "記得標注問題單",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }

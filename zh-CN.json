@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "你无法关闭问题单，请等待工作人员关闭",
 	"command.blacklist.staff": "你想不开是不是？干嘛黑名单工作人员",
 	"commands.about": "",
 	"commands.add.no_channel": "记得标注问题单",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
