@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Non ti è permesso chiudere questo ticket",
 	"command.blacklist.staff": "Non puoi aggiungere lo staff alla blacklist",
 	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer per il supporto: https://discord.gg/VtV3rSk\\nComandi: Type `/help`\\nInizia eseguendo `/setup`",
 	"commands.add.no_channel": "È necessario menzionare un canale di un ticket per aggiungervi utenti",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
