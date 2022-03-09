@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Du har ikke tilladelse til at lukke denne billet",
 	"command.blacklist.staff": "Du kan ikke blackliste personale",
 	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandoer: Type `/hjælp`\\nGå i gang med at bruge `/setup`",
 	"commands.add.no_channel": "Du skal nævne en ticket kanal for at tilføje brugeren(brugerne) i",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
