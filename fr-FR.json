@@ -1,5 +1,4 @@
 {
-	"command.blacklist.staff": "Vous ne pouvez pas mettre un membre du staff sur liste noire",
 	"commands.about": "Tickets est un bot de tickets et de support facile à utiliser et hautement configurable.\\nServeur de support : https://discord.gg/VtV3rSk\\nListe des commandes : Tapez `/help`\\nCommencez en tapant `/setup`",
 	"commands.add.no_channel": "Vous devez préciser un salon de ticket pour y ajouter des utilisateurs",
 	"commands.add.no_members": "Vous devez mentionner des membres à ajouter au ticket",
@@ -181,7 +180,8 @@
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
 	"commands.open.missing_form_answer": "Vous devez répondre à la question `%s`",
 	"generic.use_slash_commands": "",
+	"close.no_permission": "",
 	"": {
-		"close.no_permission": ""
+		"command.blacklist.staff": ""
 	}
 }
