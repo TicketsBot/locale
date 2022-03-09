@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "Bu talebi kapatmak için yetkiniz yok.",
 	"command.blacklist.staff": "Yetkilileri kara listeye alamazsınız.",
 	"commands.about": "",
 	"commands.add.no_channel": "Talebe kullanıcı(ları) eklemek için talep kanalını etiketlemeniz gerekiyor.",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic": {
-		"use_slash_commands": ""
+	"generic.use_slash_commands": "",
+	"": {
+		"close.no_permission": ""
 	}
 }
