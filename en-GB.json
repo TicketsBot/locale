@@ -1,5 +1,4 @@
 {
-	"close.no_permission": "You are not permitted to close this ticket",
 	"command.blacklist.staff": "You cannot blacklist staff",
 	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nCommands: Type `/help`\\nGet started by running `/setup`",
 	"commands.add.no_channel": "You need to mention a ticket channel to add the user(s) in",
@@ -181,7 +180,8 @@
 	"generic.join_support_server": "Join Support Server",
 	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
 	"commands.open.missing_form_answer": "You must answer the question `%s`",
-	"generic": {
-		"use_slash_commands": "Warning: You MUST switch to slash commands by April 30th. After this date, message-based commands will stop working."
+	"generic.use_slash_commands": "Warning: You MUST switch to slash commands by April 30th. After this date, message-based commands will stop working.",
+	"": {
+		"close.no_permission": "You are not permitted to close this ticket"
 	}
 }
