@@ -177,5 +177,11 @@
 	"commands.add.success": "<@%d> byl přidán do <#%d>",
 	"commands.remove.success": "<@%d> byl odstraněn z <#%d>",
 	"open.ratelimited": "Tickety jsou na tomto serveru otevřeny příliš rychle",
-	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna"
+	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna",
+	"generic.join_support_server": "",
+	"commands.open.guild_channel_limit": "",
+	"commands.open.missing_form_answer": "",
+	"generic": {
+		"use_slash_commands": ""
+	}
 }
