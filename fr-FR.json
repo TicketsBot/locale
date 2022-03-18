@@ -178,5 +178,10 @@
 	"commands.claim.thread": "En raison des limitations de Discord, il n'est pas possible de réclamer les fils de discussion",
 	"generic.join_support_server": "Rejoindre le serveur de support",
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
-	"commands.open.missing_form_answer": "Vous devez répondre à la question `%s`"
+	"commands.open.missing_form_answer": "Vous devez répondre à la question `%s`",
+	"generic.use_slash_commands": "",
+	"close.no_permission": "",
+	"": {
+		"generic.title.close_with_reason": ""
+	}
 }
