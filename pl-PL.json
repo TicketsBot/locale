@@ -178,5 +178,10 @@
 	"commands.claim.thread": "Ze względu na ograniczenia Discorda, funkcja obsługiwania biletów nie wspiera wątków",
 	"generic.join_support_server": "Dołącz do serweru wsparcia",
 	"commands.open.guild_channel_limit": "Ten serwer osiągnął limit 500 kanałów na Discordzie",
-	"commands.open.missing_form_answer": "Musisz odpowiedzieć na to pytanie `%s`"
+	"commands.open.missing_form_answer": "Musisz odpowiedzieć na to pytanie `%s`",
+	"generic.use_slash_commands": "",
+	"close.no_permission": "",
+	"": {
+		"generic.title.close_with_reason": ""
+	}
 }
