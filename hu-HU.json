@@ -178,5 +178,10 @@
 	"commands.claim.thread": "Discord korlátozások miatt, a lefoglalás nem támogatja a szálakat",
 	"generic.join_support_server": "Csatlakozz szerverünkhöz",
 	"commands.open.guild_channel_limit": "A szerver elérte a Discord 500 csatornás felső határát",
-	"commands.open.missing_form_answer": "Meg kell válaszolnod a kérdést `%s`"
+	"commands.open.missing_form_answer": "Meg kell válaszolnod a kérdést `%s`",
+	"generic.use_slash_commands": "",
+	"close.no_permission": "",
+	"": {
+		"generic.title.close_with_reason": ""
+	}
 }
