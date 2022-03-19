@@ -184,5 +184,10 @@
 	"": {
 		"generic.title.close_with_reason": "Close With Reason",
 		"generic.reason": "Reason"
+	},
+	"close": {
+		"reason": {
+			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
+		}
 	}
 }

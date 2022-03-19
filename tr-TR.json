@@ -184,5 +184,10 @@
 	"": {
 		"generic.title.close_with_reason": "",
 		"generic.reason": ""
+	},
+	"close": {
+		"reason": {
+			"placeholder": ""
+		}
 	}
 }
