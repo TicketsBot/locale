@@ -182,6 +182,7 @@
 	"generic.use_slash_commands": "Warning: You MUST switch to slash commands by April 30th. After this date, message-based commands will stop working.",
 	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
-		"generic.title.close_with_reason": "Close With Reason"
+		"generic.title.close_with_reason": "Close With Reason",
+		"generic.reason": "Reason"
 	}
 }
