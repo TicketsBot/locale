@@ -182,6 +182,7 @@
 	"generic.use_slash_commands": "",
 	"close.no_permission": "",
 	"": {
-		"generic.title.close_with_reason": ""
+		"generic.title.close_with_reason": "",
+		"generic.reason": ""
 	}
 }
