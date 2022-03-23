@@ -176,9 +176,9 @@
 	"commands.remove.success": "<@%d> byl odstraněn z <#%d>",
 	"open.ratelimited": "Tickety jsou na tomto serveru otevřeny příliš rychle",
 	"commands.claim.thread": "Z důvodu omezení Discordu, tvrzení nepodporuje vlákna",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
+	"generic.join_support_server": "Připojit se na server podpory",
+	"commands.open.guild_channel_limit": "Tento server dosáhl limitu 500 kanálů",
+	"commands.open.missing_form_answer": "Musíte odpovědět na otázku `%s`",
 	"generic.use_slash_commands": "",
 	"close.no_permission": "",
 	"": {

@@ -176,11 +176,11 @@
 	"commands.remove.success": "<@%d> wurde von <#%d> entfernt",
 	"open.ratelimited": "Tickets werden zu schnell in diesem Server geöffnet",
 	"commands.claim.thread": "Aufgrund von Discord-Einschränkungen unterstützt das Beanspruchen keine Threads",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"generic.join_support_server": "Trete dem Support Server bei",
+	"commands.open.guild_channel_limit": "Dieser Server hat Discord's Limit von 500 Kanälen erreicht",
+	"commands.open.missing_form_answer": "Sie müssen die Frage `%s` beantworten",
+	"generic.use_slash_commands": "Warnung: Sie MÜSSEN bis zum 30. April zu Slash Commands wechseln. Dannach werden Nachrichten - basierte commands nicht mehr fuktionieren.",
+	"close.no_permission": "Sie sind nicht berechtigt dieses Ticket zu schließen",
 	"": {
 		"generic.title.close_with_reason": "",
 		"generic.reason": ""

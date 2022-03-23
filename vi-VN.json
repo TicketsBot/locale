@@ -175,19 +175,19 @@
 	"commands.add.success": "<@%d> đã được thêm vào <#%d>",
 	"commands.remove.success": "<@%d> đã được gỡ khỏi <#%d>",
 	"open.ratelimited": "Các phiếu hỗ trợ đang được mở quá nhanh trong hội này",
-	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"commands.claim.thread": "Vì giới hạn của Discord, không thể nhận phiếu hỗ trợ bên trong các tin nhắn luồng con",
+	"generic.join_support_server": "Tham gia máy chủ hỗ trợ",
+	"commands.open.guild_channel_limit": "Server Discord này đã đạt giớ hạn 500 kênh",
+	"commands.open.missing_form_answer": "Bạn phải trả lời câu hỏi `%s`",
+	"generic.use_slash_commands": "Cảnh báo: Bạn CẦN PHẢI chuyển qua dùng lệnh dấu trước 30 tháng 4. Sau ngày này các lệnh ngoại trừ lệnh dấu (/) sẽ ngừng hoạt động.",
+	"close.no_permission": "Bạn không có quyền đóng phiếu hỗ trợ này",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Đóng với lý do",
+		"generic.reason": "Lý do"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Lý do đóng phiếu hỗ trợ, vd: \"Đã giải quyết xong\""
 		}
 	}
 }

@@ -179,15 +179,15 @@
 	"generic.join_support_server": "Присоединиться к официальному серверу",
 	"commands.open.guild_channel_limit": "Этот сервер достиг лимита Discord в 500 каналов",
 	"commands.open.missing_form_answer": "Вы должны ответить на вопрос `%s`",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"generic.use_slash_commands": "Предупреждение: Вы ДОЛЖНЫ переключится на слэш-команды до 30 апреля. После этой даты, команды базированные на сообщениях перестанут работать.",
+	"close.no_permission": "У вас недостаточно прав, чтобы закрыть эту заявку",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Закрыть с причиной",
+		"generic.reason": "Причина"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Причина для закрытия заявки, пример \"Заявка принята\""
 		}
 	}
 }
