@@ -175,12 +175,12 @@
 	"commands.add.success": "<@%d> foi adicionado a <#%d>",
 	"commands.remove.success": "<@%d> foi removido de <#%d>",
 	"open.ratelimited": "Tickets estão sendo abertos rápido demais neste servidor",
-	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
+	"commands.claim.thread": "Devido às limitações do Discord, a reivindicação não suporta",
+	"generic.join_support_server": "Junte-se ao servidor de suporte",
+	"commands.open.guild_channel_limit": "Este servidor atingiu o limite de 500 canais do Discord",
+	"commands.open.missing_form_answer": "Você deve responder a pergunta `%s`",
 	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"close.no_permission": "Você não tem permissão para fechar este ticket",
 	"": {
 		"generic.title.close_with_reason": "",
 		"generic.reason": ""
