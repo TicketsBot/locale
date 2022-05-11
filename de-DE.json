@@ -182,12 +182,12 @@
 	"generic.use_slash_commands": "Warnung: Sie MÜSSEN bis zum 30. April zu Slash Commands wechseln. Dannach werden Nachrichten - basierte commands nicht mehr fuktionieren.",
 	"close.no_permission": "Sie sind nicht berechtigt dieses Ticket zu schließen",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Schließen mit Begründung",
+		"generic.reason": "Begründung"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Grund für das Schließen des Tickets, z.B. \"gelöst\""
 		}
 	}
 }

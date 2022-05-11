@@ -179,15 +179,15 @@
 	"generic.join_support_server": "الانضمام إلى خادم الدعم",
 	"commands.open.guild_channel_limit": "هذا الخادم وصل إلى حد ديسكورد 500 قناة",
 	"commands.open.missing_form_answer": "يجب عليك الإجابة على السؤال `%s`",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"generic.use_slash_commands": "تحذير: يمكنك التبديل إلى أوامر الـ/ بحلول 31 أغسطس. بعد هذا التاريخ، الأوامر المستندة إلى الرسائل ستتوقف عن العمل.",
+	"close.no_permission": "لا يسمح لك بإغلاق هذه التذكرة",
 	"": {
 		"generic.title.close_with_reason": "إغلاق مع سبب",
 		"generic.reason": "سبب"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "سبب إغلاق التذاكرة، على سبيل المثال \"تم الحل\""
 		}
 	}
 }

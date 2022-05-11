@@ -176,18 +176,18 @@
 	"commands.remove.success": "<@%d> er fjernet fra <#%d>",
 	"open.ratelimited": "Tickets åpnes for raskt i denne serveren",
 	"commands.claim.thread": "På grunn av Discord begrensninger støtter ikke threads claming",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"generic.join_support_server": "Bli med i support serveren",
+	"commands.open.guild_channel_limit": "Denne serveren har nådd Discords' grense på 500 kanaler",
+	"commands.open.missing_form_answer": "Du må svare på spørsmålet `%s`",
+	"generic.use_slash_commands": "Advarsel: Du MÅ bytte til skråstrek kommandoer til 30 april. Etter denne datoen vil meldings-baserte kommandoer slutte å fungere.",
+	"close.no_permission": "Du har ikke tilattelse til å stenge denne ticketen",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Steng med en årsak",
+		"generic.reason": "Grunnlag"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\""
 		}
 	}
 }
