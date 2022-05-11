@@ -175,19 +175,19 @@
 	"commands.add.success": "<@%d> è stato aggiunto a <#%d>",
 	"commands.remove.success": "<@%d> è stato rimosso da <#%d>",
 	"open.ratelimited": "I ticket vengono aperti troppo velocemente in questo server",
-	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"commands.claim.thread": "A causa delle limitazioni di Discord, la rivendicazione non è possibile nei thread",
+	"generic.join_support_server": "Entra nel Server di Supporto",
+	"commands.open.guild_channel_limit": "Questo server ha raggiunto il limite di Discord di 500 canali",
+	"commands.open.missing_form_answer": "Devi rispondere alla domanda `%s`",
+	"generic.use_slash_commands": "Attenzione: DEVI passare ai comandi slash entro il 31 Agosto. Dopo questa data, i comandi basati sui messaggi smetteranno di funzionare.",
+	"close.no_permission": "Non sei autorizzato a chiudere questo ticket",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Chiudi Con Motivo",
+		"generic.reason": "Motivo"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Motivo per la chiusura del ticket, e.g. \"Risolto\""
 		}
 	}
 }
