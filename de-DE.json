@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Grund für das Schließen des Tickets, z.B. \"gelöst\""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }
