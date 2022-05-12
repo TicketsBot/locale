@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Powód zamknięcia zgłoszenia, np. ''Rozwiązane''"
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }
