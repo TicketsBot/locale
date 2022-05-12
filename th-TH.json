@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": ""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }

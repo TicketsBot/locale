@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Lý do đóng phiếu hỗ trợ, vd: \"Đã giải quyết xong\""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }

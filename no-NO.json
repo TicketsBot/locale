@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }
