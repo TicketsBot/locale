@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Biletin kapanma sebebi: \"Çözüldü\""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }
