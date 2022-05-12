@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Anledning till att avsluta ärendet, t.ex. \"Löst\""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": ""
+		}
 	}
 }
