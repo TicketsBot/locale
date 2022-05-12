@@ -189,5 +189,10 @@
 		"reason": {
 			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		}
+	},
+	"commands": {
+		"open": {
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket"
+		}
 	}
 }
