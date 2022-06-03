@@ -144,7 +144,7 @@
 	"generic.title.claim": "Talep",
 	"generic.title.blacklisted": "Kara listeye alındı",
 	"generic.title.blacklist": "Karaliste",
-	"generic.error.blacklisted": "",
+	"generic.error.blacklisted": "Bu sunucuda kara listeye alındınız",
 	"commands.blacklist.add.success": "<@%d> Kara listeye alındı",
 	"commands.blacklist.remove.success": "<@%d> kara listeden çıkartıldı",
 	"generic.title.add_admin": "Yönetici ekle",
@@ -192,7 +192,7 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın"
 		}
 	}
 }

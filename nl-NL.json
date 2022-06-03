@@ -174,25 +174,25 @@
 	"generic.title.add": "Toevoegen",
 	"commands.add.success": "<@%d> is toegevoegd aan <#%d>",
 	"commands.remove.success": "<@%d> is verwijderd van <#%d>",
-	"open.ratelimited": "",
-	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"open.ratelimited": "Er worden te snel tickets geopend in deze server",
+	"commands.claim.thread": "Door beperkingen vanuit Discord wordt het claimen van threads niet ondersteunt",
+	"generic.join_support_server": "Word lid van de ondersteuningsserver",
+	"commands.open.guild_channel_limit": "Deze server heeft de limiet van 500 kanalen bereikt",
+	"commands.open.missing_form_answer": "Je moet de vraag `%s` beantwoorden",
+	"generic.use_slash_commands": "Waarschuwing: U MOET voor 31 augustus overschakelen naar het slash (/) commando. Na deze datum zullen bericht gerelateerde commando's niet meer werken.",
+	"close.no_permission": "U heeft niet de juiste permissies om dit ticket te sluiten",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Sluit met een reden",
+		"generic.reason": "Reden"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Reden voor het sluiten van het ticket, bv. \"Opgelost\""
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen"
 		}
 	}
 }
