@@ -151,48 +151,48 @@
 	"generic.title.add_support": "Tilføj Support",
 	"generic.title.remove_admin": "Fjern administrator",
 	"generic.title.remove_support": "Fjern Support",
-	"commands.addsupport.success": "",
-	"generic.title.language": "",
-	"commands.language.success": "",
-	"commands.removesupport.success": "",
-	"commands.addadmin.success": "",
-	"commands.removeadmin.success": "",
-	"generic.title.setup": "",
+	"commands.addsupport.success": "Supportrepræsentant succesfuldt tilføjet",
+	"generic.title.language": "Sprog",
+	"commands.language.success": "Serversproget er blevet ændret til %s",
+	"commands.removesupport.success": "Supportrepræsentant blev fjernet",
+	"commands.addadmin.success": "Administrator tilføjet",
+	"commands.removeadmin.success": "Administrator fjernet",
+	"generic.title.setup": "Opsætning",
 	"generic.title.premium": "Premium",
-	"generic.title.panel": "",
-	"generic.title.rename": "",
-	"generic.title.remove": "",
-	"generic.title.help": "",
-	"generic.title.close_confirmation": "",
+	"generic.title.panel": "Panel",
+	"generic.title.rename": "Omdøb",
+	"generic.title.remove": "Fjern",
+	"generic.title.help": "Hjælp",
+	"generic.title.close_confirmation": "Bekræft lukning",
 	"close.confirmation": "Bekræft venligst at du ønsker at lukke denne ticket",
-	"generic.title.close_request": "",
-	"commands.close_request.accept": "",
-	"commands.close_request.deny": "",
+	"generic.title.close_request": "Anmodning om at lukke",
+	"commands.close_request.accept": "Accepter & Luk",
+	"commands.close_request.deny": "Afvis & Behold Åben",
 	"commands.premium.success": "Premium er blevet aktiveret i **%d** dage",
 	"generic.title.claimed": "",
-	"generic.title.unclaimed": "",
-	"generic.title.add": "",
-	"commands.add.success": "",
-	"commands.remove.success": "",
-	"open.ratelimited": "",
-	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"generic.title.unclaimed": "Ukrævet Ticket",
+	"generic.title.add": "Tilføj",
+	"commands.add.success": "<@%d> er blevet tilføjet til <#%d>",
+	"commands.remove.success": "<@%d> er blevet fjernet fra <#%d>",
+	"open.ratelimited": "Tickets bliver åbnet for hurtigt på denne server",
+	"commands.claim.thread": "På grund af Discords begrænsninger, understøtter tråde ikke",
+	"generic.join_support_server": "Join support serveren",
+	"commands.open.guild_channel_limit": "Denne server har nået Discord's grænse på 500 kanaler",
+	"commands.open.missing_form_answer": "Du skal besvare spørgsmålet `%s`",
+	"generic.use_slash_commands": "Advarsel: Du SKAL skifte til slashkommandoer senest den 31 August. Efter denne dato vil meddelelsesbaserede kommandoer stoppe med at virke.",
+	"close.no_permission": "Du har ikke tilladelse til at lukke denne ticket",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Luk Med Årsag",
+		"generic.reason": "Årsag"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Årsag til lukning af denne ticket, fx \"Løst\""
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket"
 		}
 	}
 }
