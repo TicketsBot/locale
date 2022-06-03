@@ -182,17 +182,17 @@
 	"generic.use_slash_commands": "Figyelem: Április 30-al MUSZÁJ váltani /-es parancsokra, mert az üzenet-alapú parancsok támogatása megszűnik.",
 	"close.no_permission": "Nincs jogosultságod lezárni ezt a jegyet",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Lezárás indokkal",
+		"generic.reason": "Indok"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Lezárás indoka, pl. \"Megoldva\""
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához"
 		}
 	}
 }
