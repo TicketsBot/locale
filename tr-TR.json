@@ -193,6 +193,9 @@
 	"commands": {
 		"open": {
 			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın"
+		},
+		"switch_panel": {
+			"invalid_panel": ""
 		}
 	}
 }
