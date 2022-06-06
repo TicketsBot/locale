@@ -193,6 +193,9 @@
 	"commands": {
 		"open": {
 			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen"
+		},
+		"switch_panel": {
+			"invalid_panel": ""
 		}
 	}
 }

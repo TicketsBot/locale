@@ -193,6 +193,9 @@
 	"commands": {
 		"open": {
 			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket"
+		},
+		"switch_panel": {
+			"invalid_panel": "Invalid panel: You must select one from the dropdown"
 		}
 	}
 }
