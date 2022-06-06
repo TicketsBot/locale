@@ -1,10 +1,10 @@
 {
-	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer per il supporto: https://discord.gg/VtV3rSk\\nComandi: Type `/help`\\nInizia eseguendo `/setup`",
+	"commands.about": "Tickets è un bot per supporto e ticket altamente configurabile e facile da usare.\\nServer di supporto: https://discord.gg/VtV3rSk\\nComandi: Scrivi `/help`\\nInizia eseguendo `/setup`",
 	"commands.add.no_channel": "È necessario menzionare un canale di un ticket per aggiungervi utenti",
 	"commands.add.no_members": "È necessario menzionare i membri da aggiungere al ticket",
 	"commands.add.no_permission": "Non hai i permessi per aggiungere persone a questo ticket",
 	"commands.add.not_ticket": "Il canale menzionato non è un ticket",
-	"commands.addadmin.no_members": "È necessario menzionare un utente o il nome di un ruolo per concedergli privilegi da amministratore",
+	"commands.addadmin.no_members": "È necessario menzionare un utente o il nome di un ruolo per concedergli privilegi da admin",
 	"commands.addadmin.owner": "Il proprietario del server è già un amministratore",
 	"commands.addsupport.no_members": "È necessario menzionare un utente o il nome di un ruolo per concedergli i privilegi da rappresentativi del supporto",
 	"commands.blacklist.no_members": "È necessario menzionare un utente per aggiungerlo o toglierlo dalla blacklist",
