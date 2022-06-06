@@ -9,7 +9,7 @@
 	"commands.addsupport.no_members": "Du må oppgi en bruker eller rolle å gi støttekontaktprivilegier til",
 	"commands.blacklist.no_members": "Du må oppgi en bruker å endre svartelistestatusen til",
 	"commands.blacklist.self": "Du kan ikke svarteliste deg selv",
-	"commands.claim.success": "Støtteforespurselen din vil bli tatt hånd av av %s",
+	"commands.claim.success": "Din ticket vill bli behandlet av %s",
 	"commands.invite": "[Klikk her](<https://invite.ticketsbot.net>)",
 	"commands.language.invalid": "Du må oppgi en språkkode eller et flagg. Tilgjengelige språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bare åpne %d %s om gangen",
