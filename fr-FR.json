@@ -193,6 +193,9 @@
 	"commands": {
 		"open": {
 			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket"
+		},
+		"switch_panel": {
+			"invalid_panel": ""
 		}
 	}
 }
