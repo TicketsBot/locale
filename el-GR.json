@@ -193,6 +193,9 @@
 	"commands": {
 		"open": {
 			"disabled": ""
+		},
+		"switch_panel": {
+			"invalid_panel": ""
 		}
 	}
 }
