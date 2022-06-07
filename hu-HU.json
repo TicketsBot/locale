@@ -197,6 +197,9 @@
 		"switch_panel": {
 			"invalid_panel": "",
 			"success": ""
+		},
+		"blacklist": {
+			"staff": ""
 		}
 	},
 	"generic": {

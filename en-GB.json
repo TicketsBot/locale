@@ -197,6 +197,9 @@
 		"switch_panel": {
 			"invalid_panel": "Invalid panel: You must select one from the dropdown",
 			"success": "This ticket has been switched to the `%s` panel by <@%d>"
+		},
+		"blacklist": {
+			"staff": "Staff members cannot be blacklisted"
 		}
 	},
 	"generic": {
