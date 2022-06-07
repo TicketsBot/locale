@@ -145,8 +145,8 @@
 	"generic.title.blacklisted": "En la lista negra",
 	"generic.title.blacklist": "Lista negra",
 	"generic.error.blacklisted": "Estás en la lista negra de este servidor",
-	"commands.blacklist.add.success": "",
-	"commands.blacklist.remove.success": "",
+	"commands.blacklist.add.success": "<@%d> se agregó a la lista negra",
+	"commands.blacklist.remove.success": "<@%d> se quitó de la lista negra",
 	"generic.title.add_admin": "Añadir administrador",
 	"generic.title.add_support": "Añadir Soporte",
 	"generic.title.remove_admin": "Eliminar administrador",
@@ -160,7 +160,7 @@
 	"generic.title.setup": "Configurar",
 	"generic.title.premium": "Premium",
 	"generic.title.panel": "Panel",
-	"generic.title.rename": "",
+	"generic.title.rename": "Renombre",
 	"generic.title.remove": "Eliminar",
 	"generic.title.help": "Ayuda",
 	"generic.title.close_confirmation": "Confirmación de cierre",
@@ -170,11 +170,11 @@
 	"commands.close_request.deny": "Rechazar y mantener abierto",
 	"commands.premium.success": "Se ha activado Premium por **%d** días",
 	"generic.title.claimed": "Ticket reclamado",
-	"generic.title.unclaimed": "",
+	"generic.title.unclaimed": "Ticket liberado",
 	"generic.title.add": "Añadir",
 	"commands.add.success": "",
 	"commands.remove.success": "",
-	"open.ratelimited": "",
+	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
 	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
 	"generic.join_support_server": "Únete al Servidor de Soporte",
 	"commands.open.guild_channel_limit": "Este servidor ha alcanzado el límite de Discord de 500 canales",
@@ -192,19 +192,22 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "El comando `/open` está deshabilitado en este servidor: por favor usa un panel de tickets para abrir un ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Panel inválido: Debes seleccionar uno de la lista desplegable",
+			"success": "Este ticket ha sido cambiado al panel `%s` por <@%d>"
+		},
+		"blacklist": {
+			"staff": ""
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": ""
+			"panel_switched": "Panel de Ticket Cambiado"
 		}
 	},
 	"help": {
-		"switch_panel": ""
+		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc."
 	}
 }
