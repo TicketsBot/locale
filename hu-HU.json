@@ -195,7 +195,16 @@
 			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához"
 		},
 		"switch_panel": {
-			"invalid_panel": ""
+			"invalid_panel": "",
+			"success": ""
 		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": ""
+		}
+	},
+	"help": {
+		"switch_panel": ""
 	}
 }

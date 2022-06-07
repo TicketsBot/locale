@@ -195,7 +195,16 @@
 			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": ""
+			"invalid_panel": "",
+			"success": ""
 		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": ""
+		}
+	},
+	"help": {
+		"switch_panel": ""
 	}
 }

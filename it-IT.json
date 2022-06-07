@@ -195,7 +195,16 @@
 			"disabled": "Il comando `/open` è disattivato in questo server: si prega di utilizzare un pannello ticket per aprire un ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": ""
+			"invalid_panel": "",
+			"success": ""
 		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": ""
+		}
+	},
+	"help": {
+		"switch_panel": ""
 	}
 }

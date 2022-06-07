@@ -195,7 +195,16 @@
 			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen"
 		},
 		"switch_panel": {
-			"invalid_panel": ""
+			"invalid_panel": "",
+			"success": ""
 		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": ""
+		}
+	},
+	"help": {
+		"switch_panel": ""
 	}
 }
