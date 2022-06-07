@@ -195,16 +195,19 @@
 			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Panneau invalide : vous devez en sélectionner un dans la liste déroulante",
+			"success": "Ce ticket a été basculé vers le panneau `%s` par <@%d>"
+		},
+		"blacklist": {
+			"staff": ""
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": ""
+			"panel_switched": "Ticket basculé vers un autre panneau"
 		}
 	},
 	"help": {
-		"switch_panel": ""
+		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc."
 	}
 }
