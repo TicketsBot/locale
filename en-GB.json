@@ -195,7 +195,16 @@
 			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": "Invalid panel: You must select one from the dropdown"
+			"invalid_panel": "Invalid panel: You must select one from the dropdown",
+			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		}
+	},
+	"generic": {
+		"title": {
+			"panel_switched": "Ticket Panel Switched"
+		}
+	},
+	"help": {
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc."
 	}
 }
