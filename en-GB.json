@@ -199,7 +199,10 @@
 			"success": "This ticket has been switched to the `%s` panel by <@%d>"
 		},
 		"blacklist": {
-			"staff": "Staff members cannot be blacklisted"
+			"staff": "Staff members cannot be blacklisted",
+			"add_role": {
+				"success": "<@&%d> has been blacklisted"
+			}
 		}
 	},
 	"generic": {
@@ -209,5 +212,12 @@
 	},
 	"help": {
 		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc."
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": "<@&%d> has been unblacklisted"
+			}
+		}
 	}
 }

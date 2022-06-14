@@ -199,7 +199,10 @@
 			"success": "Este ticket ha sido cambiado al panel `%s` por <@%d>"
 		},
 		"blacklist": {
-			"staff": ""
+			"staff": "",
+			"add_role": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
@@ -209,5 +212,12 @@
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc."
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": ""
+			}
+		}
 	}
 }

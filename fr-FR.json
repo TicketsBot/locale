@@ -199,7 +199,10 @@
 			"success": "Ce ticket a été basculé vers le panneau `%s` par <@%d>"
 		},
 		"blacklist": {
-			"staff": ""
+			"staff": "",
+			"add_role": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
@@ -209,5 +212,12 @@
 	},
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc."
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": ""
+			}
+		}
 	}
 }
