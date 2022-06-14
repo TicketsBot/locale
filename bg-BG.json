@@ -199,7 +199,10 @@
 			"success": ""
 		},
 		"blacklist": {
-			"staff": ""
+			"staff": "",
+			"add_role": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
@@ -209,5 +212,12 @@
 	},
 	"help": {
 		"switch_panel": ""
+	},
+	"<@&%d> has been unblcommands": {
+		"blacklist": {
+			"remove_role": {
+				"successcklisted": ""
+			}
+		}
 	}
 }
