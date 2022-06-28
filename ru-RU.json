@@ -195,28 +195,28 @@
 			"disabled": "Команда `/open` отключена на этом сервере: пожалуйста, используйте панель тикетов для открытия тикета"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Недопустимая панель: Вы должны выбрать одну из выпадающих",
+			"success": "Заявка была переключена в панель `%s`, переключил <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Админы не могут быть внесены в черный список",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> заблокирован"
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": ""
+			"panel_switched": "Панель заявки переключена"
 		}
 	},
 	"help": {
-		"switch_panel": ""
+		"switch_panel": "Переключает заявку на другую панель заявок, изменяя категорию канала, группы поддержки и т.д."
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> разблокирован"
 			}
 		}
 	}

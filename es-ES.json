@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets es un bot de tickets y soporte fácil de usar y altamente configurable.\\nServidor de soporte: https://discord.gg/VtV3rSk\\nCommands: Escribe `/help` \\nComienza con ejecutar` /setup`",
+	"commands.about": "Tickets es un bot de tickets y soporte fácil de usar y altamente configurable.\\nServidor de soporte: https://discord.gg/VtV3rSk\\nComandos: Escribe `/help` \\nComienza ejecutando` /setup`",
 	"commands.add.no_channel": "Debe mencionar un canal de ticket para agregar a los usuarios",
 	"commands.add.no_members": "Debe mencionar miembros para agregar al ticket",
 	"commands.add.no_permission": "No tienes permiso para agregar personas a este ticket",
@@ -172,8 +172,8 @@
 	"generic.title.claimed": "Ticket reclamado",
 	"generic.title.unclaimed": "Ticket liberado",
 	"generic.title.add": "Añadir",
-	"commands.add.success": "",
-	"commands.remove.success": "",
+	"commands.add.success": "<@%d> ha sido añadido/a a <#%d>",
+	"commands.remove.success": "<@%d> ha sido removido/a de <#%d>",
 	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
 	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
 	"generic.join_support_server": "Únete al Servidor de Soporte",
@@ -199,9 +199,9 @@
 			"success": "Este ticket ha sido cambiado al panel `%s` por <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Los miembros del Staff no se pueden agregar a la lista negra",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> se agregó a la lista negra"
 			}
 		}
 	},
@@ -216,7 +216,7 @@
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> se quitó de la lista negra"
 			}
 		}
 	}

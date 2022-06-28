@@ -5,7 +5,7 @@
 	"commands.add.no_permission": "Du hast keine Berechtigung, um Benutzer zu diesem Ticket hinzuzufügen",
 	"commands.add.not_ticket": "Der erwähnte Kanal ist kein Ticket",
 	"commands.addadmin.no_members": "Du mußt einen Benutzer bzw. einie Rollen erwähnen, um ihnen Administratorenberechtigungen zu erteilen",
-	"commands.addadmin.owner": "",
+	"commands.addadmin.owner": "Der Serverbesitzer ist bereits ein Administrator",
 	"commands.addsupport.no_members": "Du mußt Benutzer bzw. Rollen erwähnen, um sie als Support-Mitarbeiter hinzuzufügen",
 	"commands.blacklist.no_members": "Du mußt einen Benutzer erwähnen, um ihn von der Blacklist zu löschen oder zur Blacklist hinzuzufügen",
 	"commands.blacklist.self": "Du kannst Dich nicht selbst auf die Blacklist setzen",
@@ -195,28 +195,28 @@
 			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Ungültiges Panel: Sie müssen einen aus dem Dropdown-Menü auswählen",
+			"success": "Dieses Ticket wurde %s Panel von %d verschoben"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Mitarbeiter können nicht gesperrt werden",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> wurde gesperrt"
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": ""
+			"panel_switched": "Ticket Panel gewechselt"
 		}
 	},
 	"help": {
-		"switch_panel": ""
+		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw."
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> wurde entsperrt"
 			}
 		}
 	}
