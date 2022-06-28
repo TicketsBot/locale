@@ -199,9 +199,9 @@
 			"success": "Ce ticket a été basculé vers le panneau `%s` par <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Les membres du staff ne peuvent pas être ajoutés à la liste noire",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> a été mis sur liste noire"
 			}
 		}
 	},
@@ -216,7 +216,7 @@
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> a été retiré de la liste noire"
 			}
 		}
 	}
