@@ -195,28 +195,28 @@
 			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Ongeldig paneel: U moet één selecteren uit de keuzelijst",
+			"success": "Dit ticket is overgeschakeld naar het `%s` paneel door <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Medewerkers kunnen niet worden geblacklist",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> is op de blacklist gezet"
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": ""
+			"panel_switched": "Ticketpaneel gewijzigd"
 		}
 	},
 	"help": {
-		"switch_panel": ""
+		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "De blacklist van <@&%d> is verwijderd"
 			}
 		}
 	}
