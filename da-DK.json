@@ -169,7 +169,7 @@
 	"commands.close_request.accept": "Accepter & Luk",
 	"commands.close_request.deny": "Afvis & Behold Åben",
 	"commands.premium.success": "Premium er blevet aktiveret i **%d** dage",
-	"generic.title.claimed": "",
+	"generic.title.claimed": "Taget Ticket",
 	"generic.title.unclaimed": "Ukrævet Ticket",
 	"generic.title.add": "Tilføj",
 	"commands.add.success": "<@%d> er blevet tilføjet til <#%d>",
@@ -195,11 +195,11 @@
 			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Ugyldigt panel: Du skal vælge et fra listen",
+			"success": "Denne Ticket er blevet flyttet til panelet `%saf <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Personale kan ikke blive blacklisted",
 			"add_role": {
 				"success": ""
 			}
@@ -207,7 +207,7 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": ""
+			"panel_switched": "Ticked panel skiftet"
 		}
 	},
 	"help": {
