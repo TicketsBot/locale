@@ -35,7 +35,7 @@
 	"commands.tags.get.invalid_tag": "Tag non valido. Per maggiore informazioni sui tag, visita <https://ticketsbot.net/tags>.",
 	"commands.tags.list": "ID per tutti i tag: \\n%s\\nPer visualizzare il contenuto di in tag, esegui `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Questo ticket non è stato rivendicato",
-	"commands.unclaim.not_claimer": "Solo gli admin e l'utente che ha rivendicato il ticket possono annullare la rivendicazione",
+	"commands.unclaim.not_claimer": "Solo gli admin e l'utente che hanno rivendicato il ticket possono annullare la rivendicazione",
 	"commands.unclaim.success": "Tutto il supporto rappresentativo può ora rispondere al ticket",
 	"commands.vote": "Clicca qui per votare per 24 ore di premium gratis:\\n<https://vote.ticketsbot.net>",
 	"generic.invalid_argument": "Argomento non valido: fare riferimento all'utilizzo",
