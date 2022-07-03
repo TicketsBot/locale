@@ -205,12 +205,14 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": ""
+			"no_welcome_message": "",
+			"content": ""
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Pannello Ticket Cambiato"
+			"panel_switched": "Pannello Ticket Cambiato",
+			"jump_to_top": ""
 		},
 		"click_here": ""
 	},
