@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d> has been blacklisted"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": "This ticket does not have a welcome message"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket Panel Switched"
-		}
+		},
+		"click_here": "Click Here"
 	},
 	"help": {
-		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc."
+		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
