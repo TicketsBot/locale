@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": ""
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel zgłoszeń zmieniony"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp."
+		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp.",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
