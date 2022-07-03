@@ -205,12 +205,14 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "This ticket does not have a welcome message"
+			"no_welcome_message": "This ticket does not have a welcome message",
+			"content": "Click the button below to jump to the top of the ticket"
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Ticket Panel Switched"
+			"panel_switched": "Ticket Panel Switched",
+			"jump_to_top": "Jump To Top"
 		},
 		"click_here": "Click Here"
 	},

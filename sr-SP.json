@@ -205,12 +205,14 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": ""
+			"no_welcome_message": "",
+			"content": ""
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "Плоча за карте замењена"
+			"panel_switched": "Плоча за карте замењена",
+			"jump_to_top": ""
 		},
 		"click_here": ""
 	},
