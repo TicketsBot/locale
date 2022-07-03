@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d> έχει καταχωρηθεί στη μαύρη λίστα"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Εναλλαγή του πίνακα του Ticket"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ."
+		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
