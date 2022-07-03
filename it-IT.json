@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": ""
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Pannello Ticket Cambiato"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc..."
+		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc...",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

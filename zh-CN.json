@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": ""
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": ""
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": ""
+		"switch_panel": "",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

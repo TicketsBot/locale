@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d> is op de blacklist gezet"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticketpaneel gewijzigd"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort"
+		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

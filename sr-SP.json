@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d> jе на црној листи"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Плоча за карте замењена"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "Пребацује карту на други панел, мења категорију канала, тимове за подршку, итд."
+		"switch_panel": "Пребацује карту на други панел, мења категорију канала, тимове за подршку, итд.",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

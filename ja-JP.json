@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d>がブラックリストに登録されました。"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "チケットのパネルが切り替わりました。"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。"
+		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

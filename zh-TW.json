@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d> 已經被黑名單"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "更換客服單類別"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "將客服單切換到另一個客服單面板，更改頻道類別、支持團隊等。"
+		"switch_panel": "將客服單切換到另一個客服單面板，更改頻道類別、支持團隊等。",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

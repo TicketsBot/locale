@@ -203,15 +203,20 @@
 			"add_role": {
 				"success": "<@&%d> a été mis sur liste noire"
 			}
+		},
+		"jump_to_top": {
+			"no_welcome_message": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket basculé vers un autre panneau"
-		}
+		},
+		"click_here": ""
 	},
 	"help": {
-		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc."
+		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
+		"jump_to_top": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
