@@ -214,7 +214,8 @@
 			"panel_switched": "Ticket basculé vers un autre panneau",
 			"jump_to_top": ""
 		},
-		"click_here": ""
+		"click_here": "",
+		"confirm": ""
 	},
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
