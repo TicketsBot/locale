@@ -209,7 +209,10 @@
 			"content": ""
 		},
 		"addsupport": {
-			"success": ""
+			"confirm": ""
+		},
+		"addadmin": {
+			"confirm": ""
 		}
 	},
 	"generic": {

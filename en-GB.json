@@ -209,7 +209,10 @@
 			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"success": "Please confirm that you want to add %s to the default support representative team"
+			"confirm": "Please confirm that you want to add %s to the default support representative team"
+		},
+		"addadmin": {
+			"confirm": "Please confirm that you want to add %s as a bot administrator"
 		}
 	},
 	"generic": {
