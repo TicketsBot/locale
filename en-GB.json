@@ -207,6 +207,9 @@
 		"jump_to_top": {
 			"no_welcome_message": "This ticket does not have a welcome message",
 			"content": "Click the button below to jump to the top of the ticket"
+		},
+		"addsupport": {
+			"success": "Please confirm that you want to add %s to the default support representative team"
 		}
 	},
 	"generic": {
