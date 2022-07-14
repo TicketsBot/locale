@@ -207,6 +207,9 @@
 		"jump_to_top": {
 			"no_welcome_message": "",
 			"content": ""
+		},
+		"addsupport": {
+			"success": ""
 		}
 	},
 	"generic": {
