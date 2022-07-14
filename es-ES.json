@@ -214,7 +214,8 @@
 			"panel_switched": "Panel de Ticket Cambiado",
 			"jump_to_top": ""
 		},
-		"click_here": ""
+		"click_here": "",
+		"confirm": ""
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
