@@ -214,7 +214,8 @@
 			"panel_switched": "Ticket Panel Switched",
 			"jump_to_top": "Jump To Top"
 		},
-		"click_here": "Click Here"
+		"click_here": "Click Here",
+		"confirm": "Confirm"
 	},
 	"help": {
 		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",

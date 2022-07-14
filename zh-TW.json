@@ -214,7 +214,8 @@
 			"panel_switched": "更換客服單類別",
 			"jump_to_top": ""
 		},
-		"click_here": ""
+		"click_here": "",
+		"confirm": ""
 	},
 	"help": {
 		"switch_panel": "將客服單切換到另一個客服單面板，更改頻道類別、支持團隊等。",
