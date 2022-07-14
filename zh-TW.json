@@ -230,7 +230,7 @@
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": "<@&%d> 已經被從黑名單移出"
+				"successcklisted": ""
 			}
 		}
 	}
