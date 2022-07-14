@@ -214,7 +214,8 @@
 			"panel_switched": "チケットのパネルが切り替わりました。",
 			"jump_to_top": ""
 		},
-		"click_here": ""
+		"click_here": "",
+		"confirm": ""
 	},
 	"help": {
 		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
