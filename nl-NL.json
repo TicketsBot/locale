@@ -214,7 +214,8 @@
 			"panel_switched": "Ticketpaneel gewijzigd",
 			"jump_to_top": ""
 		},
-		"click_here": ""
+		"click_here": "",
+		"confirm": ""
 	},
 	"help": {
 		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
