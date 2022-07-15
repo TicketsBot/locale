@@ -141,7 +141,7 @@
 	"generic.title.autoclose": "Autocierre",
 	"generic.title.invite": "Invitar",
 	"generic.title.close": "Cerrar",
-	"generic.title.claim": "Reclamar",
+	"generic.title.claim": "",
 	"generic.title.blacklisted": "En la lista negra",
 	"generic.title.blacklist": "Lista negra",
 	"generic.error.blacklisted": "Estás en la lista negra de este servidor",
