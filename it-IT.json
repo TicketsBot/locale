@@ -201,11 +201,11 @@
 		"blacklist": {
 			"staff": "I membri dello staff non possono essere aggiunti alla blacklist",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> è stato aggiunto alla blacklist"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
+			"no_welcome_message": "Questo ticket non contiene un messaggio di benvenuto",
 			"content": ""
 		},
 		"addsupport": {
@@ -220,8 +220,8 @@
 			"panel_switched": "Pannello Ticket Cambiato",
 			"jump_to_top": ""
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Clicca Qui",
+		"confirm": "Conferma"
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc...",
