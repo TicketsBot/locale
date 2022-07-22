@@ -205,32 +205,32 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Ce ticket n'a pas de message d'accueil",
+			"content": "Cliquez sur le bouton ci-dessous pour remonter en haut du ticket"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s à l'équipe de support par défaut"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s en tant qu'administrateur du bot"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket basculé vers un autre panneau",
-			"jump_to_top": ""
+			"jump_to_top": "Remonter en haut"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Cliquez ici",
+		"confirm": "Confirmer"
 	},
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
-		"jump_to_top": ""
+		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> a été retiré de la liste noire"
 			}
 		}
 	},
