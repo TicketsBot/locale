@@ -179,34 +179,34 @@
 	"generic.join_support_server": "Junte-se ao servidor de suporte",
 	"commands.open.guild_channel_limit": "Este servidor atingiu o limite de 500 canais do Discord",
 	"commands.open.missing_form_answer": "Você deve responder a pergunta `%s`",
-	"generic.use_slash_commands": "",
+	"generic.use_slash_commands": "Aviso: você DEVE mudar para comandos de barra até 31 de Agosto. Após esta data, os comandos baseados em mensagens deixarão de funcionar.",
 	"close.no_permission": "Você não tem permissão para fechar este ticket",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Fechar com Motivo",
+		"generic.reason": "Motivo"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Motivo do fechamento do ticket. Por exemplo: \"Resolvido\""
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "O comando `/open` está desabilitado neste servidor: por favor use um painel de ticket para abrir um ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Painel inválido: Você deve selecionar um no menu suspenso",
+			"success": "Este ticket foi alterado para o painel `%s` por <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Membros da equipe não podem estar na lista de bloqueio",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> foi colocado na lista de bloqueio"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Esse ticket não tem uma mensagem de boas-vindas",
+			"content": "Clique no botão abaixo para ir para o topo do ticket"
 		},
 		"addsupport": {
 			"confirm": ""
@@ -217,15 +217,15 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": ""
+			"panel_switched": "Painel de Ticket Alternado",
+			"jump_to_top": "Ir para o topo"
 		},
-		"click_here": "",
+		"click_here": "Clique Aqui",
 		"confirm": ""
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": ""
+		"switch_panel": "Alterna um ticket para outro painel de ticket, alterando a categoria do canal, equipes de suporte, etc.",
+		"jump_to_top": "Fornece a você um botão para ir para o topo do ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
