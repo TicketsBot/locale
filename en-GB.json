@@ -233,5 +233,10 @@
 				"successcklisted": "<@&%d> has been unblacklisted"
 			}
 		}
+	},
+	"setup": {
+		"auto": {
+			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.net) will teach you how to configure every aspect of the bot!"
+		}
 	}
 }
