@@ -205,32 +205,32 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Αυτό το ticket δεν έχει μήνυμα καλωσορίσματος",
+			"content": "Κάντε κλικ στο παρακάτω κουμπί για να μεταβείτε στην κορυφή του ticket"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Επιβεβαιώστε ότι θέλετε να προσθέσετε %s στην προεπιλεγμένη αντιπροσωπευτική ομάδα υποστήριξης"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Παρακαλώ επιβεβαιώστε ότι θέλετε να προσθέσετε %s ως διαχειριστή του bot"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Εναλλαγή του πίνακα του Ticket",
-			"jump_to_top": ""
+			"jump_to_top": "Μετάβαση Στην Κορυφή"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Κάντε κλικ εδώ",
+		"confirm": "Επιβεβαίωση"
 	},
 	"help": {
 		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",
-		"jump_to_top": ""
+		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> έχει αφαιρεθεί από την μαύρη λίστα"
 			}
 		}
 	},
