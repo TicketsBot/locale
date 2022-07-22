@@ -137,11 +137,11 @@
 	"commands.tags.create.success": "Etiqueta creada - puedes usarla ejecutando `/tag %s`",
 	"generic.title.about": "Acerca de",
 	"generic.title.vote": "Votar",
-	"generic.title.tags": "",
+	"generic.title.tags": "Tags",
 	"generic.title.autoclose": "Autocierre",
 	"generic.title.invite": "Invitar",
 	"generic.title.close": "Cerrar",
-	"generic.title.claim": "",
+	"generic.title.claim": "Reclamado",
 	"generic.title.blacklisted": "En la lista negra",
 	"generic.title.blacklist": "Lista negra",
 	"generic.error.blacklisted": "Estás en la lista negra de este servidor",
@@ -205,32 +205,32 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Este ticket no tiene un mensaje de bienvenida",
+			"content": "Haz clic en el botón de abajo para ir al inicio del ticket"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Por favor, confirma que quieres agregar a %s al equipo de soporte predeterminado"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Por favor confirma que quieres agregar a %s como administrador del bot"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel de Ticket Cambiado",
-			"jump_to_top": ""
+			"jump_to_top": "Ir al inicio"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Clic aquí",
+		"confirm": "Confirmar"
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
-		"jump_to_top": ""
+		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> se quitó de la lista negra"
 			}
 		}
 	},
