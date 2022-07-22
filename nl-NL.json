@@ -205,32 +205,32 @@
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Dit ticket heeft geen welkom bericht",
+			"content": "Klik op de knop hieronder om naar het begin van het ticket te gaan"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Bevestig dat u %s wilt toevoegen aan het standaard support team"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Bevestig dat u %s als bot beheerder wilt toevoegen"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticketpaneel gewijzigd",
-			"jump_to_top": ""
+			"jump_to_top": "Spring naar boven"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Klik hier",
+		"confirm": "Bevestig"
 	},
 	"help": {
 		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
-		"jump_to_top": ""
+		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "De blacklist van <@&%d> is verwijderd"
 			}
 		}
 	},

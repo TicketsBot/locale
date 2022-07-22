@@ -201,36 +201,36 @@
 		"blacklist": {
 			"staff": "Członkowie personelu nie mogą być na czarnej liście",
 			"add_role": {
-				"success": ""
+				"success": "<@&%d> został dodany do czarnej listy"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "To zgłoszenie nie ma wiadomości powitalnej",
+			"content": "Kliknij przycisk poniżej, aby przejść do góry zgłoszenia"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Potwierdź, że chcesz dodać %s do domyślnego zespołu przedstawiciela wsparcia"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Potwierdź, że chcesz dodać %s jako administratora bota"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel zgłoszeń zmieniony",
-			"jump_to_top": ""
+			"jump_to_top": "Przejdź do góry"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Kliknij tutaj",
+		"confirm": "Potwierdź"
 	},
 	"help": {
 		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp.",
-		"jump_to_top": ""
+		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> został usunięty z czarnej listy"
 			}
 		}
 	},
