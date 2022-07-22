@@ -233,5 +233,10 @@
 				"successcklisted": ""
 			}
 		}
+	},
+	"setup": {
+		"auto": {
+			"docs": ""
+		}
 	}
 }
