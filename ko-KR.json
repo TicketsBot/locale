@@ -245,7 +245,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "더 많은 것을 확인하고 싶으신가요? [문서](https://docs.ticketsbot.net)에서 봇의 모든것을 구성하는 방법을 알려드립니다!"
 		}
 	}
 }
