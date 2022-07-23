@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "I membri dello staff non possono essere aggiunti alla blacklist",
 			"add_role": {
-				"success": "<@&%d> è stato aggiunto alla blacklist"
+				"success": "<@&%d> è stato aggiunto alla blacklist",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": ""
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {
