@@ -245,7 +245,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Chcesz odkryć więcej? Nasz [documentation](https://docs.ticketsbot.net) nauczy Cię jak skonfigurować każdy aspekt bota!"
 		}
 	}
 }
