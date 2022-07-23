@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "管理員不能被黑名單唷",
 			"add_role": {
-				"success": "<@&%d> 已經被黑名單"
+				"success": "<@&%d> 已經被黑名單",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": ""
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {
