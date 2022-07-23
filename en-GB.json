@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Staff members cannot be blacklisted",
 			"add_role": {
-				"success": "<@&%d> has been blacklisted"
+				"success": "<@&%d> has been blacklisted",
+				"limit": "You have reached the role blacklist limit (%d)"
+			},
+			"add": {
+				"limit": "You have reached the user blacklist limit (%d): consider using a role instead"
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": "Please confirm that you want to add %s as a bot administrator"
+		},
+		"tags": {
+			"create": {
+				"limit": "You have reached the tag limit (%d)"
+			}
 		}
 	},
 	"generic": {

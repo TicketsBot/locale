@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Członkowie personelu nie mogą być na czarnej liście",
 			"add_role": {
-				"success": "<@&%d> został dodany do czarnej listy"
+				"success": "<@&%d> został dodany do czarnej listy",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": "Potwierdź, że chcesz dodać %s jako administratora bota"
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {

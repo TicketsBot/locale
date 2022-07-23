@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Los miembros del Staff no se pueden agregar a la lista negra",
 			"add_role": {
-				"success": "<@&%d> se agregó a la lista negra"
+				"success": "<@&%d> se agregó a la lista negra",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": "Por favor confirma que quieres agregar a %s como administrador del bot"
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {

@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Mitarbeiter können nicht gesperrt werden",
 			"add_role": {
-				"success": "<@&%d> wurde gesperrt"
+				"success": "<@&%d> wurde gesperrt",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": ""
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {

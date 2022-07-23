@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Чланови особља не могу бити на црној листи",
 			"add_role": {
-				"success": "<@&%d> jе на црној листи"
+				"success": "<@&%d> jе на црној листи",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": ""
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {

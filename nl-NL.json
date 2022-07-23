@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Medewerkers kunnen niet worden geblacklist",
 			"add_role": {
-				"success": "<@&%d> is op de blacklist gezet"
+				"success": "<@&%d> is op de blacklist gezet",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": "Bevestig dat u %s als bot beheerder wilt toevoegen"
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {

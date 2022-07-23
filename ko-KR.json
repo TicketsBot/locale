@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "스태프를 블랙리스트에 올릴 수 없습니다.",
 			"add_role": {
-				"success": "<@&%d>가 블랙리스트에 추가되었습니다."
+				"success": "<@&%d>가 블랙리스트에 추가되었습니다.",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": "%s을(를) 봇 관리자로 추가할지 확인하세요"
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {

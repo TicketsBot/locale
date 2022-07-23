@@ -201,7 +201,11 @@
 		"blacklist": {
 			"staff": "Membrii staff-ului nu pot fi trecuti pe blacklist",
 			"add_role": {
-				"success": "<@&%d> a primit blacklist"
+				"success": "<@&%d> a primit blacklist",
+				"limit": ""
+			},
+			"add": {
+				"limit": ""
 			}
 		},
 		"jump_to_top": {
@@ -213,6 +217,11 @@
 		},
 		"addadmin": {
 			"confirm": "Va rugam sa confirmati ca doriti sa adaugati %s ca administrator de bot"
+		},
+		"tags": {
+			"create": {
+				"limit": ""
+			}
 		}
 	},
 	"generic": {
