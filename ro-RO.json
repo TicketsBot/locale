@@ -15,7 +15,7 @@
 	"commands.open.ticket_limit": "Poti deschide %d %s deodata",
 	"commands.open.too_many_tickets": "Exista prea multe tickete in aceasta categorie. Cereti unui administrator sa inchida cateva sau sa mute intr-o alta categorie",
 	"commands.panel": "Vizitati <https://panel.ticketsbot.net/manage/%d/panels> pentru a configura un panel",
-	"commands.premium": "Puteti achizitiona un abonament premium de la <https://www.patreon.com/ticketsbot>.\\nPremium ofera multe beneficii, cum ar fi:\\n``diff\\n+ Creeaza panel-uri nelimitate pentru tickete\\n+ Personalizeaza numele bot-ului, avatar si statusul (alb)\\n+ Statistici detaliate despre server, utilizatorii si personalul de suport\\n+ Fara branding in subsolul mesajelor\\n+ Sprijin pentru dezvoltare si ajuta-ma sa platesc costurile serverului\\n```\\n\\nAlternativ, poti vota la <https://vote.ticketsbot.net> pentru a primi gratuit premium timp de 24 de ore",
+	"commands.premium": "",
 	"commands.premium.already_premium": "Acest server are deja premium. Acesta expira pe %s",
 	"commands.premium.invalid_key": "Cheie invalida. Asigurați-va ca ati copiat-o corect.",
 	"commands.remove.no_permission": "Nu ai permisiunile necesare pentru a scoate persoane din acest ticket",
