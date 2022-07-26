@@ -202,10 +202,10 @@
 			"staff": "Les membres du staff ne peuvent pas être ajoutés à la liste noire",
 			"add_role": {
 				"success": "<@&%d> a été mis sur liste noire",
-				"limit": ""
+				"limit": "Vous avez atteint la limite de rôles sur la liste noire (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Vous avez atteint la limite d'utilisateurs sur la liste noire (%d) : envisagez d'utiliser un rôle à la place"
 			}
 		},
 		"jump_to_top": {
@@ -220,7 +220,7 @@
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Vous avez atteint la limite du nombre de tags (%d)"
 			}
 		}
 	},
@@ -245,7 +245,7 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Vous voulez en explorer davantage ? Notre [documentation](https://docs.ticketsbot.net) vous apprendra à configurer chaque aspect du bot!"
 		}
 	}
 }
