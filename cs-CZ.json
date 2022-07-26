@@ -179,73 +179,73 @@
 	"generic.join_support_server": "Připojit se na server podpory",
 	"commands.open.guild_channel_limit": "Tento server dosáhl limitu 500 kanálů",
 	"commands.open.missing_form_answer": "Musíte odpovědět na otázku `%s`",
-	"generic.use_slash_commands": "",
-	"close.no_permission": "",
+	"generic.use_slash_commands": "Varování: Do 31. sprna musíte přepnout na příkazy lomítkem. Příkazy ve zprávách přestanou fungovat.",
+	"close.no_permission": "Nemáte dostatečné oprávnění na zavření ticketu.",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Zavřít s uvedeným důvodem",
+		"generic.reason": "Důvod"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Důvod zavření ticketu, např. \"Vyřešeno\""
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu."
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Neplatný panel: Musíte vybrat jeden z nabídky",
+			"success": "<@%d> Přepnul tento ticket na `%s` panel"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Nemůžete zařadit člena vedení na černou listinu",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> je nyní na černé listině",
+				"limit": "Překročili jste limit role černé listiny (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Dosáhli jste limitu pro maximální počet lidí na černé listině (%d): Můžete vytvořit roli pro černou listinu"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Tento ticket nemá uvítací zprávu",
+			"content": "Tlačítko níže vás vezme nahoru"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Prosím potvrďte, že chcete přidat %s do základního týmu podpory"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Prosím potvrďte, že chcete přidat %s jako bota pro správu"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Překročil jste limit tagů (%d)"
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": ""
+			"panel_switched": "Panel ticketů byl přepnut",
+			"jump_to_top": "Vem mě nahoru"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Klikni sem",
+		"confirm": "Potvrdit"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": ""
+		"switch_panel": "Přepne ticket na jiný panel, změní se tak support team, kategorie, atd.",
+		"jump_to_top": "Vezme vás na začátek ticketu"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> byl odstraňen z černé listiny"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Chcete se dozvědět víc? Naše [dokumentace] (https://docs.ticketbot.net) vás provede kompletní konfigurací!"
 		}
 	}
 }
