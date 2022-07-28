@@ -202,10 +202,10 @@
 			"staff": "Membros da equipe não podem estar na lista de bloqueio",
 			"add_role": {
 				"success": "<@&%d> foi colocado na lista de bloqueio",
-				"limit": ""
+				"limit": "Você atingiu o limite da lista de bloqueio de cargos (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Você atingiu o limite da lista bloqueio de usuários (%d): considere usar um cargo em vez disso"
 			}
 		},
 		"jump_to_top": {
@@ -213,14 +213,14 @@
 			"content": "Clique no botão abaixo para ir para o topo do ticket"
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "Por favor, confirme que você deseja adicionar %s à equipe de suporte padrão"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Por favor, confirme que você deseja adicionar %s como administrador do bot"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Você alcançou o limite de (%d)"
 			}
 		}
 	},
@@ -230,7 +230,7 @@
 			"jump_to_top": "Ir para o topo"
 		},
 		"click_here": "Clique Aqui",
-		"confirm": ""
+		"confirm": "Confirmar"
 	},
 	"help": {
 		"switch_panel": "Alterna um ticket para outro painel de ticket, alterando a categoria do canal, equipes de suporte, etc.",
@@ -239,13 +239,13 @@
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> foi removido da lista de bloqueio"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Quer explorar mais? Nossa [documentação](https://docs.ticketsbot.net) vai lhe ensinar como configurar todos os aspectos do bot!"
 		}
 	}
 }

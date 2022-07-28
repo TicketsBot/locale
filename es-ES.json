@@ -13,7 +13,7 @@
 	"commands.invite": "[Haga clic aquí](<https://invite.ticketsbot.net>)",
 	"commands.language.invalid": "Debes especificar un código de idioma o una marca. Idiomas disponibles:\\n%s",
 	"commands.open.ticket_limit": "Solo puede abrir %d %s a la vez",
-	"commands.open.too_many_tickets": "Hay demasiados tickets en la categoría de boletos. Pide a un administrador que cierre algunos o que los mueva a otra categoría",
+	"commands.open.too_many_tickets": "Hay demasiados tickets en la categoría de tickets. Pide a un administrador que cierre algunos o que los mueva a otra categoría",
 	"commands.panel": "Visita <https://panel.ticketsbot.net/manage/%d/panels> para configurar un panel",
 	"commands.premium": "Puede comprar una suscripción premium en <https://www.patreon.com/ticketsbot>.\\nPremium ofrece muchos beneficios, tales como:\\n```diff\\n+ Crear paneles de tickets ilimitados\\n+ Personalizar nombre de bot, avatar y estado (whitelabel)\\n+ Estadísticas detalladas sobre el servidor, los usuarios y el staff de soporte\\n+ Sin marca en el pie de página de los mensajes\\n+ Desarrollo de soporte y ayuda para pagar los costos del servidor\\n```\\n\\n Alternativamente, puede votar en <https://vote.ticketsbot.net> para obtener premium gratis durante 24 horas",
 	"commands.premium.already_premium": "Este servidor ya tiene premium. Caduca el %s",
@@ -131,7 +131,7 @@
 	"button.dms_only": "Este botón debe ser usado en mensajes directos",
 	"commands.tag.generic": "Respuesta predefinida",
 	"commands.tags.delete.success": "La respuesta predefinida `%s` se ha eliminado",
-	"generic.ticket": "Boleto",
+	"generic.ticket": "Ticket",
 	"generic.title.premium_only": "Comando de sólo premium",
 	"generic.admin": "Administrador",
 	"commands.tags.create.success": "Etiqueta creada - puedes usarla ejecutando `/tag %s`",
@@ -172,7 +172,7 @@
 	"generic.title.claimed": "Ticket reclamado",
 	"generic.title.unclaimed": "Ticket liberado",
 	"generic.title.add": "Añadir",
-	"commands.add.success": "<@%d> ha sido añadido/a a <#%d>",
+	"commands.add.success": "<@%d> ha sido añadid@ a <#%d>",
 	"commands.remove.success": "<@%d> ha sido removido/a de <#%d>",
 	"open.ratelimited": "Se están abriendo tickets demasiado rápido en este servidor",
 	"commands.claim.thread": "Por limitaciones de Discord, el reclamo no funciona en hilos",
@@ -202,10 +202,10 @@
 			"staff": "Los miembros del Staff no se pueden agregar a la lista negra",
 			"add_role": {
 				"success": "<@&%d> se agregó a la lista negra",
-				"limit": ""
+				"limit": "Has alcanzado el límite de roles en lista negra (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Has alcanzado el límite de usuarios en lista negra (%d): considera usar un rol en su lugar"
 			}
 		},
 		"jump_to_top": {
@@ -220,7 +220,7 @@
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Has alcanzado el límite de tags (%d)"
 			}
 		}
 	},
