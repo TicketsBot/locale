@@ -153,7 +153,7 @@
 	"generic.title.remove_support": "",
 	"commands.addsupport.success": "",
 	"generic.title.language": "语言",
-	"commands.language.success": "服务器语言已更改为 %s",
+	"commands.language.success": "",
 	"commands.removesupport.success": "",
 	"commands.addadmin.success": "已成功添加管理员",
 	"commands.removeadmin.success": "已成功移除管理员",
