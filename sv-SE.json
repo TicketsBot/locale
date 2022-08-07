@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "Ta bort support",
 	"commands.addsupport.success": "Supportrepresentanten har lagts till",
 	"generic.title.language": "Språk",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Supportrepresentanten har tagits bort",
 	"commands.addadmin.success": "Administratören lades till",
 	"commands.removeadmin.success": "Administratören togs bort",
@@ -224,7 +225,6 @@
 		},
 		"language": {
 			"content": "",
-			"success": "",
 			"select": ""
 		}
 	},
