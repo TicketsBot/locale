@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Премахване на съпорт",
 	"commands.addsupport.success": "Съпорт привилегията е добавена",
 	"generic.title.language": "Език",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Съпорт привилегията е премахнатат успешно",
 	"commands.addadmin.success": "Администратор е добавен успешно",
 	"commands.removeadmin.success": "Админстратор е премахнат успешно",
@@ -225,6 +224,7 @@
 		},
 		"language": {
 			"content": "",
+			"success": "",
 			"select": ""
 		}
 	},
