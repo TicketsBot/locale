@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "Eliminarea suportul",
 	"commands.addsupport.success": "Suport-ul a fost adaugat cu succes",
 	"generic.title.language": "Limba",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Suport-ul a fost scos cu succes",
 	"commands.addadmin.success": "Administrator adaugat cu succes",
 	"commands.removeadmin.success": "Administrator scos cu succes",
@@ -224,7 +225,6 @@
 		},
 		"language": {
 			"content": "",
-			"success": "",
 			"select": ""
 		}
 	},

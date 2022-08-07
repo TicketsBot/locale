@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "",
 	"commands.addsupport.success": "",
 	"generic.title.language": "",
+	"commands.language.success": "",
 	"commands.removesupport.success": "",
 	"commands.addadmin.success": "",
 	"commands.removeadmin.success": "Адміністратор видалений успішно",
@@ -224,7 +225,6 @@
 		},
 		"language": {
 			"content": "",
-			"success": "",
 			"select": ""
 		}
 	},
