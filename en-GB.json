@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Remove Support",
 	"commands.addsupport.success": "Support representative added successfully",
 	"generic.title.language": "Language",
-	"commands.language.success": "Server language has been changed to %s",
 	"commands.removesupport.success": "Support representative removed successfully",
 	"commands.addadmin.success": "Admin added successfully",
 	"commands.removeadmin.success": "Admin removed successfully",
@@ -224,7 +223,8 @@
 			}
 		},
 		"language": {
-			"content": "The available languages and their translation progress are as follows:"
+			"content": "The available languages and their translation progress are as follows:\\n%s",
+			"success": "The server language has been changed to **%s** (%s)"
 		}
 	},
 	"generic": {

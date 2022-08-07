@@ -153,7 +153,7 @@
 	"generic.title.remove_support": "Уклони подршку",
 	"commands.addsupport.success": "Представник подршке успешно додан",
 	"generic.title.language": "Језик",
-	"commands.language.success": "Jezik servera je promenjen na %s",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Представник подршке је успешно уклоњен",
 	"commands.addadmin.success": "Успешно додат",
 	"commands.removeadmin.success": "Успешно додат",

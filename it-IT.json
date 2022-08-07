@@ -153,7 +153,7 @@
 	"generic.title.remove_support": "Rimuovi supporto",
 	"commands.addsupport.success": "Supporto rappresentativo aggiunto con successo",
 	"generic.title.language": "Lingua",
-	"commands.language.success": "La lingua del server è stata cambiata in %s",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Supporto rappresentativo rimosso con successo",
 	"commands.addadmin.success": "Admin aggiunto con successo",
 	"commands.removeadmin.success": "Admin rimosso con successo",
