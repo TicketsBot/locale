@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "Támogatás megvonása",
 	"commands.addsupport.success": "Segítő sikeresen hozzárendelve",
 	"generic.title.language": "Nyelv",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Segítő sikeresen eltávolítva",
 	"commands.addadmin.success": "Admin sikeresen hozzáadva",
 	"commands.removeadmin.success": "Admin sikeresen eltávolítva",
@@ -223,8 +224,7 @@
 			}
 		},
 		"language": {
-			"content": "",
-			"success": ""
+			"content": ""
 		}
 	},
 	"generic": {
