@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Удалить Модератора",
 	"commands.addsupport.success": "Модератор был добавлен успешно",
 	"generic.title.language": "Язык",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Модератор был успешно удален",
 	"commands.addadmin.success": "Администратор добавлен успешно",
 	"commands.removeadmin.success": "Администратор удален успешно",
@@ -224,7 +223,9 @@
 			}
 		},
 		"language": {
-			"content": ""
+			"content": "",
+			"success": "",
+			"select": ""
 		}
 	},
 	"generic": {

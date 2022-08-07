@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Fjern Support",
 	"commands.addsupport.success": "Supportrepræsentant succesfuldt tilføjet",
 	"generic.title.language": "Sprog",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Supportrepræsentant blev fjernet",
 	"commands.addadmin.success": "Administrator tilføjet",
 	"commands.removeadmin.success": "Administrator fjernet",
@@ -224,7 +223,9 @@
 			}
 		},
 		"language": {
-			"content": ""
+			"content": "",
+			"success": "",
+			"select": ""
 		}
 	},
 	"generic": {

@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "サポート担当者を削除",
 	"commands.addsupport.success": "サポート担当者が追加されました",
 	"generic.title.language": "言語",
-	"commands.language.success": "",
 	"commands.removesupport.success": "サポート担当者を削除しました",
 	"commands.addadmin.success": "管理者を追加しました",
 	"commands.removeadmin.success": "管理者を削除しました",
@@ -224,7 +223,9 @@
 			}
 		},
 		"language": {
-			"content": ""
+			"content": "",
+			"success": "",
+			"select": ""
 		}
 	},
 	"generic": {

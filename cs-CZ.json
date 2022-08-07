@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Odstranit podporu",
 	"commands.addsupport.success": "Zástupce podpory byl úspěšně přidán",
 	"generic.title.language": "Jazyk",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Zástupce podpory byl úspěšně odstraněn",
 	"commands.addadmin.success": "Admin úspěšně přidán",
 	"commands.removeadmin.success": "Admin byl úspěšně odstraněn",
@@ -224,7 +223,9 @@
 			}
 		},
 		"language": {
-			"content": ""
+			"content": "",
+			"success": "",
+			"select": ""
 		}
 	},
 	"generic": {
