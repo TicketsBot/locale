@@ -153,7 +153,7 @@
 	"generic.title.remove_support": "Support verwijderen",
 	"commands.addsupport.success": "Support vertegenwoordiger succesvol toegevoegd",
 	"generic.title.language": "Taal",
-	"commands.language.success": "De taal van de server is veranderd naar %s",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Support vertegenwoordiger succesvol verwijderd",
 	"commands.addadmin.success": "Beheerder succesvol toegevoegd",
 	"commands.removeadmin.success": "Beheerder succesvol verwijderd",
