@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "Gỡ hỗ trợ viên",
 	"commands.addsupport.success": "Đã thêm thành công đại diện hỗ trợ viên",
 	"generic.title.language": "Ngôn ngữ",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Đã gỡ thành công đại diện hỗ trợ viên",
 	"commands.addadmin.success": "Thêm quản trị viên thành công",
 	"commands.removeadmin.success": "Đã gỡ bỏ thành công quản trị viên",
@@ -224,7 +225,6 @@
 		},
 		"language": {
 			"content": "",
-			"success": "",
 			"select": ""
 		}
 	},
