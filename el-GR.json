@@ -222,6 +222,9 @@
 			"create": {
 				"limit": "Έχετε φτάσει το όριο των ετικετών (%d)"
 			}
+		},
+		"language": {
+			"content": ""
 		}
 	},
 	"generic": {
