@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "Desteği sonlandır",
 	"commands.addsupport.success": "Destek yetkilisi başarıyla eklendi",
 	"generic.title.language": "Dil",
+	"commands.language.success": "",
 	"commands.removesupport.success": "Destek yetkilisi başarıyla kaldırıldı",
 	"commands.addadmin.success": "Yönetici başarıyla eklendi",
 	"commands.removeadmin.success": "Yönetici yetkisi başarıyla kaldırıldı",
@@ -223,8 +224,7 @@
 			}
 		},
 		"language": {
-			"content": "",
-			"success": ""
+			"content": ""
 		}
 	},
 	"generic": {

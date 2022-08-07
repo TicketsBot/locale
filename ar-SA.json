@@ -153,6 +153,7 @@
 	"generic.title.remove_support": "إزالة الدعم",
 	"commands.addsupport.success": "تمت إضافة ممثل الدعم بنجاح",
 	"generic.title.language": "لغة",
+	"commands.language.success": "",
 	"commands.removesupport.success": "تمت إزالة ممثل الدعم بنجاح",
 	"commands.addadmin.success": "تمت إضافة المشرف بنجاح",
 	"commands.removeadmin.success": "تمت إزالة المشرف بنجاح",
@@ -223,8 +224,7 @@
 			}
 		},
 		"language": {
-			"content": "",
-			"success": ""
+			"content": ""
 		}
 	},
 	"generic": {
