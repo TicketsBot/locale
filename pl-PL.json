@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Usuń Wsparcie",
 	"commands.addsupport.success": "Przedstawiciel wsparcia został pomyślnie dodany",
 	"generic.title.language": "Język",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Przedstawiciel wsparcia został pomyślnie usunięty",
 	"commands.addadmin.success": "Administrator został pomyślnie dodany",
 	"commands.removeadmin.success": "Administrator został pomyślnie usunięty",
@@ -225,6 +224,7 @@
 		},
 		"language": {
 			"content": "",
+			"success": "",
 			"select": ""
 		}
 	},
