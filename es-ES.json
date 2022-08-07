@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Remover Soporte",
 	"commands.addsupport.success": "Representante de soporte añadido con éxito",
 	"generic.title.language": "Idioma",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Representante de soporte removido con éxito",
 	"commands.addadmin.success": "Admin agregado con éxito",
 	"commands.removeadmin.success": "Admin removido con éxito",
@@ -224,7 +223,9 @@
 			}
 		},
 		"language": {
-			"content": ""
+			"content": "",
+			"success": "",
+			"select": ""
 		}
 	},
 	"generic": {
