@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "Αφαίρεση Υποστήριξης",
 	"commands.addsupport.success": "Ο εκπρόσωπος υποστήριξης προστέθηκε επιτυχώς",
 	"generic.title.language": "Γλώσσα",
-	"commands.language.success": "",
 	"commands.removesupport.success": "Ο εκπρόσωπος υποστήριξης αφαιρέθηκε επιτυχώς",
 	"commands.addadmin.success": "Ο διαχειριστής προστέθηκε επιτυχώς",
 	"commands.removeadmin.success": "Ο διαχειριστής αφαιρέθηκε επιτυχώς",
@@ -224,8 +223,9 @@
 			}
 		},
 		"language": {
-			"content": "",
-			"select": ""
+			"content": "Οι διαθέσιμες γλώσσες και η πρόοδος μετάφρασής τους έχουν ως εξής:\n%s",
+			"success": "Η γλώσσα του διακομιστή έχει αλλάξει σε **%s** (%s)",
+			"select": "Επιλέξτε μια γλώσσα (%d-%d)"
 		}
 	},
 	"generic": {
