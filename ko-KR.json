@@ -153,7 +153,6 @@
 	"generic.title.remove_support": "지원 제거",
 	"commands.addsupport.success": "지원 담당자가 추가되었습니다.",
 	"generic.title.language": "언어",
-	"commands.language.success": "",
 	"commands.removesupport.success": "지원 담당자가 제거되었습니다.",
 	"commands.addadmin.success": "관리자가 추가되었습니다",
 	"commands.removeadmin.success": "관리자가 제거되었습니다.",
@@ -224,7 +223,8 @@
 			}
 		},
 		"language": {
-			"content": ""
+			"content": "",
+			"success": ""
 		}
 	},
 	"generic": {
