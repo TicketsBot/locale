@@ -222,6 +222,9 @@
 			"create": {
 				"limit": "You have reached the tag limit (%d)"
 			}
+		},
+		"language": {
+			"content": "The available languages and their translation progress are as follows:"
 		}
 	},
 	"generic": {
