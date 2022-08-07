@@ -222,6 +222,9 @@
 			"create": {
 				"limit": "Vous avez atteint la limite du nombre de tags (%d)"
 			}
+		},
+		"language": {
+			"content": ""
 		}
 	},
 	"generic": {
