@@ -225,7 +225,7 @@
 		"language": {
 			"content": "The available languages and their translation progress are as follows:\n%s",
 			"success": "The server language has been changed to **%s** (%s)",
-			"select": "Select a language (%d-%d)"
+			"select": "Select a language (%c-%c)"
 		}
 	},
 	"generic": {
