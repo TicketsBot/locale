@@ -107,7 +107,7 @@
 	"setup.transcript.success": "Transskriptionskanalen er blevet ændret til <#%d>",
 	"setup.welcome_message.invalid": "Velkomstbeskeder skal højst være 1024 tegn lange\\n**Eksempel:**`/setup welcomemessage Tak for at åbne en ticket!`",
 	"setup.welcome_message.success": "Velkomstbeskeden er blevet opdateret. Åbn en ticket for at se den i aktion",
-	"commands.language.help_wanted": "Taler du et andet sprog? Tilmeld dig vores [supportserver] (https://discord.gg/bh6aAfP) hvis du er interesseret i at hjælpe med at oversætte botten til flere sprog",
+	"commands.language.help_wanted": "Taler du et andet sprog? Tilmeld dig vores [supportserver](https://discord.gg/bh6aAfP) hvis du er interesseret i at hjælpe med at oversætte botten til flere sprog",
 	"commands.rename.too_long": "Kanal navne kan ikke være længere end 100 tegn",
 	"commands.autoclose.configure": "Besøg [dashboard](https://panel.ticketsbot.net/manage/%d/settings) for at ændre indstillingerne for automatisk lukning af tickets",
 	"help.autoclose": "Autoluk relaterede kommandoer",
