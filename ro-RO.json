@@ -212,7 +212,8 @@
 			"content": "Apasa pe buton-ul de mai jos pentru a sari la canalul creat pentru ticket"
 		},
 		"addsupport": {
-			"confirm": "Va rugam sa confirmati ca doriti sa adaugati %s la echipa de suport"
+			"confirm": "Va rugam sa confirmati ca doriti sa adaugati %s la echipa de suport",
+			"everyone": ""
 		},
 		"addadmin": {
 			"confirm": "Va rugam sa confirmati ca doriti sa adaugati %s ca administrator de bot"

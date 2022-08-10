@@ -212,7 +212,8 @@
 			"content": "Clique no botão abaixo para ir para o topo do ticket"
 		},
 		"addsupport": {
-			"confirm": "Por favor, confirme que você deseja adicionar %s à equipe de suporte padrão"
+			"confirm": "Por favor, confirme que você deseja adicionar %s à equipe de suporte padrão",
+			"everyone": ""
 		},
 		"addadmin": {
 			"confirm": "Por favor, confirme que você deseja adicionar %s como administrador do bot"

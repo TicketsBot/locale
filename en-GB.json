@@ -212,7 +212,8 @@
 			"content": "Click the button below to jump to the top of the ticket"
 		},
 		"addsupport": {
-			"confirm": "Please confirm that you want to add %s to the default support representative team"
+			"confirm": "Please confirm that you want to add %s to the default support representative team",
+			"everyone": "You cannot add the `@everyone` role as staff"
 		},
 		"addadmin": {
 			"confirm": "Please confirm that you want to add %s as a bot administrator"
