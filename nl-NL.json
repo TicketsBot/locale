@@ -212,7 +212,8 @@
 			"content": "Klik op de knop hieronder om naar het begin van het ticket te gaan"
 		},
 		"addsupport": {
-			"confirm": "Bevestig dat u %s wilt toevoegen aan het standaard support team"
+			"confirm": "Bevestig dat u %s wilt toevoegen aan het standaard support team",
+			"everyone": ""
 		},
 		"addadmin": {
 			"confirm": "Bevestig dat u %s als bot beheerder wilt toevoegen"
