@@ -212,7 +212,8 @@
 			"content": "Kliknij przycisk poniżej, aby przejść do góry zgłoszenia"
 		},
 		"addsupport": {
-			"confirm": "Potwierdź, że chcesz dodać %s do domyślnego zespołu przedstawiciela wsparcia"
+			"confirm": "Potwierdź, że chcesz dodać %s do domyślnego zespołu przedstawiciela wsparcia",
+			"everyone": ""
 		},
 		"addadmin": {
 			"confirm": "Potwierdź, że chcesz dodać %s jako administratora bota"
