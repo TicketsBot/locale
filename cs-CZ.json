@@ -212,7 +212,8 @@
 			"content": "Tlačítko níže vás vezme nahoru"
 		},
 		"addsupport": {
-			"confirm": "Prosím potvrďte, že chcete přidat %s do základního týmu podpory"
+			"confirm": "Prosím potvrďte, že chcete přidat %s do základního týmu podpory",
+			"everyone": ""
 		},
 		"addadmin": {
 			"confirm": "Prosím potvrďte, že chcete přidat %s jako bota pro správu"
