@@ -212,7 +212,8 @@
 			"content": ""
 		},
 		"addsupport": {
-			"confirm": ""
+			"confirm": "",
+			"everyone": ""
 		},
 		"addadmin": {
 			"confirm": ""
