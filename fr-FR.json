@@ -213,7 +213,7 @@
 		},
 		"addsupport": {
 			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s à l'équipe de support par défaut",
-			"everyone": ""
+			"everyone": "Vous ne pouvez pas ajouter le rôle `@everyone` au staff"
 		},
 		"addadmin": {
 			"confirm": "Veuillez confirmer que vous souhaitez ajouter %s en tant qu'administrateur du bot"
@@ -224,9 +224,9 @@
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Les langues disponibles et leur progression de traduction sont les suivantes :\n%s",
+			"success": "La langue du serveur a été mise à jour sur **%s** (%s)",
+			"select": "Sélectionnez une langue (%c-%c)"
 		}
 	},
 	"generic": {
