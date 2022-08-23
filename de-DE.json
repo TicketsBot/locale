@@ -201,56 +201,56 @@
 			"staff": "Mitarbeiter können nicht gesperrt werden",
 			"add_role": {
 				"success": "<@&%d> wurde gesperrt",
-				"limit": ""
+				"limit": "Du hast das Limit für die Rolle Blacklist erreicht (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Du hast das Benutzer Blacklist - Limit erreicht (%d): Erwäge stattdessen eine Rolle zu verwenden"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Dieses Ticket hat keine Willkommensnachricht",
+			"content": "Klicke auf den Button unten, um nach oben zu springen"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Bitte bestätigen, dass du %s zum Standard Support Team hinzufügen möchtest",
+			"everyone": "Du kannst die `@everyone` Rolle nicht als Staff hinzufügen"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Bitte bestätige, dass du %s als Bot Administrator hinzufügen möchtest"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Sie haben das Tag Limit erreicht (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Die verfügbaren Sprachen und deren Übersetzungsfortschritte sind wie folgt:\n%s",
+			"success": "Die Server-Sprache wurde zu **%s** (%s) geändert",
+			"select": "Wähle eine Sprache (%c-%c)"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket Panel gewechselt",
-			"jump_to_top": ""
+			"jump_to_top": "Nach oben springen"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Klicke hier",
+		"confirm": "Bestätigen"
 	},
 	"help": {
 		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw.",
-		"jump_to_top": ""
+		"jump_to_top": "Zeigt einen Button, um nach oben zu springen"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> wurde entblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Möchtest du mehr entdecken? Unsere [documentation](https://docs.ticketsbot.net) wird dir zeigen wie du alle Aspekte vom Bot konfigurieren kannst!"
 		}
 	}
 }
