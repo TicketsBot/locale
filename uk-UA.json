@@ -15,7 +15,7 @@
 	"commands.open.ticket_limit": "Ви можете відкрити тільки %d %s одночасно",
 	"commands.open.too_many_tickets": "У категорії заявок занадто багато заявок. Попросіть адміністратора закрити деякі з них або перемістити їх в іншу категорію",
 	"commands.panel": "Перейдіть за посиланням <https://panel.ticketsbot.net/manage/%d/panels>, щоб налаштувати панель",
-	"commands.premium": "",
+	"commands.premium": "Ви можете придбати преміум підписку на <https://www.patreon.com/ticketsbot>.\\nПреміум надає багато переваг, зокрема:\\n```diff\\n+ Створення безлічі панелей заявок\\n+ Редагування імені, аватару та статусу бота(whitelabel)\\n+ Детальна статистика про сервер, користувачів та персонал підтримки\\n+ Прибираються знаки організації в колонтитулі повідомлень\\n+ Підтримка розробки та допомога мені в сплаті рахунків за утримання сервера\\n```\\n\\n Крім того, ви можете проголосувати на <https://vote.ticketsbot.net> щоб отримати безкоштовний преміум на 24 години",
 	"commands.premium.already_premium": "У цього сервера вже є преміум підписка, вона закінчується через %s",
 	"commands.premium.invalid_key": "Невірний ключ. Переконайтеся, що ви скопіювали його правильно.",
 	"commands.remove.no_permission": "У вас недостатньо прав щоб видаляти людей з даної заявки",
@@ -33,7 +33,7 @@
 	"commands.tags.delete.not_exist": "Не вдалося знайти тег з ідентифікатором `%s`",
 	"commands.tags.get.invalid_arguments": "Ви повинні вказати ідентифікатор тега. Для отримання додаткової допомоги з тегом відвідайте <https://ticketsbot.net/tags>.",
 	"commands.tags.get.invalid_tag": "Неприпустимий тег. Для отримання додаткової допомоги з тегами відвідайте <https://ticketsbot.net/tags>.",
-	"commands.tags.list": "",
+	"commands.tags.list": "ID для всіх тегів: \\n%s\\nДля перегляду вмісту тегу, запустіть `%sтег<ID>`",
 	"commands.unclaim.not_claimed": "Ця заявка не прийнята",
 	"commands.unclaim.not_claimer": "Тільки адміни й користувач прийняв заявку може її відхилити",
 	"commands.unclaim.success": "Всі представники служби підтримки тепер можуть відповісти на запит",
@@ -84,77 +84,77 @@
 	"open.success": "Відкрита нова заявка: %s",
 	"setup.auto.category.failure": "Мені не вистачає дозволу \"Керувати каналами\"",
 	"setup.auto.category.success": "Створено категорію для заявок",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "Налаштування завершено! Натисніть [here](https://panel.ticketsbot. et/manage/%d/panels) для налаштування панелі реакцій і додайте <@&%d> та <@&%d> ролі для співробітників",
 	"setup.auto.roles.failure": "У мене немає прав на \"Керувати ролями\"",
-	"setup.auto.roles.success": "",
-	"setup.auto.transcript.failure": "",
-	"setup.auto.transcript.success": "",
-	"setup.category.invalid": "",
+	"setup.auto.roles.success": "Створено ролі `Tickets Admin` та `Tickets Support`",
+	"setup.auto.transcript.failure": "Мені не вистачає дозволу `Керувати каналами`",
+	"setup.auto.transcript.success": "Створено канал <#%d>",
+	"setup.category.invalid": "Ви маєте вказати назву [**категорії каналів**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Приклад**/setup категорія Заявки`",
 	"setup.category.success": "Категорія каналів заявок змінена на `%s`",
 	"setup.info.archive_channel": "Будь ласка вкажіть, куди ви хочете відправляти дані про закриття квитка\\nНаприклад: `#logs`",
 	"setup.info.auto": "Автоматично вибирає налаштування і створює потрібні текстові чати",
-	"setup.info.category": "",
+	"setup.info.category": "Вкажіть **назву** **категорії каналів**, у якій створюватимуться заявки",
 	"setup.info.choose": "Будь ласка, виберіть один з варіантів. Ви можете використовувати `/setup` або `/setup auto`, щоб зробити швидке налаштування, або використовувати інші команди, щоб налаштувати так, як вам треба",
 	"setup.info.dashboard": "Більше налаштувань доступно на [Панелі Налаштувань](https://panel.ticketsbot.net)",
-	"setup.info.panels": "",
-	"setup.info.prefix": "",
-	"setup.info.ticket_limit": "",
-	"setup.info.transcripts": "",
+	"setup.info.panels": "Відвідайте [dashboard](https://panel.ticketsbot.net/manage/%d/panels), щоб створювати панелі реакцій",
+	"setup.info.prefix": "Змінює префікс (наприклад, `t!`) бота\\n**Приклад: ** `/setup prefix -`",
+	"setup.info.ticket_limit": "Встановлює максимальну кількість заявок, котру може **одночасно** відкривати **один користувач**.\\n**Приклад:** `/setup limit 3`",
+	"setup.info.transcripts": "Встановлює шлях відправлення журналу заявки.\\n**Приклад:** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "Напишіть повідомлення, яке повинно бути відправлено ботом коли заявка відкрита",
-	"setup.prefix.success": "",
+	"setup.prefix.success": "Префікс змінено на `%s`. Ви можете використовувати `%sopen`, щоб відкрити заявку",
 	"setup.ticket_limit.success": "Ліміт заявок був оновлений до `%d`",
-	"setup.transcript.invalid": "",
+	"setup.transcript.invalid": "Ви маєте вказати пригожий канал на сервері (на приклад, <#%d>)\\n**Приклад:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Канал з журналом дій був змінений на <#%d>",
-	"setup.welcome_message.invalid": "",
+	"setup.welcome_message.invalid": "Повідомлення привітання має бути не довшим за 1024 символи\\n**Приклад:**`/setup welcomemessage Дякуємо за відкриття заявки!`",
 	"setup.welcome_message.success": "Початкове повідомлення було змінено. Відкрий заявку щоб перевірити це",
-	"commands.language.help_wanted": "",
+	"commands.language.help_wanted": "Говорите іншою мовою? Приєднуйтеся до нашого [сервера допомоги](https://discord.gg/bh6aAfP) якщо ви цікавитеся допомогою в перекладанні боті на інші мови",
 	"commands.rename.too_long": "Назва каналу не може бути довшою за 100 символів",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "Відвідайте [dashboard](https://panel.ticketsbot.net/manage/%d/settings), щоб змінити параметри автозакриття заявки",
 	"help.autoclose": "Команди пов'язані з авто закриттям",
 	"help.autoclose.exclude": "Виключає дану заявку від автоматичного закриття",
 	"help.autoclose.configure": "Редагувати Налаштування автозакриття",
 	"commands.autoclose.exclude.success": "Ця заявка була виключена з автоматичного закриття",
 	"commands.claim.no_permission": "Тільки співробітники можуть брати заявки",
-	"commands.open.from": "",
+	"commands.open.from": "Цю щаявку було відкрито через [це повідомлення](%s).\n\n<@%d> сказав у <#%d>:\n```%s```",
 	"commands.open.from.moved": "Обговорення було переміщено в заявку (<#%d>)",
 	"help.close_request": "Відправляє повідомлення користувачеві з проханням підтвердження закриття заявки",
 	"close.reason_too_long": "Причина закриття не може бути довшою 255 знаків",
 	"commands.close_request.no_reason": "<@%d> запросив дозвіл на закриття цієї заявки.\n\nБудь ласка, підтвердіть або відхилити запит використовуючи кнопки нижче.",
-	"commands.close_request.with_reason": "",
-	"commands.close_request.no_permission": "",
-	"commands.close_request.denied": "",
+	"commands.close_request.with_reason": "<@%d> запитав дозволу закрити цю заявку. Причина:\n```\n%s\n```\nБудь ласка, дозвольне або забороніть, використовуючи кнопки нижче.",
+	"commands.close_request.no_permission": "Лише користувач, що відкрив заявку, може відповідати на запит її закриття",
+	"commands.close_request.denied": "<@%d> не дав дозволу на закриття заявки",
 	"generic.error": "Помилка",
 	"feedback.disabled": "На цьому сервері відключені відгуки",
 	"feedback.success": "Ваш відгук був прийнятий",
 	"generic.success": "Успішно",
-	"button.guild_only": "",
-	"button.dms_only": "",
-	"commands.tag.generic": "",
-	"commands.tags.delete.success": "",
-	"generic.ticket": "",
-	"generic.title.premium_only": "",
-	"generic.admin": "",
-	"commands.tags.create.success": "",
-	"generic.title.about": "",
-	"generic.title.vote": "",
-	"generic.title.tags": "",
-	"generic.title.autoclose": "",
-	"generic.title.invite": "",
-	"generic.title.close": "",
-	"generic.title.claim": "",
-	"generic.title.blacklisted": "",
-	"generic.title.blacklist": "",
-	"generic.error.blacklisted": "",
-	"commands.blacklist.add.success": "",
-	"commands.blacklist.remove.success": "",
-	"generic.title.add_admin": "",
-	"generic.title.add_support": "",
-	"generic.title.remove_admin": "",
-	"generic.title.remove_support": "",
-	"commands.addsupport.success": "",
-	"generic.title.language": "",
-	"commands.removesupport.success": "",
-	"commands.addadmin.success": "",
+	"button.guild_only": "Ця кнопка має використовуватися на сервері",
+	"button.dms_only": "Ця кнопка має використовуватися в особистих повідомленнях",
+	"commands.tag.generic": "Мітка",
+	"commands.tags.delete.success": "Мітку `%s` було видалено",
+	"generic.ticket": "Заявка",
+	"generic.title.premium_only": "Команда доступна лише за умови підписки на Преміум",
+	"generic.admin": "Адміністратор",
+	"commands.tags.create.success": "Мітку створено. Ви можете використовувати її, запустивши `/tag %s`",
+	"generic.title.about": "Про",
+	"generic.title.vote": "Проголосуйте",
+	"generic.title.tags": "Мітки",
+	"generic.title.autoclose": "Автозакриття",
+	"generic.title.invite": "Запросити",
+	"generic.title.close": "Закрити",
+	"generic.title.claim": "Взяти на себе",
+	"generic.title.blacklisted": "У чорному списку",
+	"generic.title.blacklist": "Чорний список",
+	"generic.error.blacklisted": "Вас занесено до чорного списку на цьому сервері",
+	"commands.blacklist.add.success": "<@%d> було занесено до чорного списку",
+	"commands.blacklist.remove.success": "<@%d> було видалено з чорного списку",
+	"generic.title.add_admin": "Додати Адміністратора",
+	"generic.title.add_support": "Додати Помічника",
+	"generic.title.remove_admin": "Видалити Адміністратора",
+	"generic.title.remove_support": "Видалити Помічника",
+	"commands.addsupport.success": "Помічника додано",
+	"generic.title.language": "Мова",
+	"commands.removesupport.success": "Помічника видалено",
+	"commands.addadmin.success": "Адміністратора додано",
 	"commands.removeadmin.success": "Адміністратор видалений успішно",
 	"generic.title.setup": "Установка",
 	"generic.title.premium": "Преміум",
@@ -181,76 +181,76 @@
 	"generic.use_slash_commands": "Попередження: ви повинні переключиться на слеш-команди до 30 Квітня. Після цієї дати, команди базовані на повідомленнях перестануть працювати.",
 	"close.no_permission": "У вас недостатньо прав, щоб закрити цю заявку",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Закрити через причину",
+		"generic.reason": "Причина"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Причина для закриття заявки, на приклад, \"Вирішено\""
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "Команду `/open` відключено на цьому сервері. Будь ласка, використуйте панель заяки, щоб відкрити заявку"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Неправильна панель. Оберіть зі списку, що випадає",
+			"success": "<@%d> перемикнув цю заявку на панель `%s`"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Представника команди не може бути занесено до чорного списку",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@%d> було занесено до чорного списку",
+				"limit": "Ви досягли ліміту (%d) в чорному списку ролей"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Ви досягли ліміту (%d) в чорному списку користувачів, натомість використовуйте ролі"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Ця заявка не має повідомлення привітання",
+			"content": "Натисніть кнопку нижче, щоб перейти на початок заявки"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Будь ласка, підтвердьте, що ви хочете додати %s до команди підтримки за замовчуванням",
+			"everyone": "Ви не можете додати роль `@everyone` як персонал"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Будь ласка, підтвердьте, що ви хочете додати %s як адміністратора бота"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Ви досягли ліміту міток (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Доступні мови та прогрес у перекладі нижче:\n%s",
+			"success": "Мову на сервері змінено на **%s** (%s)",
+			"select": "Оберіть мову (%c-%c)"
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": ""
+			"panel_switched": "Панель Заявки Змінено",
+			"jump_to_top": "Перейти на початок"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Натисніть тут",
+		"confirm": "Підтвердьте"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": ""
+		"switch_panel": "Перемикає заявку на панель заяви, змінює категорію каналу, команди підтримки тощо",
+		"jump_to_top": "Надає кнопку для переходу на початок заявки"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> було видалено з чорного списку"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Хочете дізнатись більше? Наша [documentation](https://docs.ticketsbot.net) навчить вас, як налаштувати кожен аспект цього бота!"
 		}
 	}
 }

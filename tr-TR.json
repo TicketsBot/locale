@@ -194,63 +194,63 @@
 			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
+			"success": "Bu bilet <@%d> tarafından, `%s` paneline geçirildi"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Yönetici üyeler kara listeye alınamaz",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> kara listeye alındı",
+				"limit": "Sınıra ulaştınız, daha fazla rolü kara listeye ekleyemezsiniz (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Sınıra ulaştınız, daha fazla kullanıcıyı kara listeye ekleyemezsiniz (%d). Bunun yerine, bir rol eklemeyi düşünün"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Bu biletin, ayarlanmış bir \"hoş geldiniz\" mesajı yok",
+			"content": "Biletin en üstüne gitmek için aşağıdaki düğmeye tıklayın"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Lütfen %s'yi varsayılan destek temsilcisi ekibine eklemek istediğinizi onaylayın",
+			"everyone": "`@everyone`'ı yönetici olarak ekleyemezsiniz"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Lütfen %s'yi bot yöneticisi olarak eklemek istediğinizi onaylayın"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Etiket sınırına ulaştınız (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Mevcut diller ve çeviri ilerlemeleri aşağıdaki gibidir:\n%s",
+			"success": "Sunucu dili **%s** (%s) olarak değiştirildi",
+			"select": "Bir dil seçin (%c-%c)"
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": ""
+			"panel_switched": "Bilet Paneli Değişti",
+			"jump_to_top": "Yukarı Çık"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Buraya Tıkla",
+		"confirm": "Onayla"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": ""
+		"switch_panel": "Bir bileti; başka bir bilet paneline geçirir, kanal kategorisini, destek ekiplerini vb. değiştirir.",
+		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d>, kara listeden kaldırıldı"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.ticketsbot.net) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
 		}
 	}
 }

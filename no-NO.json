@@ -191,66 +191,66 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket"
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Ugyldig panel: Du må velge en fra menyen",
+			"success": "Denne ticket har blitt byttet til `%s` panel av <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Stabb medlemmer kan ikke bli svartelistet",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> har blitt svartelistet",
+				"limit": "Du har nådd grensen på antall svartelistede roller (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Du har nådd brukerens svarteliste grense (%d): vurder å bruke en rolle i stedet"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Denne ticket har ikke en velkomstmelding",
+			"content": "Klikk på knappen under for å hoppe til toppen av ticketen"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Vennligst bekreft at du ønsker å legge til %s til standard support representant teamet",
+			"everyone": "Du kan ikke legge til rollen `@everyone` som stabb"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Vennligst bekreft at du vil legge til %s som en bot administrator"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Du har nådd tag grensen (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Språkene som er tilgjengelige og deres oversettelsesfremgang er som følger:\n%s",
+			"success": "Serverspråket har blitt endret til **%s** (%s)",
+			"select": "Velg et språk (%c-%c)"
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": ""
+			"panel_switched": "Ticket Panel Byttet",
+			"jump_to_top": "Hopp til toppen"
 		},
-		"click_here": "",
-		"confirm": ""
+		"click_here": "Trykk her",
+		"confirm": "Bekreft"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": ""
+		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
+		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> har blitt fjernet fra svartelisten"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.net) lærer deg hvordan du konfigurerer alle aspekter av botten!"
 		}
 	}
 }
