@@ -227,7 +227,8 @@
 			"content": "Språkene som er tilgjengelige og deres oversettelsesfremgang er som følger:\n%s",
 			"success": "Serverspråket har blitt endret til **%s** (%s)",
 			"select": "Velg et språk (%c-%c)"
-		}
+		},
+		"interaction_switch": ""
 	},
 	"generic": {
 		"title": {
