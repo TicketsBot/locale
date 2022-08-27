@@ -227,7 +227,8 @@
 			"content": "Mevcut diller ve çeviri ilerlemeleri aşağıdaki gibidir:\n%s",
 			"success": "Sunucu dili **%s** (%s) olarak değiştirildi",
 			"select": "Bir dil seçin (%c-%c)"
-		}
+		},
+		"interaction_switch": ""
 	},
 	"generic": {
 		"title": {

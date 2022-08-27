@@ -227,7 +227,8 @@
 			"content": "The available languages and their translation progress are as follows:\n%s",
 			"success": "The server language has been changed to **%s** (%s)",
 			"select": "Select a language (%c-%c)"
-		}
+		},
+		"interaction_switch": "As of <t:1662030000:D>, Discord has forced **all** bots to switch to [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\r\n\r\nTo execute a slash command, press the `/` button on your keyboard, or click here: %s"
 	},
 	"generic": {
 		"title": {

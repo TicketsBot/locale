@@ -227,7 +227,8 @@
 			"content": "",
 			"success": "",
 			"select": ""
-		}
+		},
+		"interaction_switch": ""
 	},
 	"generic": {
 		"title": {

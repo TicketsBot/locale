@@ -227,7 +227,8 @@
 			"content": "Limbile disponibile si progresul lor de traducere sunt dupa cum urmeaza:\n%s",
 			"success": "Limba bot-ului a fost schimbata in **%s** (%s)",
 			"select": "Selecteaza o limba (%c-%c)"
-		}
+		},
+		"interaction_switch": ""
 	},
 	"generic": {
 		"title": {

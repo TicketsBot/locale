@@ -227,7 +227,8 @@
 			"content": "Die verfügbaren Sprachen und deren Übersetzungsfortschritte sind wie folgt:\n%s",
 			"success": "Die Server-Sprache wurde zu **%s** (%s) geändert",
 			"select": "Wähle eine Sprache (%c-%c)"
-		}
+		},
+		"interaction_switch": ""
 	},
 	"generic": {
 		"title": {
