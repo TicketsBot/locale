@@ -227,7 +227,8 @@
 			"content": "Os idiomas disponíveis e seu progresso de tradução são os seguintes:\n%s",
 			"success": "O idioma do servidor foi alterado para **%s** (%s)",
 			"select": "Selecione um idioma (%c-%c)"
-		}
+		},
+		"interaction_switch": ""
 	},
 	"generic": {
 		"title": {
