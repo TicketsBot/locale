@@ -201,57 +201,57 @@
 			"staff": "I membri dello staff non possono essere aggiunti alla blacklist",
 			"add_role": {
 				"success": "<@&%d> è stato aggiunto alla blacklist",
-				"limit": ""
+				"limit": "Hai raggiunto il limite dei ruoli nella blacklist (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Hai raggiunto il limite di utenti nella blacklist (%d): considera l'utilizzo di un ruolo"
 			}
 		},
 		"jump_to_top": {
 			"no_welcome_message": "Questo ticket non contiene un messaggio di benvenuto",
-			"content": ""
+			"content": "Clicca il tasto qui sotto per tornare all'inizio del ticket"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Si prega di confermare che si desidera aggiungere %s al team di supporto predefinito",
+			"everyone": "Non puoi aggiungere il ruolo `@everyone` come staff"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Si prega di confermare che si vuole aggiungere %s come amministratore del bot"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Hai raggiunto il limite di tag (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Le lingue disponibili e il loro progresso di traduzione sono i seguenti:\n%s",
+			"success": "La lingua del server è stata cambiata a **%s** (%s)",
+			"select": "Seleziona una lingua (%c-%c)"
 		},
-		"interaction_switch": ""
+		"interaction_switch": "A partire da <t:1662030000:D>, Discord ha forzato **tutti** i bot a passare ai [comandi slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPer eseguire un comando slash, premi il tasto `/` sulla tua tastiera or clicca qui: %s"
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Pannello Ticket Cambiato",
-			"jump_to_top": ""
+			"jump_to_top": "Torna all'inizio"
 		},
 		"click_here": "Clicca Qui",
 		"confirm": "Conferma"
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc...",
-		"jump_to_top": ""
+		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> è stato rimosso dalla blacklist"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Vuoi saperne di più? La nostra [documentation](https://docs.ticketsbot.net) ti insegnerà come configurare ogni aspetto del bot!"
 		}
 	}
 }

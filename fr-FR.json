@@ -228,7 +228,7 @@
 			"success": "La langue du serveur a été mise à jour sur **%s** (%s)",
 			"select": "Sélectionnez une langue (%c-%c)"
 		},
-		"interaction_switch": ""
+		"interaction_switch": "À partir du <t:1662030000:D>, Discord a obligé **tous** les bots à basculer vers des [commandes slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPour exécuter une commande slash, appuyez sur le bouton `/` de votre clavier ou cliquez ici : %s"
 	},
 	"generic": {
 		"title": {
