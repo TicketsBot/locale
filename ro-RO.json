@@ -228,7 +228,7 @@
 			"success": "Limba bot-ului a fost schimbata in **%s** (%s)",
 			"select": "Selecteaza o limba (%c-%c)"
 		},
-		"interaction_switch": ""
+		"interaction_switch": "Incepand cu <t:1662030000:D>, Discord a fortat **toti** botii sa foloseasca doar [comenzile slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPentru a folosi o comanda slash apasati butonul `/` de pe tastatură sau apasati click aici: %s"
 	},
 	"generic": {
 		"title": {
