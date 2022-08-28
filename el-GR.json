@@ -228,7 +228,7 @@
 			"success": "Η γλώσσα του διακομιστή έχει αλλάξει σε **%s** (%s)",
 			"select": "Επιλέξτε μια γλώσσα (%c-%c)"
 		},
-		"interaction_switch": ""
+		"interaction_switch": "Από την <t:1662030000:D>, το Discord αναγκάζει **όλα** τα bots να αλλάξουν σε [εντολές slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)."
 	},
 	"generic": {
 		"title": {
