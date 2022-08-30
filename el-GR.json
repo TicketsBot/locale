@@ -236,12 +236,22 @@
 			"channel_mode": "`/on-call` μπορεί να χρησιμοποιηθεί μόνο σε λειτουργία thread. Επισκεφθείτε το [docs](https://docs.ticketsbot.net/features/thread-mode) για να μάθετε περισσότερα σχετικά με τα threads",
 			"success": "Είσαι τώρα σε υπηρεσία",
 			"remove_success": "Δεν είσαι πλέον σε υπηρεσία"
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Εναλλαγή του πίνακα του Ticket",
-			"jump_to_top": "Μετάβαση Στην Κορυφή"
+			"jump_to_top": "Μετάβαση Στην Κορυφή",
+			"reopened": ""
 		},
 		"click_here": "Κάντε κλικ εδώ",
 		"confirm": "Επιβεβαίωση"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",
 		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
