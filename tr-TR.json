@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın"
+			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Geçersiz panel: Açılır menüden birini seçmelisiniz",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Bir bileti; başka bir bilet paneline geçirir, kanal kategorisini, destek ekiplerini vb. değiştirir.",
-		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir"
+		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
