@@ -228,7 +228,12 @@
 			"success": "",
 			"select": ""
 		},
-		"interaction_switch": ""
+		"interaction_switch": "",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		}
 	},
 	"generic": {
 		"title": {
@@ -252,6 +257,21 @@
 	"setup": {
 		"auto": {
 			"docs": "Chcesz odkryć więcej? Nasz [documentation](https://docs.ticketsbot.net) nauczy Cię jak skonfigurować każdy aspekt bota!"
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
 		}
 	}
 }
