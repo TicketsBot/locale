@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "티켓 패널 전환됨",
-			"jump_to_top": "위로 올라가기"
+			"jump_to_top": "위로 올라가기",
+			"reopened": ""
 		},
 		"click_here": "여기를 클릭",
 		"confirm": "확인"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "티켓을 다른 티켓 패널로 전환하여 카테고리, 지원 팀 등을 변경합니다.",
 		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
