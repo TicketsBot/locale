@@ -228,7 +228,12 @@
 			"success": "La lingua del server è stata cambiata a **%s** (%s)",
 			"select": "Seleziona una lingua (%c-%c)"
 		},
-		"interaction_switch": "A partire da <t:1662030000:D>, Discord ha forzato **tutti** i bot a passare ai [comandi slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPer eseguire un comando slash, premi il tasto `/` sulla tua tastiera or clicca qui: %s"
+		"interaction_switch": "A partire da <t:1662030000:D>, Discord ha forzato **tutti** i bot a passare ai [comandi slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPer eseguire un comando slash, premi il tasto `/` sulla tua tastiera or clicca qui: %s",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		}
 	},
 	"generic": {
 		"title": {
@@ -252,6 +257,21 @@
 	"setup": {
 		"auto": {
 			"docs": "Vuoi saperne di più? La nostra [documentation](https://docs.ticketsbot.net) ti insegnerà come configurare ogni aspetto del bot!"
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
 		}
 	}
 }

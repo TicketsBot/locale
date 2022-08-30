@@ -228,7 +228,12 @@
 			"success": "Die Server-Sprache wurde zu **%s** (%s) geändert",
 			"select": "Wähle eine Sprache (%c-%c)"
 		},
-		"interaction_switch": ""
+		"interaction_switch": "",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		}
 	},
 	"generic": {
 		"title": {
@@ -252,6 +257,21 @@
 	"setup": {
 		"auto": {
 			"docs": "Möchtest du mehr entdecken? Unsere [documentation](https://docs.ticketsbot.net) wird dir zeigen wie du alle Aspekte vom Bot konfigurieren kannst!"
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
 		}
 	}
 }
