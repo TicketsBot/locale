@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Bilet Paneli Değişti",
-			"jump_to_top": "Yukarı Çık"
+			"jump_to_top": "Yukarı Çık",
+			"reopened": ""
 		},
 		"click_here": "Buraya Tıkla",
 		"confirm": "Onayla"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Bir bileti; başka bir bilet paneline geçirir, kanal kategorisini, destek ekiplerini vb. değiştirir.",
 		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
