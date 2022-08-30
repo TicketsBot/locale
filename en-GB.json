@@ -228,7 +228,12 @@
 			"success": "The server language has been changed to **%s** (%s)",
 			"select": "Select a language (%c-%c)"
 		},
-		"interaction_switch": "As of <t:1662030000:D>, Discord has forced **all** bots to switch to [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\r\n\r\nTo execute a slash command, press the `/` button on your keyboard, or click here: %s"
+		"interaction_switch": "As of <t:1662030000:D>, Discord has forced **all** bots to switch to [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\r\n\r\nTo execute a slash command, press the `/` button on your keyboard, or click here: %s",
+		"on_call": {
+			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.net/features/thread-mode) to find out more about threads",
+			"success": "You are now on call",
+			"remove_success": "You are no longer on call"
+		}
 	},
 	"generic": {
 		"title": {
@@ -252,6 +257,21 @@
 	"setup": {
 		"auto": {
 			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.net) will teach you how to configure every aspect of the bot!"
+		},
+		"threads": {
+			"missing_boosts": "Discord requires the server to have a [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) of 2 or higher to use private threads",
+			"no_notification_channel": "You must provide a ticket notification channel",
+			"notification_channel_type": "The ticket notification channel must be a text channel",
+			"success": "Thread mode has been enabled",
+			"disabled": "Thread mode has been disabled"
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "This ticket has already been closed",
+			"no_permission": "You do not have permission to view this type of ticket",
+			"already_joined": "You have already joined this ticket (<#%d>)",
+			"success": "Added you to the ticket: <#%d>"
 		}
 	}
 }
