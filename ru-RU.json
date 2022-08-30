@@ -228,7 +228,12 @@
 			"success": "Язык на сервере изменен на **%s** (%s)",
 			"select": "Выберите язык (%c-%c)"
 		},
-		"interaction_switch": ""
+		"interaction_switch": "",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		}
 	},
 	"generic": {
 		"title": {
@@ -252,6 +257,21 @@
 	"setup": {
 		"auto": {
 			"docs": "Хотите узнать больше? Наша [документация](https://docs.ticketsbot.net) научит вас, как настроить каждый аспект бота!"
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
 		}
 	}
 }
