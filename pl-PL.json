@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Komenda `/open` jest wyłączona na tym serwerze: użyj panelu zgłoszeń, by otworzyć zgłoszenie"
+			"disabled": "Komenda `/open` jest wyłączona na tym serwerze: użyj panelu zgłoszeń, by otworzyć zgłoszenie",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Nieprawidłowy panel: Musisz wybrać jedną z listy rozwijanej",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp.",
-		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia"
+		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
