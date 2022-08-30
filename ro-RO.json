@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Comanda `/open` este dezactivată în acest server: te rugam sa folosesti un panel de tickete pentru a deschide un ticket"
+			"disabled": "Comanda `/open` este dezactivată în acest server: te rugam sa folosesti un panel de tickete pentru a deschide un ticket",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Panel invalid: Trebuie sa selectati unul din dropdown",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Comuta un ticket la un alt panel, schimband categoria canalelor, echipe de asistenta, etc.",
-		"jump_to_top": "Va ofera un buton pentru a sari in partea de sus a ticketului"
+		"jump_to_top": "Va ofera un buton pentru a sari in partea de sus a ticketului",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
