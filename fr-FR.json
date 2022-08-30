@@ -236,12 +236,22 @@
 			"channel_mode": "`/on-call` ne peut être utilisé qu'en mode fil de discussion. Visitez notre [documentation](https://docs.ticketsbot.net/features/thread-mode) pour en savoir plus sur les fils de discussion",
 			"success": "Vous êtes maintenant disponible",
 			"remove_success": "Vous n'êtes plus disponible"
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket basculé vers un autre panneau",
-			"jump_to_top": "Remonter en haut"
+			"jump_to_top": "Remonter en haut",
+			"reopened": ""
 		},
 		"click_here": "Cliquez ici",
 		"confirm": "Confirmer"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
 		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
-		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets"
+		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
