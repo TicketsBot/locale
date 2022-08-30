@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel zgłoszeń zmieniony",
-			"jump_to_top": "Przejdź do góry"
+			"jump_to_top": "Przejdź do góry",
+			"reopened": ""
 		},
 		"click_here": "Kliknij tutaj",
 		"confirm": "Potwierdź"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp.",
 		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
