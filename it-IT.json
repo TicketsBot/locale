@@ -236,12 +236,22 @@
 			"channel_mode": "`/on-call` può essere usato solo in modalità thread. Visita i nostri [docs](https://docs.ticketsbot.net/features/thread-mode) per saperne di più sui thread",
 			"success": "Sei ora in servizio",
 			"remove_success": "Non sei più in servizio"
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Pannello Ticket Cambiato",
-			"jump_to_top": "Torna all'inizio"
+			"jump_to_top": "Torna all'inizio",
+			"reopened": ""
 		},
 		"click_here": "Clicca Qui",
 		"confirm": "Conferma"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc...",
 		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket",
-		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket"
+		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
