@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticketpaneel gewijzigd",
-			"jump_to_top": "Spring naar boven"
+			"jump_to_top": "Spring naar boven",
+			"reopened": ""
 		},
 		"click_here": "Klik hier",
 		"confirm": "Bevestig"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
 		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
