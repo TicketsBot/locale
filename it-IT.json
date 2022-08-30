@@ -193,7 +193,7 @@
 		"open": {
 			"disabled": "Il comando `/open` è disattivato in questo server: si prega di utilizzare un pannello ticket per aprire un ticket",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Impossibile aggiungere <@%d> al ticket: assicurati che abbiano i permessi per visualizzare il canale in cui è stato creato il thread (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -233,9 +233,9 @@
 		},
 		"interaction_switch": "A partire da <t:1662030000:D>, Discord ha forzato **tutti** i bot a passare ai [comandi slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPer eseguire un comando slash, premi il tasto `/` sulla tua tastiera or clicca qui: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` può essere usato solo in modalità thread. Visita i nostri [docs](https://docs.ticketsbot.net/features/thread-mode) per saperne di più sui thread",
+			"success": "Sei ora in servizio",
+			"remove_success": "Non sei più in servizio"
 		}
 	},
 	"generic": {
@@ -249,7 +249,7 @@
 	"help": {
 		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc...",
 		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket",
-		"on_call": ""
+		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -263,19 +263,19 @@
 			"docs": "Vuoi saperne di più? La nostra [documentation](https://docs.ticketsbot.net) ti insegnerà come configurare ogni aspetto del bot!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord richiede che il server abbia un [livello boost](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) di 2 o superiore per usare i thread privati",
+			"no_notification_channel": "Devi fornire un canale di notifica ticket",
+			"notification_channel_type": "Il canale di notifica ticket deve essere un canale di testo",
+			"success": "La modalità thread è stata attivata",
+			"disabled": "La modalità thread è stata disattivata"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Questo ticket è già stato chiuso",
+			"no_permission": "Non hai i permessi per vedere questo tipo di ticket",
+			"already_joined": "Ti sei già aggiunto a questo ticket (<#%d>)",
+			"success": "Sei stato aggiunto al ticket: <#%d>"
 		}
 	}
 }
