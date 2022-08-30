@@ -193,7 +193,7 @@
 		"open": {
 			"disabled": "Η εντολή `/open` είναι απενεργοποιημένη σε αυτόν τον server, παρακαλώ χρησιμοποίησε τον ticket πίνακα για να ανοίξεις ένα ticket",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Δεν ήταν δυνατή η προσθήκη <@%d> στο ticket: Βεβαιωθείτε ότι έχουν άδεια να δουν το αρχικό κανάλι που βρίσκεται το thread (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -233,9 +233,9 @@
 		},
 		"interaction_switch": "Από την <t:1662030000:D>, το Discord αναγκάζει **όλα** τα bots να αλλάξουν σε [εντολές slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` μπορεί να χρησιμοποιηθεί μόνο σε λειτουργία thread. Επισκεφθείτε το [docs](https://docs.ticketsbot.net/features/thread-mode) για να μάθετε περισσότερα σχετικά με τα threads",
+			"success": "Είσαι τώρα σε υπηρεσία",
+			"remove_success": "Δεν είσαι πλέον σε υπηρεσία"
 		}
 	},
 	"generic": {
@@ -263,19 +263,19 @@
 			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](https://docs.ticketbot.net) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Το Discord απαιτεί ο διακομιστής να έχει [επίπεδο ενίσχυσης](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) από 2 ή περισσότερα για να χρησιμοποιεί ιδιωτικά νήματα",
+			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",
+			"notification_channel_type": "Το κανάλι ειδοποίησης αιτήματος πρέπει να είναι ένα κανάλι κειμένου",
+			"success": "Η λειτουργία thread ενεργοποιήθηκε",
+			"disabled": "Η λειτουργία thread απενεργοποιήθηκε"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Αυτό το ticket έχει ήδη κλείσει",
+			"no_permission": "Δεν έχετε δικαίωμα να δείτε αυτό το είδος ticket υποστήριξης",
+			"already_joined": "Έχετε ήδη ενταχθεί σε αυτό το ticket (<#%d>)",
+			"success": "Προστέθηκε στο ticket: <#%d>"
 		}
 	}
 }
