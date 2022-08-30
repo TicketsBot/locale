@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": ""
+			"disabled": "",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "",
-		"jump_to_top": ""
+		"jump_to_top": "",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
