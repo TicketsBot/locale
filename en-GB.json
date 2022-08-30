@@ -236,12 +236,22 @@
 			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.net/features/thread-mode) to find out more about threads",
 			"success": "You are now on call",
 			"remove_success": "You are no longer on call"
+		},
+		"reopen": {
+			"not_found": "Ticket not found",
+			"no_permission": "You do not have permission to reopen this ticket",
+			"already_open": "This ticket is already open",
+			"not_thread": "Only threads can be reopened",
+			"thread_deleted": "The ticket has been permanently deleted",
+			"success": "Ticket %d reopened: <#%d>",
+			"in_ticket": "This ticket has been reopened by <@%d>"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket Panel Switched",
-			"jump_to_top": "Jump To Top"
+			"jump_to_top": "Jump To Top",
+			"reopened": "Ticket Reopened"
 		},
 		"click_here": "Click Here",
 		"confirm": "Confirm"
