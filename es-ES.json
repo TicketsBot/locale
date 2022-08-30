@@ -231,7 +231,7 @@
 			"success": "El idioma del servidor ha sido cambiado a **%s** (%s)",
 			"select": "Seleccione un idioma (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "A partir del <t:1662030000:D>, Discord obligará a **todos** los bots a cambiar a [comandos de barra](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPara ejecutar un comando de barra, presione el botón `/` en su teclado, o haga clic aquí: %s",
 		"on_call": {
 			"channel_mode": "",
 			"success": "",
