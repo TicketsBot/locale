@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "チケットのパネルが切り替わりました。",
-			"jump_to_top": ""
+			"jump_to_top": "",
+			"reopened": ""
 		},
 		"click_here": "",
 		"confirm": ""
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
 		"jump_to_top": "",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
