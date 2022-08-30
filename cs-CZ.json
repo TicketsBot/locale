@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu."
+			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu.",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Neplatný panel: Musíte vybrat jeden z nabídky",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Přepne ticket na jiný panel, změní se tak support team, kategorie, atd.",
-		"jump_to_top": "Vezme vás na začátek ticketu"
+		"jump_to_top": "Vezme vás na začátek ticketu",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
