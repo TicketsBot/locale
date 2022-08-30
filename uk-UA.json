@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Панель Заявки Змінено",
-			"jump_to_top": "Перейти на початок"
+			"jump_to_top": "Перейти на початок",
+			"reopened": ""
 		},
 		"click_here": "Натисніть тут",
 		"confirm": "Підтвердьте"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Перемикає заявку на панель заяви, змінює категорію каналу, команди підтримки тощо",
 		"jump_to_top": "Надає кнопку для переходу на початок заявки",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
