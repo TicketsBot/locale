@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen"
+			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Ongeldig paneel: U moet één selecteren uit de keuzelijst",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
-		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan"
+		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
