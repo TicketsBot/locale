@@ -228,7 +228,12 @@
 			"success": "Limba bot-ului a fost schimbata in **%s** (%s)",
 			"select": "Selecteaza o limba (%c-%c)"
 		},
-		"interaction_switch": "Incepand cu <t:1662030000:D>, Discord a fortat **toti** botii sa foloseasca doar [comenzile slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPentru a folosi o comanda slash apasati butonul `/` de pe tastatură sau apasati click aici: %s"
+		"interaction_switch": "Incepand cu <t:1662030000:D>, Discord a fortat **toti** botii sa foloseasca doar [comenzile slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPentru a folosi o comanda slash apasati butonul `/` de pe tastatură sau apasati click aici: %s",
+		"on_call": {
+			"channel_mode": "",
+			"success": "",
+			"remove_success": ""
+		}
 	},
 	"generic": {
 		"title": {
@@ -252,6 +257,21 @@
 	"setup": {
 		"auto": {
 			"docs": "Vrei sa explorezi mai mult? [Documentatia](https://docs.ticketsbot.net) noastra te va invata cum sa-ti configurezi orice parte a bot-ului!"
+		},
+		"threads": {
+			"missing_boosts": "",
+			"no_notification_channel": "",
+			"notification_channel_type": "",
+			"success": "",
+			"disabled": ""
+		}
+	},
+	"button": {
+		"join_thread": {
+			"closed_ticket": "",
+			"no_permission": "",
+			"already_joined": "",
+			"success": ""
 		}
 	}
 }
