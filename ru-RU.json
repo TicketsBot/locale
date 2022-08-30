@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Панель заявки переключена",
-			"jump_to_top": "Перейти в начало"
+			"jump_to_top": "Перейти в начало",
+			"reopened": ""
 		},
 		"click_here": "Нажмите здесь",
 		"confirm": "Подтвердить"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Переключает заявку на другую панель заявок, изменяя категорию канала, группы поддержки и т.д.",
 		"jump_to_top": "Предоставляет вам кнопку перейти к верхней части заявки",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
