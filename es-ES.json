@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel de Ticket Cambiado",
-			"jump_to_top": "Ir al inicio"
+			"jump_to_top": "Ir al inicio",
+			"reopened": ""
 		},
 		"click_here": "Clic aquí",
 		"confirm": "Confirmar"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
 		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
