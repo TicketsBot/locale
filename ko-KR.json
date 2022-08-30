@@ -204,10 +204,10 @@
 			"staff": "스태프를 블랙리스트에 올릴 수 없습니다.",
 			"add_role": {
 				"success": "<@&%d>가 블랙리스트에 추가되었습니다.",
-				"limit": ""
+				"limit": "역할 블랙리스트 개수 제한에 도달했어요 (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "사용자 블랙리스트 개수 제한에 도달했어요 (%d): 역할을 대신 사용해 보세요"
 			}
 		},
 		"jump_to_top": {
@@ -216,22 +216,22 @@
 		},
 		"addsupport": {
 			"confirm": "기본 지원 담당자 팀에 %s을(를) 추가할지 확인하세요.",
-			"everyone": ""
+			"everyone": "`@everyone` 역할을 관리자로 추가할 수 없어요"
 		},
 		"addadmin": {
 			"confirm": "%s을(를) 봇 관리자로 추가할지 확인하세요"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "태그 제한에 도달했어요 (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "사용 가능한 언어와 번역 진행도는 다음과 같아요. %s",
+			"success": "서버 언어가 **%s**으(로) 변경됐어요 (%s)",
+			"select": "언어를 선택하세요 (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "<t:1662030000:D>부로, Discord가 **모든** 봇에 [빗금 명령어](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)를 사용하도록 요구해요.\n\n빗금 명령어를 실행하려면, 키보드에 있는 `/` 버튼을 누르시거나 여기를 클릭하세요: %s",
 		"on_call": {
 			"channel_mode": "",
 			"success": "",
