@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához"
+			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Érvénytelen panel: ki kell választanod egyet a legördülő listából",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "",
-		"jump_to_top": ""
+		"jump_to_top": "",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

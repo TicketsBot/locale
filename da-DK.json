@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket"
+			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Ugyldigt panel: Du skal vælge et fra listen",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "",
-		"jump_to_top": ""
+		"jump_to_top": "",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

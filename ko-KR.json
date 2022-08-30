@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요."
+			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "잘못된 패널: 드롭다운에서 하나를 선택해야 합니다.",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "티켓을 다른 티켓 패널로 전환하여 카테고리, 지원 팀 등을 변경합니다.",
-		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다."
+		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

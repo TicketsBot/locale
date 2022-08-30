@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "El comando `/open` está deshabilitado en este servidor: por favor usa un panel de tickets para abrir un ticket"
+			"disabled": "El comando `/open` está deshabilitado en este servidor: por favor usa un panel de tickets para abrir un ticket",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Panel inválido: Debes seleccionar uno de la lista desplegable",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
-		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket"
+		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

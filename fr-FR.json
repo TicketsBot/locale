@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket"
+			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Panneau invalide : vous devez en sélectionner un dans la liste déroulante",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
-		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket"
+		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

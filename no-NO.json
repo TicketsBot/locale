@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket"
+			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Ugyldig panel: Du må velge en fra menyen",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
-		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen"
+		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket"
+			"disabled": "The `/open` command is disabled in this server: please use a ticket panel to open a ticket",
+			"threads": {
+				"cant_see_parent_channel": "Couldn't add <@%d> to the ticket: Ensure that they have permission to view the thread's parent channel (<#%d>)"
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Invalid panel: You must select one from the dropdown",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
-		"jump_to_top": "Provides you with a button to jump to the top of the ticket"
+		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
+		"on_call": "Marks you as on call, to be added and pinged in all new tickets"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

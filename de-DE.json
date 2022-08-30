@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen"
+			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Ungültiges Panel: Sie müssen einen aus dem Dropdown-Menü auswählen",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw.",
-		"jump_to_top": "Zeigt einen Button, um nach oben zu springen"
+		"jump_to_top": "Zeigt einen Button, um nach oben zu springen",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

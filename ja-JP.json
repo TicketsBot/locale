@@ -191,7 +191,10 @@
 	},
 	"commands": {
 		"open": {
-			"disabled": "このサーバーでは`/open`コマンドは無効です：チケットパネルを使用してチケットを開いてください。"
+			"disabled": "このサーバーでは`/open`コマンドは無効です：チケットパネルを使用してチケットを開いてください。",
+			"threads": {
+				"cant_see_parent_channel": ""
+			}
 		},
 		"switch_panel": {
 			"invalid_panel": "無効なパネル: ドロップダウンメニューから選択する必要があります。",
@@ -245,7 +248,8 @@
 	},
 	"help": {
 		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
-		"jump_to_top": ""
+		"jump_to_top": "",
+		"on_call": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
