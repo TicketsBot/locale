@@ -238,20 +238,20 @@
 			"remove_success": "Δεν είσαι πλέον σε υπηρεσία"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Το ticket δεν βρέθηκε",
+			"no_permission": "Δεν έχετε άδεια να ανοίξετε ξανά αυτό το ticket",
+			"already_open": "Αυτό το ticket είναι ήδη ανοιχτό",
+			"not_thread": "Μόνο τα threads μπορούν να ανοίξουν ξανά",
+			"thread_deleted": "Το ticket έχει διαγραφεί οριστικά",
+			"success": "Το ticket %d άνοιξε ξανά: <#%d>",
+			"in_ticket": "Αυτό το ticket έχει ανοίξει ξανά από <@%d>"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Εναλλαγή του πίνακα του Ticket",
 			"jump_to_top": "Μετάβαση Στην Κορυφή",
-			"reopened": ""
+			"reopened": "Το ticket ξανάνοιξε"
 		},
 		"click_here": "Κάντε κλικ εδώ",
 		"confirm": "Επιβεβαίωση"
@@ -259,8 +259,8 @@
 	"help": {
 		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",
 		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
+		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
