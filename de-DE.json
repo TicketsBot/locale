@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket Panel gewechselt",
-			"jump_to_top": "Nach oben springen"
+			"jump_to_top": "Nach oben springen",
+			"reopened": ""
 		},
 		"click_here": "Klicke hier",
 		"confirm": "Bestätigen"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw.",
 		"jump_to_top": "Zeigt einen Button, um nach oben zu springen",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

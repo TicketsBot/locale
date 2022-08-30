@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "更換客服單類別",
-			"jump_to_top": ""
+			"jump_to_top": "",
+			"reopened": ""
 		},
 		"click_here": "",
 		"confirm": ""
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "將客服單切換到另一個客服單面板，更改頻道類別、支持團隊等。",
 		"jump_to_top": "",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

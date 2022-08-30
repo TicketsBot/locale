@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel ticketů byl přepnut",
-			"jump_to_top": "Vem mě nahoru"
+			"jump_to_top": "Vem mě nahoru",
+			"reopened": ""
 		},
 		"click_here": "Klikni sem",
 		"confirm": "Potvrdit"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Přepne ticket na jiný panel, změní se tak support team, kategorie, atd.",
 		"jump_to_top": "Vezme vás na začátek ticketu",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

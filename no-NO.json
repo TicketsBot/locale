@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket Panel Byttet",
-			"jump_to_top": "Hopp til toppen"
+			"jump_to_top": "Hopp til toppen",
+			"reopened": ""
 		},
 		"click_here": "Trykk her",
 		"confirm": "Bekreft"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
 		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

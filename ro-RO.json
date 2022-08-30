@@ -236,12 +236,22 @@
 			"channel_mode": "",
 			"success": "",
 			"remove_success": ""
+		},
+		"reopen": {
+			"not_found": "",
+			"no_permission": "",
+			"already_open": "",
+			"not_thread": "",
+			"thread_deleted": "",
+			"success": "",
+			"in_ticket": ""
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panoul de tickete a fost comutat",
-			"jump_to_top": "Scroll in sus automat"
+			"jump_to_top": "Scroll in sus automat",
+			"reopened": ""
 		},
 		"click_here": "Apasa aici",
 		"confirm": "Confirma"
@@ -249,7 +259,8 @@
 	"help": {
 		"switch_panel": "Comuta un ticket la un alt panel, schimband categoria canalelor, echipe de asistenta, etc.",
 		"jump_to_top": "Va ofera un buton pentru a sari in partea de sus a ticketului",
-		"on_call": ""
+		"on_call": "",
+		"reopen": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
