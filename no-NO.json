@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Ticket Panel Byttet",
 			"jump_to_top": "Hopp til toppen",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Trykk her",
 		"confirm": "Bekreft"

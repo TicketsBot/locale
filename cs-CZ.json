@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Důvod zavření ticketu, např. \"Vyřešeno\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Panel ticketů byl přepnut",
 			"jump_to_top": "Vem mě nahoru",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Klikni sem",
 		"confirm": "Potvrdit"

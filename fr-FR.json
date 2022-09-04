@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Motif de la fermeture du ticket, par exemple \"Résolu\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Ticket basculé vers un autre panneau",
 			"jump_to_top": "Remonter en haut",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Cliquez ici",
 		"confirm": "Confirmer"

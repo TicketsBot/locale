@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "為甚麼要關閉這個客服單"
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "更換客服單類別",
 			"jump_to_top": "",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "",
 		"confirm": ""

@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "티켓을 닫는 이유(예: \"해결됨\")"
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "티켓 패널 전환됨",
 			"jump_to_top": "위로 올라가기",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "여기를 클릭",
 		"confirm": "확인"

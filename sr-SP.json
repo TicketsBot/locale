@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Разлог за затварање карте, пример \"Ресолвед\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Плоча за карте замењена",
 			"jump_to_top": "",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "",
 		"confirm": ""
