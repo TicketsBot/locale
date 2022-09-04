@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Причина для закрытия заявки, пример \"Заявка принята\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Панель заявки переключена",
 			"jump_to_top": "Перейти в начало",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Нажмите здесь",
 		"confirm": "Подтвердить"
