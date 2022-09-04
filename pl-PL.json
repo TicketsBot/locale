@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Powód zamknięcia zgłoszenia, np. ''Rozwiązane''"
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Panel zgłoszeń zmieniony",
 			"jump_to_top": "Przejdź do góry",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Kliknij tutaj",
 		"confirm": "Potwierdź"
