@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Reden voor het sluiten van het ticket, bv. \"Opgelost\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Ticketpaneel gewijzigd",
 			"jump_to_top": "Spring naar boven",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Klik hier",
 		"confirm": "Bevestig"
