@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Grund für das Schließen des Tickets, z.B. \"gelöst\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Ticket Panel gewechselt",
 			"jump_to_top": "Nach oben springen",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Klicke hier",
 		"confirm": "Bestätigen"
