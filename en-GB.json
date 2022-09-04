@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
-		}
+		},
+		"success": "The ticket was closed by <@%d>"
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Ticket Panel Switched",
 			"jump_to_top": "Jump To Top",
-			"reopened": "Ticket Reopened"
+			"reopened": "Ticket Reopened",
+			"ticket_closed": "Ticket Closed"
 		},
 		"click_here": "Click Here",
 		"confirm": "Confirm"
