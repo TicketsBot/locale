@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Biletin kapanma sebebi: \"Çözüldü\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "Bilet Paneli Değişti",
 			"jump_to_top": "Yukarı Çık",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "Buraya Tıkla",
 		"confirm": "Onayla"
