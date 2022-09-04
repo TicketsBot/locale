@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "チケットを閉じる理由（例：「解決済み」）"
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "チケットのパネルが切り替わりました。",
 			"jump_to_top": "",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "",
 		"confirm": ""
