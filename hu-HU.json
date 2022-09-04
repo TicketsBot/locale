@@ -187,7 +187,8 @@
 	"close": {
 		"reason": {
 			"placeholder": "Lezárás indoka, pl. \"Megoldva\""
-		}
+		},
+		"success": ""
 	},
 	"commands": {
 		"open": {
@@ -251,7 +252,8 @@
 		"title": {
 			"panel_switched": "",
 			"jump_to_top": "",
-			"reopened": ""
+			"reopened": "",
+			"ticket_closed": ""
 		},
 		"click_here": "",
 		"confirm": ""
