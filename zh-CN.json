@@ -246,6 +246,20 @@
 			"thread_deleted": "",
 			"success": "",
 			"in_ticket": ""
+		},
+		"premium": {
+			"key": "",
+			"check_again": "",
+			"subscription_found": "",
+			"subscription_found_content": "",
+			"activate_key": "",
+			"checking": "",
+			"please_wait": "",
+			"success_after_check": "",
+			"link_patreon_account": "",
+			"no_subscription": "",
+			"open_form": "",
+			"open_form_description": ""
 		}
 	},
 	"generic": {

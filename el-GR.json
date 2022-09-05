@@ -246,6 +246,20 @@
 			"thread_deleted": "Το ticket έχει διαγραφεί οριστικά",
 			"success": "Το ticket %d άνοιξε ξανά: <#%d>",
 			"in_ticket": "Αυτό το ticket έχει ανοίξει ξανά από <@%d>"
+		},
+		"premium": {
+			"key": "",
+			"check_again": "",
+			"subscription_found": "",
+			"subscription_found_content": "",
+			"activate_key": "",
+			"checking": "",
+			"please_wait": "",
+			"success_after_check": "",
+			"link_patreon_account": "",
+			"no_subscription": "",
+			"open_form": "",
+			"open_form_description": ""
 		}
 	},
 	"generic": {
