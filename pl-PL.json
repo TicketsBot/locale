@@ -65,7 +65,7 @@
 	"help.managetags": "Dodaj, usuń lub wyświetl tagi",
 	"help.open": "Otwiera nowy ticket",
 	"help.panel": "Tworzy panel umożliwiający użytkownikowi otwarcie ticketa jednym kliknięciem",
-	"help.premium": "Aktywuje klucz premium dla twojego serwera",
+	"help.premium": "",
 	"help.remove": "Usuwa użytkownika z ticketa",
 	"help.removeadmin": "Pozbawia użytkownika lub roli statusu administratora",
 	"help.removesupport": "Pozbawia użytkownika lub roli statusu supporta",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Kliknij tutaj",
-		"confirm": "Potwierdź"
+		"confirm": "Potwierdź",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp.",
