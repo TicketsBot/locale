@@ -65,7 +65,7 @@
 	"help.managetags": "Tags toevoegen, verwijderen of weergeven",
 	"help.open": "Opent een nieuwe ticket",
 	"help.panel": "Creëert een paneel waarmee gebruikers met 1 klik een ticket kunnen openen",
-	"help.premium": "Activeer een premium-sleutel voor uw server",
+	"help.premium": "",
 	"help.remove": "Verwijdert een gebruiker uit een ticket",
 	"help.removeadmin": "Hiermee trekt u de beheerdersrechten van een gebruiker of rol in",
 	"help.removesupport": "Trekt de privileges van de ondersteuningsvertegenwoordiger van een gebruiker of rol in",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Klik hier",
-		"confirm": "Bevestig"
+		"confirm": "Bevestig",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
