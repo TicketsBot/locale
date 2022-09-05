@@ -65,7 +65,7 @@
 	"help.managetags": "Thêm, xóa hoặc xem các thẻ tên",
 	"help.open": "Mở một phiếu hỗ trợ mới",
 	"help.panel": "Tạo một bảng để cho thành viên tạo phiếu hỗ trợ chỉ với một nút nhấn",
-	"help.premium": "Kích hoạt mã của phiên bản cao cấp cho hội bạn",
+	"help.premium": "",
 	"help.remove": "Gỡ một người khỏi một phiếu hỗ trợ",
 	"help.removeadmin": "Thu lại quyền quản trị viên của một người hoặc vai trò",
 	"help.removesupport": "Thu lại quyền đại diện hỗ trợ viên từ một người hoặc vai trò",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "",
