@@ -65,7 +65,7 @@
 	"help.managetags": "添加、刪除或顯示所有標籤",
 	"help.open": "開啟一個新的問題單",
 	"help.panel": "創建表情符號回饋面板讓成員們能夠輕鬆點擊創建問題單",
-	"help.premium": "開通高級方案",
+	"help.premium": "",
 	"help.remove": "將成員從問題單移除",
 	"help.removeadmin": "撤銷某人或某身份組的問題單管理權限",
 	"help.removesupport": "撤銷某人或某身份組的問題單支持權限",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "將客服單切換到另一個客服單面板，更改頻道類別、支持團隊等。",
