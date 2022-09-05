@@ -65,7 +65,7 @@
 	"help.managetags": "Legg til, fjern eller list knagger",
 	"help.open": "Åpner en ny støtteforespursel",
 	"help.panel": "Lager et panel for å la brukere lage en ny støtteforespursel med ett klikk",
-	"help.premium": "Aktiver en premium nøkkel for din sørver",
+	"help.premium": "",
 	"help.remove": "Fjerner en bruker fra en støtteforespursel",
 	"help.removeadmin": "Fjerner en bruker eller rolles administratorprivilegier",
 	"help.removesupport": "Fjerner en bruker eller rolles støttekontaktprivilegier",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Trykk her",
-		"confirm": "Bekreft"
+		"confirm": "Bekreft",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
