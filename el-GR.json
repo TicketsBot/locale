@@ -65,7 +65,7 @@
 	"help.managetags": "Προσθέστε, διαγράψτε ή καταχωρήστε ετικέτες",
 	"help.open": "Ανοίγει νέο ticket",
 	"help.panel": "Δημιουργεί έναν πίνακα που επιτρέπει στους χρήστες να ανοίξουν ένα ticket με 1 κλικ",
-	"help.premium": "Ενεργοποιήστε ένα κλειδί premium για τον διακομιστή σας",
+	"help.premium": "",
 	"help.remove": "Αφαιρεί έναν χρήστη από ένα ticket",
 	"help.removeadmin": "Ανακαλεί τα δικαιώματα διαχειριστή ενός χρήστη ή του ρόλου",
 	"help.removesupport": "Ανακαλεί τα αντιπροσωπευτικά προνόμια ενός χρήστη ή του ρόλου",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Κάντε κλικ εδώ",
-		"confirm": "Επιβεβαίωση"
+		"confirm": "Επιβεβαίωση",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",
