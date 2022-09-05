@@ -65,7 +65,7 @@
 	"help.managetags": "Додати, Видалити або перерахувати теги",
 	"help.open": "Відкриває нову заявку",
 	"help.panel": "Створює панель щоб дозволити користувачам відкрити заявку одним кликом",
-	"help.premium": "Активує преміум-ключ для вашого сервера",
+	"help.premium": "",
 	"help.remove": "Видаляє Користувача з заявки",
 	"help.removeadmin": "Позбавляє права адміністратора у користувача або ролі",
 	"help.removesupport": "Скасовує привілеї представника служби підтримки користувача або ролі",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Натисніть тут",
-		"confirm": "Підтвердьте"
+		"confirm": "Підтвердьте",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Перемикає заявку на панель заяви, змінює категорію каналу, команди підтримки тощо",
