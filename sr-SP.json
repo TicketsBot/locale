@@ -65,7 +65,7 @@
 	"help.managetags": "Додај, избриши или попиши ознаке",
 	"help.open": "Отвара нову карту",
 	"help.panel": "Ствара панел који омогућава корисницима да отворе карту са 1 кликом",
-	"help.premium": "Активирајте кључ за премиум ваш сервер",
+	"help.premium": "",
 	"help.remove": "Уклања корисника са карте",
 	"help.removeadmin": "Даје повластице кориснику или администратору улога",
 	"help.removesupport": "Поништава привилегије корисника или представника улоге",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Пребацује карту на други панел, мења категорију канала, тимове за подршку, итд.",
