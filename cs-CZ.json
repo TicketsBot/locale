@@ -65,7 +65,7 @@
 	"help.managetags": "Přidat, odstranit nebo zobrazit tagy",
 	"help.open": "Otevře nový ticket",
 	"help.panel": "Vytvoří panel, který umožní uživatelům otevřít ticket jedním kliknutím",
-	"help.premium": "Aktivujte prémiový klíč pro váš server",
+	"help.premium": "",
 	"help.remove": "Odebere uživatele z ticketu",
 	"help.removeadmin": "Zruší oprávnění uživatele nebo role administrátora",
 	"help.removesupport": "Zruší oprávnění uživatele nebo role na podporu",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Klikni sem",
-		"confirm": "Potvrdit"
+		"confirm": "Potvrdit",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Přepne ticket na jiný panel, změní se tak support team, kategorie, atd.",
