@@ -65,7 +65,7 @@
 	"help.managetags": "添加、删除或显示所有标籤",
 	"help.open": "开启一个新的问题单",
 	"help.panel": "创建表情符号回馈面板让成员们能够轻松点击创建问题单",
-	"help.premium": "开通高级方案",
+	"help.premium": "",
 	"help.remove": "将成员从问题单移除",
 	"help.removeadmin": "撤销某人或某身份组的问题单管理权限",
 	"help.removesupport": "撤销某人或某身份组的问题单支持权限",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "",
