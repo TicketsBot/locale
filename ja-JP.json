@@ -65,7 +65,7 @@
 	"help.managetags": "タグの追加・削除・一覧表示",
 	"help.open": "新しいチケットを開きます",
 	"help.panel": "ユーザーが1クリックでチケットを開くことができるパネルを作成します",
-	"help.premium": "サーバーのプレミアムキーを有効化します",
+	"help.premium": "",
 	"help.remove": "チケットからユーザーを削除します。",
 	"help.removeadmin": "ユーザーまたはロールの管理者権限を取り消します",
 	"help.removesupport": "ユーザーまたはロールのサポート担当者権限を取り消します",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
