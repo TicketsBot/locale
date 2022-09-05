@@ -65,7 +65,7 @@
 	"help.managetags": "Tilføj, slet eller se tags",
 	"help.open": "Åbner en ny ticket",
 	"help.panel": "Opretter et panel for at gøre det muligt for brugere at åbne en ticket med 1 klik",
-	"help.premium": "Aktiver en premium-nøgle til din server",
+	"help.premium": "",
 	"help.remove": "Fjerner en bruger fra blacklisten",
 	"help.removeadmin": "Tilbagekaldelse af en bruger eller rolles administratorrettigheder",
 	"help.removesupport": "Tilbagekalder en bruger eller en rolles supportrepræsentant- rettigheder",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "",
