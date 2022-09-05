@@ -273,7 +273,9 @@
 					"description": ""
 				}
 			},
-			"about": ""
+			"about": "",
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {
