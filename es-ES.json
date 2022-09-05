@@ -65,7 +65,7 @@
 	"help.managetags": "Agrega, elimina o enumera etiquetas",
 	"help.open": "Abre un nuevo ticket",
 	"help.panel": "Crea un panel para permitir a los usuarios abrir un ticket con 1 click",
-	"help.premium": "Activa una clave premium para tu servidor",
+	"help.premium": "",
 	"help.remove": "Elimina un usuario de un ticket",
 	"help.removeadmin": "Revoca los privilegios de administrador de un usuario o rol",
 	"help.removesupport": "Revoca los privilegios de representante de soporte de un usuario o rol",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Clic aquí",
-		"confirm": "Confirmar"
+		"confirm": "Confirmar",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
