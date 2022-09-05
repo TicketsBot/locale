@@ -65,7 +65,7 @@
 	"help.managetags": "إضافة او إزالة او عرض شعارات",
 	"help.open": "إفتتاح تذكرة جديدة",
 	"help.panel": "إنشاء لوحة لإعطاء المستخدمين القدرة لفتح تذكرة بنقرة واحدة",
-	"help.premium": "تفعيل رمز مميز للسيرفر",
+	"help.premium": "",
 	"help.remove": "إزالة مستخدم من التذكرة",
 	"help.removeadmin": "إزالة مميزات ورتبة الاّدمن",
 	"help.removesupport": "إزالة مميزات ورتبة الموظف",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "قم بتبديل تذكرة إلى لوحة تذكرة أخرى، تغيير فئة القناة، فرق الدعم، إلخ.",

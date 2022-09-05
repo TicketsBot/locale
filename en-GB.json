@@ -65,7 +65,7 @@
 	"help.managetags": "Add, delete or list tags",
 	"help.open": "Opens a new ticket",
 	"help.panel": "Creates a panel to enable users to open a ticket with 1 click",
-	"help.premium": "Activate a premium key for your server",
+	"help.premium": "Run this command after purchasing premium to activate it",
 	"help.remove": "Removes a user from a ticket",
 	"help.removeadmin": "Revokes a user's or role's admin privileges",
 	"help.removesupport": "Revokes a user's or role's support representative privileges",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "Link Patreon Account",
 			"no_subscription": "Could not find an active Patreon subscription linked to your Discord account. Ensure that you [have linked your Patreon and Discord accounts](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), and a further waited 10 minutes.",
 			"open_form": "Open Form",
-			"open_form_description": "Press the button below to reopen the form"
+			"open_form_description": "Press the button below to reopen the form",
+			"use_key_anyway": "Use Premium Key Anyway",
+			"already_purchased_title": "Already purchased premium?",
+			"already_purchased_description": "If you have already purchased premium, select the payment method from the dropdown to get started",
+			"giveaway_key": "Giveaway Key",
+			"selector": {
+				"description": "Select which method you used to obtain premium",
+				"key": {
+					"description": "Select this option if you were given a giveaway key"
+				},
+				"patreon": {
+					"description": "Select this option if you made your purchase on Patreon"
+				}
+			},
+			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.net/premium) to find out more."
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": "Ticket Closed"
 		},
 		"click_here": "Click Here",
-		"confirm": "Confirm"
+		"confirm": "Confirm",
+		"website": "Our Website"
 	},
 	"help": {
 		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",

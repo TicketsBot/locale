@@ -65,7 +65,7 @@
 	"help.managetags": "Hinzufügen, Löschen oder Anzeigen von Tags",
 	"help.open": "Öffnet ein neues Ticket",
 	"help.panel": "Erstellt einen Panel, der es Benutzern ermöglicht, ein neues Ticket mit einem Klick zu öffnen",
-	"help.premium": "Aktiviere einen Premium-Schlüßel für Deinen Server",
+	"help.premium": "",
 	"help.remove": "Entfernt einen Benutzer von einem Ticket",
 	"help.removeadmin": "Widerruft die Administratorenberechtigungen eines Benutzers oder einer Rolle",
 	"help.removesupport": "Widerruft die Support-Berechtigungen eines Benutzers oder einer Rolle",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Klicke hier",
-		"confirm": "Bestätigen"
+		"confirm": "Bestätigen",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw.",

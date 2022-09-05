@@ -65,7 +65,7 @@
 	"help.managetags": "Hozzáadja, törli vagy kilistázza a cimkék listáját.",
 	"help.open": "Új jegy nyitása.",
 	"help.panel": "Létrehoz egy panelt, amely lehetővé teszi a felhasználók számára, hogy 1 kattintással nyissanak jegyet.",
-	"help.premium": "Prémium kulcs megadása.",
+	"help.premium": "",
 	"help.remove": "Felhasználó eltávolítása a jegyből.",
 	"help.removeadmin": "Felhasználó vagy csoport adminisztrátori jogainak visszavonása.",
 	"help.removesupport": "Felhasználó vagy csoport kisegítői jogainak visszavonása.",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "",

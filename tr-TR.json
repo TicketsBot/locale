@@ -65,7 +65,7 @@
 	"help.managetags": "Etiket ekleme, silme veya listeleme",
 	"help.open": "Yeni bir talep oluşturur",
 	"help.panel": "Kullanıcıların tek bir tıklama ile talep oluşturması için bir panel oluşturur",
-	"help.premium": "Sunucunuz için premium anahtarınızı etkinleştirmenizi sağlar",
+	"help.premium": "",
 	"help.remove": "Bir kullanıcıyı talepten kaldırır",
 	"help.removeadmin": "Bir kullanıcının veya rolün yönetici yetkilerini siler",
 	"help.removesupport": "Bir kullanıcının veya rolün destek yetkilerini siler",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Buraya Tıkla",
-		"confirm": "Onayla"
+		"confirm": "Onayla",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Bir bileti; başka bir bilet paneline geçirir, kanal kategorisini, destek ekiplerini vb. değiştirir.",

@@ -65,7 +65,7 @@
 	"help.managetags": "Добавить, удалить или просмотреть лист тэгов(подготовленных ответов)",
 	"help.open": "Открывает новый билет.",
 	"help.panel": "Создает панель чтобы позволить пользователям открыть билет одним кликом ",
-	"help.premium": "Использовать ключ активации премиума.",
+	"help.premium": "",
 	"help.remove": "Удаляет участника из билета.",
 	"help.removeadmin": "Удаляет привилегии админа у указанного пользователя или роли.",
 	"help.removesupport": "Удаляет привилегии помощника у указанного пользователя или роли.",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Нажмите здесь",
-		"confirm": "Подтвердить"
+		"confirm": "Подтвердить",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Переключает заявку на другую панель заявок, изменяя категорию канала, группы поддержки и т.д.",

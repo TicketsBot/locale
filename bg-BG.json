@@ -65,7 +65,7 @@
 	"help.managetags": "Добавя, изтрива или изброява тагове",
 	"help.open": "Отваря нов тикет",
 	"help.panel": "Създава панел за отваряне на тикет само с 1 клик",
-	"help.premium": "Активира премиум ключ за сървъра Ви",
+	"help.premium": "",
 	"help.remove": "Премахва потребител от тикет",
 	"help.removeadmin": "Премахва администраторски привилегии на потребител или роля",
 	"help.removesupport": "Премахва съпорт привилегиите от потребител или роля",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "",
