@@ -65,7 +65,7 @@
 	"help.managetags": "Adauga, sterge sau lista de tag-uri",
 	"help.open": "Deschide un nou ticket",
 	"help.panel": "Creeaza un panel pentru a permite utilizatorilor sa deschidă un ticket cu 1 click",
-	"help.premium": "Activeaza o cheie premium pentru serverul tau",
+	"help.premium": "",
 	"help.remove": "Elimina un utilizator de la ticket",
 	"help.removeadmin": "Scoate unei persoane sau rol administrativ privilegiile",
 	"help.removesupport": "Scoate unei persoane sau rol de suport privilegiile",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Apasa aici",
-		"confirm": "Confirma"
+		"confirm": "Confirma",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Comuta un ticket la un alt panel, schimband categoria canalelor, echipe de asistenta, etc.",
