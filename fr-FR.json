@@ -65,7 +65,7 @@
 	"help.managetags": "Ajouter, supprimer ou lister des étiquettes",
 	"help.open": "Ouvre un nouveau ticket",
 	"help.panel": "Crée un panneau permettant aux utilisateurs d'ouvrir un ticket en un seul clic",
-	"help.premium": "Active une clé premium pour votre serveur",
+	"help.premium": "",
 	"help.remove": "Retire un utilisateur d'un ticket",
 	"help.removeadmin": "Retire les privilèges d'administration à un utilisateur ou à un rôle",
 	"help.removesupport": "Retire les privilèges de support à un utilisateur ou à un rôle",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "Cliquez ici",
-		"confirm": "Confirmer"
+		"confirm": "Confirmer",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
