@@ -65,7 +65,7 @@
 	"help.managetags": "Lägg till, ta bort eller lista taggar",
 	"help.open": "Öppnar en ny ticket",
 	"help.panel": "Skapar en panel för att göra det möjligt för användare att öppna en ticket med 1 klick",
-	"help.premium": "Aktivera en premium-nyckel för din server",
+	"help.premium": "",
 	"help.remove": "Tar bort en användare från en ticket",
 	"help.removeadmin": "Tar bort en användares eller en roll's administratörsbehörigheter",
 	"help.removesupport": "Tar bort en användares eller en roll's representativa privilegier",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "",
-		"confirm": ""
+		"confirm": "",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "",
