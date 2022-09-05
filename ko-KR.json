@@ -65,7 +65,7 @@
 	"help.managetags": "태그 추가, 삭제 또는 나열",
 	"help.open": "새 티켓 열기",
 	"help.panel": "클릭 한 번으로 티켓을 열 수 있는 패널을 만듭니다.",
-	"help.premium": "프리미엄 키를 당신의 서버에서 작동합니다.",
+	"help.premium": "",
 	"help.remove": "티켓에서 유저를 제거합니다.",
 	"help.removeadmin": "사용자 또는 역할의 관리자 권한을 취소합니다.",
 	"help.removesupport": "사용자 또는 역할의 지원 담당자 권한을 취소합니다.",
@@ -259,7 +259,21 @@
 			"link_patreon_account": "",
 			"no_subscription": "",
 			"open_form": "",
-			"open_form_description": ""
+			"open_form_description": "",
+			"use_key_anyway": "",
+			"already_purchased_title": "",
+			"already_purchased_description": "",
+			"giveaway_key": "",
+			"selector": {
+				"description": "",
+				"key": {
+					"description": ""
+				},
+				"patreon": {
+					"description": ""
+				}
+			},
+			"about": ""
 		}
 	},
 	"generic": {
@@ -270,7 +284,8 @@
 			"ticket_closed": ""
 		},
 		"click_here": "여기를 클릭",
-		"confirm": "확인"
+		"confirm": "확인",
+		"website": ""
 	},
 	"help": {
 		"switch_panel": "티켓을 다른 티켓 패널로 전환하여 카테고리, 지원 팀 등을 변경합니다.",
