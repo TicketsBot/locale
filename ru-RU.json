@@ -194,7 +194,7 @@
 		"open": {
 			"disabled": "Команда `/open` отключена на этом сервере: пожалуйста, используйте панель тикетов для открытия тикета",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Не удалось добавить <@%d> в заявку: убедитесь, что у них есть разрешения на просмотр родительского канала темы (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -232,20 +232,20 @@
 			"success": "Язык на сервере изменен на **%s** (%s)",
 			"select": "Выберите язык (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Начиная с <t:1662030000:D>, Discord заставил **всех** ботов переключиться на [слэш-команды](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nЧтобы выполнить команду с косой чертой, нажмите кнопку `/` на клавиатуре, или нажмите здесь: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` может быть использован только в режиме потока. Посетите [документацию](https://docs.ticketsbot.net/features/thread-mode), чтобы узнать больше о потоках",
+			"success": "Теперь вы отслеживаете заявки",
+			"remove_success": "Вы прекратили отслеживать заявки"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Заявка не найдена",
+			"no_permission": "У вас недостаточно прав чтобы открыть эту заявку",
+			"already_open": "Эта заявка уже открыта",
+			"not_thread": "Переоткрывать можно только темы",
+			"thread_deleted": "Заявка удалена навсегда",
+			"success": "Заявка %d была переоткрыта: <#%d>",
+			"in_ticket": "Эта заявка была открыта заново <@%d>"
 		},
 		"premium": {
 			"key": "",
@@ -282,7 +282,7 @@
 		"title": {
 			"panel_switched": "Панель заявки переключена",
 			"jump_to_top": "Перейти в начало",
-			"reopened": "",
+			"reopened": "Заявка вновь открыта",
 			"ticket_closed": ""
 		},
 		"click_here": "Нажмите здесь",
@@ -292,8 +292,8 @@
 	"help": {
 		"switch_panel": "Переключает заявку на другую панель заявок, изменяя категорию канала, группы поддержки и т.д.",
 		"jump_to_top": "Предоставляет вам кнопку перейти к верхней части заявки",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Обозначает вас как отслеживающего заявку, вас будет упоминать в каждой новой заявке",
+		"reopen": "Открывает заявку, которая была ранее закрыта"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,19 +307,19 @@
 			"docs": "Хотите узнать больше? Наша [документация](https://docs.ticketsbot.net) научит вас, как настроить каждый аспект бота!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord требует от сервера [повышенного уровня](https://support.discord.com/hc/ru/articles/360028038352-%D0%91%D1%83%D1%81%D1%82%D0%B8%D0%BD%D0%B3-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-) от 2 или выше для использования приватных потоков",
+			"no_notification_channel": "Вы должны указать канал уведомлений о заявках",
+			"notification_channel_type": "Канал уведомлений о заявках должен быть текстовым каналом",
+			"success": "Режим потока включен",
+			"disabled": "Режим потока был отключен"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Заявка уже закрыта",
+			"no_permission": "У вас нет разрешения на просмотр этого типа заявки",
+			"already_joined": "Вы уже присоединились к этой заявке (<#%d>)",
+			"success": "Вы были добавлены в заявку: <#%d>"
 		}
 	}
 }
