@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "Biletin kapanma sebebi: \"Çözüldü\""
 		},
-		"success": ""
+		"success": "Bilet <@%d> tarafından kapatıldı"
 	},
 	"commands": {
 		"open": {
@@ -234,18 +234,18 @@
 		},
 		"interaction_switch": "",
 		"on_call": {
-			"channel_mode": "",
+			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](https://docs.ticketsbot.net/features/thread-mode) ziyaret edin",
 			"success": "",
 			"remove_success": ""
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Bilet bulunamadı",
+			"no_permission": "Bu bileti yeniden açma izniniz yok",
+			"already_open": "Bu bilet zaten açık",
+			"not_thread": "Sadece alt başlıklar yeniden açılabilir",
+			"thread_deleted": "Bilet kalıcı olarak silindi",
+			"success": "%d bileti yeniden açıldı: <#%d>",
+			"in_ticket": "Bu bilet <@%d> tarafından yeniden açıldı"
 		},
 		"premium": {
 			"key": "",
@@ -282,8 +282,8 @@
 		"title": {
 			"panel_switched": "Bilet Paneli Değişti",
 			"jump_to_top": "Yukarı Çık",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Bilet Yeniden Açıldı",
+			"ticket_closed": "Bilet Kapatıldı"
 		},
 		"click_here": "Buraya Tıkla",
 		"confirm": "Onayla",
@@ -293,7 +293,7 @@
 		"switch_panel": "Bir bileti; başka bir bilet paneline geçirir, kanal kategorisini, destek ekiplerini vb. değiştirir.",
 		"jump_to_top": "Biletin en üstüne gitmenizi sağlayan bir düğme gönderir",
 		"on_call": "",
-		"reopen": ""
+		"reopen": "Daha önceden kapatılmış bir bileti yeniden açar"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -309,16 +309,16 @@
 		"threads": {
 			"missing_boosts": "",
 			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"notification_channel_type": "Bilet bildirim kanalı, bir metin kanalı olmalıdır",
+			"success": "Alt başlık modu etkinleştirildi",
+			"disabled": "Alt başlık modu devre dışı bırakıldı"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
+			"closed_ticket": "Bu bilet zaten kapatıldı",
+			"no_permission": "Bu bilet türünü görüntüleme izniniz yok",
+			"already_joined": "Bu bilete zaten katıldınız (<#%d>)",
 			"success": ""
 		}
 	}
