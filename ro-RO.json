@@ -65,7 +65,7 @@
 	"help.managetags": "Adauga, sterge sau lista de tag-uri",
 	"help.open": "Deschide un nou ticket",
 	"help.panel": "Creeaza un panel pentru a permite utilizatorilor sa deschidă un ticket cu 1 click",
-	"help.premium": "",
+	"help.premium": "Foloseste aceasta comanda dupa ce ai cumparat premium pentru a il activa",
 	"help.remove": "Elimina un utilizator de la ticket",
 	"help.removeadmin": "Scoate unei persoane sau rol administrativ privilegiile",
 	"help.removesupport": "Scoate unei persoane sau rol de suport privilegiile",
@@ -188,13 +188,13 @@
 		"reason": {
 			"placeholder": "Motivul inchiderii ticketului, de exemplu „Rezolvat”"
 		},
-		"success": ""
+		"success": "Ticket-ul a fost inchis de catre <@%d>"
 	},
 	"commands": {
 		"open": {
 			"disabled": "Comanda `/open` este dezactivată în acest server: te rugam sa folosesti un panel de tickete pentru a deschide un ticket",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Nu s-a putut adauga <@%d> la ticket: Asigura-te ca au permisiunea de a vizualiza canalul sub-canalului (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -234,66 +234,66 @@
 		},
 		"interaction_switch": "Incepand cu <t:1662030000:D>, Discord a fortat **toti** botii sa foloseasca doar [comenzile slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPentru a folosi o comanda slash apasati butonul `/` de pe tastatură sau apasati click aici: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` poate fi folosit doar în modul de sub-canal. Vizitează [docs](https://docs.ticketsbot.net/features/thread-mode) pentru a afla mai multe despre aceasta functie",
+			"success": "Esti la datorie",
+			"remove_success": "Nu mai esti la datorie"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket-ul nu a fost gasit",
+			"no_permission": "Nu ai permisiunea de a redeschide acest ticket",
+			"already_open": "Acest ticket este deja deschis",
+			"not_thread": "Doar sub-canalele pot fi redeschise",
+			"thread_deleted": "Acest ticket a fost sters permanent",
+			"success": "Ticket %d redeschis: <#%d>",
+			"in_ticket": "Acest ticket a fost redeschis de catre <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
+			"key": "Cheie",
+			"check_again": "Verifica din nou",
+			"subscription_found": "Abonamentul a fost gasit!",
 			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
+			"activate_key": "Activeaza o cheie premium",
+			"checking": "Se verifica starea premium-ului...",
+			"please_wait": "Va rugam asteptati...",
+			"success_after_check": "Premium este acum activ pe acest server!",
+			"link_patreon_account": "Da-ti link la contul de patreon",
 			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"open_form": "Deschide formularul",
+			"open_form_description": "Apasa pe butonul de jos pentru a redeschide formularul",
+			"use_key_anyway": "Foloseste cheia premium oricum",
+			"already_purchased_title": "Ai deja premium cumparat?",
+			"already_purchased_description": "Daca ati cumparat deja versiunea premium, selectati metoda de plata din dropdown pentru a incepe",
+			"giveaway_key": "Giveaway Key",
 			"selector": {
-				"description": "",
+				"description": "Selectati ce metoda ati folosit pentru a obtine premium",
 				"key": {
-					"description": ""
+					"description": "Selectati aceasta optiune daca vi s-a dat o cheie de tip giveaway"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Selectati aceasta optțiune daca ati facut achizitia pe Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium va ofera acces la mai multe panel-uri, statistici, un bot personalizat si multe altele! Vizitați [website](https://ticketsbot.net/premium) pentru a afla mai multe.",
+			"already_activated": "Vesti bune! Premium este deja activ pe acest server.",
+			"already_activated_whitelabel": "Vesti bune! Premium este deja activ pe acest server.\n\nPentru a incepe cu whitelabel, cititi [ghidul nostru de configurare whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panoul de tickete a fost comutat",
 			"jump_to_top": "Scroll in sus automat",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Ticket redeschis",
+			"ticket_closed": "Ticket inchis"
 		},
 		"click_here": "Apasa aici",
 		"confirm": "Confirma",
-		"website": ""
+		"website": "Site-ul nostru"
 	},
 	"help": {
 		"switch_panel": "Comuta un ticket la un alt panel, schimband categoria canalelor, echipe de asistenta, etc.",
 		"jump_to_top": "Va ofera un buton pentru a sari in partea de sus a ticketului",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Te pune la datorie, vei primi mentiuni in toate ticketele noi",
+		"reopen": "Redeschide un ticket care a fost inchis anterior"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,19 +307,19 @@
 			"docs": "Vrei sa explorezi mai mult? [Documentatia](https://docs.ticketsbot.net) noastra te va invata cum sa-ti configurezi orice parte a bot-ului!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord are nevoie ca serverul sa aiba un [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) de 2 sau mai mult pentru a folosi teme private",
+			"no_notification_channel": "Trebuie sa furnizati un canal de notificare a ticket-ului",
+			"notification_channel_type": "Canalul de notificare a ticket-ului trebuie sa fie un canal de tip text",
+			"success": "Modul sub-canal a fost activat",
+			"disabled": "Modul sub-canal a fost dezactivat"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Acest ticket a fost deja inchis",
+			"no_permission": "Nu ai permisiunea de a vedea acest tip de ticket",
+			"already_joined": "Deja te-ai alaturat acestui ticket (<#%d>)",
+			"success": "Te-a adaugat la ticket-ul: <#%d>"
 		}
 	}
 }
