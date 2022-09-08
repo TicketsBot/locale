@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "Ο λόγος που έκλεισε το ticket, π.χ. \"Λύθηκε\""
 		},
-		"success": ""
+		"success": "Το ticket έκλεισε από τον <@%d>"
 	},
 	"commands": {
 		"open": {
@@ -283,7 +283,7 @@
 			"panel_switched": "Εναλλαγή του πίνακα του Ticket",
 			"jump_to_top": "Μετάβαση Στην Κορυφή",
 			"reopened": "Το ticket ξανάνοιξε",
-			"ticket_closed": ""
+			"ticket_closed": "Το Ticket έκλεισε"
 		},
 		"click_here": "Κάντε κλικ εδώ",
 		"confirm": "Επιβεβαίωση",
