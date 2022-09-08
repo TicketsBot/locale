@@ -65,7 +65,7 @@
 	"help.managetags": "Agrega, elimina o enumera etiquetas",
 	"help.open": "Abre un nuevo ticket",
 	"help.panel": "Crea un panel para permitir a los usuarios abrir un ticket con 1 click",
-	"help.premium": "",
+	"help.premium": "Ejecute este comando después de comprar premium para activarlo",
 	"help.remove": "Elimina un usuario de un ticket",
 	"help.removeadmin": "Revoca los privilegios de administrador de un usuario o rol",
 	"help.removesupport": "Revoca los privilegios de representante de soporte de un usuario o rol",
@@ -188,13 +188,13 @@
 		"reason": {
 			"placeholder": "Razón de cierre del ticket, ejemplo: \"Resuelto\""
 		},
-		"success": ""
+		"success": "El ticket fue cerrado por <@%d>"
 	},
 	"commands": {
 		"open": {
 			"disabled": "El comando `/open` está deshabilitado en este servidor: por favor usa un panel de tickets para abrir un ticket",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "No se pudo agregar a <@%d> al ticket: Asegúrese de que tenga permiso para ver el canal principal del hilo (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -234,66 +234,66 @@
 		},
 		"interaction_switch": "A partir del <t:1662030000:D>, Discord obligará a **todos** los bots a cambiar a [comandos de barra](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPara ejecutar un comando de barra, presione el botón `/` en su teclado, o haga clic aquí: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` solo puede ser usado en modo hilo. Visita nuestros [docs](https://docs.ticketsbot.net/features/thread-mode) para conocer más sobre hilos",
+			"success": "Ahora estás en llamada",
+			"remove_success": "Ya no estás en llamada"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket no encontrado",
+			"no_permission": "No tienes permisos para acceder a este ticket",
+			"already_open": "Este ticket ya está abierto",
+			"not_thread": "Solo los hilos pueden ser reabiertos",
+			"thread_deleted": "El ticket ha sido eliminado permanentemente",
+			"success": "Ticket %d reabierto: <#%d>",
+			"in_ticket": "El ticket ha cambiado de nombre a <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Clave",
+			"check_again": "Revisar otra vez",
+			"subscription_found": "¡Suscripción encontrada!",
+			"subscription_found_content": "Para aplicar su suscripción a este servidor, el propietario del servidor (<@%d>) debe agregarlo como **usuario** administrador (los roles se ignoran) a través del comando </addadmin:%d>.\\n\\n Puede verificar que ha sido agregado como usuario administrador ejecutando </viewstaff:%d>.",
+			"activate_key": "Activar una clave premium",
+			"checking": "Comprobando estado Premium...",
+			"please_wait": "Espere, por favor...",
+			"success_after_check": "¡Ahora está activo en este servidor el Premium!",
+			"link_patreon_account": "Vincular cuenta de Patreon",
+			"no_subscription": "No se pudo encontrar una suscripción activa de Patreon vinculada a su cuenta de Discord. Asegúrese de [haber vinculado sus cuentas de Patreon y Discord] (https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) y espere otros 10 minutos.",
+			"open_form": "Abrir el formulario",
+			"open_form_description": "Pulse el botón de abajo para reabrir el formulario",
+			"use_key_anyway": "Usar clave premium de todos modos",
+			"already_purchased_title": "¿Ya compraste premium?",
+			"already_purchased_description": "Si ya compraste premium, seleccione el método de pago del menú desplegable para comenzar",
+			"giveaway_key": "Clave del sorteo",
 			"selector": {
-				"description": "",
+				"description": "Seleccione el método que utilizó para obtener la premium",
 				"key": {
-					"description": ""
+					"description": "Seleccione esta opción si recibió una clave de regalo"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Seleccione esta opción si realizó su compra en Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "¡Premium te da acceso a más paneles, estadísticas, un bot personalizado y más! Visite nuestro [sitio web](https://ticketsbot.net/premium) para obtener más información.",
+			"already_activated": "¡Buenas noticias! Ya está activo premium en este servidor.",
+			"already_activated_whitelabel": "¡Buenas noticias! Premium ya está activo en este servidor.\n\nPara obtener ayuda para comenzar con whitelabel, lea [nuestra guía de configuración de whitelabel] (https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel de Ticket Cambiado",
 			"jump_to_top": "Ir al inicio",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Ticket reabierto",
+			"ticket_closed": "Ticket Cerrado"
 		},
 		"click_here": "Clic aquí",
 		"confirm": "Confirmar",
-		"website": ""
+		"website": "Nuestra página web"
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket a otro panel de tickets, cambiando la categoría de canal, equipo de soporte, etc.",
 		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Te marca como llamada en llamada, a ser añadido y hecho ping en todos los nuevos tickets",
+		"reopen": "Vuelve a abrir un ticket que estaba cerrado anteriormente"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,19 +307,19 @@
 			"docs": "¿Quieres saber más? ¡Nuestra [documentación](https://docs.ticketsbot.net) te enseñará cómo configurar cada aspecto del bot!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord requiere que el servidor tenga [nivel de boost](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 o mayor para usar hilos privados",
+			"no_notification_channel": "Debes proveer un canal de notificación de tickets",
+			"notification_channel_type": "El canal de notificación de tickets debe ser un canal de texto",
+			"success": "El modo hilo ha sido activado",
+			"disabled": "El modo hilo ha sido desactivado"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Este ticket ya fue cerrado",
+			"no_permission": "No tienes permisos para ver este tipo de ticket",
+			"already_joined": "Ya te has unido a este ticket (<#%d>)",
+			"success": "Se te añadió al ticket: <#%d>"
 		}
 	}
 }
