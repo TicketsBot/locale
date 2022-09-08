@@ -194,7 +194,7 @@
 		"open": {
 			"disabled": "O comando `/open` está desabilitado neste servidor: por favor use um painel de ticket para abrir um ticket",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Não foi possível adicionar <@%d> ao ticket: Certifique-se de que ele tenha permissão para ver o canal principal do tópico (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -234,18 +234,18 @@
 		},
 		"interaction_switch": "A partir de <t:1662030000:D>, o Discord forçou **todos** os bots a mudar para [comandos de barra](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPara executar um comando de barra, pressione `/` no seu teclado ou clique aqui: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` só pode ser usado no modo thread. Visite o nossa [doc](https://docs.ticketsbot.net/features/thread-mode) para saber mais sobre tópicos",
+			"success": "Você agora está em chamada",
+			"remove_success": "Você não está mais em chamada"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket não encontrado",
+			"no_permission": "Você não tem permissão para reabrir este ticket",
+			"already_open": "Este ticket já está em aberto",
+			"not_thread": "Somente tópicos podem ser reabertos",
+			"thread_deleted": "Este ticket foi excluído permanentemente",
+			"success": "Ticket %d reaberto: <#%d>",
+			"in_ticket": "Este ticket foi reaberto por <@%d>"
 		},
 		"premium": {
 			"key": "",
@@ -282,7 +282,7 @@
 		"title": {
 			"panel_switched": "Painel de Ticket Alternado",
 			"jump_to_top": "Ir para o topo",
-			"reopened": "",
+			"reopened": "Ticket Reaberto",
 			"ticket_closed": ""
 		},
 		"click_here": "Clique Aqui",
@@ -292,8 +292,8 @@
 	"help": {
 		"switch_panel": "Alterna um ticket para outro painel de ticket, alterando a categoria do canal, equipes de suporte, etc.",
 		"jump_to_top": "Fornece a você um botão para ir para o topo do ticket",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
+		"reopen": "Reabre um ticket que foi fechado anteriormente"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,19 +307,19 @@
 			"docs": "Quer explorar mais? Nossa [documentação](https://docs.ticketsbot.net) vai lhe ensinar como configurar todos os aspectos do bot!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "O Discord requer que o servidor tenha um [nível de impulssos](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) de 2 ou mais para usar tópicos privados",
+			"no_notification_channel": "Você deve fornecer um canal de notificação de ticket",
+			"notification_channel_type": "O canal de notificação de ticket deve ser um canal de texto",
+			"success": "O modo de tópicos foi ativado",
+			"disabled": "O modo de tópicos foi desativado"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Este Ticket já foi fechado",
+			"no_permission": "Você não tem permissão para ver este tipo de ticket",
+			"already_joined": "Você já ingressou neste ticket (<#%d>)",
+			"success": "Adicionou você ao ticket: <#%d>"
 		}
 	}
 }
