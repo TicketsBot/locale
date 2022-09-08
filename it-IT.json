@@ -65,7 +65,7 @@
 	"help.managetags": "Aggiungi, elimina o elenca i tag",
 	"help.open": "Apre un nuovo ticket",
 	"help.panel": "Crea un pannello per consentire agli utenti di aprire un ticket con un click",
-	"help.premium": "",
+	"help.premium": "Usa questo comando dopo aver acquistato premium per attivarlo",
 	"help.remove": "Rimuove un utente da un ticket",
 	"help.removeadmin": "Revoca i privilegi da admin di un utente o un ruolo",
 	"help.removesupport": "Revoca i privilegi da supporto rappresentativo di un utente o un ruolo",
@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "Motivo per la chiusura del ticket, e.g. \"Risolto\""
 		},
-		"success": ""
+		"success": "Il ticket è stato chiuso da <@%d>"
 	},
 	"commands": {
 		"open": {
@@ -239,61 +239,61 @@
 			"remove_success": "Non sei più in servizio"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket non trovato",
+			"no_permission": "Non hai i permessi per riaprire questo ticket",
+			"already_open": "Questo ticket è già aperto",
+			"not_thread": "Solo i thread possono essere riaperti",
+			"thread_deleted": "Questo ticket è stato cancellato definitivamente",
+			"success": "Ticket %d riaperto: <#%d>",
+			"in_ticket": "Questo ticket è stato riaperto da <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Chiave",
+			"check_again": "Controlla di nuovo",
+			"subscription_found": "Abbonamento trovato!",
+			"subscription_found_content": "Per applicare il tuo abbonamento a questo server, il creatore del server (<@%d>) deve aggiungerti come **amministratore** (i ruoli sono ignorati) usando il comando </addadmin:%d>.\\n\\nPuoi verificare di essere stato aggiunto tramite il comando </viewstaff:%d>.",
+			"activate_key": "Attiva una chiave premium",
+			"checking": "Controllo dello stato premium in corso...",
+			"please_wait": "Attendere prego...",
+			"success_after_check": "Premium è ora attivo in questo server!",
+			"link_patreon_account": "Collega l'account Patreon",
+			"no_subscription": "Non è stato possibile trovare un abbonamento Patreon attivo collegato al tuo account Discord. Assicurati di [aver collegato i tuoi account Discord e Patreon](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) e aspettato 10 minuti.",
+			"open_form": "Apri un form",
+			"open_form_description": "Premi il pulsante qui sotto per riaprire il form",
+			"use_key_anyway": "Usa comunque la chiave premium",
+			"already_purchased_title": "Hai già acquistato premium?",
+			"already_purchased_description": "Se hai già acquistato premium, seleziona il metodo di pagamento dal menù a discesa per cominciare",
+			"giveaway_key": "Chiave giveaway",
 			"selector": {
-				"description": "",
+				"description": "Seleziona quale metodo hai utilizzato per ottenere premium",
 				"key": {
-					"description": ""
+					"description": "Seleziona questa opzione se ti è stata data una chiave giveaway"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Seleziona questa opzione se hai fatto l'acquisto su Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium ti dà accesso a più pannelli, statistiche, un bot personalizzato e molto altro! Visita il nostro [website](https://ticketsbot.net/premium) per saperne di più.",
+			"already_activated": "Buone notizie! Premium è già attivo in questo server.",
+			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nPer aiutarti a cominciare con whitelabel, leggi [la nostra guida di setup di whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Pannello Ticket Cambiato",
 			"jump_to_top": "Torna all'inizio",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Ticket riaperto",
+			"ticket_closed": "Ticket chiuso"
 		},
 		"click_here": "Clicca Qui",
 		"confirm": "Conferma",
-		"website": ""
+		"website": "Il nostro sito web"
 	},
 	"help": {
 		"switch_panel": "Cambia un ticket ad un altro pannello ticket, cambiando la categoria del canale, i team di supporto, etc...",
 		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket",
 		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket",
-		"reopen": ""
+		"reopen": "Riapre un ticket precedentemente chiuso"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {

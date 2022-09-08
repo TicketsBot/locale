@@ -65,7 +65,7 @@
 	"help.managetags": "Ajouter, supprimer ou lister des étiquettes",
 	"help.open": "Ouvre un nouveau ticket",
 	"help.panel": "Crée un panneau permettant aux utilisateurs d'ouvrir un ticket en un seul clic",
-	"help.premium": "",
+	"help.premium": "Exécutez cette commande après avoir souscrit à un abonnement premium pour l'activer",
 	"help.remove": "Retire un utilisateur d'un ticket",
 	"help.removeadmin": "Retire les privilèges d'administration à un utilisateur ou à un rôle",
 	"help.removesupport": "Retire les privilèges de support à un utilisateur ou à un rôle",
@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "Motif de la fermeture du ticket, par exemple \"Résolu\""
 		},
-		"success": ""
+		"success": "Le ticket a été fermé par <@%d>"
 	},
 	"commands": {
 		"open": {
@@ -239,29 +239,29 @@
 			"remove_success": "Vous n'êtes plus disponible"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket introuvable",
+			"no_permission": "Vous n'avez pas la permission de rouvrir ce ticket",
+			"already_open": "Ce ticket est déjà ouvert",
+			"not_thread": "Seuls les fils de discussion peuvent être rouverts",
+			"thread_deleted": "Le ticket a été supprimé définitivement",
+			"success": "Ticket %d rouvert : <#%d>",
+			"in_ticket": "Ce ticket a été rouvert par <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
+			"key": "Clé",
+			"check_again": "Vérifiez à nouveau",
+			"subscription_found": "Abonnement trouvé !",
 			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
+			"activate_key": "Activer une clé premium",
+			"checking": "Vérification du statut premium...",
+			"please_wait": "Veuillez patienter...",
+			"success_after_check": "L'abonnement premium est maintenant actif sur ce serveur !",
+			"link_patreon_account": "Lier un compte Patreon",
 			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
+			"open_form": "Ouvrir le formulaire",
+			"open_form_description": "Appuyez sur le bouton ci-dessous pour rouvrir le formulaire",
+			"use_key_anyway": "Utiliser quand même la clé Premium",
+			"already_purchased_title": "Vous avez déjà un abonnement premium ?",
 			"already_purchased_description": "",
 			"giveaway_key": "",
 			"selector": {
@@ -282,18 +282,18 @@
 		"title": {
 			"panel_switched": "Ticket basculé vers un autre panneau",
 			"jump_to_top": "Remonter en haut",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Ticket rouvert",
+			"ticket_closed": "Ticket fermé"
 		},
 		"click_here": "Cliquez ici",
 		"confirm": "Confirmer",
-		"website": ""
+		"website": "Notre site web"
 	},
 	"help": {
 		"switch_panel": "Bascule un ticket vers un autre panneau de tickets, changeant sa catégorie, ses équipes de support, etc.",
 		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
-		"reopen": ""
+		"reopen": "Rouvre un ticket qui a été précédemment fermé"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
