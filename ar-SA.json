@@ -308,18 +308,18 @@
 		},
 		"threads": {
 			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"no_notification_channel": "يجب عليك توفير قناة إشعار التذكرة",
+			"notification_channel_type": "يجب أن تكون قناة إشعار التذكرة عبارة عن قناة نصية",
+			"success": "تم تفعيل وضع الموضوع",
+			"disabled": "تم تعطيل وضع الموضوع"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "تم إغلاق هذه التذكرة فعلًا",
+			"no_permission": "ليس لديك إذن لعرض هذا النوع من التذاكر",
+			"already_joined": "لقد انضممت فعلًا إلى هذه التذكرة (<#%d>)",
+			"success": "أضافك إلى التذكرة <#%d>"
 		}
 	}
 }
