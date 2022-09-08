@@ -36,7 +36,7 @@
 	"commands.tags.list": "Lista ID tagów: \\n%s\\nAby zobaczyć zawartość tagu, napisz `%stag <ID>`",
 	"commands.unclaim.not_claimed": "Ten ticket nie jest przejęty",
 	"commands.unclaim.not_claimer": "Tylko administracja i użytkownicy, którzy przejęli zgłoszenie mogą usunąć przypisanie",
-	"commands.unclaim.success": "Wszyscy supporci mogą teraz odpowiedzieć na zgłoszenie",
+	"commands.unclaim.success": "",
 	"commands.vote": "Kliknij tutaj, aby zagłosować w zamian za darmowe premium na 24 godziny:\\n<https://vote.ticketsbot.net>",
 	"generic.invalid_argument": "Nieprawidłowy argument: dotyczy użycia",
 	"generic.invalid_user": "Nie można znaleźć użytkownika",
@@ -292,7 +292,7 @@
 	"help": {
 		"switch_panel": "Przełącza zgłoszenie na inny panel zgłoszeń, zmieniając kategorię kanału, zespoły wsparcia itp.",
 		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia",
-		"on_call": "Oznacz jako admin, będziesz pingowany we wszystkich nowych zgłoszeniach",
+		"on_call": "",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte"
 	},
 	"<@&%d> has been unblcommands": {
