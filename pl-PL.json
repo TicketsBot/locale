@@ -164,7 +164,7 @@
 	"generic.title.help": "Pomoc",
 	"generic.title.close_confirmation": "Potwierdzenie zamknięcia",
 	"close.confirmation": "Proszę potwierdź, że chcesz zamknąć to zgłoszenie",
-	"generic.title.close_request": "Zamknij wniosek",
+	"generic.title.close_request": "",
 	"commands.close_request.accept": "Zaakceptuj i zamknij",
 	"commands.close_request.deny": "Odrzuć i pozostaw otwarte",
 	"commands.premium.success": "Premium zostało aktywowane na **%d** dni",
