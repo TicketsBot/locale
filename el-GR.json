@@ -65,7 +65,7 @@
 	"help.managetags": "Προσθέστε, διαγράψτε ή καταχωρήστε ετικέτες",
 	"help.open": "Ανοίγει νέο ticket",
 	"help.panel": "Δημιουργεί έναν πίνακα που επιτρέπει στους χρήστες να ανοίξουν ένα ticket με 1 κλικ",
-	"help.premium": "",
+	"help.premium": "Εκτελέστε αυτήν την εντολή μετά από την αγορά του premium για ενεργοποίηση",
 	"help.remove": "Αφαιρεί έναν χρήστη από ένα ticket",
 	"help.removeadmin": "Ανακαλεί τα δικαιώματα διαχειριστή ενός χρήστη ή του ρόλου",
 	"help.removesupport": "Ανακαλεί τα αντιπροσωπευτικά προνόμια ενός χρήστη ή του ρόλου",
@@ -248,34 +248,34 @@
 			"in_ticket": "Αυτό το ticket έχει ανοίξει ξανά από <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
+			"key": "Κλειδί",
+			"check_again": "Ελέγξτε Ξανά",
+			"subscription_found": "Βρέθηκε Συνδρομή!",
+			"subscription_found_content": "Για να εφαρμόσετε τη συνδρομή σας στον διακομιστή, ο ιδιοκτήτης του διακομιστή (<@%d>) πρέπει να σας προσθέσει ως διαχωριστή **χρήστη** (οι ρόλοι αγνοούνται) μέσω της </addadmin:%d> εντολή.\\n\\nΜπορείτε να επιβεβαιώσετε ότι έχετε προστεθεί ως διαχειριστής χρήστη εκτελώντας </viewstaff:%d>.",
+			"activate_key": "Ενεργοποίηση Κλειδιού Premium",
+			"checking": "Έλεγχος Κατάστασης Premium...",
+			"please_wait": "Παρακαλώ περιμένετε...",
+			"success_after_check": "Το Premium είναι τώρα ενεργό σε αυτόν τον διακομιστή!",
+			"link_patreon_account": "Σύνδεση Λογαριασμού Patreon",
+			"no_subscription": "Δεν ήταν δυνατή η εύρεση ενεργής συνδρομής Patreon που συνδέεται με τον λογαριασμό σας στο Discord. Βεβαιωθείτε ότι [έχετε συνδέσει τους λογαριασμούς σας Patreon και Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), και επιπλέον περίμενε 10 λεπτά.",
+			"open_form": "Άνοιγμα Φόρμας",
+			"open_form_description": "Πατήστε το παρακάτω κουμπί για να ανοίξετε ξανά τη φόρμα",
 			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"already_purchased_title": "Έχετε αγοράσει ήδη premium;",
+			"already_purchased_description": "Αν έχετε αγοράσει ήδη premium, επιλέξτε τον τρόπο πληρωμής από το αναπτυσσόμενο μενού για να ξεκινήσετε",
+			"giveaway_key": "Κλειδί Δώρου",
 			"selector": {
-				"description": "",
+				"description": "Επιλέξτε τη μέθοδο που χρησιμοποιήσατε για να αποκτήσετε premium",
 				"key": {
-					"description": ""
+					"description": "Επιλέξτε αυτήν την επιλογή αν σας δόθηκε ένα giveaway κλειδί"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Επιλέξτε αυτήν την επιλογή αν κάνατε την αγορά σας στο Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Το Premium σάς δίνει πρόσβαση σε περισσότερα panels, στατιστικά, ένα προσαρμοσμένο bot και πολλά άλλα! Επισκεφθείτε το [website](https://ticketsbot.net/premium) για να μάθετε περισσότερα.",
+			"already_activated": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν το διακομιστή.",
+			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
@@ -287,7 +287,7 @@
 		},
 		"click_here": "Κάντε κλικ εδώ",
 		"confirm": "Επιβεβαίωση",
-		"website": ""
+		"website": "Η Ιστοσελίδα Μας"
 	},
 	"help": {
 		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",

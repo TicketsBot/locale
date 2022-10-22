@@ -65,7 +65,7 @@
 	"help.managetags": "Adiciona, remove ou lista as tags",
 	"help.open": "Abre um novo ticket",
 	"help.panel": "Cria um painel que permite abrir um ticket com 1 clique",
-	"help.premium": "",
+	"help.premium": "Executar este comando após comprar o premium para ativá-lo",
 	"help.remove": "Remove um usuário de um ticket",
 	"help.removeadmin": "Remove os privilégios de admin de um usuário ou cargo",
 	"help.removesupport": "Remove os privilégios de atendente de suporte de um usuário ou cargo",
@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "Motivo do fechamento do ticket. Por exemplo: \"Resolvido\""
 		},
-		"success": ""
+		"success": "O ticket foi fechado por <@%d>"
 	},
 	"commands": {
 		"open": {
@@ -248,34 +248,34 @@
 			"in_ticket": "Este ticket foi reaberto por <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Chave",
+			"check_again": "Verificar Novamente",
+			"subscription_found": "Assinatura Encontrada!",
+			"subscription_found_content": "Para aplicar sua assinatura neste servidor, o proprietário do servidor (<@%d>) deve adicioná-lo como um **usuário administrador** (cargos são ignorados) através do comando </addadmin:%d>.\\n\\nVocê pode verificar se foi adicionado como um usuário administrador ao executar </viewstaff:%d>.",
+			"activate_key": "Ativar uma Chave Premium",
+			"checking": "Verificando Status do Premium...",
+			"please_wait": "Aguarde, por favor...",
+			"success_after_check": "A versão Premium agora está ativa neste servidor.",
+			"link_patreon_account": "Vincular conta do Patreon",
+			"no_subscription": "Não foi possível encontrar uma assinatura no Patreon ativa vinculada à sua conta do Discord. Certifique-se de que você [vinculou sua conta do Patreon ao Discord](https://support. atreon.com/hc/pt-br/articles/212052266-Get-my-Discord-role) e esperou cerca de 10 minutos.",
+			"open_form": "Abrir Formulário",
+			"open_form_description": "Pressione o botão abaixo para voltar a abrir o formulário",
+			"use_key_anyway": "Usar a chave premium mesmo assim",
+			"already_purchased_title": "Já comprou Premium?",
+			"already_purchased_description": "Se você já comprou o premium, selecione o método de pagamento no menu suspenso para começar",
+			"giveaway_key": "Chave de Sorteio",
 			"selector": {
-				"description": "",
+				"description": "Selecione o método que você usou para obter premium",
 				"key": {
-					"description": ""
+					"description": "Selecione esta opção se você tiver uma chave de sorteio"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Selecione esta opção se você fez sua compra no Patreon,"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "O Premium lhe dá acesso a mais painéis, estatísticas, um bot personalizado e muito mais! Visite o nosso [website](https://ticketsbot.net/premium) para saber mais.",
+			"already_activated": "Boas notícias! O Premium já está ativo neste servidor.",
+			"already_activated_whitelabel": "Boas notícias! Premium já está ativo neste servidor.\n\nPara ajudar a começar com whitelabel, leia [nosso guia de instalação de whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
@@ -283,11 +283,11 @@
 			"panel_switched": "Painel de Ticket Alternado",
 			"jump_to_top": "Ir para o topo",
 			"reopened": "Ticket Reaberto",
-			"ticket_closed": ""
+			"ticket_closed": "Ticket Fechado"
 		},
 		"click_here": "Clique Aqui",
 		"confirm": "Confirmar",
-		"website": ""
+		"website": "Nosso Site"
 	},
 	"help": {
 		"switch_panel": "Alterna um ticket para outro painel de ticket, alterando a categoria do canal, equipes de suporte, etc.",

@@ -251,31 +251,31 @@
 			"key": "Clé",
 			"check_again": "Vérifiez à nouveau",
 			"subscription_found": "Abonnement trouvé !",
-			"subscription_found_content": "",
+			"subscription_found_content": "Afin d'appliquer votre abonnement à ce serveur, son propriétaire (<@%d>) doit vous ajouter en tant qu'**utilisateur** administrateur (les rôles sont ignorés) via la commande </addadmin:%d>.\\n\\nVous pouvez vérifier que vous avez été ajouté en tant qu'utilisateur administrateur en exécutant </viewstaff:%d>.",
 			"activate_key": "Activer une clé premium",
 			"checking": "Vérification du statut premium...",
 			"please_wait": "Veuillez patienter...",
 			"success_after_check": "L'abonnement premium est maintenant actif sur ce serveur !",
 			"link_patreon_account": "Lier un compte Patreon",
-			"no_subscription": "",
+			"no_subscription": "Impossible de trouver un abonnement Patreon actif lié à votre compte Discord. Assurez-vous que vous avez [lié vos comptes Patreon et Discord](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), et attendu une dizaine de minutes.",
 			"open_form": "Ouvrir le formulaire",
 			"open_form_description": "Appuyez sur le bouton ci-dessous pour rouvrir le formulaire",
 			"use_key_anyway": "Utiliser quand même la clé Premium",
 			"already_purchased_title": "Vous avez déjà un abonnement premium ?",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"already_purchased_description": "Si vous avez déjà souscrit à un abonnement premium, sélectionnez la méthode de paiement dans la liste déroulante pour commencer",
+			"giveaway_key": "Clé de giveaway",
 			"selector": {
-				"description": "",
+				"description": "Sélectionnez la méthode que vous avez utilisée pour obtenir le premium",
 				"key": {
-					"description": ""
+					"description": "Sélectionnez cette option si vous avez reçu une clé issue d'un giveaway"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Sélectionnez cette option si vous avez effectué votre achat sur Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "La version premium vous donne accès à plus de panneaux, de statistiques, un bot personnalisé et plus encore ! Visitez notre [site web](https://ticketsbot.net/premium) pour en savoir plus.",
+			"already_activated": "Bonne nouvelle ! La version Premium est déjà active sur ce serveur.",
+			"already_activated_whitelabel": "Bonne nouvelle ! La version Premium est déjà active sur ce serveur.\n\nPour obtenir de l'aide pour commencer avec whitelabel, lisez [notre guide de configuration whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
