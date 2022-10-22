@@ -65,7 +65,7 @@
 	"help.managetags": "Добавить, удалить или просмотреть лист тэгов(подготовленных ответов)",
 	"help.open": "Открывает новый билет.",
 	"help.panel": "Создает панель чтобы позволить пользователям открыть билет одним кликом ",
-	"help.premium": "",
+	"help.premium": "Использовать эту команду можно только после покупки Премиума",
 	"help.remove": "Удаляет участника из билета.",
 	"help.removeadmin": "Удаляет привилегии админа у указанного пользователя или роли.",
 	"help.removesupport": "Удаляет привилегии помощника у указанного пользователя или роли.",
@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "Причина для закрытия заявки, пример \"Заявка принята\""
 		},
-		"success": ""
+		"success": "Заявка была закрыта <@%d>"
 	},
 	"commands": {
 		"open": {
@@ -248,34 +248,34 @@
 			"in_ticket": "Эта заявка была открыта заново <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Ключ",
+			"check_again": "Проверьте снова",
+			"subscription_found": "Подписка найдена!",
+			"subscription_found_content": "Чтобы применить вашу подписку на этот сервер, владелец сервера (<@%d>) должен добавить вас в качестве админ **пользователя** (роли игнорируются) с помощью команды </addadmin:%d> .\\n\\nВы можете проверить, что  Вы были добавлены в качестве пользователя администратора, запустив </viewstaff:%d>.",
+			"activate_key": "Активировать премиум ключ",
+			"checking": "Проверка Премиум-статуса...",
+			"please_wait": "Пожалуйста, подождите...",
+			"success_after_check": "Премиум теперь активен на этом сервере!",
+			"link_patreon_account": "Ссылка на Patreon",
+			"no_subscription": "Не удалось найти активную подписку на Patreon, привязанную к вашей учётной записи Discord. Убедитесь, что вы [связали ваши учетные записи Patreon и Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), так же вам нужно будет подождать 10 минут.",
+			"open_form": "Открыть форму",
+			"open_form_description": "Нажмите кнопку ниже, чтобы снова открыть форму",
+			"use_key_anyway": "В любом случае используйте премиум-ключ",
+			"already_purchased_title": "Уже приобрели премиум?",
+			"already_purchased_description": "Если вы уже приобрели премиум, выберите способ оплаты из выпадающего списка, чтобы начать",
+			"giveaway_key": "Раздача ключа",
 			"selector": {
-				"description": "",
+				"description": "Выберите, какой метод вы используете для получения премиума",
 				"key": {
-					"description": ""
+					"description": "Выберите этот параметр, если вы получили ключ с раздачи"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Выберите этот параметр, если вы сделали покупку на Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Премиум дает вам доступ к большему количеству панелей, статистике, пользовательскому боту и многому другому! Посетите [наш сайт](https://ticketsbot.net/premium), чтобы узнать больше.",
+			"already_activated": "Хорошая новость! Премиум уже активен на этом сервере.",
+			"already_activated_whitelabel": "Хорошие новости! Премиум уже активен на этом сервере.\n\nДля помощи с запуском с whitelabel, прочитайте [наше руководство по установке whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
@@ -283,11 +283,11 @@
 			"panel_switched": "Панель заявки переключена",
 			"jump_to_top": "Перейти в начало",
 			"reopened": "Заявка вновь открыта",
-			"ticket_closed": ""
+			"ticket_closed": "Заявка закрыта"
 		},
 		"click_here": "Нажмите здесь",
 		"confirm": "Подтвердить",
-		"website": ""
+		"website": "Наш веб-сайт"
 	},
 	"help": {
 		"switch_panel": "Переключает заявку на другую панель заявок, изменяя категорию канала, группы поддержки и т.д.",
