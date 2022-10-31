@@ -65,7 +65,7 @@
 	"help.managetags": "Додати, Видалити або перерахувати теги",
 	"help.open": "Відкриває нову заявку",
 	"help.panel": "Створює панель щоб дозволити користувачам відкрити заявку одним кликом",
-	"help.premium": "",
+	"help.premium": "Запустіть цю команду коли придбаєте преміум для активування",
 	"help.remove": "Видаляє Користувача з заявки",
 	"help.removeadmin": "Позбавляє права адміністратора у користувача або ролі",
 	"help.removesupport": "Скасовує привілеї представника служби підтримки користувача або ролі",
@@ -188,13 +188,13 @@
 		"reason": {
 			"placeholder": "Причина для закриття заявки, на приклад, \"Вирішено\""
 		},
-		"success": ""
+		"success": "Ця заявка була закрита <@%d>"
 	},
 	"commands": {
 		"open": {
 			"disabled": "Команду `/open` відключено на цьому сервері. Будь ласка, використуйте панель заяки, щоб відкрити заявку",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Не вдалося додати <@%d> до цієї заявки: Переконайтеся, що вони мають дозвіл на перегляд початкового каналу гілки. (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -232,68 +232,68 @@
 			"success": "Мову на сервері змінено на **%s** (%s)",
 			"select": "Оберіть мову (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Станом на <t:1662030000:D>, Діскорд змусив **всіх** ботів перейти на [слеш команди](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nДля виконання слеш команди натисніть кнопку \"/\" на вашій клавіатурі, або, натисніть тут: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` може використовуватись лише у режимі гілки. Відвідайте нашу [документацію](https://docs.ticketsbot.net/features/thread-mode), щоб дізнатися більше про гілки",
+			"success": "Ви зараз в дзвінку",
+			"remove_success": "Ви більше не в дзвінку"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Запит не знайдено",
+			"no_permission": "У вас немає дозволу для повторного відкриття цього запиту",
+			"already_open": "Цей запит вже відкрито",
+			"not_thread": "Тільки гілки можуть бути повторно відкриті",
+			"thread_deleted": "Цей запит був остаточно видалений",
+			"success": "Запит %d знаново відкрита: <#%d>",
+			"in_ticket": "Ця заявка була відкрита <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Ключ",
+			"check_again": "Перевірити Знову",
+			"subscription_found": "Підписка знайдена!",
+			"subscription_found_content": "Для застосування вашої підписки на цьому сервері то власник серверу (<@%d>) повинен назначити вас як **адміністратора** (ролі ігноруються) за допомогою команди </addadmin:%d>. \\n\\nВи можете переконатися, що ви були додані в якості адміністратора за допомогою </viewstaff:%d>.",
+			"activate_key": "Активувати ключ Premium",
+			"checking": "Перевірка статусу Premium...",
+			"please_wait": "Зачекайте...",
+			"success_after_check": "Premium тепер активний на цьому сервері!",
+			"link_patreon_account": "Прив'язати обліковий запис Patreon",
+			"no_subscription": "Не вдалося знайти активну підписку Patreon яка прив'язана до вашого опоблікового запису Discord. Будь ласка, переконайтеся що ви [підв'язали Patreon до Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) та почекали 10 хвилин.",
+			"open_form": "Відкрити форму",
+			"open_form_description": "Натисніть на кнопку нижче для перевідкриття форми",
+			"use_key_anyway": "Все одно використати Premium ключ",
+			"already_purchased_title": "Вже є преміум-версія?",
+			"already_purchased_description": "Якщо ви вже придбали Premium виберіть спосіб оплати з випадаючого списку щоб почати",
+			"giveaway_key": "Розігранний Ключ",
 			"selector": {
-				"description": "",
+				"description": "Щоб вибрати цей метод ви повинні мати Premium",
 				"key": {
-					"description": ""
+					"description": "Виберіть цю опцію якщо це ключ з роздачі"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Виберіть цю опцію якщо ви зробили покупку на Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://ticketsbot.net/premium) щоб дізнатися більше.",
+			"already_activated": "Гарні новини! Premium вже активний на цьому сервері.",
+			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Панель Заявки Змінено",
 			"jump_to_top": "Перейти на початок",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Знову відкритий запит",
+			"ticket_closed": "Закритий запит"
 		},
 		"click_here": "Натисніть тут",
 		"confirm": "Підтвердьте",
-		"website": ""
+		"website": "Наш веб-сайт"
 	},
 	"help": {
 		"switch_panel": "Перемикає заявку на панель заяви, змінює категорію каналу, команди підтримки тощо",
 		"jump_to_top": "Надає кнопку для переходу на початок заявки",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Позначає вас як дежурного, автоматично додаючи та пінгуючи в усіх нових запитах",
+		"reopen": "Повторно видкриває запит який раніше був закритий"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,19 +307,19 @@
 			"docs": "Хочете дізнатись більше? Наша [documentation](https://docs.ticketsbot.net) навчить вас, як налаштувати кожен аспект цього бота!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Діскорд вимагає щоб сервер мав 2 або більший [рівень підсилення](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) для використання приватних гілок",
+			"no_notification_channel": "Ви повінні надати канал сповіщень про запити",
+			"notification_channel_type": "Канал сповіщень повинен бути текстовим каналом",
+			"success": "Режим гілок був увімкнений",
+			"disabled": "Режим гілок був вимкнений"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Цей запит вже був закритий",
+			"no_permission": "У вас не має прав для перегляду цього типу запитів",
+			"already_joined": "Ви вже приєдналися до цього запиту (<#%d>)",
+			"success": "Додав до запиту: <#%d>"
 		}
 	}
 }
