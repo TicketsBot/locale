@@ -65,7 +65,7 @@
 	"help.managetags": "Lägg till, ta bort eller lista taggar",
 	"help.open": "Öppnar en ny ticket",
 	"help.panel": "Skapar en panel för att göra det möjligt för användare att öppna en ticket med 1 klick",
-	"help.premium": "",
+	"help.premium": "Kör detta kommando efter köp av premium för att aktivera det",
 	"help.remove": "Tar bort en användare från en ticket",
 	"help.removeadmin": "Tar bort en användares eller en roll's administratörsbehörigheter",
 	"help.removesupport": "Tar bort en användares eller en roll's representativa privilegier",
@@ -91,7 +91,7 @@
 	"setup.auto.transcript.success": "Skapade <#%d> kanal",
 	"setup.category.invalid": "Du måste ange namnet på en [**kanal kategori**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exempel:** `/setup category Tickets`",
 	"setup.category.success": "Kategorin för ärendekanalen har ändrats till `%s`",
-	"setup.info.archive_channel": "Vänligen ange var du vill att ticketloggar ska skickas efter att ticketen har stängts\nExempel: `#logs`",
+	"setup.info.archive_channel": "Vänligen ange var du vill att ärendeloggar ska skickas efter att ärendet har stängts\\nExempel: `#logs`",
 	"setup.info.auto": "Automatiskt väljer alternativ och skapar nödvändiga kanaler",
 	"setup.info.category": "Skriv **namnet** av **kanalkategorin** där du vill att tickets ska skapas under",
 	"setup.info.choose": "Välj ett alternativ. Du kan använda `/setup` eller `/setup auto` för att komma igång snabbt eller använda de andra kommandona för att finjustera inställningar",
@@ -188,138 +188,138 @@
 		"reason": {
 			"placeholder": "Anledning till att avsluta ärendet, t.ex. \"Löst\""
 		},
-		"success": ""
+		"success": "Ärendet avslutades av <@%d>"
 	},
 	"commands": {
 		"open": {
-			"disabled": "",
+			"disabled": "Kommandot `/open` är inaktiverat i denna server: använd ärendepanelen för att öppna ett ärende",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Kunde inte lägga till <@%d> till ärendet: Se till att de har behörighet att visa trådens överordnade kanal (<#%d>)"
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Ogiltig panel: Du måste välja en från listrutan",
+			"success": "Detta ärende har bytts till panelen `%s` av <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Staff medlemmar kan inte svartlistas",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> har svartlistats",
+				"limit": "Du har nått gränsen för rollens svartlista (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Du har nått gränsen för svartlista (%d): överväg att använda en roll istället"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Detta ärende har inte ett välkomstmeddelande",
+			"content": "Klicka på knappen nedan för att hoppa till toppen av ärendet"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Bekräfta att du vill lägga till %s till standardsupportteamet",
+			"everyone": "Du kan inte lägga till rollen `@everyone` som staff"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Bekräfta att du vill lägga till %s som bot administratör"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Du har nått gränsvärdet för tag (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "De tillgängliga språken och deras översättningsframsteg är följande:\n%s",
+			"success": "Serverspråket har ändrats till **%s** (%s)",
+			"select": "Välj ett språk (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Från och med <t:1662030000:D>har Discord tvingat **alla** robotar att byta till [slash kommandon](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nFör att köra ett snedstreck kommando, tryck på `/`-knappen på tangentbordet, eller klicka här: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` kan endast användas i trådläge. Besök vår [docs](https://docs.ticketsbot.net/features/thread-mode) för att läsa mer om trådar",
+			"success": "Du är nu i samtal",
+			"remove_success": "Du är inte längre i samtal"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ärendet hittades inte",
+			"no_permission": "Du har ej behörighet att öppna tickten igen",
+			"already_open": "Detta ärende är redan öppet",
+			"not_thread": "Endast trådar kan öppnas igen",
+			"thread_deleted": "Ärendet har tagits bort permanent",
+			"success": "Ärendet %d återöppnat: <#%d>",
+			"in_ticket": "Detta ärende har öppnats igen av <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Nyckel",
+			"check_again": "Kontrollera igen",
+			"subscription_found": "Prenumeration hittad!",
+			"subscription_found_content": "För att tillämpa din prenumeration på denna server måste serverägaren (<@%d>) lägga till dig som administratör **användare** (roller ignoreras) via kommandot </addadmin:%d>.\\n\\nDu kan verifiera att du har lagts till som administratör genom att köra </viewstaff:%d>.",
+			"activate_key": "Aktivera en Premiumnyckel",
+			"checking": "Kontrollerar Premium Status...",
+			"please_wait": "Var god vänta...",
+			"success_after_check": "Premium är nu aktiv i den här servern!",
+			"link_patreon_account": "Länka Patreon konto",
+			"no_subscription": "Kunde inte hitta ett aktivt Patreon-abonnemang kopplat till ditt Discord-konto. Se till att du [har länkat dina Patreon- och Discord-konton] (https://support. atreon.com/hc/sv/articles/212052266-Get-my-Discord-roll), och ytterligare väntade 10 minuter.",
+			"open_form": "Öppna formulär",
+			"open_form_description": "Tryck på knappen nedan för att öppna upp formuläret igen",
+			"use_key_anyway": "Använd Premium-nyckel ändå",
+			"already_purchased_title": "Redan köpt premium?",
+			"already_purchased_description": "Om du redan har köpt premium väljer du betalningsmetod från listrutan för att komma igång",
+			"giveaway_key": "Giveaway nyckel",
 			"selector": {
-				"description": "",
+				"description": "Välj vilken metod du använde för att erhålla premium",
 				"key": {
-					"description": ""
+					"description": "Välj det här alternativet om du fick en giveaway nyckel"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Välj det här alternativet om du gjorde ditt köp på Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium ger dig tillgång till fler paneler, statistik, en anpassad bot och mer! Besök vår [website](https://ticketsbot.net/premium) för att ta reda på mer.",
+			"already_activated": "Goda nyheter! Premium är redan aktivt i denna server.",
+			"already_activated_whitelabel": "Goda nyheter! Premium är redan aktiv i denna server.\n\nFör att komma igång med whitelabel, läs [vår whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"panel_switched": "Ärendepanelen byttes",
+			"jump_to_top": "Hoppa till toppen",
+			"reopened": "Ärendet återöppnat",
+			"ticket_closed": "Ärendet avslutat"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "Klicka här",
+		"confirm": "Bekräfta",
+		"website": "Vår hemsida"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": "",
-		"on_call": "",
-		"reopen": ""
+		"switch_panel": "Byter ett ärende till en annan ärendepanel, ändrar kanalkategorin, supportteam etc.",
+		"jump_to_top": "Ger dig en knapp för att hoppa till toppen av ärendet",
+		"on_call": "Markerar dig som aktiv, att läggas till och pingas i alla nya ärenden",
+		"reopen": "Återöppnar ett ärende som tidigare var stängt"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> är inte längre svartlistad"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Vill du utforska mer? Vår [documentation](https://docs.ticketsbot.net) lär dig hur du konfigurerar varje aspekt av boten!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord kräver att servern har en [boost nivå](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) på 2 eller högre för att använda privata trådar",
+			"no_notification_channel": "Du måste ange en kanal för ärendeavisering",
+			"notification_channel_type": "Anvisningskanalen måste vara en textkanal",
+			"success": "Trådläge har aktiverats",
+			"disabled": "Trådläge har inaktiverats"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Detta ärende har redan stängts",
+			"no_permission": "Du har inte behörighet att se denna typ av ärende",
+			"already_joined": "Du har redan anslutit dig till detta ärende (<#%d>)",
+			"success": "Lade till dig till ärendet: <#%d>"
 		}
 	}
 }
