@@ -65,7 +65,7 @@
 	"help.managetags": "Hozzáadja, törli vagy kilistázza a cimkék listáját.",
 	"help.open": "Új jegy nyitása.",
 	"help.panel": "Létrehoz egy panelt, amely lehetővé teszi a felhasználók számára, hogy 1 kattintással nyissanak jegyet.",
-	"help.premium": "",
+	"help.premium": "Ezt a parancsot a prémium verzió után hajtsd végre, hogy bekapcsold",
 	"help.remove": "Felhasználó eltávolítása a jegyből.",
 	"help.removeadmin": "Felhasználó vagy csoport adminisztrátori jogainak visszavonása.",
 	"help.removesupport": "Felhasználó vagy csoport kisegítői jogainak visszavonása.",
@@ -188,138 +188,138 @@
 		"reason": {
 			"placeholder": "Lezárás indoka, pl. \"Megoldva\""
 		},
-		"success": ""
+		"success": "A ticket be lett zárva <@%d> által"
 	},
 	"commands": {
 		"open": {
 			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Nem tudtam hozzáadni <@%d> felhasználót a tickethez. Győződj meg arról, hogy van joga a csatornákat megtekinteni (<#%d>)"
 			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Érvénytelen panel: ki kell választanod egyet a legördülő listából",
-			"success": ""
+			"success": "Ez a ticket átkerült a %s panelbe <@%d> felhasználó által"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "A staff felhasználók nem lehetnek a feketelistán",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> a feketelistára került",
+				"limit": "Elérted a rang feketelista limitjét ˙(%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Elérted a felhasználó feketelista limitjét (%d): Használj inkább egy rangot"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Ennek a ticketnek nincs üdvözlő üzenete",
+			"content": "Kattints a gombra alul, hogy a ticket legelejére ugorj"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Kérlek erősítsd meg. hogy hozzá szeretnéd adni %s felhasználót az alap support csapatba",
+			"everyone": "Nem adhatod hozzá a `@everyone` rangot staffként"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Kérlek erősítsd meg, hogy hozzá szeretnéd adni %s felhasználót a bot adminisztrátorok közé"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Elérted a maximális tagszámot (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Az elérhető nyelvek és fordításuk itt érhető el: %s",
+			"success": "A szerveren használt nyelvezet átállítva: **%s** (%s)",
+			"select": "Válassz ki egy nyelvet (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Úgy, ahogy a <t:1662030000:D>, Discord az összes botot megkérdte, hogy váltson át perjeles parancsokra.\n (https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPerjeles parancshoz meg kell nyomnod a `/` gombot a billentyűzeteden, vagy kattints ide: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` csak a thread módban használható. Nézz rá a [docs](https://docs.ticketsbot.net/features/thread-mode), hogy többet tudj meg a threadekről",
+			"success": "Mostantól hívásban vagy",
+			"remove_success": "Mostmár nem vagy hívásban"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket nem található",
+			"no_permission": "Nincs jogod, hogy újranyisd ezt a ticketet",
+			"already_open": "Ez a ticket már nyitva van",
+			"not_thread": "Csak a thread-ek lehetnek újranyithatóak",
+			"thread_deleted": "A ticket ideiglenesen törölve lett",
+			"success": "Ticket %d újranyitva: <#%d>",
+			"in_ticket": "Ez a ticket újranyitva <@%d> által"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Kulcs",
+			"check_again": "Ellenőrizd le újra",
+			"subscription_found": "Feliratkozást találtunk!",
+			"subscription_found_content": "Ahhoz hogy beküldhesd a jelentkezésedet a szerverre, a szerver tulajdonosának (<@%d>) muszály beraknia admin **felhasználónak** (rangok ignorálva vannak) a </addadmin:%d> parancson keresztül. \\n\\nAkkor tudsz jelentkezni, mikor már hozzá vagy adva adminnak a </viewstaff:%d> paranccsal.",
+			"activate_key": "Aktiváld a prémium kulcsot",
+			"checking": "Prémium státusz ellenőrzése...",
+			"please_wait": "Kérlek várj...",
+			"success_after_check": "A prémium aktív a szerveren mostantól!",
+			"link_patreon_account": "Linkelj patreon felhasználót",
+			"no_subscription": "Nem található aktív Patreon feliratkozás a fiókodon. Biztosítsd, hogy [Linkelted a Patreonodat és a fiókodat](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), és vártál több mint 10 percet.",
+			"open_form": "Nyitott form",
+			"open_form_description": "Nyomd meg a gombot alul, hogy újra kinyisd a formot",
+			"use_key_anyway": "Használd a prémium kulcsot mindenesetre",
+			"already_purchased_title": "Már meg van vásárolva prémium?",
+			"already_purchased_description": "Ha már megvetted a prémiumot, válassz egy fizetési lehetőséget a menüből hogy elkezdd",
+			"giveaway_key": "Nyeremény Kulcs",
 			"selector": {
-				"description": "",
+				"description": "Válaszd ki melyik lehetőséget használtad, hogy a prémiumot megkaptad",
 				"key": {
-					"description": ""
+					"description": "Válaszd ezt a lehetőséget, ha kaptál egy nyereménykulcsot"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Válaszd ezt a lehetőséget ha a vásárlásodat Patreonon végezted el"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "A prémium ad jogot több panelhez, statisztikához, egy különböző bothoz és még sok minden máshoz! Nézd meg a [website](https://ticketsbot.net/premium) a részletekért.",
+			"already_activated": "Jó hír! A prémium már elérhető a szerveren.",
+			"already_activated_whitelabel": "Jó hír! A prémium már elérhető a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"panel_switched": "Ticket panel lecserélve",
+			"jump_to_top": "Ugrás a legelejére",
+			"reopened": "Ticket újranyitva",
+			"ticket_closed": "Ticket bezárva"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "Kattints ide",
+		"confirm": "Megerősítés",
+		"website": "Weboldalunk"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": "",
-		"on_call": "",
-		"reopen": ""
+		"switch_panel": "Lecseréli a ticketet egy másik ticket panellel, megváltoztatva a panel kategóriáját, support csoportokat, stb.",
+		"jump_to_top": "Biztosít egy gombot, amivel a ticket legelejére ugorhatsz",
+		"on_call": "Megjelől téged, amikor hívásban vagy, hogy hozzá lettél adba és meg lettén pingelve az összes új ticketben",
+		"reopen": "Újranyit egy ticketet, ami már zárva volt"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> le került a tiltólistáról"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Fel akarsz fedezni többet? A mi [documentation](https://docs.ticketsbot.net) megtanít, hogyan konfiguráld a botot!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "A discord követeli hogy legyen [gyorsítás szint](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 vagy annál több hogy használd a privát threadeket",
+			"no_notification_channel": "Muszáj egy ticket értesítési csatornát beállítanod",
+			"notification_channel_type": "A ticket étresítése csatornája csak egy szövegcsatorna lehet",
+			"success": "Thread mód bekapcsolva",
+			"disabled": "Thread mód kikapcsolva"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Ez a ticket már le volt zárva",
+			"no_permission": "Nincs jogod megnézni ezt a típusú ticketet",
+			"already_joined": "Te már beléptél a ticketbe (<#%d>)",
+			"success": "Hozzáadva téged a <#%d> tickethez"
 		}
 	}
 }
