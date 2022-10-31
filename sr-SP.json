@@ -65,7 +65,7 @@
 	"help.managetags": "Додај, избриши или попиши ознаке",
 	"help.open": "Отвара нову карту",
 	"help.panel": "Ствара панел који омогућава корисницима да отворе карту са 1 кликом",
-	"help.premium": "",
+	"help.premium": "Покрени ову команду након куповине да је активираш",
 	"help.remove": "Уклања корисника са карте",
 	"help.removeadmin": "Даје повластице кориснику или администратору улога",
 	"help.removesupport": "Поништава привилегије корисника или представника улоге",
@@ -88,36 +88,36 @@
 	"setup.auto.roles.failure": "Недостаје ми дозвола за \"Manages Roles\"",
 	"setup.auto.roles.success": "Створене су улоге 'Управе за карте' и 'Подршке за карте'",
 	"setup.auto.transcript.failure": "Недостаје ми дозвола за \"руковање каналима\"",
-	"setup.auto.transcript.success": "",
-	"setup.category.invalid": "",
-	"setup.category.success": "",
-	"setup.info.archive_channel": "",
-	"setup.info.auto": "",
-	"setup.info.category": "",
-	"setup.info.choose": "",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "",
-	"setup.info.ticket_limit": "",
-	"setup.info.transcripts": "",
-	"setup.info.welcome_message": "",
-	"setup.prefix.success": "",
-	"setup.ticket_limit.success": "",
-	"setup.transcript.invalid": "",
-	"setup.transcript.success": "",
-	"setup.welcome_message.invalid": "",
-	"setup.welcome_message.success": "",
-	"commands.language.help_wanted": "",
+	"setup.auto.transcript.success": "Креиран <#%d> канала",
+	"setup.category.invalid": "Morate da kažete ime [**kategorije kanala**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Example:** `/setup category Tickets`",
+	"setup.category.success": "Категорија карата је промењена у `%s`",
+	"setup.info.archive_channel": "Молимо вас да наведете да желите да се записи о картама пошаљу након затварања карата\\nNa primer: `#logs`",
+	"setup.info.auto": "Аутоматски бира опције и ствара потребне канале",
+	"setup.info.category": "Напишите **име** у категорији **канала** под којом желите да се направе карте",
+	"setup.info.choose": "Молим вас, изаберите опцију. Можете користити '/ сет' или '/ сет ауто' да брзо устанете, или користити друге команде за фину подешавање",
+	"setup.info.dashboard": "Више поставки је доступно на [dashboard](https://panel.ticketsbot.net)",
+	"setup.info.panels": "Посетите [dashboard](https://panel.ticketsbot.net/manage/%d/panels) да би створили реакционе панеле",
+	"setup.info.prefix": "Мења префикс (нпр. Не! Не!') од робота.\\n **Пример: ** / постављање префикс -'",
+	"setup.info.ticket_limit": "Поставља максималну количину улазница **Један корисник** може да отвори **одједном**\\n **Пример:** /setup limit 3 *",
+	"setup.info.transcripts": "Поставља транскрипте за канале на које се шаљу.\\n **Пример: ** `/ Упореди транскрипте # лог`",
+	"setup.info.welcome_message": "Напиши поруку коју би робот требао да пошаље када се карта отвори",
+	"setup.prefix.success": "Prefiks je promenjen na`%s`. Možete koristiti `%sopen` da otvorite kartu",
+	"setup.ticket_limit.success": "Лимит карата је ажуриран на `%d`",
+	"setup.transcript.invalid": "Morate spomenuti valjan kanal na serveru (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
+	"setup.transcript.success": "Канал транскрипата је промењен на <#%d>",
+	"setup.welcome_message.invalid": "Поруке добродошлице морају бити максимално 1024 знака.\\n**`/setup welcomemessage Хвала што сте отворили улазницу!`",
+	"setup.welcome_message.success": "Порука добродошлице је ажурирана. Отвори карту да је видиш у акцији",
+	"commands.language.help_wanted": "Govoriš li još jedan jezik? Придружите се нашем [подржавајућем серверу](https://discord.gg/bh6aAfP) Ако сте заинтересовани да помогнете у преводу робота на више језика",
 	"commands.rename.too_long": "Идентификација не може бити дужа од 100 знакова",
-	"commands.autoclose.configure": "",
-	"help.autoclose": "",
-	"help.autoclose.exclude": "",
-	"help.autoclose.configure": "",
-	"commands.autoclose.exclude.success": "",
-	"commands.claim.no_permission": "",
-	"commands.open.from": "",
-	"commands.open.from.moved": "",
-	"help.close_request": "",
+	"commands.autoclose.configure": "Посетите [dashboard](https://panel.ticketsbot.net/manage/%d/panels) да би створили реакционе панеле",
+	"help.autoclose": "Аутоматско затварање повезаних команди",
+	"help.autoclose.exclude": "Искључује аутоматско затварање тренутне карте",
+	"help.autoclose.configure": "Прилагоди аутоматско затварање",
+	"commands.autoclose.exclude.success": "Ова карта је искључена из аутоматског затварања",
+	"commands.claim.no_permission": "Само чланови особља могу тражити улазнице",
+	"commands.open.from": "Ова карта је отворена од [ова порука] (%s).\n\n<@%d> said in <#%d>:\n```%s```",
+	"commands.open.from.moved": "Разговор је пребачен на карту (<#%d>)",
+	"help.close_request": "Шаље поруку кориснику да потврди да је карта затворена",
 	"close.reason_too_long": "Идентификација не може бити дужа од 255 знакова",
 	"commands.close_request.no_reason": "<@%d> Затражио је да затворимо ову карту.\n\nМолим вас, прихватите или одбијте да користите дугмад испод.",
 	"commands.close_request.with_reason": "<@%d> Затражио је да затворимо ову карту.\n```\n%s\n```\nМолим вас, прихватите или одбијте да користите дугмад испод.",
@@ -134,7 +134,7 @@
 	"generic.ticket": "Пријава",
 	"generic.title.premium_only": "Команда Само Премијера",
 	"generic.admin": "Админ",
-	"commands.tags.create.success": "",
+	"commands.tags.create.success": "Таг је створен - можете га користити трчањем `/tag %s`",
 	"generic.title.about": "У вези",
 	"generic.title.vote": "Гласајте",
 	"generic.title.tags": "Ознаке",
@@ -173,8 +173,8 @@
 	"generic.title.add": "Додај",
 	"commands.add.success": "<@%d> Додано је <#%d>",
 	"commands.remove.success": "<@%d> Је уклоњен из <#%d>",
-	"open.ratelimited": "",
-	"commands.claim.thread": "",
+	"open.ratelimited": "Улазнице се отварају пребрзо на овом серверу",
+	"commands.claim.thread": "Због ограничења неслагања, тврдња не подржава нити",
 	"generic.join_support_server": "Придружи се серверу подршке",
 	"commands.open.guild_channel_limit": "Овај сервер је достигао границу од 500 канала",
 	"commands.open.missing_form_answer": "Мораш да одговориш на питање `%s`",
@@ -188,13 +188,13 @@
 		"reason": {
 			"placeholder": "Разлог за затварање карте, пример \"Ресолвед\""
 		},
-		"success": ""
+		"success": "Карта је била затворена <@%d>"
 	},
 	"commands": {
 		"open": {
 			"disabled": "Наредба '/open' је искључена на овом серверу: Молимо вас да користите таблу за улазнице за отварање улазница",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Није могао да дода <@%d> на карту: Осигурајте да имају дозволу за гледање матичног канала нити (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -205,121 +205,121 @@
 			"staff": "Чланови особља не могу бити на црној листи",
 			"add_role": {
 				"success": "<@&%d> jе на црној листи",
-				"limit": ""
+				"limit": "Достигао си црну листу улога (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Дошли сте до црне листе корисника (%d): Размислите о улози"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Ова карта нема поруку добродошлице",
+			"content": "Кликни дугме испод да скочиш на врх карте"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Молимо потврдите да желите да додате %s у основни репрезентативни тим",
+			"everyone": "Не можете додати `@everyone` као особље"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Молимо потврдите да желите додати %s као бот администратор"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Достигао си границу (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Доступни језици и њихов напредак у преводу су следећи:\n%s",
+			"success": "Jezik servera je promenjen na **%s** (%s)",
+			"select": "Изабери језик (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Од <t:1662030000:D>, Дисцорд је присилио **све** роботе да се пребаце на [слаш Цомманд](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nДа би извршили наређење, притисните дугме на тастатури, или кликните овде: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "'/ на позив' се може користити само у начину. Посетите наше [docs](https://docs.ticketsbot.net/features/thread-mode) да сазнате више о нити",
+			"success": "Сада сте на дужности",
+			"remove_success": "Ниси више на дужности"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Карта није пронађена",
+			"no_permission": "Немате дозволу да поново отворите ову карту",
+			"already_open": "Ова карта је већ отворена",
+			"not_thread": "Само се влакна могу поново отворити",
+			"thread_deleted": "Карта је трајно избрисана",
+			"success": "Карта %d поново отворена: <#%d>",
+			"in_ticket": "Ова карта је поново отворена од стране <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Ključ",
+			"check_again": "Провери поново",
+			"subscription_found": "Претплата пронађена!",
+			"subscription_found_content": "Да би применили претплату на овај сервер, власник сервера (<@%d>) мора да вас дода као администратора **корисника** (улоге се игноришу) преко команде </addadmin:%d>.\\n\\nМожете да проверите да ли сте додани као администраторски корисник покренувши </viewstaff:%d>.",
+			"activate_key": "Активирајте премијерни кључ",
+			"checking": "Проверавам премијерни статус...",
+			"please_wait": "Сачекајте...",
+			"success_after_check": "Премија је сада активна на овом серверу!",
+			"link_patreon_account": "Рачуни за повезивање Патреон",
+			"no_subscription": "Нисам могао да нађем активну претплату Патреон повезану са твојим рачуном. Побрини се да повежеш своје рачуне Патреон и Дисцорд.(https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), и даље чекао 10 минута.",
+			"open_form": "Отвори образац",
+			"open_form_description": "Притисните дугме испод да поново отворите образац",
+			"use_key_anyway": "Употријеби Први кључ",
+			"already_purchased_title": "Већ имате премијум?",
+			"already_purchased_description": "Ако сте већ купили премију, изаберите начин плаћања од пада за почетак",
+			"giveaway_key": "Одај кључ",
 			"selector": {
-				"description": "",
+				"description": "Изаберите који сте начин користили да добијете премију",
 				"key": {
-					"description": ""
+					"description": "Изабери ову опцију ако ти је дат кључ"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Изаберите ову опцију ако сте купили Патреон"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Премија ти даје приступ више панела, статистике, робот по наруџби и више! Посетите нас да сазнате више. [website](https://ticketsbot.net/premium).",
+			"already_activated": "Добре вести! Премиум је већ активан у овом серверу.",
+			"already_activated_whitelabel": "Добре вести! Премиум је већ активан у овом серверу.\n\nЗа помоћ да се почне са Wхителабел, прочитајте [Наш водич за белешке](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Плоча за карте замењена",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"jump_to_top": "Скочи на врх",
+			"reopened": "Карта је поново отворена",
+			"ticket_closed": "Карта је затворена"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "Kliknite ovde",
+		"confirm": "Потврди",
+		"website": "Naš websajt"
 	},
 	"help": {
 		"switch_panel": "Пребацује карту на други панел, мења категорију канала, тимове за подршку, итд.",
-		"jump_to_top": "",
-		"on_call": "",
-		"reopen": ""
+		"jump_to_top": "Пружа ти дугме да скочиш на врх карте",
+		"on_call": "Označava te kao dežurnog, da dodaš i upišeš sve nove karte",
+		"reopen": "Поново отвара карту која је раније била затворена"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> jе на црној листи"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Хоћеш да истражујемо? Наш [documentation](https://docs.ticketsbot.net) Научићу те како да конфигуришеш сваки аспект робота!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Несугласице захтевају да сервер има [\"Boost Level\"]](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) од 2 или више за коришћење приватних нити",
+			"no_notification_channel": "Морате да обезбедите канал за обавештавање о картама",
+			"notification_channel_type": "Канал за пријављивање карата мора да је текстуални канал",
+			"success": "Режим је укључен",
+			"disabled": "Режим је искључен"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Ова карта је већ затворена",
+			"no_permission": "Немате дозволу да видите ову страницу",
+			"already_joined": "Већ си се придружио овој карти (<#%d>)",
+			"success": "Додао сам те на карту: <#%d>"
 		}
 	}
 }
