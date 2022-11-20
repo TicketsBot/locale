@@ -321,5 +321,8 @@
 			"already_joined": "Już dołączyłeś do tego zgłoszenia (<#%d>)",
 			"success": "Dodano Cię do zgłoszenia: <#%d>"
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": ""
 	}
 }
