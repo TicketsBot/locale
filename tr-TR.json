@@ -321,5 +321,8 @@
 			"already_joined": "Bu bilete zaten katıldınız (<#%d>)",
 			"success": ""
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": ""
 	}
 }
