@@ -321,5 +321,8 @@
 			"already_joined": "Vous avez déjà rejoint ce ticket (<#%d>)",
 			"success": "Vous avez été ajouté au ticket: <#%d>"
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": ""
 	}
 }

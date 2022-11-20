@@ -321,5 +321,8 @@
 			"already_joined": "لقد انضممت فعلًا إلى هذه التذكرة (<#%d>)",
 			"success": "أضافك إلى التذكرة <#%d>"
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": ""
 	}
 }

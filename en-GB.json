@@ -321,5 +321,8 @@
 			"already_joined": "You have already joined this ticket (<#%d>)",
 			"success": "Added you to the ticket: <#%d>"
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": "Threads cannot be created in announcement channels"
 	}
 }

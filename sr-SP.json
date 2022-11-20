@@ -321,5 +321,8 @@
 			"already_joined": "Већ си се придружио овој карти (<#%d>)",
 			"success": "Додао сам те на карту: <#%d>"
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": ""
 	}
 }
