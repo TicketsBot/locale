@@ -321,5 +321,8 @@
 			"already_joined": "Вы уже присоединились к этой заявке (<#%d>)",
 			"success": "Вы были добавлены в заявку: <#%d>"
 		}
+	},
+	"open": {
+		"thread_in_announcement_channel": ""
 	}
 }
