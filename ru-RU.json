@@ -323,6 +323,7 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": ""
+		"thread_in_announcement_channel": "",
+		"panel_force_disabled": ""
 	}
 }
