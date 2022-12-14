@@ -323,7 +323,7 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": ""
+		"thread_in_announcement_channel": "Les fils de discussion ne peuvent pas être créés dans les salons d'annonce",
+		"panel_force_disabled": "Ce panneau a été désactivé. Veuillez demander à un administrateur du serveur de réactiver la version premium, et exécuter %s pour réactiver ce panneau."
 	}
 }
