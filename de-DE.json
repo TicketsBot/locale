@@ -65,7 +65,7 @@
 	"help.managetags": "Hinzufügen, Löschen oder Anzeigen von Tags",
 	"help.open": "Öffnet ein neues Ticket",
 	"help.panel": "Erstellt einen Panel, der es Benutzern ermöglicht, ein neues Ticket mit einem Klick zu öffnen",
-	"help.premium": "",
+	"help.premium": "Führe diesen Befehl aus, nachdem du Premium gekauft hast",
 	"help.remove": "Entfernt einen Benutzer von einem Ticket",
 	"help.removeadmin": "Widerruft die Administratorenberechtigungen eines Benutzers oder einer Rolle",
 	"help.removesupport": "Widerruft die Support-Berechtigungen eines Benutzers oder einer Rolle",
@@ -188,18 +188,18 @@
 		"reason": {
 			"placeholder": "Grund für das Schließen des Tickets, z.B. \"gelöst\""
 		},
-		"success": ""
+		"success": "Das Ticket wurde von <@%d> geschlossen"
 	},
 	"commands": {
 		"open": {
 			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass die Person Rechte hat, den Hauptchannel (<#%d>) des Threads zu sehen"
 			}
 		},
 		"switch_panel": {
 			"invalid_panel": "Ungültiges Panel: Sie müssen einen aus dem Dropdown-Menü auswählen",
-			"success": "Dieses Ticket wurde `%s` Panel von <@%d> verschoben"
+			"success": "Dieses Ticket wurde von <@%d> zum `%s` Panel verschoben"
 		},
 		"blacklist": {
 			"staff": "Mitarbeiter können nicht gesperrt werden",
@@ -232,68 +232,68 @@
 			"success": "Die Server-Sprache wurde zu **%s** (%s) geändert",
 			"select": "Wähle eine Sprache (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Seit <t:1662030000:D> hat Discord **alle** Bots gezwungen, auf [Slash-Befehle](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands) umzusteigen.\n\nUm einen Slash-Befehl auszuführen, drücke die `/` Taste auf deiner Tastatur, oder klicke hier: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` kann nur im Thread-Modus verwendet werden. Schau in unsere [docs](https://docs.ticketsbot.net/features/thread-mode) um mehr über Threads herauszufinden",
+			"success": "Du bist nun verfügbar",
+			"remove_success": "Du bist nun nicht mehr verfügbar"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket wurde nicht gefunden",
+			"no_permission": "Du hast keine Rechte das Ticket erneut zu öffnen",
+			"already_open": "Dieses Ticket ist bereits geöffnet",
+			"not_thread": "Es können nur Threads erneut geöffnet werden",
+			"thread_deleted": "Das Ticket wurde permanent gelöscht",
+			"success": "Ticket %d wurde erneut geöffnet: <#%d>",
+			"in_ticket": "Dieses Ticket wurde von <@%d> erneut geöffnet"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Taste",
+			"check_again": "Erneut prüfen",
+			"subscription_found": "Abonnement gefunden!",
+			"subscription_found_content": "Um dein Abonnement auf diesem Server zu aktivieren, muss dich der Server-Inhaber als (<@%d>) **Admin-User** (Rollen werden ignoriert) über den </addadmin:%d> Befehl hinzufügen.\u001c\\n\\nDu kannst mit dem Befehl </viewstaff:%d> prüfen, ob du als Admin-User hinzugefügt worden bist.",
+			"activate_key": "Aktiviere einen Premium-Key",
+			"checking": "Premium Status wird überprüft...",
+			"please_wait": "Bitte warten...",
+			"success_after_check": "Premium ist nun auf diesem Server aktiviert!",
+			"link_patreon_account": "Verbinde Patreon Account",
+			"no_subscription": "Es konnte keine aktive Patreon Mitgliedschaft gefunden werden, die mit deinem Discord-Account verbunden ist. Stelle sicher, dass du [deinen Patreon- mit deinem Discord-Account verbunden](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) und weitere 10 Minuten gewartet hast.",
+			"open_form": "Formular öffnen",
+			"open_form_description": "Klicke den Knopf unterhalb, um das Formular erneut zu öffnen",
+			"use_key_anyway": "Verwende trotzdem einen Premium Key",
+			"already_purchased_title": "Hast du bereits premium gekauft?",
+			"already_purchased_description": "Um zu beginnen, wähle die Zahlungsmethode aus der Dropdown-Liste aus, wenn du Premium bereits gekauft hast",
+			"giveaway_key": "Gewinnspielschlüssel",
 			"selector": {
-				"description": "",
+				"description": "Wähle aus, welche Methode du verwendet hast, um Premium zu erhalten",
 				"key": {
-					"description": ""
+					"description": "Wähle diese Option, wenn du einen Gewinnspiel-Schlüssel erhalten hast"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Wähle diese Option, wenn du Premium über Patreon gekauft hast"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium gibt dir Zugang zu mehr Panels, Statistiken, einem personalisierten Bot und mehr! Besuche unsere [website](https://ticketsbot.net/premium) um mehr zu erfahren.",
+			"already_activated": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.",
+			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe bei Whitelabel, lese [unsere Whitelabel Einstellungsanleitung](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticket Panel gewechselt",
 			"jump_to_top": "Nach oben springen",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Ticket neu geöffnet",
+			"ticket_closed": "Ticket geschlossen"
 		},
 		"click_here": "Klicke hier",
 		"confirm": "Bestätigen",
-		"website": ""
+		"website": "Unsere Website"
 	},
 	"help": {
 		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw.",
 		"jump_to_top": "Zeigt einen Button, um nach oben zu springen",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Markiert dich als aktiv, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
+		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,23 +307,23 @@
 			"docs": "Möchtest du mehr entdecken? Unsere [documentation](https://docs.ticketsbot.net) wird dir zeigen wie du alle Aspekte vom Bot konfigurieren kannst!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Der Server benötigt ein [Server-Boost Level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) von 2 oder mehr um private Threads verwenden zu können",
+			"no_notification_channel": "Du musst einen Ticketä-Benachrichtigungschannel angeben",
+			"notification_channel_type": "Der Ticket-Benachrichtigungschannel muss ein Text-Channel sein",
+			"success": "Thread Modus wurde aktiviert",
+			"disabled": "Thread Modus wurde deaktiviert"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Dieses Ticket wurde bereits geschlossen",
+			"no_permission": "Du hast keine Rechte um ein Ticket dieser Art anzusehen",
+			"already_joined": "Du bist bereits dem Ticket (<#%d>) beigetreten",
+			"success": "Du wurdest zum Ticket hinzugefügt: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": ""
+		"thread_in_announcement_channel": "In Ankündigungs-Kanälen können keine Threads erstellt werden",
+		"panel_force_disabled": "Dieses Panel wurde deaktiviert. Bitte frage einen Admin, Premium erneut zu aktivieren und %s auszuführen, um das Panel wieder zu aktivieren."
 	}
 }

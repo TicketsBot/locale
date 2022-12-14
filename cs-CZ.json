@@ -65,7 +65,7 @@
 	"help.managetags": "Přidat, odstranit nebo zobrazit tagy",
 	"help.open": "Otevře nový ticket",
 	"help.panel": "Vytvoří panel, který umožní uživatelům otevřít ticket jedním kliknutím",
-	"help.premium": "",
+	"help.premium": "Tento příkaz lze spustit po aktivaci premium",
 	"help.remove": "Odebere uživatele z ticketu",
 	"help.removeadmin": "Zruší oprávnění uživatele nebo role administrátora",
 	"help.removesupport": "Zruší oprávnění uživatele nebo role na podporu",
@@ -188,13 +188,13 @@
 		"reason": {
 			"placeholder": "Důvod zavření ticketu, např. \"Vyřešeno\""
 		},
-		"success": ""
+		"success": "Ticket byl uzavřen uživatelem <@%d>"
 	},
 	"commands": {
 		"open": {
 			"disabled": "Příkaz \"/open\" je na tomto serveru vypnutý, vytvoř si ticket pomocí ticket panelu.",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Nelze přidat <@%d> k tiketu: ujistěte se, že mají oprávnění k zobrazení nadřazeného kanálu (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -217,7 +217,7 @@
 		},
 		"addsupport": {
 			"confirm": "Prosím potvrďte, že chcete přidat %s do základního týmu podpory",
-			"everyone": ""
+			"everyone": "Nemůžete přidat roli `@everyone` jako personál"
 		},
 		"addadmin": {
 			"confirm": "Prosím potvrďte, že chcete přidat %s jako bota pro správu"
@@ -228,72 +228,72 @@
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Dostupné jazyky a jejich průběh překladu jsou:\n%s",
+			"success": "Jazyk serveru byl změněn na **%s** (%s)",
+			"select": "Vyberte jazyk (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Od <t:1662030000:D>donutil Discord **všechny** boty přepnout na [lomítkové příkazy](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-commans).\n\nPro provedení lomítka stiskněte tlačítko `/` na klávesnici nebo klikněte zde: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` může být použito pouze v režimu vlákna. Navštivte naši [docs](https://docs.ticketsbot.net/features/thread-mode) pro více informací o vláknech",
+			"success": "Nyní jste v hovoru",
+			"remove_success": "Již nejste v hovoru"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Ticket nebyl nalezen",
+			"no_permission": "Nemáte oprávnění k znovuotevření tohoto ticketu",
+			"already_open": "Tento ticket je již otevřený",
+			"not_thread": "Pouze vlákna mohou být znovu otevřena",
+			"thread_deleted": "Ticket byl trvale odstraněn",
+			"success": "Tiket %d byl znovu otevřen: <#%d>",
+			"in_ticket": "Tento ticket byl znovu otevřen < @%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Klíč",
+			"check_again": "Znovu zkontrolovat",
+			"subscription_found": "Odběr nalezen!",
+			"subscription_found_content": "Aby bylo možné použít předplatné na tento server, majitel serveru (<@%d>) vás musí přidat jako administrátora **uživatele** (role jsou ignorovány) pomocí příkazu </addadmin:%d>. \\n\\nMůžete si ověřit, že jste byli přidáni jako administrátor spuštěním </viewstaff:%d>.",
+			"activate_key": "Aktivovat prémiový klíč",
+			"checking": "Kontrola prémiového stavu...",
+			"please_wait": "Počkejte prosím...",
+			"success_after_check": "Prémiové členství je nyní aktivní na tomto serveru!",
+			"link_patreon_account": "Propojení účtu Patreon",
+			"no_subscription": "Nelze najít aktivní předplatné Patreonu, které je propojeno s vaším Discord účtem. Ujistěte se, že [jste propojili své Patreon a Discord účty](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) a dalších 10 minut.",
+			"open_form": "Otevřít formulář",
+			"open_form_description": "Stiskněte tlačítko níže pro opětovné otevření formuláře",
+			"use_key_anyway": "Přesto použít prémiový klíč",
+			"already_purchased_title": "Již jste zakoupili prémiovou verzi?",
+			"already_purchased_description": "Pokud jste již zakoupili prémiový účet, vyberte způsob platby z rozbalovacího seznamu",
+			"giveaway_key": "Klíč ze soutěže",
 			"selector": {
-				"description": "",
+				"description": "Vyberte použitou metodu pro získání prémiového účtu",
 				"key": {
-					"description": ""
+					"description": "Vyberte tuto možnost, pokud jste dostali výherní klíč"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Vyberte tuto možnost, pokud jste provedli nákup na Patreonu"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://ticketsbot.net/premium), abyste se dozvěděli více.",
+			"already_activated": "Dobré zprávy! Premium je již aktivní na tomto serveru.",
+			"already_activated_whitelabel": "Dobré zprávy! Prémiové členství je již aktivní na tomto serveru.\n\nPro začátek s whitelabel si přečtěte [naši příručku pro nastavení whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Panel ticketů byl přepnut",
 			"jump_to_top": "Vem mě nahoru",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "Ticket byl znovu otevřen",
+			"ticket_closed": "Ticket byl uzavřen"
 		},
 		"click_here": "Klikni sem",
 		"confirm": "Potvrdit",
-		"website": ""
+		"website": "Naše webové stránky"
 	},
 	"help": {
 		"switch_panel": "Přepne ticket na jiný panel, změní se tak support team, kategorie, atd.",
 		"jump_to_top": "Vezme vás na začátek ticketu",
-		"on_call": "",
-		"reopen": ""
+		"on_call": "Označuje vás jako při hovoru, bude přidán a přidán ve všech nových ticketů",
+		"reopen": "Znovu otevře ticket, který byl dříve uzavřen"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -307,23 +307,23 @@
 			"docs": "Chcete se dozvědět víc? Naše [dokumentace] (https://docs.ticketbot.net) vás provede kompletní konfigurací!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord vyžaduje, aby server měl [Boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) nejméně 2 pro použití soukromých vláken",
+			"no_notification_channel": "Musíte zadat kanál oznámení ticketu",
+			"notification_channel_type": "Kanál oznámení tiketu musí být textový kanál",
+			"success": "Režim vlákna byl povolen",
+			"disabled": "Režim vlákna byl zakázán"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Tento ticket byl již uzavřen",
+			"no_permission": "Nemáte oprávnění k zobrazení tohoto ticketu",
+			"already_joined": "Již jste se připojili k tomuto ticketu (<#%d>)",
+			"success": "Přidán k ticketu: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
+		"thread_in_announcement_channel": "Vlákna nelze vytvořit v oznamovacích kanálech",
 		"panel_force_disabled": ""
 	}
 }
