@@ -319,7 +319,7 @@
 			"closed_ticket": "Bu bilet zaten kapatıldı",
 			"no_permission": "Bu bilet türünü görüntüleme izniniz yok",
 			"already_joined": "Bu bilete zaten katıldınız (<#%d>)",
-			"success": ""
+			"success": "Sizi bilete ekledi: %d"
 		}
 	},
 	"open": {
