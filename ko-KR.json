@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "티켓을 닫는 이유(예: \"해결됨\")"
 		},
-		"success": ""
+		"success": "<@%d>님이 티켓을 닫으셨어요."
 	},
 	"commands": {
 		"open": {

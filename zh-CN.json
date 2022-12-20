@@ -280,50 +280,50 @@
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"panel_switched": "工单类型切换成功",
+			"jump_to_top": "跳转到顶部",
+			"reopened": "工单已被重新开启",
+			"ticket_closed": "工单已关闭"
 		},
-		"click_here": "",
+		"click_here": "点击此处",
 		"confirm": "",
 		"website": ""
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": "",
+		"switch_panel": "切换工单到另一个工单类别，更改频道类别，支持团队等。",
+		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "",
-		"reopen": ""
+		"reopen": "重新打开之前关闭的工单"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> 已被移出黑名单"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "想要探索更多？我们的 [documentation](https://docs.ticketsbot.net) 将教你如何配置机器人！"
 		},
 		"threads": {
 			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
+			"notification_channel_type": "工单通知频道必须是文本频道",
+			"success": "子区模式已启用",
+			"disabled": "子区模式已关闭"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "工单已经被关闭",
+			"no_permission": "你没有看这个工单的权限",
+			"already_joined": "你已经加入了<#%d>这个工单",
+			"success": "将您添加到工单： <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": ""
+		"thread_in_announcement_channel": "子区不能在公告频道创建",
+		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。"
 	}
 }
