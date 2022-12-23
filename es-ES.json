@@ -324,6 +324,7 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "No se pueden crear hilos en canales de anuncios",
-		"panel_force_disabled": "Este panel está deshabilitado. Por favor pide a un administrador que reactive su premium y utilice %s para poder rehabilitar el panel."
+		"panel_force_disabled": "Este panel está deshabilitado. Por favor pide a un administrador que reactive su premium y utilice %s para poder rehabilitar el panel.",
+		"panel_disabled": ""
 	}
 }

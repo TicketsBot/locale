@@ -324,6 +324,7 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "子区不能在公告频道创建",
-		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。"
+		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。",
+		"panel_disabled": ""
 	}
 }
