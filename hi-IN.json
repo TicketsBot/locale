@@ -324,6 +324,7 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "",
-		"panel_force_disabled": ""
+		"panel_force_disabled": "",
+		"panel_disabled": ""
 	}
 }
