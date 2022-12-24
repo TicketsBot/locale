@@ -325,6 +325,6 @@
 	"open": {
 		"thread_in_announcement_channel": "Wątki nie mogą być utworzone w kanałach ogłoszeń",
 		"panel_force_disabled": "Ten panel został wyłączony. Poproś administratora serwera o reaktywację premium i użycie %s, aby uruchomić go ponownie.",
-		"panel_disabled": ""
+		"panel_disabled": "Administratorzy serwera wyłączyli otwieranie tego typu zgłoszenia"
 	}
 }
