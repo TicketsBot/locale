@@ -323,8 +323,8 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
+		"thread_in_announcement_channel": "A gondolatmeneteket nem lehet létrehozni a bejelentési csatornákban",
 		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_disabled": "A szerver adminisztrátorai kikapcsolták az ilyen típusú jegyek megnyitását"
 	}
 }
