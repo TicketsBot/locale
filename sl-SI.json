@@ -1,8 +1,8 @@
 {
-	"commands.about": "",
-	"commands.add.no_channel": "",
-	"commands.add.no_members": "",
-	"commands.add.no_permission": "",
+	"commands.about": "Tickets je enostaven za uporabo in zelo nastavljiv bot za vstopnice in podporo.\\nPodporni strežnik: https://discord.gg/VtV3rSk\\nUkazi: Vnesite `/help`\\nZačnite tako, da zaženete `/setup`",
+	"commands.add.no_channel": "Če želite dodati uporabnike(s), morate omeniti kanal vstopnic",
+	"commands.add.no_members": "Za dodajanje vstopnice morate omeniti člane",
+	"commands.add.no_permission": "Nimate dovoljenja za dostop do tega zahtevka",
 	"commands.add.not_ticket": "",
 	"commands.addadmin.no_members": "",
 	"commands.addadmin.owner": "",
