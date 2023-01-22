@@ -323,8 +323,8 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"thread_in_announcement_channel": "I thread non possono essere creati nei canali annunci",
+		"panel_force_disabled": "Questo pannello è stato disabilitato. Si prega di chiedere a un amministratore del server di riattivare il piano premium e di usare %s in modo da riattivare questo pannello.",
+		"panel_disabled": "Gli amministratori del server hanno disattivato la possibilità di aprire questo tipo di ticket"
 	}
 }

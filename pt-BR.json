@@ -323,8 +323,8 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"thread_in_announcement_channel": "Tópicos não podem ser criados nos canais de anúncios",
+		"panel_force_disabled": "Este painel foi desativado. Por favor peça a um administrador do servidor para reativar o premium, e execute %s para reativar este painel.",
+		"panel_disabled": "Os administradores do servidor desativaram a abertura deste tipo de ticket"
 	}
 }

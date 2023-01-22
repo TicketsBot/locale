@@ -324,7 +324,7 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "A gondolatmeneteket nem lehet létrehozni a bejelentési csatornákban",
-		"panel_force_disabled": "",
+		"panel_force_disabled": "Ez a panel ki lett kapcsolva. Kérd meg a szerver tulajdonosát, hogy újra aktiválja a prémium fiókot és futtassa a %s parancsot, hogy működjön ez a panel.",
 		"panel_disabled": "A szerver adminisztrátorai kikapcsolták az ilyen típusú jegyek megnyitását"
 	}
 }

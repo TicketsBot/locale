@@ -99,42 +99,42 @@
 	"setup.info.panels": "前往 [网页面板](https://panel.ticketsbot.net/manage/%d/panels) 来去创建问题单面板",
 	"setup.info.prefix": "更改机器人的前缀(如：“t!”)。\\n**示例：** “/setup 前缀 -”",
 	"setup.info.ticket_limit": "设置**单个用户一次打开**的最大工单数量。\\n**示例：** “/setuplimit 3”",
-	"setup.info.transcripts": "",
+	"setup.info.transcripts": "设置问题单纪录将发送到哪个频道。\\n**例如：** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "输入打开问题单时机器人应发送的消息",
 	"setup.prefix.success": "前缀已更改为 `%s`。您可以使用 `%sopen` 来打开问题单",
 	"setup.ticket_limit.success": "问题单限制已经更改为`%d`",
-	"setup.transcript.invalid": "",
+	"setup.transcript.invalid": "您必须提供服务器的有的频道（例如 <#%d>）\\n**例如:** `/setup transcripts #logs`",
 	"setup.transcript.success": "问题单记录频道已更改到 <#%d>",
-	"setup.welcome_message.invalid": "",
+	"setup.welcome_message.invalid": "欢迎信息的长度不得超过1024个字符\\n**例如：**`/setup welcomemessage 感谢您打开工单！`",
 	"setup.welcome_message.success": "欢迎信息已更新。打开问题单以查看其运行情况",
-	"commands.language.help_wanted": "",
+	"commands.language.help_wanted": "您是否使用另一种语言？如果您有兴趣帮助将机器人翻译成更多语言，请加入我们的 [支持服务器](https://discord.gg/bh6aAfP)",
 	"commands.rename.too_long": "频道名称不能长于 100 个字符",
-	"commands.autoclose.configure": "",
-	"help.autoclose": "",
-	"help.autoclose.exclude": "",
-	"help.autoclose.configure": "",
-	"commands.autoclose.exclude.success": "",
-	"commands.claim.no_permission": "",
-	"commands.open.from": "",
-	"commands.open.from.moved": "",
-	"help.close_request": "",
+	"commands.autoclose.configure": "前往 [仪表盘](https://panel.ticketsbot.net/manage/%d/panels)来创建工单面板",
+	"help.autoclose": "有关**自动关闭**的命令",
+	"help.autoclose.exclude": "停用当前工单自动被关闭",
+	"help.autoclose.configure": "编辑自动关闭相关的设置",
+	"commands.autoclose.exclude.success": "这个工单已停用自动关闭",
+	"commands.claim.no_permission": "只有员工才能认领工单",
+	"commands.open.from": "这个工单是从[这个消息](%s) 打开的。\n\n<@%d> 在 <#%d> 中说过：\n```%s```",
+	"commands.open.from.moved": "对话已移动到新工单(<#%d>)",
+	"help.close_request": "发送消息，请用户确认工单能被关闭",
 	"close.reason_too_long": "原因不能超过 255 个字符",
-	"commands.close_request.no_reason": "",
-	"commands.close_request.with_reason": "",
-	"commands.close_request.no_permission": "",
-	"commands.close_request.denied": "",
+	"commands.close_request.no_reason": "<@%d> 请求关闭此工单。\n\n请使用下面的按钮确认或拒绝。",
+	"commands.close_request.with_reason": "<@%d> 请求关闭此工单。原因：\n```\n%s\n```\n请使用下面的按钮确认或拒绝。",
+	"commands.close_request.no_permission": "只有打开工单的用户才可以响应关闭请求",
+	"commands.close_request.denied": "<@%d> 拒绝了关闭请求",
 	"generic.error": "错误",
 	"feedback.disabled": "此服务器已禁用反馈",
 	"feedback.success": "已收到您的反馈",
-	"generic.success": "",
-	"button.guild_only": "",
-	"button.dms_only": "",
+	"generic.success": "成功",
+	"button.guild_only": "这个按钮只能服务器中使用",
+	"button.dms_only": "这个按钮只能在私信中使用",
 	"commands.tag.generic": "标签",
 	"commands.tags.delete.success": "标签`%s`已被删除",
 	"generic.ticket": "工单",
-	"generic.title.premium_only": "",
+	"generic.title.premium_only": "高级订阅专用命令",
 	"generic.admin": "管理员",
-	"commands.tags.create.success": "",
+	"commands.tags.create.success": "标签已创建 - 你可以通过运行 `/tag %s ` 来使用",
 	"generic.title.about": "关于",
 	"generic.title.vote": "投票",
 	"generic.title.tags": "标签",
@@ -167,7 +167,7 @@
 	"generic.title.close_request": "关闭请求",
 	"commands.close_request.accept": "接受并关闭",
 	"commands.close_request.deny": "拒绝并保持开启",
-	"commands.premium.success": "",
+	"commands.premium.success": "高级版已激活**%d** 天",
 	"generic.title.claimed": "已认领的工单",
 	"generic.title.unclaimed": "未认领的工单",
 	"generic.title.add": "添加",
@@ -194,49 +194,49 @@
 		"open": {
 			"disabled": "此服务器已禁用 `/open` 命令：请使用工单面板来开启工单",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)"
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "无效的面板：您必须从下拉列表中选择一个",
+			"success": "这个工单被 <@%d> 切换到 `%s` 面板"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "员工不能被列入黑名单",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> 已被列入黑名单",
+				"limit": "身份组黑名单已达到可添加的数量上限 (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "用户黑名单已经达到了上限 (%d)：请添加身份组"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
+			"no_welcome_message": "这个工单没有欢迎消息",
 			"content": "点击下面的按钮跳到工单顶部"
 		},
 		"addsupport": {
-			"confirm": "",
+			"confirm": "请确认您想要将 %s 添加到默认支持代表团队",
 			"everyone": "你不能添加 `@everone` 角色作为工作人员"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "请确认您想要添加 %s 作为机器人管理员"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "标签 (%d) 已达到可添加的数量上限"
 			}
 		},
 		"language": {
-			"content": "",
+			"content": "可用语言及其翻译进度如下：\n%s",
 			"success": "服务器语言已更改为**%s** (%s)",
 			"select": "选择语言(%c-%c)"
 		},
 		"interaction_switch": "从 <t:1662030000:D>起，Discord已强制所有机器人切换到 [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)。\n\n要执行斜杠命令，请点击键盘上的 `/` 按钮，或点击这里： %s",
 		"on_call": {
 			"channel_mode": "“/on-call” 只能用于子区模式。访问我们的 [docs](https://docs.ticketsbot.net/features/thread-mode) 以了解更多关于子区的信息",
-			"success": "",
-			"remove_success": ""
+			"success": "你现在是在线状态",
+			"remove_success": "你不再是在线状态"
 		},
 		"reopen": {
 			"not_found": "工单未找到",
@@ -257,25 +257,25 @@
 			"please_wait": "请稍候...",
 			"success_after_check": "已经在此服务器上激活高级订阅！",
 			"link_patreon_account": "绑定 **Patreon** 账号",
-			"no_subscription": "",
+			"no_subscription": "找不到到您的 Discord 账户关联的 Patreon 订阅。请确保您[已将您的 Patreon 和 Discord 账户关联好](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role)，并再等10分钟。",
 			"open_form": "打开表格",
 			"open_form_description": "按下面的按钮重新打开表格",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"use_key_anyway": "仍然使用高级订阅密钥",
+			"already_purchased_title": "已经购买高级订阅？",
+			"already_purchased_description": "如果您已经购买了高级订阅，请从下拉菜单中选择付款方式开始使用",
+			"giveaway_key": "赠品密钥",
 			"selector": {
-				"description": "",
+				"description": "选择您获取高级订阅的方法",
 				"key": {
-					"description": ""
+					"description": "如果您需要使用密钥，请选择此选项"
 				},
 				"patreon": {
 					"description": "如果您在 **Patreon** 上购买，请选择此选项"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](https://ticketsbot.net/premium) 来了解更多信息。",
+			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
+			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[自定义设置机器人](https://docs.ticketsbot.net/prem/whitlabel-setup-guide)。"
 		}
 	},
 	"generic": {
@@ -286,13 +286,13 @@
 			"ticket_closed": "工单已关闭"
 		},
 		"click_here": "点击此处",
-		"confirm": "",
-		"website": ""
+		"confirm": "确认",
+		"website": "我们的官网"
 	},
 	"help": {
 		"switch_panel": "切换工单到另一个工单类别，更改频道类别，支持团队等。",
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
-		"on_call": "",
+		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单"
 	},
 	"<@&%d> has been unblcommands": {
@@ -307,7 +307,7 @@
 			"docs": "想要探索更多？我们的 [documentation](https://docs.ticketsbot.net) 将教你如何配置机器人！"
 		},
 		"threads": {
-			"missing_boosts": "",
+			"missing_boosts": "Discord 服务器需要达到[Boost Level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2或更高来使用私有线程",
 			"no_notification_channel": "您必须提供(设置)一个工单通知频道",
 			"notification_channel_type": "工单通知频道必须是文本频道",
 			"success": "子区模式已启用",
