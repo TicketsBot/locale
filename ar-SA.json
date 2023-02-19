@@ -1,5 +1,5 @@
 {
-	"commands.about": "",
+	"commands.about": "تيكت بوت (Tickets) هو بوت للدعم الفني في سيرفرك الديسكورد, حيث يعد سهل الاستخدام وقابل للتخصيص والتعديل بشكل كبير\nتستطيع الدخول إلى سيرفر ديسكورد الدعم الفني الخاص بالبوت: https://discord.gg/VtV3rSk\nلمعرفة جميع الأوامر استخدم كوماند: /help\nولتبدأ بإستخدام البوت استخدم كوماند: /setup",
 	"commands.add.no_channel": "يجب أن تذكر قناة التذكرة لإضافة المستخدم (المستخدمين) إليها",
 	"commands.add.no_members": "تحتاج إلى ذكر الأعضاء لإضافتهم إلى التذكرة",
 	"commands.add.no_permission": "ليس لديك صلاحية لإضافة أشخاص إلى هذه التذكرة",
@@ -26,7 +26,7 @@
 	"commands.removesupport.no_members": "عليك ان تذكر اسم المستخدم او اسم رتبة الموظف للحصول على المساعدة",
 	"commands.rename.missing_name": "الرجاء تحديد إسم جديد لهذه التذكرة ",
 	"commands.rename.success": "<#%d> هذه ألتذكرة تم تغير أسمها ل ",
-	"commands.tags.create.already_exists": "",
+	"commands.tags.create.already_exists": "التاغ الذي يحمل الايدي : %s موجود بالفعل , يمكن حذف التاغ بأستخدام كوماند :\n/delete %s",
 	"commands.tags.create.invalid_arguments": "ومحتوياته IDعليك تحديد شعار ال",
 	"commands.tags.create.too_long": "ان يكون اطول من 16 حرف IDsلا يمكن لشعار ال",
 	"commands.tags.delete.invalid_arguments": "لحذفه IDيجب عليك تحديد شعار ال",
@@ -50,11 +50,11 @@
 	"help.admin": "إدارة البوت",
 	"help.admin.blacklist": "وضع خادم في القائمة السوداء من استخدام البوت",
 	"help.admin.check_premium": "تحقق من حالة البريميوم للخادم",
-	"help.admin.force_close": "",
+	"help.admin.force_close": "ضبط حالة التذاكر المقدمة الى تذاكر مغلقة",
 	"help.admin.generate_premium": "إنشاء رموز بريميوم",
 	"help.admin.get_owner": "يحصل على مالك الخادم",
 	"help.admin.unblacklist": "إزالة خادم من القائمة السوداء",
-	"help.admin.update_schema": "",
+	"help.admin.update_schema": "تحديث هيئة او مخطط قواعد البيانات",
 	"help.blacklist": "تفعيل خاصية السماح للمستخدمين بإستخدام البوت",
 	"help.cancel": "يلغي عملية الإعداد",
 	"help.claim": "إستلام التذكرة من قبل اّدمن واحد فقط",
@@ -65,7 +65,7 @@
 	"help.managetags": "إضافة او إزالة او عرض شعارات",
 	"help.open": "إفتتاح تذكرة جديدة",
 	"help.panel": "إنشاء لوحة لإعطاء المستخدمين القدرة لفتح تذكرة بنقرة واحدة",
-	"help.premium": "",
+	"help.premium": "قم بإستخدام هذا الامر بعد شراء خطة البريميوم للتفعيل",
 	"help.remove": "إزالة مستخدم من التذكرة",
 	"help.removeadmin": "إزالة مميزات ورتبة الاّدمن",
 	"help.removesupport": "إزالة مميزات ورتبة الموظف",
@@ -89,17 +89,17 @@
 	"setup.auto.roles.success": "تم انشاء أدوار `مشرف التذاكر` & `دعم التذاكر`",
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.transcript.success": "تم إنشاء قناة <#%d>",
-	"setup.category.invalid": "",
+	"setup.category.invalid": "يجب عليك كتابة اسم للفئة الرئيسية : [**channel category**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\nمثال : \n/setup category Tickets",
 	"setup.category.success": "تم تغيير فئة قناة التذاكر إلى `%s`",
 	"setup.info.archive_channel": "\n:مثال `#logs` الرجاء تحديد سجلات التذاكر التي تريد أرسالها عندما تغلق التذكرة ",
 	"setup.info.auto": "يحدد تلقائياً الخيارات وينشئ القنوات المطلوبة",
 	"setup.info.category": "اكتب الأسم لفئة القناة التي تحب إنشاء التذاكر فيها ",
-	"setup.info.choose": "",
+	"setup.info.choose": "قم بإختيار اي خيار, تستطيع استخدام امر /setup او /setup auto للعمل والتفعيل السريع, او استخدام اي امر من الاوامر الاخرى لضبط الاعدادات",
 	"setup.info.dashboard": "المزيد من الإعدادات متوفرة على [لوحة التحكم](https://panel.ticketsbot.net)",
-	"setup.info.panels": "",
+	"setup.info.panels": "قم بزيارة [dashboard] (https://panel.ticketsbot.net/manage/%d/panels) لإنشاء لوحة تذاكر بالرياكشن",
 	"setup.info.prefix": "تغير بادئة (e.g. `t!`) الخاصة بالبوت. \\n **مثال:** `/setup prefix -`",
 	"setup.info.ticket_limit": "يعين الحد الأقصى لعدد التذاكر التي يمكن فتحها **لمستخدم واحد** **في الوقت ذاته**. \\n**مثال:**`/setup limit 3`",
-	"setup.info.transcripts": "",
+	"setup.info.transcripts": "وضع الروم التي يتم ارسال الـ \"Transcript\" الخاص بالتذكرة اليها\\n**مثال** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "اكتب الرسالة التي سوف يرسلها البوت عندما تفتح التذكرة",
 	"setup.prefix.success": "تم تغيير البادئة إلى '%s`. يمكنك استخدام '%sopen` لفتح تذكرة",
 	"setup.ticket_limit.success": "تم تحديث حد التَّذْكِرَة إلى `%d`",
@@ -110,7 +110,7 @@
 	"commands.language.help_wanted": "هل تتحدث لغة أخرى؟ انضم إلى [خادم الدعم](https://discord.gg/bh6aAfP) الخاص بنا إذا كنت مهتما بترجمة البوت إلى لغات أكثر",
 	"commands.rename.too_long": "اسماء القنوات لا يمكن ان تكون اطول من 100 حرف",
 	"commands.autoclose.configure": "قم بزيارة [لوحة التحكم](https://panel.ticketsbot.net/manage/%d/settings) لتغيير إعدادات الإغلاق التلقائي",
-	"help.autoclose": "",
+	"help.autoclose": "إغلاق تلقائي للإوامر ذات الصلة",
 	"help.autoclose.exclude": "يستبعد التذكرة الحالية من أن تغلق تلقائياً",
 	"help.autoclose.configure": "تعديل إعدادات الإغلاق التلقائي",
 	"commands.autoclose.exclude.success": "تم استبعاد هذه التذكرة من الإغلاق التلقائي",
@@ -129,15 +129,15 @@
 	"generic.success": "نجاح",
 	"button.guild_only": "يجب استخدام هذا الزر في خادم",
 	"button.dms_only": "يجب استخدام هذا الزر في الرسائل المباشرة",
-	"commands.tag.generic": "",
-	"commands.tags.delete.success": "",
+	"commands.tag.generic": "الوسم (التاغ)",
+	"commands.tags.delete.success": "تم حذف التاغ : %s",
 	"generic.ticket": "تذكرة",
 	"generic.title.premium_only": "أمر بريميوم فقط",
 	"generic.admin": "مشرف",
-	"commands.tags.create.success": "",
+	"commands.tags.create.success": "تم انشاء الوسم - تستطيع استخدامه من خلال استخدام امر `/tag %s`",
 	"generic.title.about": "حول",
 	"generic.title.vote": "تصويت",
-	"generic.title.tags": "",
+	"generic.title.tags": "الوسوم (التاغات)",
 	"generic.title.autoclose": "الإغلاق التلقائي",
 	"generic.title.invite": "دعوة",
 	"generic.title.close": "إغلاق",
@@ -188,126 +188,126 @@
 		"reason": {
 			"placeholder": "سبب إغلاق التذاكرة، على سبيل المثال \"تم الحل\""
 		},
-		"success": ""
+		"success": "تم إغلاق التذكرة من قبل <@%d>"
 	},
 	"commands": {
 		"open": {
-			"disabled": "",
+			"disabled": "الامر /open غير مفعل في هذا السيرفر, تستطيع استخدام لوحة التذاكر لفتح تذكرة جديدة",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "تعذر اضافة <@%d> على التذكرة, تأكد من انه يملك صلاحية رؤية الروم الرئيسي لهذا الموضوع (الثريد) (<#%d>)"
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "لوحة غير صالحة: يجب عليك اختيار واحدة من القائمة التالية",
+			"success": "لقد تم نقل هذه التذكرة الى لوحة `%s` من قبل <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "لا يمكنك إدارج اعضاء الفريق في القائمة السوداء",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "تم إضافة <@&%d> على القائمة السوداء",
+				"limit": "لقد وصلت للحد الاعلى للقائمة السوداء للرتبة (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "لقد وصلت الى الاحد الاعلى للقائمة السوادء للمستخدم (%d), علما انك تستطيع استخدام القائمة السوداء للرتب بدلا من ذلك"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "هذه التذكرة لا تحتوي على رسالة ترحيبية",
+			"content": "اضغط على الزر ادناه للإنتقال الى اعلى التذكرة"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "الرجاء التأكيد على انك تريد اضافة %s على انه الممثل الإفتراضي لفريق الدعم الفني",
+			"everyone": "لا تستطيع اضافة رتبة @everyone على انها رتبة ادارية او رتبة فريق"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "الرجاء التأكيد على انك تريد اضافة %s على انه مسؤول للبوت (جميع الصلاحيات)"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "لقد وصلت الحد الاقصى للوسوم (التاغات) : (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "اللغات المتاحة حاليا ونسبة الإنجاز بها :\n%s",
+			"success": "تم تغيير لغة السيرفر الى **%s** (%s)",
+			"select": "اختر لغة (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "بناءا على <t:1662030000:D>, ديسكورد يجبر جميع البوتات الى تحويل الاوامر الى اوامر ([Slash Commands) (https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)\n\nلإستخدام الاوامر الـ (Slash Commands), اضغط على زر `/` على الكيبورد, او اضغط هنا : %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "تستطيع استخدام امر `/on-call` فقط في المواضيع (الثريدات), قم بزيادة [docs] (https://docs.ticketsbot.net/features/thread-mode) لإكتشاف المزيد عن المواضيع (الثريدات)",
+			"success": "انت الأن في مكالمة",
+			"remove_success": "انت لم تعد في مكالمة"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "لم يتم العثور على التذكرة",
+			"no_permission": "ليس لديك صلاحية لإعادة فتح هذه التذكرة",
+			"already_open": "هذه التذكرة مفتوحة بالفعل",
+			"not_thread": "فقط المواضيع (الثريدات) تستطيع اعادة فتحهم",
+			"thread_deleted": "لقد تم حذف التذكرة بشكل نهائي",
+			"success": "تم اعادة فتح التذكرة %d : \n <#%d>",
+			"in_ticket": "تم اعادة فتح هذه التذكرة من قبل : <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "مفتاح",
+			"check_again": "تحقق مرة اخرى",
+			"subscription_found": "تم العثور على اشتراك!",
+			"subscription_found_content": "من أجل تفعيل الاشتراك الخاص بك على هذا السيرفر, يجب ان يقوم صاحب السيرفر (<@%d>) بإضافتك كمشرف (ادمن) \n**user** (roles are ignored)\nمن خلال استخدام امر </addadmin:%d>\nتستطيع التأكد من انه تم اضافتك كمشرف من خلال استخدام امر : </viewstaff:%d>",
+			"activate_key": "قم بتفعيل البريميوم من خلال مفتاح (كي)",
+			"checking": "جاري التحقق من حالة البريميوم",
+			"please_wait": "الرجاء الإنتظار...",
+			"success_after_check": "تم تفعيل البريميوم لهذا السيرفر",
+			"link_patreon_account": "قم بربط حساب باتريون",
+			"no_subscription": "تعذر العثور على اشتراك باتريون فعال مربوط مع حسابك الديسكورد. تأكد انك قمت بربط حسابك الديسكورد مع الباتريون (https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) , وانتظر بعدها 10 دقائق.",
+			"open_form": "فتح نموذج (فورم)",
+			"open_form_description": "قم بالضغط على الزر ادناه لإعادة فتح النموذج",
+			"use_key_anyway": "استخدام مفتاح البريميوم على اي حال",
+			"already_purchased_title": "هل انت بالفعل قمت بشراء البريميوم ؟",
+			"already_purchased_description": "اذا قمت بالفعل بشراء البريميوم, اختار طريقة الدفع من هذه القائمة للبدء",
+			"giveaway_key": "مفتاح جيف اواي (جيف اواي كي)",
 			"selector": {
-				"description": "",
+				"description": "حدد الطريقة التي استخدمتها للحصول على البريميوم",
 				"key": {
-					"description": ""
+					"description": "استخدم هذا الخيار في حال مُنحت مفتاح هدية"
 				},
 				"patreon": {
-					"description": ""
+					"description": "قم بإختيار هذا الخيار فيه حال قم بالشراء من خلال باتريون"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "البريموم يعطيك الصلاحية للمزيد من اللوحات والاحصائيات , وبوت خاص بك , والمزيد!\nقم بزيارة الموقع الإلكتروني الخاص بنا (https://ticketsbot.net/premium) لإكتشاف المزيد",
+			"already_activated": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر",
+			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"panel_switched": "تم تبديل لوحة التذكرة",
+			"jump_to_top": "انتقل إلى الأعلى",
+			"reopened": "تم إعادة فتح التذكرة",
+			"ticket_closed": "تم إغلاق التذكرة"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "إضغط هنا",
+		"confirm": "تأكيد",
+		"website": "الموقع الإلكتروني الخاص بنا"
 	},
 	"help": {
 		"switch_panel": "قم بتبديل تذكرة إلى لوحة تذكرة أخرى، تغيير فئة القناة، فرق الدعم، إلخ.",
-		"jump_to_top": "",
-		"on_call": "",
-		"reopen": ""
+		"jump_to_top": "يوفر لك زر للإنتقال الى اعلى التذكرة",
+		"on_call": "وضع علامة عليك كأنك داخل مكالمة , حتى يتم اضافتك وتنبيهك في جميع التذاكر الجديدة",
+		"reopen": "اعادة فتح تذكرة تم إغلاقها سابقاً"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "تم إزالة <@&%d> من القائمة السوداء"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "هل تريد إكتشاف المزيد ؟ [documentation] (https://docs.ticketsbot.net) ستجد بها جميع الشروحات التي تخص اعداد وتشغيل البوت"
 		},
 		"threads": {
-			"missing_boosts": "",
+			"missing_boosts": "ديسكورد يتطلب ان يكون لدى السيرفر [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) اثنين بوست او اعلى لإستخدام المواضيع (الثريدات) الخاصة",
 			"no_notification_channel": "يجب عليك توفير قناة إشعار التذكرة",
 			"notification_channel_type": "يجب أن تكون قناة إشعار التذكرة عبارة عن قناة نصية",
 			"success": "تم تفعيل وضع الموضوع",
@@ -323,8 +323,8 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"thread_in_announcement_channel": "لا تستطيع إنشاء موضوع (ثريد) في رومات الاعلانات",
+		"panel_force_disabled": "تم ايقاف هذه اللوحة, قم بطلب من مشرف السيرفر ان يقوم بإعادة تفعيل البريميوم, واستخدام كوماند %s لإعادة تفعيل هذه اللوحة",
+		"panel_disabled": "قاموا مشرفين السيرفر بمنع فتح هذا النوع من التذاكر"
 	}
 }
