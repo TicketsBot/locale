@@ -199,7 +199,7 @@
 		},
 		"switch_panel": {
 			"invalid_panel": "Ungültiges Panel: Sie müssen einen aus dem Dropdown-Menü auswählen",
-			"success": "Dieses Ticket wurde von <@%d> zum `%s` Panel verschoben"
+			"success": "Dieses Ticket wurde zum`%s` Panel von <@%d> verschoben"
 		},
 		"blacklist": {
 			"staff": "Mitarbeiter können nicht gesperrt werden",
