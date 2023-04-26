@@ -65,7 +65,7 @@
 	"help.managetags": "Добавя, изтрива или изброява тагове",
 	"help.open": "Отваря нов тикет",
 	"help.panel": "Създава панел за отваряне на тикет само с 1 клик",
-	"help.premium": "",
+	"help.premium": "Използвай тази команда, след като си закупил премиум, за да го активираш",
 	"help.remove": "Премахва потребител от тикет",
 	"help.removeadmin": "Премахва администраторски привилегии на потребител или роля",
 	"help.removesupport": "Премахва съпорт привилегиите от потребител или роля",
@@ -181,150 +181,150 @@
 	"generic.use_slash_commands": "Внимание: трябва да преминете към команди с наклонена черта до 30 април. След тази дата командите, базирани на съобщения, ще спрат да работят.",
 	"close.no_permission": "Нямате право да затваряте този билет",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Затвори с причина",
+		"generic.reason": "Причина"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Причина за затваряне на билета, п.р \"Проблема е решен\""
 		},
-		"success": ""
+		"success": "Билета беше затворен от <@%d>"
 	},
 	"commands": {
 		"open": {
-			"disabled": "",
+			"disabled": "Командата `отвори` е премахната в този сървър: моля използвайте тикет панел, за да отворите билет",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "Не мога да добавя <@%d> в билета: моля уверете се, че те имат правата да гледат този канал (<#%d>)"
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "",
-			"success": ""
+			"invalid_panel": "Невалиден панел: Вие трябва да изберете една от опциите по- долу",
+			"success": "Панела на билета беше преместен в `%s`, от <@%d>"
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Хората от екипа не могат да бъдат сложени в черния списък",
 			"add_role": {
-				"success": "",
-				"limit": ""
+				"success": "<@&%d> беше добавен в черния списък",
+				"limit": "Ти достигна лимитът за ролята (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Ти достигна лимитът за добавяне в черния списък хора (%d): вместо това опитай с роля"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Билета няма съобщение за добре дошли",
+			"content": "Натисни бутона долу, за да достигнеш най-отгоре на билета"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "Моля потвърди, че искаш да добавиш %s към нормалния съпорт екип",
+			"everyone": "Не можеш да добавиш `@everyone` като роля за екип"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "Моля потвърди, това че искаш да добавиш %s като бот администратор "
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Достигнали сте таг лимитът (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "Езиците, които са достъпни и техния напредък в превода са: %s",
+			"success": "Езика на сървъра беше сменен на **%s** (%s)",
+			"select": "Избери език (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "Към <t:1662030000:D> Discord принуди **всички** ботове да преминат към [команди с наклонена черта](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)\n\nЗа да използваш наклонена черта, натисни `/` на клавиатурата си или натисни тук %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`on-call` може да се използва само в теми. Посети нашия [docs] (https://docs.ticketsbot.net/features/thread-mode), за да намериш повече относно темите",
+			"success": "Ти сега говориш ",
+			"remove_success": "Ти вече не говориш"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "Билетът не е намерен",
+			"no_permission": "Нямате позволение да отворите наново този билет",
+			"already_open": "Билета вече е отворен ",
+			"not_thread": "Само темите могат да бъдат отворени наново",
+			"thread_deleted": "Билета беше изтрит завинаги ",
+			"success": "Тикет %d бе отворен наново <#%d>",
+			"in_ticket": "Този билет беше отворен наново от <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "Ключ",
+			"check_again": "Провери отново ",
+			"subscription_found": "Абонаментът е намерен!",
+			"subscription_found_content": "Ако искаш да сложиш абонаментът ти в този сървър, собственикът на сървъра <(@%d)> трябва да ви направи като администраторен **човек** (роли не се броят) през командата </addadmin:%d>.\n\\n\\n Може да се верифицираш, че си добавен като админ от командата  </viewstaff:%d>.",
+			"activate_key": "Активирай премиум ключа",
+			"checking": "Проверява се премиум статус...",
+			"please_wait": "Моля изчакайте...",
+			"success_after_check": "Премиум е вече активен за този сървър!",
+			"link_patreon_account": "Свържи Patreon акаунт",
+			"no_subscription": "Не мога да намеря активен Patreon абонамент, свързан с твоя дискорд акаунт. Увери се, че [Си свързал Patreon и дискорд акаунта си]. \n (https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role),\nизчакайте 10 минути.",
+			"open_form": "Отворена форма",
+			"open_form_description": "Натисни бутона долу, за да отворите наново формата",
+			"use_key_anyway": "А пак използвай премиум кей",
+			"already_purchased_title": "Вече закупуш премиум?",
+			"already_purchased_description": "Ако вече си закупил премиум, избери метода за плащане чрез долу опциите, за да започнем",
+			"giveaway_key": "Ключ за раздаване",
 			"selector": {
-				"description": "",
+				"description": "Избери кой метод си използвал за премиум",
 				"key": {
-					"description": ""
+					"description": "Избери тази опция, ако са ги дали ключ за раздаване"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Избери тази опция, ако си направил покупката чрез Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Премиум, Ви дава възможност за повече панели, статистики, къстъм бот и още много неща! Посети нашия [website] (https://ticketsbot.net/premium), за да научиш повече.",
+			"already_activated": "Добро новини! Премиум вече е активен в този сървър.",
+			"already_activated_whitelabel": "Добри новини! Премиум вече е активен в този сървър.\nЗа да получите помощ при стартиране с whitelabel, прочетете [нашия whitelabel сетъп](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"panel_switched": "Панела е сменен",
+			"jump_to_top": "Отиди до горе",
+			"reopened": "Тикетът е отворен отново",
+			"ticket_closed": "Билетът - затворен"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "Натисни Тук",
+		"confirm": "Потвърди",
+		"website": "Нашия уебсайт"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": "",
-		"on_call": "",
-		"reopen": ""
+		"switch_panel": "Сменя билета в друг панел, сменя категорията на канала, сменя и съпорт тиймовете, други.",
+		"jump_to_top": "Осигурява ви бутон, с който да се качите най-отгоре на билета",
+		"on_call": "Маркира ви в разговор, да бъде добавен и тагван във всички нови билети",
+		"reopen": "Отваря наново билет, който преди това е затворен "
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@%d> Беше махнат от черния списък"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Искаш да научиш повече? Нашата [documentation] (https://docs.ticketsbot.net), ще ви научи как да конфигурирате всичко възможно на бота!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Дискорд сървъра трябва да има бууст левел [boost level] \n(https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2ро левел или по-висок, за да се използват привейт теми",
+			"no_notification_channel": "Трябва да направиш канал за известия на тикетите",
+			"notification_channel_type": "Канала за известия, трябва да може да се пише в него",
+			"success": "Тема-мода е активиран",
+			"disabled": "Тема-мода е деактивиран"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Този билет, вече е затворен",
+			"no_permission": "Нямате разрешение да гледате този вид билети",
+			"already_joined": "Вие вече сте се присъединили в този билет (<#%d>)",
+			"success": "Добави те в билета <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"thread_in_announcement_channel": "Темите не могат да бъдат създадени в канали за известия",
+		"panel_force_disabled": "Този панел вече е изключен. Моля попитайте админ, за да включите отново премиум и да изпълните %s в сметка да пуснете този панел наново.",
+		"panel_disabled": "Сървър админите са премахнали отварянето на такъв вид билети"
 	}
 }

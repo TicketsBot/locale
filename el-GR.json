@@ -260,7 +260,7 @@
 			"no_subscription": "Δεν ήταν δυνατή η εύρεση ενεργής συνδρομής Patreon που συνδέεται με τον λογαριασμό σας στο Discord. Βεβαιωθείτε ότι [έχετε συνδέσει τους λογαριασμούς σας Patreon και Discord](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), και επιπλέον περίμενε 10 λεπτά.",
 			"open_form": "Άνοιγμα Φόρμας",
 			"open_form_description": "Πατήστε το παρακάτω κουμπί για να ανοίξετε ξανά τη φόρμα",
-			"use_key_anyway": "",
+			"use_key_anyway": "Χρησιμοποίησε το κλειδί Premium ούτως ή άλλως",
 			"already_purchased_title": "Έχετε αγοράσει ήδη premium;",
 			"already_purchased_description": "Αν έχετε αγοράσει ήδη premium, επιλέξτε τον τρόπο πληρωμής από το αναπτυσσόμενο μενού για να ξεκινήσετε",
 			"giveaway_key": "Κλειδί Δώρου",
@@ -323,8 +323,8 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"thread_in_announcement_channel": "threads can't be created at the channels of the anouncments ",
+		"panel_force_disabled": "Αυτό το πλαίσιο έχει απενεργοποιηθεί. Ζητήστε από έναν διαχειριστή διακομιστή να ενεργοποιήσει ξανά το premium και εκτελέστε το %s για να ενεργοποιήσετε ξανά αυτό το πλαίσιο.",
+		"panel_disabled": "Οι διαχειριστές του διακομιστή έχουν απενεργοποιήσει το άνοιγμα αυτού του τύπου εισιτηρίου"
 	}
 }

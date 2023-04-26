@@ -324,7 +324,7 @@
 	},
 	"open": {
 		"thread_in_announcement_channel": "Vlákna nelze vytvořit v oznamovacích kanálech",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_force_disabled": "Tento panel není povolený, požádejte administrátora o obnovení premium účtu, a spusťte %s, abyste znovu povolili tento panel.",
+		"panel_disabled": "Admin serveru zakázal otevírání tohoto typu ticketu"
 	}
 }
