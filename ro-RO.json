@@ -323,8 +323,8 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"thread_in_announcement_channel": "Sub-canalele nu pot fi create in canalele de anunturi",
+		"panel_force_disabled": "Acest panou a fost dezactivat. Va rugam sa cereti administratorului serverului sa reactiveze premium, și sa execute %s pentru a reactiva acest panou.",
+		"panel_disabled": "Administratorii serverului au dezactivat deschiderea acestui tip de ticket"
 	}
 }
