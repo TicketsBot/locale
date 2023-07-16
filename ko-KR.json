@@ -65,7 +65,7 @@
 	"help.managetags": "태그 추가, 삭제 또는 나열",
 	"help.open": "새 티켓 열기",
 	"help.panel": "클릭 한 번으로 티켓을 열 수 있는 패널을 만듭니다.",
-	"help.premium": "",
+	"help.premium": "프리미엄을 구입한 후 이 명령을 실행하여 활성화하세요.",
 	"help.remove": "티켓에서 유저를 제거합니다.",
 	"help.removeadmin": "사용자 또는 역할의 관리자 권한을 취소합니다.",
 	"help.removesupport": "사용자 또는 역할의 지원 담당자 권한을 취소합니다.",
@@ -194,7 +194,7 @@
 		"open": {
 			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요."
 			}
 		},
 		"switch_panel": {
@@ -234,17 +234,17 @@
 		},
 		"interaction_switch": "<t:1662030000:D>부로, Discord가 **모든** 봇에 [빗금 명령어](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)를 사용하도록 요구해요.\n\n빗금 명령어를 실행하려면, 키보드에 있는 `/` 버튼을 누르시거나 여기를 클릭하세요: %s",
 		"on_call": {
-			"channel_mode": "",
+			"channel_mode": "'/on-call'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](http://https://docs.ticketsbot.net/features/thread-mode) 를 참조해주세요.",
 			"success": "",
 			"remove_success": ""
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
+			"not_found": "티켓을 찾을 수 없습니다",
+			"no_permission": "티켓을 다시 열 권한이 없어요",
+			"already_open": "이 티켓은 이미 열렸어요.",
+			"not_thread": "스레드만 다시 열 수 있어요.",
+			"thread_deleted": "티켓이 영구적으로 삭제되었어요.",
+			"success": "티켓 %d가 다시 열렸어요: <#%d>",
 			"in_ticket": ""
 		},
 		"premium": {
