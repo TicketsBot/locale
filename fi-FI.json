@@ -1,5 +1,5 @@
 {
-	"commands.about": "",
+	"commands.about": "Tickets on helppokäyttöinen ja helposti muokattavissa oleva lippu- ja tukibotti.\\nTukipalvelin: https://discord.gg/VtV3rSk\\nKomennot: Kirjoita `/help`\\nAloita suorittamalla `/setup`",
 	"commands.add.no_channel": "",
 	"commands.add.no_members": "",
 	"commands.add.no_permission": "",
