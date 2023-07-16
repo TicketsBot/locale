@@ -248,13 +248,13 @@
 			"in_ticket": "Bu bilet <@%d> tarafından yeniden açıldı"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
+			"key": "Anahtar",
+			"check_again": "Tekrar kontrol ediniz",
 			"subscription_found": "",
 			"subscription_found_content": "",
 			"activate_key": "",
 			"checking": "",
-			"please_wait": "",
+			"please_wait": "Lütfen bekleyin...",
 			"success_after_check": "",
 			"link_patreon_account": "",
 			"no_subscription": "",
