@@ -1,8 +1,8 @@
 {
-	"commands.about": "",
-	"commands.add.no_channel": "",
-	"commands.add.no_members": "",
-	"commands.add.no_permission": "",
+	"commands.about": "टिकटहरू प्रयोग गर्न सजिलो र उच्च कन्फिगर योग्य टिकट र समर्थन बोट हो।\\nसपोर्ट सर्भर: https://discord.gg/VtV3rSk\\nआदेशहरू: टाइप `/help`\\n`/setup` चलाएर सुरु गर्नुहोस्\n\nContextrequest",
+	"commands.add.no_channel": "प्रयोगकर्ता(हरू) थप्नको लागि तपाईंले टिकट च्यानल उल्लेख गर्न आवश्यक छ",
+	"commands.add.no_members": "तपाईंले टिकटमा थप्न सदस्यहरू उल्लेख गर्न आवश्यक छ",
+	"commands.add.no_permission": "तपाईंसँग यो टिकटमा मानिसहरू थप्ने अनुमति छैन",
 	"commands.add.not_ticket": "",
 	"commands.addadmin.no_members": "",
 	"commands.addadmin.owner": "",

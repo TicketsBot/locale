@@ -307,7 +307,7 @@
 			"docs": "ต้องการสำรวจเพิ่มเติมหรือไม่ [เอกสารประกอบ](https://docs.ticketsbot.net) ของเราจะสอนวิธีกำหนดค่าบอทในทุกๆแง่มุม"
 		},
 		"threads": {
-			"missing_boosts": "",
+			"missing_boosts": "Discord กำหนดให้เซิร์ฟเวอร์ที่มี [เลเวลบูสต์](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) ระดับ 2 ขึ้นไป เพื่อใช้เธรดส่วนตัว",
 			"no_notification_channel": "คุณต้องระบุบช่องการเเจ้งเตือน ticket",
 			"notification_channel_type": "ช่องการเเจ้งเตือน ticket ต้องเป็นช่องข้อความ",
 			"success": "โหมดเธรดถูกเปิดใช้งาน",
