@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://ticketsbot.net/premium), abyste se dozvěděli více.",
-			"already_activated": "Dobré zprávy! Premium je již aktivní na tomto serveru.",
-			"already_activated_whitelabel": "Dobré zprávy! Prémiové členství je již aktivní na tomto serveru.\n\nPro začátek s whitelabel si přečtěte [naši příručku pro nastavení whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {
