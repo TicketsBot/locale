@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Premium gibt dir Zugang zu mehr Panels, Statistiken, einem personalisierten Bot und mehr! Besuche unsere [website](https://ticketsbot.net/premium) um mehr zu erfahren.",
-			"already_activated": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.",
-			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe bei Whitelabel, lese [unsere Whitelabel Einstellungsanleitung](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {

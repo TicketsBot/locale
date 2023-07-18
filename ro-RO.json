@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Premium va ofera acces la mai multe panel-uri, statistici, un bot personalizat si multe altele! Vizitați [website](https://ticketsbot.net/premium) pentru a afla mai multe.",
-			"already_activated": "Vesti bune! Premium este deja activ pe acest server.",
-			"already_activated_whitelabel": "Vesti bune! Premium este deja activ pe acest server.\n\nPentru a incepe cu whitelabel, cititi [ghidul nostru de configurare whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {

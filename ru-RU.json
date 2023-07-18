@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Премиум дает вам доступ к большему количеству панелей, статистике, пользовательскому боту и многому другому! Посетите [наш сайт](https://ticketsbot.net/premium), чтобы узнать больше.",
-			"already_activated": "Хорошая новость! Премиум уже активен на этом сервере.",
-			"already_activated_whitelabel": "Хорошие новости! Премиум уже активен на этом сервере.\n\nДля помощи с запуском с whitelabel, прочитайте [наше руководство по установке whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {

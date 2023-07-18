@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "พรีเมียมช่วยให้คุณเข้าถึงพาเนล สถิติ บอทแบบกำหนดเอง และอื่นๆ อีกมากมาย! เยี่ยมชม [เว็บไซต์](https://ticketsbot.net/premium) ของเราเพื่อดูข้อมูลเพิ่มเติม",
-			"already_activated": "ข่าวดี! พรีเมี่ยมได้มีการใช้งานอยู่ในเซิร์ฟเวอร์นี้แล้ว",
-			"already_activated_whitelabel": "หากต้องการความช่วยเหลือในการเริ่มต้นใช้งาน whitelabel โปรดอ่าน[คู่มือการตั้งค่า whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {

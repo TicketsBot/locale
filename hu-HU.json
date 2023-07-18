@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "A prémium ad jogot több panelhez, statisztikához, egy különböző bothoz és még sok minden máshoz! Nézd meg a [website](https://ticketsbot.net/premium) a részletekért.",
-			"already_activated": "Jó hír! A prémium már elérhető a szerveren.",
-			"already_activated_whitelabel": "Jó hír! A prémium már elérhető a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {

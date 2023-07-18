@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Премија ти даје приступ више панела, статистике, робот по наруџби и више! Посетите нас да сазнате више. [website](https://ticketsbot.net/premium).",
-			"already_activated": "Добре вести! Премиум је већ активан у овом серверу.",
-			"already_activated_whitelabel": "Добре вести! Премиум је већ активан у овом серверу.\n\nЗа помоћ да се почне са Wхителабел, прочитајте [Наш водич за белешке](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {
