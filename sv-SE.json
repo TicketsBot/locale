@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Premium ger dig tillgång till fler paneler, statistik, en anpassad bot och mer! Besök vår [website](https://ticketsbot.net/premium) för att ta reda på mer.",
-			"already_activated": "Goda nyheter! Premium är redan aktivt i denna server.",
-			"already_activated_whitelabel": "Goda nyheter! Premium är redan aktiv i denna server.\n\nFör att komma igång med whitelabel, läs [vår whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {
