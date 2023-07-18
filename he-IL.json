@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "Premium נותן לך גישה ליותר פאנלים, סטטיסטיקות, בוט מותאם אישית ועוד! בקר ב[website](https://ticketsbot.net/premium) כדי לגלות עוד.",
-			"already_activated": "חדשות טובות! פרימיום כבר פעיל בתוך השרת הזה.",
-			"already_activated_whitelabel": "חדשות טובות! Premium כבר פעיל בשרת זה.\n\nלקבלת עזרה בתחילת העבודה עם התווית הלבנה, קרא את [מדריך ההתקנה של התווית הלבנה שלנו](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {
