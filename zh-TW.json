@@ -274,8 +274,8 @@
 				}
 			},
 			"about": "會員可以讓您獲得給你更多的面板、統計資訊、自定義機器人等功能！請訪問我們的 [網站](https://ticketsbot.net/premium) 以了解更多資訊。",
-			"already_activated": "好消息！會員訂閱已在此伺服器激活。",
-			"already_activated_whitelabel": "好消息！會員訂閱已在此伺服器激活。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)。"
+			"already_activated": "",
+			"already_activated_whitelabel": ""
 		}
 	},
 	"generic": {
