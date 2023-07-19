@@ -323,7 +323,7 @@
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
+		"thread_in_announcement_channel": "Нити се не могу креирати у каналима за најаве",
 		"panel_force_disabled": "",
 		"panel_disabled": ""
 	}
