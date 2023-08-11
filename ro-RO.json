@@ -267,7 +267,7 @@
 			"selector": {
 				"description": "Selectează metoda pe care ai folosit-o pentru a obține premium",
 				"key": {
-					"description": "Selectează această opțiune dacă ți s-a dat o cheie de la un giveaway"
+					"description": ""
 				},
 				"patreon": {
 					"description": "Selectează această opțiune dacă ai făcut achiziția pe Patreon"
