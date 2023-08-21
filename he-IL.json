@@ -328,7 +328,10 @@
 		"panel_disabled": "מנהלי השרת השביתו את פתיחת כרטיס מסוג זה",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
+			"not_allow_listed": {
+				"single": "",
+				"multiple": ""
+			},
 			"deny_listed": ""
 		}
 	}
