@@ -327,7 +327,9 @@
 		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。",
 		"panel_disabled": "服务器管理员已禁用此类型的工单",
 		"acl": {
-			"no_allow_rules": ""
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
