@@ -325,6 +325,10 @@
 	"open": {
 		"thread_in_announcement_channel": "討論串不能在公告頻道中創建",
 		"panel_force_disabled": "這個面板已禁用。請詢問伺服器管理員重新啟用會員，並使用 %s 以重新啟用此面板。",
-		"panel_disabled": "伺服器管理員已禁用開啟此類型的客服單"
+		"panel_disabled": "伺服器管理員已禁用開啟此類型的客服單",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": ""
+		}
 	}
 }
