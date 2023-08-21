@@ -327,7 +327,9 @@
 		"panel_force_disabled": "Acest panou a fost dezactivat. Te rugăm să ceri unui admin al serverului să reactiveze premium și să ruleze %s pentru a reactiva acest panou.",
 		"panel_disabled": "Adminii serverului au dezactivat deschiderea acestui tip de tichet",
 		"acl": {
-			"no_allow_rules": ""
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
