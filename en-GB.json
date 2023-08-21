@@ -328,8 +328,11 @@
 		"panel_disabled": "The server admins have disabled opening this type of ticket",
 		"acl": {
 			"no_allow_rules": "Access to open this type of ticket has been disabled for all roles",
-			"not_allow_listed": "You need one of the following roles to open this type of ticket: %s",
-			"deny_listed": "You are unable to open this type of ticket because you have the role <@&%d>"
+			"not_allow_listed": {
+				"single": "You need one the following role to open this type of ticket: %s",
+				"multiple": "You need one the following roles to open this type of ticket: %s"
+			},
+			"deny_listed": "You are unable to open this type of ticket because you have the role <@%d>"
 		}
 	}
 }
