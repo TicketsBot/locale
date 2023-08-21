@@ -325,6 +325,10 @@
 	"open": {
 		"thread_in_announcement_channel": "Vlákna nie je možné vytvárať v oznamovacích kanáloch",
 		"panel_force_disabled": "Tento panel bol vypnutý. Požiadajte správcu servera o opätovnú aktiváciu Premium a spustite %s, aby ste tento panel opäť aktivovali.",
-		"panel_disabled": "Správcovia servera zakázali otváranie tohto typu ticketov"
+		"panel_disabled": "Správcovia servera zakázali otváranie tohto typu ticketov",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": ""
+		}
 	}
 }
