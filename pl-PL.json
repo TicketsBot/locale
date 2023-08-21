@@ -327,7 +327,9 @@
 		"panel_force_disabled": "Ten panel został wyłączony. Poproś administratora serwera o reaktywację premium i użycie %s, aby uruchomić go ponownie.",
 		"panel_disabled": "Administratorzy serwera wyłączyli otwieranie tego typu zgłoszenia",
 		"acl": {
-			"no_allow_rules": ""
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
