@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Tu precisas de especificar um código de idioma ou bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Tu só podes abrir %d %s de uma só vez",
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",
-	"commands.panel": "Visita <https://dashboard.ticketsbot.net/manage/%d/panels> para configurar um painel",
+	"commands.panel": "",
 	"commands.premium": "Tu podes comprar uma assinatura premium de <https://www.patreon.com/ticketsbot>.\\nO premium fornece muitos benefícios, tais como:\\n```diff\\n+ Criar painéis de bilhete ilimitados\\n+ Personalizar o nome do bot, avatar e estado (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, utilizadores e equipe de suporte\\n+ Sem marca no rodapé de mensagens\\n+ Apoiar o desenvolvimento e ajudar-me a pagar o servidor custa\\n```\\n\\nAlternadamente, tu podes votar <https://vote.ticketsbot.net> para ganhares premium grátis por 24 horas",
 	"commands.premium.already_premium": "Este servidor já possui o premium. Expira em %s",
 	"commands.premium.invalid_key": "Chave inválida. Assegura-te que a copiaste corretamente.",
@@ -84,7 +84,7 @@
 	"open.success": "Foi aberto um novo bilhete: %s",
 	"setup.auto.category.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.category.success": "Categoria de bilhetes criada",
-	"setup.auto.completed": "Configuração completa! Clica [here](https://dashboard.ticketsbot.net/manage/%d/panels) para configurar um painel de reação, e adicionar os cargos <@&%d> e <@&%d> aos membros da tua equipa",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Eu não tenho a permissão `Gerir Cargos`",
 	"setup.auto.roles.success": "Os cargos `Tickets Admin` & `Tickets Support` foram criados",
 	"setup.auto.transcript.failure": "Eu não tenho a permissão `Gerir Canais`",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Automaticamente seleciona opções e cria os canais necessários",
 	"setup.info.category": "Escreve o **nome** da **categoria do canal** onde desejas que os tickets sejam criados",
 	"setup.info.choose": "Por favor, seleciona uma opção. Tu podes usar `/setup` ou `/setup auto` para colocar a funcionar rapidamente, ou usar os outros comandos para ajustar as definições",
-	"setup.info.dashboard": "Mais definições estão disponíveis no [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Visita o [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) para criar painéis de reação",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Altera o prefixo (p.ex. `t!`) do bot.\\n**Exemplo:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Define a quantidade máxima de bilhetes que um **único utilizador** pode abrir **de uma só vez**.\\n**Exemplo:** `/setup limit 3`",
 	"setup.info.transcripts": "Define o canal para onde as transcrições de bilhetes são enviadas.\\n**Exemplo:** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "A mensagem de boas-vindas foi atualizada. Abre um bilhete para a veres em ação",
 	"commands.language.help_wanted": "Tu falas outra língua? Entra no nosso [servidor de suporte](https://discord.gg/bh6aAfP) se estiveres interessado em ajudar a traduzir o bot para mais línguas",
 	"commands.rename.too_long": "Os nomes dos canais não podem ter mais de 100 caracteres",
-	"commands.autoclose.configure": "Visita o [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) para alterares as definições de fecho automático",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Comandos relacionados com o fecho automático",
 	"help.autoclose.exclude": "Exclui o bilhete atual de ser fechado automaticamente",
 	"help.autoclose.configure": "Edita definições relacionadas com o fecho automático",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "Não é possível criar tópicos nos canais de anúncios",
 		"panel_force_disabled": "Este painel foi desativado. Por favor, pede a um administrador do servidor para reativar o premium, e executa %s para reativar este painel.",
-		"panel_disabled": "Os administradores do servidor desativaram a abertura deste tipo de bilhetes"
+		"panel_disabled": "Os administradores do servidor desativaram a abertura deste tipo de bilhetes",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

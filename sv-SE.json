@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Du måste ange en språkkod eller flagga. Tillgängliga språk:\\n%s",
 	"commands.open.ticket_limit": "Du kan bara öppna %d %s på en gång",
 	"commands.open.too_many_tickets": "Det finns för många tickets i ticketkategorin. Be en administratör att stänga några eller flytta dom till en annan kategori",
-	"commands.panel": "Besök <https://dashboard.ticketsbot.net/manage/%d/panels> för att konfigurera paneler",
+	"commands.panel": "",
 	"commands.premium": "Du kan köpa premium från <https://www.patreon.com/ticketsbot>.\\nPremium ger många fördelar, som:\\n```diff\\n+ Skapa oändligt med ticketpaneler\\n+ Ändra botnamn, avatar & status (whitelabel)\\n+ Detaljerad statistik om servern, användare och support-staff\\n+ Inget märke längst nere på meddelanden\\n+Stöd utveckling och hjälp mig att betala serverkostnaderna\\n```\\n\\nEller så kan du rösta på <https://vote.ticketsbot.net> för att få gratis premium i 24 timmar",
 	"commands.premium.already_premium": "Denna server har redan premium. Den går ut %s",
 	"commands.premium.invalid_key": "Ogiltig nyckel. Se till att du har kopierat det korrekt.",
@@ -84,7 +84,7 @@
 	"open.success": "Öppnade en ny ticket: %s",
 	"setup.auto.category.failure": "Jag saknar behörigheten `Hantera kanaler`",
 	"setup.auto.category.success": "Skapade ärendekategori",
-	"setup.auto.completed": "Konfigurationen slutförd! Klicka på [here](https://dashboard.ticketsbot.net/manage/%d/panels) för att konfigurera reaktionspanelen, och lägg till rollerna <@&%d> och <@&%d> till dina medarbetare",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Jag saknar behörigheten `Hantera roller`",
 	"setup.auto.roles.success": "Skapade `Tickets Admin` & `Tickets Support` roller",
 	"setup.auto.transcript.failure": "Jag saknar behörigheten `Hantera kanaler`",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Automatiskt väljer alternativ och skapar nödvändiga kanaler",
 	"setup.info.category": "Skriv **namnet** av **kanalkategorin** där du vill att tickets ska skapas under",
 	"setup.info.choose": "Välj ett alternativ. Du kan använda `/setup` eller `/setup auto` för att komma igång snabbt eller använda de andra kommandona för att finjustera inställningar",
-	"setup.info.dashboard": "Fler inställningar finns på [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Besök [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) för att skapa reaktionspaneler",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Ändrar prefixet (t.ex. `t!`) för boten.\\n**Exempel:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Anger maximalt antal ärenden som en **enskild användare** kan öppna **på en gång**.\\n**Exempel:** `/setup limit 3`",
 	"setup.info.transcripts": "Anger kanalens ärendeutskrifter skickas till.\\n**Exempel:** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Välkomstmeddelandet har uppdaterats. Öppna ett ärende för att se det i handling",
 	"commands.language.help_wanted": "Talar du ett annat språk? Gå med i vår [supportserver](https://discord.gg/bh6aAfP) om du är intresserad av att hjälpa till att översätta boten till fler språk",
 	"commands.rename.too_long": "Kanalnamn kan inte vara längre än 100 tecken",
-	"commands.autoclose.configure": "Besök [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) för att ändra inställningar för automatisk stängning",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Autoclose relaterade kommandon",
 	"help.autoclose.exclude": "Exkluderar det aktuella ärendet från att automatiskt stängas",
 	"help.autoclose.configure": "Redigera autoclose relaterade inställningar",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "Trådar kan inte skapas i meddelandekanaler",
 		"panel_force_disabled": "Denna panel har inaktiverats. Be en serveradministratör att återaktivera premium, och kör %s för att återaktivera denna panel.",
-		"panel_disabled": "Serveradministratörerna har inaktiverat att öppna denna typ av ärende"
+		"panel_disabled": "Serveradministratörerna har inaktiverat att öppna denna typ av ärende",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

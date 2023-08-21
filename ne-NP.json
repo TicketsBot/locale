@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "",
 		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_disabled": "",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

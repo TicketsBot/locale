@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Vi bezonas elekti lingvokodon aŭ flagon. Disponeblaj lingvoj:\\n%s",
 	"commands.open.ticket_limit": "Vi nur kapablas malfermi %d %s samtempe",
 	"commands.open.too_many_tickets": "Estas tre multaj biletoj en la kategorio de biletoj. Vi povas demandi al administranto por fermi iom el la biletoj, moviĝi iom al alia kategorio, aŭ agordi superfluan kategorion.\n\nĈi tio estas **Diskordo-trudita limo** de 50 kanalojn en ĉiu kategorio.",
-	"commands.panel": "Vizitu <https://dashboard.ticketsbot.net/manage/%d/panels> por agordi panelon",
+	"commands.panel": "",
 	"commands.premium": "Vi povas aĉeti premian abonon el <https://www.patreon.com/ticketsbot>.\\nPremia abono provizas multajn profitojn, inkluzive de:\\n```diff\\n+ Krei panelojn de biletoj sen limo\\n+ Personecigi la nomon, profila foton, kaj statuso de la aplikaĵo (blanketikedo)\\n+ Detala statistiko sur la servilo, ĝiaj uzantoj, kaj ĝiaj subtenpersonaroj\\n+ Neniu markigo en la piedlinio de mesaĝojn\\n+ Subteni evoluon kaj helpi min pagi la kostojn de la servilo\\n```\\n\\nAlternative, vi povas voĉdoni en <https://vote.ticketsbot.net> por akiri la premian version senpage por 24 horoj",
 	"commands.premium.already_premium": "Ĉi tiu servilo jam havas premian abonon. Ĝi eksvalidiĝas en %s",
 	"commands.premium.invalid_key": "Ĉi tiu ŝlosilo estas nevalida. Certigu ke vi kopiis ĝin ĝuste.",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "",
 		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_disabled": "",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Morate navesti šifru jezika ili zastavicu. Dostupni jezici:\\n%s",
 	"commands.open.ticket_limit": "Možete otvoriti samo %d %s odjednom",
 	"commands.open.too_many_tickets": "Previše je ulaznica u kategoriji ticket. Zatražite od administratora da neke zatvori ili da ih premjesti u drugu kategoriju",
-	"commands.panel": "Posjetite <https://dashboard.ticketsbot.net/manage/%d/panels> da biste konfigurirali ploču",
+	"commands.panel": "",
 	"commands.premium": "",
 	"commands.premium.already_premium": "",
 	"commands.premium.invalid_key": "",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "",
 		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_disabled": "",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

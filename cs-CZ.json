@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Musíte zadat kód jazyka nebo vlajku. Dostupné jazyky:\\n%s",
 	"commands.open.ticket_limit": "Jsi schopen otevřít pouze %d %s najednou",
 	"commands.open.too_many_tickets": "V kategorii ticketu je příliš mnoho ticketů. Požádejte admina, aby některé uzavřel nebo je přesunul do jiné kategorie",
-	"commands.panel": "Navštivte <https://dashboard.ticketsbot.net/manage/%d/panels> pro nastavení panelu",
+	"commands.panel": "",
 	"commands.premium": "Prémiové předplatné si můžete zakoupit od <https://www.patreon.com/ticketsbot>.\\nPremium poskytuje mnoho výhod, například:\\n```diff\\n+ Vytvořit neomezený počet ticketových panelů\\n+ Přizpůsobit název bota, avatar & status (whitelabel)\\n+ Podrobné statistiky o serveru, uživatelé a podporovatelný personál\\n+ Žádná značka v zápatí zpráv\\n+ Podpořte vývoj a pomozte mi uhradit náklady serveru\\n```\\n\\nmůžete hlasovat na <https://vote.ticketsbot.net> a získat prémiovou verzi zdarma na 24 hodin",
 	"commands.premium.already_premium": "Tahle skupina již má prémiový účet. Platnost vyprší %s",
 	"commands.premium.invalid_key": "Neplatný klíč. Ujistěte se, že jste jej zkopírovali správně.",
@@ -84,7 +84,7 @@
 	"open.success": "Otevřel nový ticket: %s",
 	"setup.auto.category.failure": "Chybí mi oprávnění `Manage Channels`",
 	"setup.auto.category.success": "Vytvořená kategorie ticketů",
-	"setup.auto.completed": "Nastavení dokončeno! Klikněte [here](https://panel.ticketsbot. et/manage/%d/panely) pro nastavení reakčního panelu a přidání <@&%d> a <@&%d> rolí do Staffu",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Chybí mi oprávnění `Manage Roles`",
 	"setup.auto.roles.success": "Vytvořena role `Ticket Admin` a `Podpora ticketů`",
 	"setup.auto.transcript.failure": "Chybí mi oprávnění `Manage Channels`",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Automaticky vybere možnosti a vytvoří požadované kanály",
 	"setup.info.category": "Zadejte **název** **kategorie kanálů**, pod kterou byste si přáli vytvořit tikety",
 	"setup.info.choose": "Zvolte prosím možnost. Můžete použít `/setup` nebo `/setup auto` pro rychlý běh nebo použít jiné příkazy k jemnému nastavení ladění",
-	"setup.info.dashboard": "Další nastavení jsou k dispozici na [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Navštivte [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) pro vytvoření reakčních panelů",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Změní prefix (např. `t!`) bota.\\n**Příklad:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Nastaví maximální počet ticketů, které **jediný uživatel** může otevřít **najednou**.\\n**Příklad:** `/setup limit 3`",
 	"setup.info.transcripts": "Nastaví přepisy kanálu jsou odeslány.\\n**Příklad:** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Uvítací zpráva byla aktualizována. Otevřete ticket a uvidíte ji v akci",
 	"commands.language.help_wanted": "Mluvíš jiným jazykem? Připoj se k našemu [podporovatlnému serveru](https://discord.gg/bh6aAfP), pokud chceš pomoci přeložit bota do více jazyků",
 	"commands.rename.too_long": "Název kanálu nesmí být delší než 100 znaků",
-	"commands.autoclose.configure": "Navštivte [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) pro změnu nastavení automatického uzavření",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Automatické ukládání souvisejících příkazů",
 	"help.autoclose.exclude": "Nezahrnuje aktuální ticket z automatického zavření",
 	"help.autoclose.configure": "Upravit nastavení související s automatickým uzavřením",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "Vlákna nelze vytvořit v oznamovacích kanálech",
 		"panel_force_disabled": "Tento panel není povolený, požádejte administrátora o obnovení premium účtu, a spusťte %s, abyste znovu povolili tento panel.",
-		"panel_disabled": "Admin serveru zakázal otevírání tohoto typu ticketu"
+		"panel_disabled": "Admin serveru zakázal otevírání tohoto typu ticketu",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

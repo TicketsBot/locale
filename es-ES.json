@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Debes especificar un código de idioma o una marca. Idiomas disponibles:\\n%s",
 	"commands.open.ticket_limit": "Solo puede abrir %d %s a la vez",
 	"commands.open.too_many_tickets": "Hay demasiados tickets en la categoría de tickets. Pide a un administrador que cierre algunos o que los mueva a otra categoría",
-	"commands.panel": "Visita <https://dashboard.ticketsbot.net/manage/%d/panels> para configurar un panel",
+	"commands.panel": "",
 	"commands.premium": "Puede comprar una suscripción premium en <https://www.patreon.com/ticketsbot>.\\nPremium ofrece muchos beneficios, tales como:\\n```diff\\n+ Crear paneles de tickets ilimitados\\n+ Personalizar nombre de bot, avatar y estado (whitelabel)\\n+ Estadísticas detalladas sobre el servidor, los usuarios y el staff de soporte\\n+ Sin marca en el pie de página de los mensajes\\n+ Desarrollo de soporte y ayuda para pagar los costos del servidor\\n```\\n\\n Alternativamente, puede votar en <https://vote.ticketsbot.net> para obtener premium gratis durante 24 horas",
 	"commands.premium.already_premium": "Este servidor ya tiene premium. Caduca el %s",
 	"commands.premium.invalid_key": "Tecla inválida. Asegúrese de haberlo copiado correctamente",
@@ -84,7 +84,7 @@
 	"open.success": "Abrió un nuevo ticket: %s",
 	"setup.auto.category.failure": "Me falta el permiso `Gestionar canales`",
 	"setup.auto.category.success": "Categoría de tickets creada",
-	"setup.auto.completed": "¡Configuración completada! Haz clic [here](https://dashboard.ticketsbot.net/manage/%d/panels) para configurar un panel de reacciones, y añade los roles <@&%d> y <@&%d> a los miembros de tu equipo",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Me falta el permiso `Gestionar roles`",
 	"setup.auto.roles.success": "Creados los roles `Tickets Admin` y `Tickets Support`",
 	"setup.auto.transcript.failure": "Me falta el permiso `Gestionar canales`",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Selecciona automáticamente las opciones y crea los canales necesarios",
 	"setup.info.category": "Escribe el **nombre** de la **categoría de canal** en la que desea que se creen tickets",
 	"setup.info.choose": "Por favor selecciona una opción. Puedes usar `/setup` o `setup auto` para configurarlo rápido o usar los otros comandos para ajustar detalladamente las opciones",
-	"setup.info.dashboard": "Más ajustes disponibles en [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Visita el [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) para crear un panel de reacciones",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Cambia el prefijo (p. ej `t`) del bot.\\n**Ejemplo:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Establece la cantidad máxima de tickets que **un usuario** puede tener abiertos **a la vez**.\\n'**Ejemplo:** `/setup limit 3`",
 	"setup.info.transcripts": "Estable el canal donde llegarán las transcripciones de los tickets.\\n**Ejemplo:** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "El mensaje de bienvenida ha sido actualizado. Abre un ticket para verlo en acción",
 	"commands.language.help_wanted": "¿Hablas otro idioma? Únete a nuestro [servidor de soporte](https://discord.gg/bh6aAfP) si estás interesado en ayudar a traducir el bot a más idiomas",
 	"commands.rename.too_long": "Los nombres de los canales no pueden tener una longitud superior a 100 caracteres",
-	"commands.autoclose.configure": "Visita el [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) para cambiar las opciones de cierre automático",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Comandos relacionados con el cierre automático",
 	"help.autoclose.exclude": "Excluye el ticket actual de ser cerrado automáticamente",
 	"help.autoclose.configure": "Editar ajustes relacionados al cierre automático",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "No se pueden crear hilos en canales de anuncios",
 		"panel_force_disabled": "Este panel está deshabilitado. Por favor pide a un administrador que reactive su premium y utilice %s para poder rehabilitar el panel.",
-		"panel_disabled": "Los administradores del servidor han deshabilitado la apertura de este tipo de ticket"
+		"panel_disabled": "Los administradores del servidor han deshabilitado la apertura de este tipo de ticket",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

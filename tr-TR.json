@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Bir dil kodu veya bayrak belirtmeniz gerekir. Mevcut diller:\n%s",
 	"commands.open.ticket_limit": "Aynı anda yalnızca %d %s talep açabilirsiniz.",
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
-	"commands.panel": "Bir paneli yapılandırmak için <https://dashboard.ticketsbot.net/manage/%d/panels> bağlantısını ziyaret edin.",
+	"commands.panel": "",
 	"commands.premium": "<https://www.patreon.com/ticketsbot> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <https://vote.ticketsbot.net> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
 	"commands.premium.already_premium": "Bu sunucunun zaten premium aboneliği var. %s tarihinde süresi doluyor.",
 	"commands.premium.invalid_key": "Geçersiz anahtar. Doğru bir şekilde kopyaladığınızdan emin olun.",
@@ -84,7 +84,7 @@
 	"open.success": "Talebin oluşturuldu: %s",
 	"setup.auto.category.failure": "Kanalları yönet iznine sahip değil",
 	"setup.auto.category.success": "Destek kategorisi oluşturuldu",
-	"setup.auto.completed": "Kurulum tamamlandı! Yönetim paneli için [buraya tıklayın] (https://dashboard.ticketsbot.net/manage/%d/panels) ve yetkili arkadaşlarınıza <@&%d> ve <@&%d> rollerini verin",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Rolleri yönet iznine sahip değil",
 	"setup.auto.roles.success": "Bilet yöneticisi ve bilet destek rolleri oluşturuldu",
 	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Seçenekleri otomatik olarak belirler ve gerekli kanalları oluşturur",
 	"setup.info.category": "Talep kanallarının hangi **kanal kategorisi** altında oluşmasını istiyorsanız o kategorinin **adını** belirtin.",
 	"setup.info.choose": "Lütfen bir seçenek belirleyin. Hızlı bir şekilde seçenek belirlemek için `/setup` yada `/setup auto` komutunu kullanabilirsiniz ince ayar için diğer komutları kullanınız",
-	"setup.info.dashboard": "[dashboard](https://dashboard.ticketsbot.net) Linkten bilet panelini açarak daha fazla ayarlara ulaşabilirsiniz",
-	"setup.info.panels": "[dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) Tepki paneli oluşturmak için linki ziyaret edin",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Botun komut ön ekini değiştirmek için `/setup prefix ` komutunu kullanın `/setup prefix -` komutunu kullanırsanız botun ön eki - olur",
 	"setup.info.ticket_limit": "Bir kullanıcının tek seferde açabileceği destek talebi sayısını ayarlamak için: `/setup limit 3` komutunu kullanınız",
 	"setup.info.transcripts": "Destek taleblerinin transcriptlerinin gönderileceği kanalı ayarlar.\\n**Örnek:** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Karşılama mesajı güncellendi. Yeni karşılama mesajını görmek için destek talebi oluşturun",
 	"commands.language.help_wanted": "Başka bir dil biliyor musun? Botun daha fazla dile çevrilmesine yardımcı olmakla ilgileniyorsanız [destek sunucumuza](https://discord.gg/bh6aAfP) katılın",
 	"commands.rename.too_long": "Kanal isimleri 100 karakterden uzun olamaz",
-	"commands.autoclose.configure": "Otomatik kapatma ayarını değiştirmek için [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) ziyaret edin",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Otomatik bilet kapatma ile ilgili komutlar",
 	"help.autoclose.exclude": "Geçerli biletin otomatik kapatılmasını devre dışı bırakır",
 	"help.autoclose.configure": "Otomatik kapatma ile ilgili ayarları düzenleyin",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "",
 		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_disabled": "",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

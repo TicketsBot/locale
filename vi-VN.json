@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Bạn cần ghi rõ mã của ngôn ngữ hoặc cờ hiệu. Các ngôn ngữ đang khả dụng:\\n%s",
 	"commands.open.ticket_limit": "Bạn chỉ có thể mở %d %s một lúc",
 	"commands.open.too_many_tickets": "Hiện có quá nhiều phiếu hỗ trợ đang được mở. Hãy nhờ quản trị viên đóng bớt chúng hoặc di chuyển chúng qua mục khác",
-	"commands.panel": "Hãy truy cập <https://dashboard.ticketsbot.net/manage/%d/panels> để cài đặt với giao diện trực quan",
+	"commands.panel": "",
 	"commands.premium": "Bạn có thể mua phiên bản cao cấp tại <https://www.patreon.com/ticketsbot>.\\nPhiên bản trả phí mang lại nhiều quyền lợi như:\\n```diff\\n+ Tạo bảng phiếu hỗ trợ không giới hạn\\n+ Thay đổi tên, ảnh đjai diện & trạng thái (nhãn trằng)\\n+ Thông tin chi tiết về hội, thành viên và hỗ trợ viên\\n+ Không có quản cáo thương hiệu ở cuối tin nhắn\\n+ Giúp đỡ đội ngũ phát triển và giúp mình trả phí người máy\\n```\\n\\nNgoài ra, bạn có thể đánh giá tại <https://vote.ticketsbot.net> để nhận phiên bản cao cấp miễn phí trong vòng 24 giờ",
 	"commands.premium.already_premium": "Hội này hiện đã có bản cao cấp. Nó sẽ hết hạn vào lúc %s",
 	"commands.premium.invalid_key": "Mã kích hoạt sai. Hãy kiểm tra xem bạn có chép nó đúng không.",
@@ -84,7 +84,7 @@
 	"open.success": "Đã mở một phiếu hỗ trợ mới: %s",
 	"setup.auto.category.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
 	"setup.auto.category.success": "Tạo một mục kênh cho các phiếu hỗ trợ",
-	"setup.auto.completed": "Thiết lập thành công! Nhấn vào [đây](https://dashboard.ticketsbot.net/manage/%d/panels) để thiết lập một bảng phản ứng, và thêm <@&%d> cùng với <@&%d> các vai trò cho các thành viên quản lý",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Tôi đang thiếu quyền `Quản lý vai trò`",
 	"setup.auto.roles.success": "Đã tạo vai trò `Tickets Admin` & `Tickets Support`",
 	"setup.auto.transcript.failure": "Tôi đang thiếu quyền `Quản lý các kênh`",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Tự động chọn và tạo các kênh cần thiết",
 	"setup.info.category": "Hãy ghi **tên** của **mục kênh** mà bạn muốn phiếu hỗ trợ được tạo ra bên trong",
 	"setup.info.choose": "Hãy chọn một trong hai cách sau. Có thể dùng `/setup` hoặc `/setup auto` để cho người máy đi vào hoạt động nhanh nhất, hoặc dùng các lệnh khác để tìm lựa chọn bạn muốn",
-	"setup.info.dashboard": "Nhiều cài đặt hơn khả dụng tại [bảng điều khiển](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Hãy xem [bảng điều khiển](https://dashboard.ticketsbot.net/manage/%d/panels) để tạo các bảng phản ứng",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Thay đổi đầu ngữ (vd: `t!`) của người máy.\\n**Ví dụ:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Chỉnh sửa số lượng tối đa lượng phiếu hỗ trợ mà **một thành viên** có thể mở **vào một thời điểm**. \\n**Ví dụ:** `/setup limit 3`",
 	"setup.info.transcripts": "Thay đổi kênh phiếu hỗ trợ được chép lại được ghi vào.\\n**Ví dụ::** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Tin nhắn chào đón đã được cập nhật, Mở một phiếu hỗ trợ để thấy",
 	"commands.language.help_wanted": "Bạn dùng ngôn ngữ khác? Tham gia [hội hỗ trợ](https://discord.gg/bh6aAfP) nếu bạn muốn giúp phiên dịch thêm ngôn ngữ cho người máy",
 	"commands.rename.too_long": "Tên của kênh không thể dài hơn 100 ký tự",
-	"commands.autoclose.configure": "Hãy xem [bảng điều khiển](https://dashboard.ticketsbot.net/manage/%d/settings) để thay đổi các cài đặt về tự động đóng",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Tự động đóng các lệnh liên quan",
 	"help.autoclose.exclude": "Thêm ngoại lệ cho phiếu hỗ trợ không tự động đóng",
 	"help.autoclose.configure": "Chỉnh sửa các cài đặt liên quan đến tự động đóng",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "Không thể tạo chủ đề trong kênh thông báo",
 		"panel_force_disabled": "Bảng này đã bị tắt. Hãy thử hỏi quản lí máy chủ kích hoạt lại bản cao cấp, và chạy lại lệnh %s để kích hoạt lại bảng này.",
-		"panel_disabled": "Admin máy chủ đã tắt việc mở loại phiếu hỗ trợ này"
+		"panel_disabled": "Admin máy chủ đã tắt việc mở loại phiếu hỗ trợ này",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

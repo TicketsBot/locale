@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Вам необхідно вказати код мови або прапор. Доступні мови:\\n%s",
 	"commands.open.ticket_limit": "Ви можете відкрити тільки %d %s одночасно",
 	"commands.open.too_many_tickets": "У категорії заявок занадто багато заявок. Попросіть адміністратора закрити деякі з них або перемістити їх в іншу категорію",
-	"commands.panel": "Перейдіть за посиланням <https://dashboard.ticketsbot.net/manage/%d/panels>, щоб налаштувати панель",
+	"commands.panel": "",
 	"commands.premium": "Ви можете придбати преміум підписку на <https://www.patreon.com/ticketsbot>.\\nПреміум надає багато переваг, зокрема:\\n```diff\\n+ Створення безлічі панелей заявок\\n+ Редагування імені, аватару та статусу бота(whitelabel)\\n+ Детальна статистика про сервер, користувачів та персонал підтримки\\n+ Прибираються знаки організації в колонтитулі повідомлень\\n+ Підтримка розробки та допомога мені в сплаті рахунків за утримання сервера\\n```\\n\\n Крім того, ви можете проголосувати на <https://vote.ticketsbot.net> щоб отримати безкоштовний преміум на 24 години",
 	"commands.premium.already_premium": "У цього сервера вже є преміум підписка, вона закінчується через %s",
 	"commands.premium.invalid_key": "Невірний ключ. Переконайтеся, що ви скопіювали його правильно.",
@@ -84,7 +84,7 @@
 	"open.success": "Відкрита нова заявка: %s",
 	"setup.auto.category.failure": "Мені не вистачає дозволу \"Керувати каналами\"",
 	"setup.auto.category.success": "Створено категорію для заявок",
-	"setup.auto.completed": "Налаштування завершено! Натисніть [here](https://panel.ticketsbot. et/manage/%d/panels) для налаштування панелі реакцій і додайте <@&%d> та <@&%d> ролі для співробітників",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "У мене немає прав на \"Керувати ролями\"",
 	"setup.auto.roles.success": "Створено ролі `Tickets Admin` та `Tickets Support`",
 	"setup.auto.transcript.failure": "Мені не вистачає дозволу `Керувати каналами`",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Автоматично вибирає налаштування і створює потрібні текстові чати",
 	"setup.info.category": "Вкажіть **назву** **категорії каналів**, у якій створюватимуться заявки",
 	"setup.info.choose": "Будь ласка, виберіть один з варіантів. Ви можете використовувати `/setup` або `/setup auto`, щоб зробити швидке налаштування, або використовувати інші команди, щоб налаштувати так, як вам треба",
-	"setup.info.dashboard": "Більше налаштувань доступно на [Панелі Налаштувань](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Відвідайте [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels), щоб створювати панелі реакцій",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Змінює префікс (наприклад, `t!`) бота\\n**Приклад: ** `/setup prefix -`",
 	"setup.info.ticket_limit": "Встановлює максимальну кількість заявок, котру може **одночасно** відкривати **один користувач**.\\n**Приклад:** `/setup limit 3`",
 	"setup.info.transcripts": "Встановлює шлях відправлення журналу заявки.\\n**Приклад:** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Початкове повідомлення було змінено. Відкрий заявку щоб перевірити це",
 	"commands.language.help_wanted": "Говорите іншою мовою? Приєднуйтеся до нашого [сервера допомоги](https://discord.gg/bh6aAfP) якщо ви цікавитеся допомогою в перекладанні боті на інші мови",
 	"commands.rename.too_long": "Назва каналу не може бути довшою за 100 символів",
-	"commands.autoclose.configure": "Відвідайте [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings), щоб змінити параметри автозакриття заявки",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Команди пов'язані з авто закриттям",
 	"help.autoclose.exclude": "Виключає дану заявку від автоматичного закриття",
 	"help.autoclose.configure": "Редагувати Налаштування автозакриття",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "Гілки не можна створити у каналах оголошень",
 		"panel_force_disabled": "Ця панель була відімкнена. Будь ласка, попросіть адміністратора сервера реактивувати преміум та виконати %s щоб увімкнути цю панель.",
-		"panel_disabled": "Адміністратори сервера заборонили відкриття такого типу заявок"
+		"panel_disabled": "Адміністратори сервера заборонили відкриття такого типу заявок",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }

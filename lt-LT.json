@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Jūs turite nurodyti kalbos kodą arba vėliavėlę. Galimos kalbos:\\n%s",
 	"commands.open.ticket_limit": "Vienu metu galite atidaryti tik %d %s",
 	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytu kelis arba perkeltu į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",
-	"commands.panel": "Apsilankykite <https://dashboard.ticketsbot.net/manage/%d/panels>, kad sukonfiguruotumėte skydelį",
+	"commands.panel": "",
 	"commands.premium": "Galite įsigyti premium prenumeratą iš <https://www.patreon.com/ticketsbot>.\\nPremium suteikia daug papildomų privalumų, tokių kaip:\\n```diff\\n+ Galėsite sukurti neribotą kiekį skydelių \\n+ Galėsite pakeisti roboto pavadinimą, paveikslėlį ir būsėną į jums patinkantį\\n+ Detali statistika apie serverį, vartotojus ir pagalbos narius\\n+ Pranešime nebus mūsų žymėjimo\\n+ Prisidėsite prie plėtros ir padėtis išlaikyti roboto išlaidas\\n```\\n\\nGalite prabalsuoti nuėję į <https://vote.ticketsbot.net>, kad gautumėte premium nemokamai 24 valandom",
 	"commands.premium.already_premium": "Šis serveris jau turi premium. Jis pasibaigs %s",
 	"commands.premium.invalid_key": "Neteisingas kodas. Įsitikinkite, kad nukopijavote teisingai.",
@@ -84,7 +84,7 @@
 	"open.success": "Atidarytas naujas bilietas: %s",
 	"setup.auto.category.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.category.success": "Sukurta bilietų kategorija",
-	"setup.auto.completed": "Konfiguracija pabaigta! Paspauskite [here](https://dashboard.ticketsbot.net/manage/%d/panels), kad sukonfiguruotumėte reakcijos skydelį ir pridėtumėte <@&%d> ir <@&%d> roles prie pagalbos narių",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Man trūksta `Tvarkyti roles (Manage Roles)` privilegijų",
 	"setup.auto.roles.success": "Sukurtos `Bilietų administracija` ir `Bilietų pagalba` rolės",
 	"setup.auto.transcript.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Automatiškai pasirenka parinktis ir sukuria reikiamus kanalus",
 	"setup.info.category": "Parašykite pavadinimą **kanalų kategorijai** kurioje norėtumėte, kad būtu sukurti kanalai",
 	"setup.info.choose": "Pasirinkite parinktį. Jūs galite naudoti `/konfiguruoti` arba `/konfiguruoti auto`, kad greitai užbaigti arba naudokite kitas komandas, kad patikslintumėte nustatymus",
-	"setup.info.dashboard": "Daugiau nustatymu yra [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Apsilankykite mūsų [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels), kad sukurtumėte reakcijos skydelį",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Pakeičiamas roboto priešdelis (pvz., `t!').\\n**Pavyzdzys:**`/konfiguruoti priesdelis -`",
 	"setup.info.ticket_limit": "Nustato didžiausią bilietų skaičių, kurį **vienas vartotojas** gali atidaryti **vienu metu**.\\n**Pavyzdys:**`/konfiguruoti limitas 3`",
 	"setup.info.transcripts": "Nustato, kur siunčiami kanalo bilietų įrašai.\\n**Pavyzdys:** `/konfiguruoti įrašai #įrašai`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Pasisveikinimo žinutė buvo atnaujinta. Atidarykite bilietą ir pažiūrėkite ar ji pasikeitė",
 	"commands.language.help_wanted": "Ar tu kalbi kita kalba? Prisijunk prie mūsų [pagalbos serverio](https://discord.gg/bh6aAfP) jeigu tau įdomu ir nori mums padėti išversti mūsų robota į daugiau kalbų",
 	"commands.rename.too_long": "Kanalo pavadinimas negali būti ilgesnis nei 100 simbolių",
-	"commands.autoclose.configure": "Apsilankykite mūsų [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings), kad pakeistumėte automatinio uždarymo nustatymus",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Susijusios komandos su automatiniu uždarymu",
 	"help.autoclose.exclude": "Dabartinis bilietas nebus automatiškai uždarytas",
 	"help.autoclose.configure": "Redaguoti su automatiniu uždarymu susijusius nustatymus",
@@ -325,6 +325,11 @@
 	"open": {
 		"thread_in_announcement_channel": "Gijos negali būti sukurtos pranešimų kanaluose",
 		"panel_force_disabled": "Šis skydelis buvo išjungtas. Paprašykite serverio administracijos, kad iš naujo aktyvuotu premium ir paleistu %s, kad įjungtu skydelį.",
-		"panel_disabled": "Serverio administracija išjunge atidarymą tokio tipo bilietų"
+		"panel_disabled": "Serverio administracija išjunge atidarymą tokio tipo bilietų",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
+		}
 	}
 }
