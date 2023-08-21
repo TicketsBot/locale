@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Мораш да одредиш језик или заставу. Доступни језици:\\n%s",
 	"commands.open.ticket_limit": "Можеш само да отвориш %d%s cместа",
 	"commands.open.too_many_tickets": "Има превише карата у категорији карата. Замолите администрацију да затвори неке, или да их пребаци у другу категорију",
-	"commands.panel": "Посета<https://panel.ticketsbot.net/manage/%d/panels> За конфигурацију панела",
+	"commands.panel": "",
 	"commands.premium": "Претплату можете купити на <https://www.patreon.com/ticketsbot>\\nПремија пружа многе предности, као што су:\\n```diff\\n+ Створите неограничене карте.\\n+ Име робота, аватар и статус (whitelabel)\\n+ Детаљна статистика о серверу, корисницима и помоћном особљу\\n+ Нема жигосања у подножју порука\\n+Подржи развој и помози ми да платим трошкове сервера\\n```\\n\\nКао алтернативу, можете гласати на <https://vote.ticketsbot.net> Да добијемо премију бесплатно 24 сата",
 	"commands.premium.already_premium": "Овај сервер већ има премију. Истекло је %s",
 	"commands.premium.invalid_key": "Неважећи кључ. Увери се да си га добро ископирао.",
@@ -84,7 +84,7 @@
 	"open.success": "Отворила је нову карту: %s",
 	"setup.auto.category.failure": "Spisak članova osoblja i uloga `Manage Channels`",
 	"setup.auto.category.success": "Креирана категорија карата",
-	"setup.auto.completed": "Постављање завршено! Кликни [here](https://panel.ticketsbot.net/manage/%d/panels) за постављање реакцијске плоче, и додати <@&%d> i <@&%d> Улоге за ваше особље",
+	"setup.auto.completed": "",
 	"setup.auto.roles.failure": "Недостаје ми дозвола за \"Manages Roles\"",
 	"setup.auto.roles.success": "Створене су улоге 'Управе за карте' и 'Подршке за карте'",
 	"setup.auto.transcript.failure": "Недостаје ми дозвола за \"руковање каналима\"",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "Аутоматски бира опције и ствара потребне канале",
 	"setup.info.category": "Напишите **име** у категорији **канала** под којом желите да се направе карте",
 	"setup.info.choose": "Молим вас, изаберите опцију. Можете користити '/ сет' или '/ сет ауто' да брзо устанете, или користити друге команде за фину подешавање",
-	"setup.info.dashboard": "Више поставки је доступно на [dashboard](https://panel.ticketsbot.net)",
-	"setup.info.panels": "Посетите [dashboard](https://panel.ticketsbot.net/manage/%d/panels) да би створили реакционе панеле",
+	"setup.info.dashboard": "",
+	"setup.info.panels": "",
 	"setup.info.prefix": "Мења префикс (нпр. Не! Не!') од робота.\\n **Пример: ** / постављање префикс -'",
 	"setup.info.ticket_limit": "Поставља максималну количину улазница **Један корисник** може да отвори **одједном**\\n **Пример:** /setup limit 3 *",
 	"setup.info.transcripts": "Поставља транскрипте за канале на које се шаљу.\\n **Пример: ** `/ Упореди транскрипте # лог`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Порука добродошлице је ажурирана. Отвори карту да је видиш у акцији",
 	"commands.language.help_wanted": "Govoriš li još jedan jezik? Придружите се нашем [подржавајућем серверу](https://discord.gg/bh6aAfP) Ако сте заинтересовани да помогнете у преводу робота на више језика",
 	"commands.rename.too_long": "Идентификација не може бити дужа од 100 знакова",
-	"commands.autoclose.configure": "Посетите [dashboard](https://panel.ticketsbot.net/manage/%d/panels) да би створили реакционе панеле",
+	"commands.autoclose.configure": "",
 	"help.autoclose": "Аутоматско затварање повезаних команди",
 	"help.autoclose.exclude": "Искључује аутоматско затварање тренутне карте",
 	"help.autoclose.configure": "Прилагоди аутоматско затварање",
@@ -325,6 +325,10 @@
 	"open": {
 		"thread_in_announcement_channel": "Нити се не могу креирати у каналима за најаве",
 		"panel_force_disabled": "",
-		"panel_disabled": ""
+		"panel_disabled": "",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": ""
+		}
 	}
 }
