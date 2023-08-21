@@ -327,7 +327,9 @@
 		"panel_force_disabled": "Dieses Panel wurde deaktiviert. Bitte frage einen Admin, Premium erneut zu aktivieren und %s auszuführen, um das Panel wieder zu aktivieren.",
 		"panel_disabled": "Die Serveradministratoren haben das Öffnen von diesem Tickettyp deaktiviert",
 		"acl": {
-			"no_allow_rules": ""
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
