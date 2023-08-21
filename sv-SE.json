@@ -325,6 +325,10 @@
 	"open": {
 		"thread_in_announcement_channel": "Trådar kan inte skapas i meddelandekanaler",
 		"panel_force_disabled": "Denna panel har inaktiverats. Be en serveradministratör att återaktivera premium, och kör %s för att återaktivera denna panel.",
-		"panel_disabled": "Serveradministratörerna har inaktiverat att öppna denna typ av ärende"
+		"panel_disabled": "Serveradministratörerna har inaktiverat att öppna denna typ av ärende",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": ""
+		}
 	}
 }
