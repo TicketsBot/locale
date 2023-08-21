@@ -325,6 +325,9 @@
 	"open": {
 		"thread_in_announcement_channel": "In Ankündigungs-Kanälen können keine Threads erstellt werden",
 		"panel_force_disabled": "Dieses Panel wurde deaktiviert. Bitte frage einen Admin, Premium erneut zu aktivieren und %s auszuführen, um das Panel wieder zu aktivieren.",
-		"panel_disabled": "Die Serveradministratoren haben das Öffnen von diesem Tickettyp deaktiviert"
+		"panel_disabled": "Die Serveradministratoren haben das Öffnen von diesem Tickettyp deaktiviert",
+		"acl": {
+			"no_allow_rules": ""
+		}
 	}
 }
