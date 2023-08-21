@@ -328,7 +328,8 @@
 		"panel_disabled": "ผู้ดูแลเซิร์ฟเวอร์ได้ปิดใช้งานการเปิดตั๋วประเภทนี้",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": ""
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
