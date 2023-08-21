@@ -325,6 +325,10 @@
 	"open": {
 		"thread_in_announcement_channel": "Threads kunnen niet worden aangemaakt in aankondigingskanalen",
 		"panel_force_disabled": "Dit paneel is uitgeschakeld. Vraag een serverbeheerder om premium opnieuw te activeren en voer %s uit om dit paneel weer in te schakelen.",
-		"panel_disabled": "De beheerder van de server heeft het openen van dit type ticket uitgeschakeld"
+		"panel_disabled": "De beheerder van de server heeft het openen van dit type ticket uitgeschakeld",
+		"acl": {
+			"no_allow_rules": "",
+			"not_allow_listed": ""
+		}
 	}
 }
