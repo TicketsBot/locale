@@ -328,7 +328,10 @@
 		"panel_disabled": "Adminii serverului au dezactivat deschiderea acestui tip de tichet",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
+			"not_allow_listed": {
+				"single": "",
+				"multiple": ""
+			},
 			"deny_listed": ""
 		}
 	}

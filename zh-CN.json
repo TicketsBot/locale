@@ -328,7 +328,10 @@
 		"panel_disabled": "服务器管理员已禁用此类型的工单",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
+			"not_allow_listed": {
+				"single": "",
+				"multiple": ""
+			},
 			"deny_listed": ""
 		}
 	}
