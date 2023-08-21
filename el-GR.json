@@ -328,7 +328,10 @@
 		"panel_disabled": "Οι διαχειριστές του διακομιστή έχουν απενεργοποιήσει το άνοιγμα αυτού του τύπου εισιτηρίου",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
+			"not_allow_listed": {
+				"single": "",
+				"multiple": ""
+			},
 			"deny_listed": ""
 		}
 	}
