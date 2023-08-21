@@ -328,7 +328,8 @@
 		"panel_disabled": "A szerver adminisztrátorai kikapcsolták az ilyen típusú jegyek megnyitását",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": ""
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
