@@ -328,7 +328,8 @@
 		"panel_disabled": "Os administradores do servidor desativaram a abertura deste tipo de ticket",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": ""
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
