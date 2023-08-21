@@ -327,7 +327,9 @@
 		"panel_force_disabled": "לוח זה הושבת. אנא בקש ממנהל שרת להפעיל מחדש את פרימיום, ולהפעיל את %s בכדי להפעיל מחדש את הלוח הזה.",
 		"panel_disabled": "מנהלי השרת השביתו את פתיחת כרטיס מסוג זה",
 		"acl": {
-			"no_allow_rules": ""
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
