@@ -327,7 +327,9 @@
 		"panel_force_disabled": "Tento panel není povolený, požádejte administrátora o obnovení premium účtu, a spusťte %s, abyste znovu povolili tento panel.",
 		"panel_disabled": "Admin serveru zakázal otevírání tohoto typu ticketu",
 		"acl": {
-			"no_allow_rules": ""
+			"no_allow_rules": "",
+			"not_allow_listed": "",
+			"deny_listed": ""
 		}
 	}
 }
