@@ -328,8 +328,11 @@
 		"panel_disabled": "De beheerder van de server heeft het openen van dit type ticket uitgeschakeld",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
-			"deny_listed": ""
+			"deny_listed": "",
+			"not_allow_listed": {
+				"multiple": "",
+				"single": ""
+			}
 		}
 	}
 }

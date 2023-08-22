@@ -328,8 +328,11 @@
 		"panel_disabled": "Администрация сервера выключила открытие этого типа обращений.",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
-			"deny_listed": ""
+			"deny_listed": "",
+			"not_allow_listed": {
+				"multiple": "",
+				"single": ""
+			}
 		}
 	}
 }
