@@ -328,8 +328,11 @@
 		"panel_disabled": "伺服器管理員已禁用開啟此類型的客服單",
 		"acl": {
 			"no_allow_rules": "",
-			"not_allow_listed": "",
-			"deny_listed": ""
+			"deny_listed": "",
+			"not_allow_listed": {
+				"multiple": "",
+				"single": ""
+			}
 		}
 	}
 }
