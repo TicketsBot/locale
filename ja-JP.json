@@ -14,7 +14,7 @@
 	"commands.language.invalid": "言語コードまたはフラグを指定する必要があります。利用可能な言語:\\n%s",
 	"commands.open.ticket_limit": "一度に開くことができるのは、%d %s だけです。",
 	"commands.open.too_many_tickets": "チケットカテゴリにチケットが多すぎます。管理者に依頼していくつかのチケットを閉じるか、他のカテゴリに移動してください。",
-	"commands.panel": "",
+	"commands.panel": "パネルの設定は、<https://dashboard.ticketsbot.net/manage/%d/panels>を参照してください。",
 	"commands.premium": "プレミアムサブスクリプションは<https://www.patreon.com/ticketsbot>から購入できます。\\nプレミアムでは、以下のような多くの特典があります。\\n```diff\\n+チケットパネルを無制限に作成可能\\n+ ボット名、アバター、ステータスのカスタマイズが可能（ホワイトラベルのみ）\\n+ サーバー、ユーザー、サポートスタッフに関する詳細な統計情報\\n+ メッセージフッターのブランド名を非表示\\n+ 開発のサポートやサーバーコストの支払いに支払いに当てられます\\n```\\n\\n<https://vote.ticketsbot.net>で投票することにより、プレミアムを24時間無料で入手することもできます",
 	"commands.premium.already_premium": "このサーバーはすでにプレミアムを持っています。有効期限は %sです。",
 	"commands.premium.invalid_key": "無効なキーです。正しくコピーされているか確認してください。",
@@ -65,7 +65,7 @@
 	"help.managetags": "タグの追加・削除・一覧表示",
 	"help.open": "新しいチケットを開きます",
 	"help.panel": "ユーザーが1クリックでチケットを開くことができるパネルを作成します",
-	"help.premium": "",
+	"help.premium": "プレミアムを購入した後にこのコマンドを実行してアクティブ化します",
 	"help.remove": "チケットからユーザーを削除します。",
 	"help.removeadmin": "ユーザーまたはロールの管理者権限を取り消します",
 	"help.removesupport": "ユーザーまたはロールのサポート担当者権限を取り消します",
@@ -84,7 +84,7 @@
 	"open.success": "新しいチケットを開きました: %s",
 	"setup.auto.category.failure": "`チャンネルの管理` 権限がありません。",
 	"setup.auto.category.success": "作成されたチケットのカテゴリー",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "セットアップが完了しました！[here](https://dashboard.ticketsbot.net/manage/%d/panels) クリックしてリアクションパネルを設定し、スタッフに<@&%d> と <@&%d> のロールを追加してください。",
 	"setup.auto.roles.failure": "`ロールの管理` 権限がありません",
 	"setup.auto.roles.success": "`チケット管理者` と `チケットサポート` のロールを作成しました",
 	"setup.auto.transcript.failure": "`チャンネルの管理` 権限がありません。",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "オプションを自動的に選択し、必要なチャンネルを作成します。",
 	"setup.info.category": "チケットを作成したい**チャンネルカテゴリ**の**名前**を入力してください。",
 	"setup.info.choose": "オプションを選択してください。 `/setup` や `/setup auto` を使って素早く起動するか、他のコマンドを使って設定を微調整することができます。",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
+	"setup.info.dashboard": "詳細設定は [dashboard](https://dashboard.ticketsbot.net) でご覧いただけます",
+	"setup.info.panels": "[dashboard](https://dashboard.ticketsbot.net/manage/%d/panel) にアクセスしてリアクションパネルを作成してください。",
 	"setup.info.prefix": "Botのプレフィックス（例：`t!`）を変更します。\\n**例：** `/setup prefix -`",
 	"setup.info.ticket_limit": "**1人のユーザー**が一度に開くことができるチケットの最大数を設定します。\\n**例:** `/setup limit 3`",
 	"setup.info.transcripts": "チケットのトランスクリプトを送信するチャンネルを設定します。\\n**例:** `/set transscripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "ウェルカムメッセージが更新されました。チケットを開いて、実行中に確認してください。",
 	"commands.language.help_wanted": "他の言語を話せますか？もしあなたがボットをより多くの言語に翻訳することに興味があるなら、私たちの[support server](https://discord.gg/bh6aAfP)に参加してください。",
 	"commands.rename.too_long": "チャンネル名を100文字以上にすることはできません。",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "[dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) にアクセスして、自動クローズの設定を変更してください。",
 	"help.autoclose": "オートクローズの関連コマンド",
 	"help.autoclose.exclude": "現在のチケットが自動的にクローズされないようにします",
 	"help.autoclose.configure": "自動クローズの関連設定を編集",
@@ -188,7 +188,7 @@
 		"reason": {
 			"placeholder": "チケットを閉じる理由（例：「解決済み」）"
 		},
-		"success": ""
+		"success": "<@%d> このチケットはによって閉じられました"
 	},
 	"commands": {
 		"open": {
@@ -248,7 +248,7 @@
 			"in_ticket": ""
 		},
 		"premium": {
-			"key": "",
+			"key": "キー",
 			"check_again": "",
 			"subscription_found": "",
 			"subscription_found_content": "",
@@ -263,7 +263,7 @@
 			"use_key_anyway": "",
 			"already_purchased_title": "",
 			"already_purchased_description": "",
-			"giveaway_key": "",
+			"giveaway_key": "プレゼントキー",
 			"selector": {
 				"description": "",
 				"key": {
@@ -281,17 +281,17 @@
 	"generic": {
 		"title": {
 			"panel_switched": "チケットのパネルが切り替わりました。",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"jump_to_top": "トップへジャンプ",
+			"reopened": "チケット再開",
+			"ticket_closed": "チケットは終了しました"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "ここをクリック",
+		"confirm": "確認する",
+		"website": "私たちのウェブサイト"
 	},
 	"help": {
 		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
-		"jump_to_top": "",
+		"jump_to_top": "チケットの上部にジャンプするボタンを提供します",
 		"on_call": "",
 		"reopen": ""
 	},
