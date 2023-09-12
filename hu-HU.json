@@ -276,6 +276,11 @@
 			"about": "A prémium ad jogot több panelhez, statisztikához, egy különböző bothoz és még sok minden máshoz! Nézd meg a [website](https://ticketsbot.net/premium) a részletekért.",
 			"already_activated": "Jó hír! A prémium már aktív ezen a szerveren.",
 			"already_activated_whitelabel": "Jó hír! A prémium már aktív ezen a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Lecseréli a ticketet egy másik ticket panellel, megváltoztatva a panel kategóriáját, support csoportokat, stb.",
 		"jump_to_top": "Biztosít egy gombot, amivel a ticket legelejére ugorhatsz",
 		"on_call": "Megjelől téged, amikor hívásban vagy, hogy hozzá lettél adba és meg lettén pingelve az összes új ticketben",
-		"reopen": "Újranyit egy ticketet, ami már zárva volt"
+		"reopen": "Újranyit egy ticketet, ami már zárva volt",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
