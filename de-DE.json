@@ -276,6 +276,11 @@
 			"about": "Premium gibt dir Zugang zu mehr Panels, Statistiken, einem personalisierten Bot und mehr! Besuche unsere [website](https://ticketsbot.net/premium) um mehr zu erfahren.",
 			"already_activated": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.",
 			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe bei Whitelabel, lese [unsere Whitelabel Einstellungsanleitung](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Wechselt ein Ticket zu einem anderen Ticket-Panel, wechselt die Kanalkategorie, Support-Teams usw.",
 		"jump_to_top": "Zeigt einen Button, um nach oben zu springen",
 		"on_call": "Markiert dich als aktiv, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
-		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut"
+		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
