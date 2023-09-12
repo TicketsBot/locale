@@ -276,6 +276,11 @@
 			"about": "Premium îți oferă acces la mai multe panouri, statistici, un bot personalizat și multe altele! Vizitează-ne [site-ul web](https://ticketsbot.net/premium) pentru a afla mai multe.",
 			"already_activated": "Vești bune! Premium este deja activ pe acest server.",
 			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Comută un tichet la un alt panou de tichete, schimbând categoria canalelor, echipele de suport, etc.",
 		"jump_to_top": "Îți furnizează un buton pentru a sări în partea de sus a tichetului",
 		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
-		"reopen": "Redeschide un tichet care a fost închis anterior"
+		"reopen": "Redeschide un tichet care a fost închis anterior",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
