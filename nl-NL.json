@@ -276,6 +276,11 @@
 			"about": "Premium geeft je toegang tot meer panelen, statistieken, een aangepaste bot en meer! Bezoek onze [website](https://ticketsbot.net/premium) voor meer informatie.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Schakel een ticket over naar een ander ticketpaneel, wijzigt de kanaalcategorie, ondersteuningsteams, enzovoort",
 		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan",
 		"on_call": "Markeert je als \"on call\", zodat je wordt toegevoegd en gepingd in alle nieuwe tickets",
-		"reopen": "Heropent een ticket die eerder was gesloten"
+		"reopen": "Heropent een ticket die eerder was gesloten",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

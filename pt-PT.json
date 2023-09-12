@@ -276,6 +276,11 @@
 			"about": "O premium fornece-te acesso a mais painéis, estatísticas, um bot personalizado e mais! Visita o nosso [website](https://ticketsbot.net/premium) para saberes mais.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Muda o bilhete para outro painel de bilhete, mudando a categoria do canal, equipas de suporte, etc.",
 		"jump_to_top": "Fornece-te um botão para ires para o topo do bilhete",
 		"on_call": "Marca-te como em alerta, para seres adicionado/a e mencionado/a em todos os novos bilhetes",
-		"reopen": "Reabre um bilhete que estava previamente fechado"
+		"reopen": "Reabre um bilhete que estava previamente fechado",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

@@ -276,6 +276,11 @@
 			"about": "",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
 		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen",
 		"on_call": "",
-		"reopen": ""
+		"reopen": "",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

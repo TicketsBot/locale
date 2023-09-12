@@ -276,6 +276,11 @@
 			"about": "高级订阅可以让您访问更多的面板、统计、自定义机器人等！访问我们的 [官网](https://ticketsbot.net/premium) 来了解更多信息。",
 			"already_activated": "好消息！高级订阅已经在此服务器上激活。",
 			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](https://docs.ticketsbot.net/prem/whitlabel-setup-guide)。"
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "切换工单到另一个工单类别，更改频道类别，支持团队等。",
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
-		"reopen": "重新打开之前关闭的工单"
+		"reopen": "重新打开之前关闭的工单",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

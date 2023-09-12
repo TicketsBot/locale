@@ -276,6 +276,11 @@
 			"about": "",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "티켓을 다른 티켓 패널로 전환하여 카테고리, 지원 팀 등을 변경합니다.",
 		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
 		"on_call": "",
-		"reopen": ""
+		"reopen": "",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

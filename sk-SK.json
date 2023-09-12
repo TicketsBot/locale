@@ -276,6 +276,11 @@
 			"about": "Premium vám poskytne prístup k ďalším panelom, štatistikám, vlastnému botovi a ďalším funkciám! Navštívte našu [webovú stránku](https://ticketsbot.net/premium) a dozviete sa viac.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Prepnutie ticketu na iný panel ticketu, zmena kategórie kanála, tímov podpory atď.",
 		"jump_to_top": "Poskytuje tlačidlo na preskočenie na začiatok lístka",
 		"on_call": "Označí vás ako osobu v pohotovosti, ktorá bude pridaná a upozornená na všetky nové tickety",
-		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený"
+		"reopen": "Znovu otvorí ticket, ktorý bol predtým zatvorený",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

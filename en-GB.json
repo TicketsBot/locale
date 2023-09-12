@@ -276,6 +276,11 @@
 			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.net/premium) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
 			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+		},
+		"notes": {
+			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
+			"thread_name": "notes",
+			"created": "A notes thread has been created for this ticket: <#%d>"
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Switches a ticket to another ticket panel, changing the channel category, support teams, etc.",
 		"jump_to_top": "Provides you with a button to jump to the top of the ticket",
 		"on_call": "Marks you as on call, to be added and pinged in all new tickets",
-		"reopen": "Reopens a ticket that was previously closed"
+		"reopen": "Reopens a ticket that was previously closed",
+		"notes": "Creates a thread for private discussion between support representatives"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "You need one of the following roles to open this type of ticket: %s",
 				"single": "You need the following role to open this type of ticket: %s"
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": "Note threads are only supported in channel mode"
 		}
 	}
 }

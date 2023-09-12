@@ -276,6 +276,11 @@
 			"about": "Премиум дает вам доступ к большему количеству панелей, статистике, пользовательскому боту и многому другому! Посетите [наш сайт](https://ticketsbot.net/premium), чтобы узнать больше.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Переключает обращение на другую панель, изменяя категорию канала, группы персонала и т.д.",
 		"jump_to_top": "Создаёт кнопку для перехода к верхней части канала обращения.",
 		"on_call": "Обозначает вас как активного. Вы будете упомянуты в каждом новом обращении.",
-		"reopen": "Открывает обращение, которое было ранее закрыто."
+		"reopen": "Открывает обращение, которое было ранее закрыто.",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }

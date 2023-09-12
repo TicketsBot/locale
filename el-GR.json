@@ -276,6 +276,11 @@
 			"about": "Το Premium σάς δίνει πρόσβαση σε περισσότερα panels, στατιστικά, ένα προσαρμοσμένο bot και πολλά άλλα! Επισκεφθείτε το [website](https://ticketsbot.net/premium) για να μάθετε περισσότερα.",
 			"already_activated": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν το διακομιστή.",
 			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Εναλλάσσει ένα ticket σε έναν άλλο πίνακα ticket, αλλάζοντας την κατηγορία καναλιού, τις ομάδες υποστήριξης, κλπ.",
 		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket",
 		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
-		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως"
+		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "Χρειάζεστε έναν από τους παρακάτω ρόλους για να ανοίξετε αυτόν τον τύπο ticket: %s",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
