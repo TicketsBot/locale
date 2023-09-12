@@ -276,6 +276,11 @@
 			"about": "พรีเมียมช่วยให้คุณเข้าถึงพาเนล สถิติ บอทแบบกำหนดเอง และอื่นๆ อีกมากมาย! เยี่ยมชม [เว็บไซต์](https://ticketsbot.net/premium) ของเราเพื่อดูข้อมูลเพิ่มเติม",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "เปลี่ยนตั๋วเป็นแผงตั๋วอื่น, เปลี่ยนหมวดหมู่ช่อง, ทีมสนับสนุน ฯลฯ",
 		"jump_to_top": "ให้คุณมีปุ่มเพื่อข้ามไปที่ด้านบนสุดของตั๋ว",
 		"on_call": "ทำเครื่องหมายว่าคุณอยู่ในสาย, เพื่อเพิ่มและส่ง Ping ในตั๋วใหม่ทั้งหมด",
-		"reopen": "เปิด ticket ที่ปิดไปก่อนหน้านี้อีกครั้ง"
+		"reopen": "เปิด ticket ที่ปิดไปก่อนหน้านี้อีกครั้ง",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
