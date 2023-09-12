@@ -276,6 +276,11 @@
 			"about": "Premium נותן לך גישה ליותר פאנלים, סטטיסטיקות, בוט מותאם אישית ועוד! בקר ב[website](https://ticketsbot.net/premium) כדי לגלות עוד.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "מחליף כרטיס ללוח כרטיסים אחר, שינוי קטגוריית הערוצים, צוותי תמיכה וכו'.",
 		"jump_to_top": "מספק לך כפתור לקפיצה לראש הכרטיס",
 		"on_call": "מסמן אותך בתוך שיחה, להוספה ולפינג בכל הכרטיסים החדשים",
-		"reopen": "פותח מחדש כרטיס שהיה סגור בעבר"
+		"reopen": "פותח מחדש כרטיס שהיה סגור בעבר",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
