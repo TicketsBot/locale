@@ -276,6 +276,11 @@
 			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://ticketsbot.net/premium) để tìm hiểu thêm.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Chuyển phiếu hỗ trợ này sang bảng khác, đổi mục của kênh, nhóm hỗ trợ, v.v",
 		"jump_to_top": "Thêm nút để có thể nhảy lên tin nhắn đầu tiên của phiếu hỗ trợ",
 		"on_call": "Thêm bạn là đang sẵn sàng, được thêm và ping trong các phiếu hỗ trợ mới",
-		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng"
+		"reopen": "Mở lại phiếu hỗ trợ mà trước đó đã đóng",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
