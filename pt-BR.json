@@ -276,6 +276,11 @@
 			"about": "O Premium lhe dá acesso a mais painéis, estatísticas, um bot personalizado e muito mais! Visite o nosso [website](https://ticketsbot.net/premium) para saber mais.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Alterna um ticket para outro painel de ticket, alterando a categoria do canal, equipes de suporte, etc.",
 		"jump_to_top": "Fornece a você um botão para ir para o topo do ticket",
 		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
-		"reopen": "Reabre um ticket que foi fechado anteriormente"
+		"reopen": "Reabre um ticket que foi fechado anteriormente",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
