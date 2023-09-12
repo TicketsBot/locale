@@ -276,6 +276,11 @@
 			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://ticketsbot.net/premium) щоб дізнатися більше.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Перемикає заявку на панель заяви, змінює категорію каналу, команди підтримки тощо",
 		"jump_to_top": "Надає кнопку для переходу на початок заявки",
 		"on_call": "Позначає вас як дежурного, автоматично додаючи та пінгуючи в усіх нових запитах",
-		"reopen": "Повторно видкриває запит який раніше був закритий"
+		"reopen": "Повторно видкриває запит який раніше був закритий",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
