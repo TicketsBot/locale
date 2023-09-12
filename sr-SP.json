@@ -276,6 +276,11 @@
 			"about": "Премија ти даје приступ више панела, статистике, робот по наруџби и више! Посетите нас да сазнате више. [website](https://ticketsbot.net/premium).",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Пребацује карту на други панел, мења категорију канала, тимове за подршку, итд.",
 		"jump_to_top": "Пружа ти дугме да скочиш на врх карте",
 		"on_call": "Označava te kao dežurnog, da dodaš i upišeš sve nove karte",
-		"reopen": "Поново отвара карту која је раније била затворена"
+		"reopen": "Поново отвара карту која је раније била затворена",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
