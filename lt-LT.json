@@ -276,6 +276,11 @@
 			"about": "Premium suteikia prieigą prie daugiau skydelių, statistikos, koreaguojamo roboto ir dar daugiau! Apsilankykite mūsų [website](https://ticketsbot.net/premium), kad pasiskaitytumėte daugiau.",
 			"already_activated": "",
 			"already_activated_whitelabel": ""
+		},
+		"notes": {
+			"added_to_existing": "",
+			"thread_name": "",
+			"created": ""
 		}
 	},
 	"generic": {
@@ -293,7 +298,8 @@
 		"switch_panel": "Perjungia bilietą į kitą bilietų skydelį, keičia kanalo kategoriją, pagalbos komandas ir kt.",
 		"jump_to_top": "Pateikiamas mygtukas, leidžiantis pereiti į bilieto viršų",
 		"on_call": "Pažymi, kad esate budėjime, kad būtumėte pridėtas ir paminėtas visuose naujuose bilietuose",
-		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas"
+		"reopen": "Atidaro iš naujo bilietą, kuris anksčiau buvo uždarytas",
+		"notes": ""
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,6 +339,11 @@
 				"multiple": "",
 				"single": ""
 			}
+		}
+	},
+	"Private notes arcommands": {
+		"notes": {
+			"channel_mode_onlye only supported in channel mode": ""
 		}
 	}
 }
