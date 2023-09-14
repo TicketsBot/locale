@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Dobre wieści! Premium jest już aktywne na tym serwerze.\n\nAby uzyskać pomoc w rozpoczęciu pracy z whitelabel, przeczytaj [nasz przewodnik konfiguracji whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Zostałeś dodany do istniejącego wątku notatek: <#%d>",
+			"thread_name": "notatki",
+			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Dostarcza ci przycisk, aby przejść do góry zgłoszenia",
 		"on_call": "Oznacza cię jako aktywnego, do dodania i oznaczenia we wszystkich nowych zgłoszeniach",
 		"reopen": "Ponownie otwiera zgłoszenie, które zostało wcześniej zamknięte",
-		"notes": ""
+		"notes": "Tworzy wątek do prywatnych dyskusji między przedstawicielami wsparcia"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "Ten panel został wyłączony. Poproś administratora serwera o reaktywację premium i użycie %s, aby uruchomić go ponownie.",
 		"panel_disabled": "Administratorzy serwera wyłączyli otwieranie tego typu zgłoszenia",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Dostęp do otwarcia tego typu zgłoszenia został wyłączony dla wszystkich ról",
+			"deny_listed": "Nie możesz otworzyć tego typu zgłoszenia, ponieważ masz rolę <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Potrzebujesz jednej z następujących ról, aby otworzyć ten typ zgłoszenia: %s",
+				"single": "Potrzebujesz następującej roli, aby otworzyć ten typ zgłoszenia: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Wątki notatek są wspierane tylko w trybie kanałowym"
 		}
 	}
 }
