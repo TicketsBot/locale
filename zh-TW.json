@@ -65,7 +65,7 @@
 	"help.managetags": "添加、刪除或顯示所有標籤",
 	"help.open": "開啟一個新的問題單",
 	"help.panel": "創建表情符號回饋面板讓成員們能夠輕鬆點擊創建問題單",
-	"help.premium": "",
+	"help.premium": "購買 Premium 後，請執行此指令以啟用它",
 	"help.remove": "將成員從問題單移除",
 	"help.removeadmin": "撤銷某人或某身份組的問題單管理權限",
 	"help.removesupport": "撤銷某人或某身份組的問題單支持權限",
@@ -208,7 +208,7 @@
 				"limit": "您達到了身分組黑名單限制（%d）"
 			},
 			"add": {
-				"limit": ""
+				"limit": "您達到了使用者黑名單限制 (%d)：考慮使用身分組代替"
 			}
 		},
 		"jump_to_top": {
@@ -217,7 +217,7 @@
 		},
 		"addsupport": {
 			"confirm": "請確認您想要將 %s 加入預設支持代表團隊",
-			"everyone": ""
+			"everyone": "您不能將 `@everyone` 身分組設定為工作人員"
 		},
 		"addadmin": {
 			"confirm": "請確認您想將 %s 新增為機器人管理員"
@@ -234,7 +234,7 @@
 		},
 		"interaction_switch": "截止 <t:1662030000:D>，Discord 強制**所有**機器人切換到 [斜線指令](https://support.discord.com/hc/zh-tw/articles/1500000368501-Slash-Commands-FAQ)\n\n要執行斜線指令，在您的鍵盤上按下 `/` 按鈕或按一下此處：%s",
 		"on_call": {
-			"channel_mode": "",
+			"channel_mode": "`/on-call` 只能在討論串模式中使用，查看我們的 [文件](https://docs.ticketsbot.net/features/thread-mode) 來找到更多關於討論串的資訊",
 			"success": "您現在處於在線狀態",
 			"remove_success": "您現在已經不再處於在線狀態"
 		},
@@ -248,39 +248,39 @@
 			"in_ticket": "這個客服單被 <@%d> 重新開啟"
 		},
 		"premium": {
-			"key": "",
+			"key": "金鑰",
 			"check_again": "再次檢查",
 			"subscription_found": "找到訂閱！",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
+			"subscription_found_content": "為了在此伺服器上套用您的訂閱，伺服器擁有者 (<@%d>) 必須透過 </addadmin:%d> 指令將您新增為管理員**使用者**（身分組將被忽略）。\\n\\n您可以通過執行 </viewstaff:%d> 指令來驗證您已被新增為管理員使用者。",
+			"activate_key": "啟用 Premium 訂閱金鑰",
+			"checking": "檢查 Premium 訂閱狀態...",
+			"please_wait": "請稍等...",
+			"success_after_check": "Premium 已在這個伺服器啟用！",
 			"link_patreon_account": "連結 Patreon 帳號",
 			"no_subscription": "找不到與您的 Discord 帳號連結的有效 Patreon 訂閱。請確定您 [已經連結你的 Patreon 和 Discord 帳號](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role)，並等待 10 分鐘。",
 			"open_form": "開啟表格",
 			"open_form_description": "按一下以下按鈕重新打開表格",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"use_key_anyway": "仍然使用 Premium 訂閱金鑰",
+			"already_purchased_title": "已經購買 Premium 訂閱？",
+			"already_purchased_description": "如果您已經購買了 Premium 訂閱，請在下拉式選單中選擇付款方式來開始",
+			"giveaway_key": "抽獎金鑰",
 			"selector": {
-				"description": "",
+				"description": "選擇您取得 Premium 訂閱的方法",
 				"key": {
-					"description": ""
+					"description": "如果您已獲得抽獎金鑰，請選擇此選項。"
 				},
 				"patreon": {
-					"description": ""
+					"description": "如果您在 Patreon 上購買，請選擇此選項"
 				}
 			},
-			"about": "",
+			"about": "Premium 可以讓您存取更多的面板、統計、自訂機器人等功能！請訪問我們的 [網站](https://ticketsbot.net/premium) 以了解更多資訊。",
 			"already_activated": "好消息！Premium 已在此伺服器啟用。",
 			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)。"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "你已被加入到現有的註釋串中：<#%d>",
+			"thread_name": "註釋",
+			"created": "已為此客服單建立了一個註釋串：<#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "按一下以下按鈕跳到客服單頂端",
 		"on_call": "將您標註為線上狀態，以便在所有新的客服單中加入並被通知。",
 		"reopen": "重新開啟之前關閉的客服單",
-		"notes": ""
+		"notes": "建立一個供支援團隊之間進行私人討論的串"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -310,40 +310,40 @@
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "想要進一步了解更多嗎？我們的 [文件](https://docs.ticketsbot.net) 將教您如何設定機器人！"
 		},
 		"threads": {
 			"missing_boosts": "Discord 要求伺服器擁有 2 等以上的 [加成等級](https://support.discord.com/hc/zh-tw/articles/360028038352-伺服器加成常見問題-) 才能使用私人討論串。",
 			"no_notification_channel": "您必須提供一個客服單通知頻道",
 			"notification_channel_type": "客服單通知頻道必須是文字頻道",
 			"success": "討論串模式已啟用",
-			"disabled": ""
+			"disabled": "討論串模式已停用"
 		}
 	},
 	"button": {
 		"join_thread": {
 			"closed_ticket": "這個客服單已關閉",
-			"no_permission": "",
+			"no_permission": "您沒有查看此類型客服單的權限",
 			"already_joined": "您已經加入了這個客服單（<#%d>）",
 			"success": "將您加入到客服單：<#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"thread_in_announcement_channel": "討論串不能在公告頻道中建立",
+		"panel_force_disabled": "這個面板已停用。請詢問伺服器管理員以重新啟用 Premium ，並執行 %s 以重新啟用此面板。",
+		"panel_disabled": "伺服器管理員已停用開啟此類型的客服單",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "停用了所有身分組開啟此類客服單的存取權限",
+			"deny_listed": "你無法開啟此類客服單，因為你擁有身分組 <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "要開啟此類客服單，你需要擁有以下身分組之一：%s",
+				"single": "要開啟此類客服單，你需要擁有以下身分組：%s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "註釋串僅在頻道模式支援"
 		}
 	}
 }
