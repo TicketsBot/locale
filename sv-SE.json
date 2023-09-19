@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Goda nyheter! Premium är redan aktiv på denna server.\n\nFör att komma igång med whitelabel, läs [vår whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Du har lagts till den befintliga tråden: <#%d>",
+			"thread_name": "anteckningar",
+			"created": "En tråd för anteckningar har skapats för detta ärende: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Ger dig en knapp för att hoppa till toppen av ärendet",
 		"on_call": "Markerar dig som aktiv, att läggas till och pingas i alla nya ärenden",
 		"reopen": "Återöppnar ett ärende som tidigare var stängt",
-		"notes": ""
+		"notes": "Skapa en tråd för privat diskussion mellan supportrepresentanter"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "Denna panel har inaktiverats. Be en serveradministratör att återaktivera premium, och kör %s för att återaktivera denna panel.",
 		"panel_disabled": "Serveradministratörerna har inaktiverat att öppna denna typ av ärende",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Åtkomst till att öppna denna typ av ärende har inaktiverats för alla roller",
+			"deny_listed": "Du kan inte öppna denna typ av ärenden eftersom du har rollen <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Du behöver en av följande roller för att öppna denna typ av ärenden: %s",
+				"single": "Du behöver en av följande roller för att öppna denna typ av ärenden: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Anteckningstrådar stöds bara i kanalläge"
 		}
 	}
 }
