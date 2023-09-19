@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Έχετε προστεθεί στο υπάρχον νήμα σημειώσεων: <#%d>",
+			"thread_name": "σημειώσεις",
+			"created": "Έχει δημιουργηθεί ένα νήμα σημειώσεων για αυτό το ticket: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Σας παρέχει ένα κουμπί για να μεταβείτε στην κορυφή του ticket",
 		"on_call": "Σας επισημαίνει σε υπηρεσία, για να προστίθεται και να σε κάνει ping σε όλα τα tickets",
 		"reopen": "Ανοίγει ξανά ένα ticket που έκλεισε προηγουμένως",
-		"notes": ""
+		"notes": "Δημιουργεί ένα νήμα για ιδιωτική συζήτηση μεταξύ εκπροσώπων υποστήριξης"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -337,13 +337,13 @@
 			"deny_listed": "Δεν μπορείτε να ανοίξετε αυτόν τον τύπο ticket επειδή έχετε τον ρόλο <@&%d>",
 			"not_allow_listed": {
 				"multiple": "Χρειάζεστε έναν από τους παρακάτω ρόλους για να ανοίξετε αυτόν τον τύπο ticket: %s",
-				"single": ""
+				"single": "Χρειάζεστε τον ακόλουθο ρόλο για να ανοίξετε αυτόν τον τύπο εισιτηρίου: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Σημείωση τα νήματα υποστηρίζονται μόνο σε λειτουργία καναλιού"
 		}
 	}
 }
