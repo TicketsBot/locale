@@ -333,11 +333,11 @@
 		"panel_force_disabled": "Acest panou a fost dezactivat. Te rugăm să ceri unui admin al serverului să reactiveze premium și să ruleze %s pentru a reactiva acest panou.",
 		"panel_disabled": "Adminii serverului au dezactivat deschiderea acestui tip de tichet",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Accesul la acest tip de tichet a fost dezactivat pentru toate rolurile",
+			"deny_listed": "Nu poți deschide acest tip de tichet deoarece ai rolul <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Ai nevoie de unul dintre următoarele roluri pentru a deschide acest tip de tichet: %s",
+				"single": "Ai nevoie de următorul rol pentru a deschide acest tip de tichet: %s"
 			}
 		}
 	},
