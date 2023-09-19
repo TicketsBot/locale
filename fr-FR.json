@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Bonne nouvelle ! La version Premium est déjà active sur ce serveur.\n\nPour obtenir de l'aide pour commencer avec whitelabel, lisez [notre guide de configuration whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Vous avez été ajouté au fil de notes suivant : <#%d>",
+			"thread_name": "notes",
+			"created": "Un fil de notes a été créé pour ce ticket: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Envoie un bouton qui permet de remonter en haut du ticket",
 		"on_call": "Vous marque comme disponible pour être ajouté et notifié dans tous les nouveaux tickets",
 		"reopen": "Rouvre un ticket qui a été précédemment fermé",
-		"notes": ""
+		"notes": "Crée un fil de discussion privé entre les représentants de l'équipe de support"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "Ce panneau a été désactivé. Veuillez demander à un administrateur du serveur de réactiver la version premium, et exécuter %s pour réactiver ce panneau.",
 		"panel_disabled": "Les administrateurs du serveur ont désactivé l'ouverture de ce type de ticket",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "L'accès à ce type de ticket a été désactivé pour tous les rôles",
+			"deny_listed": "Vous ne pouvez pas ouvrir ce type de ticket, car vous avez le rôle <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Vous avez besoin de l'un des rôles suivants pour ouvrir ce type de ticket : %s",
+				"single": "Vous avez besoin de l'un des rôles suivants pour ouvrir ce type de ticket : %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Les fils de notes ne sont pris en charge qu'en mode salon"
 		}
 	}
 }

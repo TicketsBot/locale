@@ -278,8 +278,8 @@
 			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)。"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
+			"added_to_existing": "你已被加入到現有的討論串中：<#%d>",
+			"thread_name": "備註",
 			"created": ""
 		}
 	},

@@ -194,7 +194,7 @@
 		"open": {
 			"disabled": "このサーバーでは`/open`コマンドは無効です：チケットパネルを使用してチケットを開いてください。",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "チケットに <@%d> を追加できませんでした: スレッドの親チャンネルを表示する権限があることを確認してください (<#%d>)"
 			}
 		},
 		"switch_panel": {
@@ -205,82 +205,82 @@
 			"staff": "スタッフメンバーをブラックリストに登録することはできません。",
 			"add_role": {
 				"success": "<@&%d>がブラックリストに登録されました。",
-				"limit": ""
+				"limit": "ロールブラックリストの上限に達しました: (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "ユーザーブラックリストの上限に達しました (%d): 代わりにロールブラックリストの使用を検討してください"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "このチケットにはウェルカムメッセージがありません",
+			"content": "チケットの上部にジャンプするには下のボタンをクリックしてください"
 		},
 		"addsupport": {
-			"confirm": "",
-			"everyone": ""
+			"confirm": "デフォルトのサポートチームに %s を追加することを確認してください",
+			"everyone": "`@everyone` をスタッフロールに追加することはできません"
 		},
 		"addadmin": {
-			"confirm": ""
+			"confirm": "%s をボット管理者として追加することを確認してください"
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "タグの上限に達しました (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "利用可能な言語とその翻訳の進捗状況は以下の通りです:\n%s",
+			"success": "サーバーの言語が**%s**（%s）に変更されました",
+			"select": "言語を選択 (%c-%c)"
 		},
-		"interaction_switch": "",
+		"interaction_switch": "<t:1662030000:D> の時点で、Discord は **すべて** ボットを [スラッシュ コマンド](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands) に強制的に切り替えました。 ）。\n\nスラッシュ コマンドを実行するには、キーボードの「/」ボタンを押すか、ここをクリックしてください: %s",
 		"on_call": {
-			"channel_mode": "",
-			"success": "",
-			"remove_success": ""
+			"channel_mode": "`/on-call` はスレッドモードでのみ使用できます。 [ドキュメント](https://docs.ticketsbot.net/features/thread-mode) にアクセスしてスレッドの詳細を確認してください。",
+			"success": "現在通話中です",
+			"remove_success": "通話中ではありません"
 		},
 		"reopen": {
-			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
-			"not_thread": "",
-			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"not_found": "チケットが見つかりません",
+			"no_permission": "このチケットを再オープンする権限がありません",
+			"already_open": "このチケットは既にオープンされています",
+			"not_thread": "スレッドのみオープンできます",
+			"thread_deleted": "チケットは完全に削除されました",
+			"success": "チケット %d が再オープンしました: <#%d>",
+			"in_ticket": "このチケットは <@%d > によって再オープンされました。"
 		},
 		"premium": {
 			"key": "キー",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
+			"check_again": "再確認",
+			"subscription_found": "サブスクリプションが見つかりました！",
+			"subscription_found_content": "このサーバーにサブスクリプションを適用するには、サーバー所有者 (<@%d>) が、</addadmin:%d> コマンドを使用してあなたを管理者 **ユーザー** (ロールは無視されます) として追加する必要があります。\\n\\n</viewstaff:%d> を実行すると、管理者ユーザーとして追加されたことを確認できます",
+			"activate_key": "プレミアムキーを有効化",
+			"checking": "プレミアムステータスを確認しています...",
+			"please_wait": "しばらくお待ちください...",
+			"success_after_check": "プレミアムがこのサーバーで有効になりました！",
+			"link_patreon_account": "Patreonアカウントとリンク",
+			"no_subscription": "あなたのDiscordアカウントに関連付けられたPatreonサブスクリプションが見つかりませんでした。[Patreon と Discord アカウントをリンク](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role)",
+			"open_form": "フォームを開く",
+			"open_form_description": "フォームを再オープンするには、下のボタンを押してください",
+			"use_key_anyway": "プレミアムキーを使用する",
+			"already_purchased_title": "既にプレミアムを購入しましたか？",
+			"already_purchased_description": "プレミアムをすでに購入している場合は、ドロップダウンから支払い方法を選択して開始します",
 			"giveaway_key": "プレゼントキー",
 			"selector": {
-				"description": "",
+				"description": "プレミアムを取得する方法を選択してください",
 				"key": {
-					"description": ""
+					"description": "プレゼント用のキーを与えられた場合は、このオプションを選択してください"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Patreonで購入した場合はこのオプションを選択してください"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "プレミアムは、より多くのパネル、統計情報、カスタムボットなどにアクセスできます！詳細については、 [公式サイト](https://ticketsbot.net/premium) をご覧ください。",
+			"already_activated": "良いお知らせです！プレミアムは既にこのサーバーで有効になっています。",
+			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](https://docs.ticketsbot.net/premium/whiteabel-setup-guide)をご覧ください。"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "ノートスレッドに追加されました: <#%d>",
+			"thread_name": "ノート",
+			"created": "このチケットのノートスレッドが作成されました: <#%d>"
 		}
 	},
 	"generic": {
@@ -297,53 +297,53 @@
 	"help": {
 		"switch_panel": "チケットを別のチケットパネルに切り替え、チャンネルカテゴリを変更したり、サポートチームなどに切り替えます。",
 		"jump_to_top": "チケットの上部にジャンプするボタンを提供します",
-		"on_call": "",
-		"reopen": "",
-		"notes": ""
+		"on_call": "通話中にマーク、追加され、すべての新しいチケットにピン留めされます",
+		"reopen": "以前にクローズされたチケットを再オープンします",
+		"notes": "サポート担当者間のディスカッション用の非公開スレッドを作成します"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@%d>がブラックリストから解除されました。"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "もっと詳しく知りたいですか？私たちの [ドキュメンテーション](https://docs.ticketsbot.net) は、ボットのあらゆる側面を設定する方法を教えてくれます！"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discordでは、プライベートスレッドを使用するにはサーバーが2以上の[ブーストレベル](https://support.discord.com/hc/en-us/articles/360028028038352-Server-Boosting-FAQ-)を持つ必要があります。",
+			"no_notification_channel": "チケット通知チャンネルを入力してください",
+			"notification_channel_type": "チケット通知チャンネルはテキストチャンネルで指定してください",
+			"success": "スレッドモードが無効になっています",
+			"disabled": "スレッドモードが無効になっています"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "このチケットは既にクローズされています",
+			"no_permission": "このタイプのチケットを表示する権限がありません",
+			"already_joined": "既にこのチケットに参加しています (<#%d>)",
+			"success": "チケットに追加しました: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"thread_in_announcement_channel": "アナウンスチャンネルではスレッドを作成できません",
+		"panel_force_disabled": "このパネルは無効になっています。再度プレミアムを有効にするようサーバー管理者に依頼し、このパネルを再度有効にするには %s を実行してください。",
+		"panel_disabled": "サーバー管理者は、このタイプのチケットを開くことを無効にしています",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "このタイプのチケットを開くためのアクセスは、すべてのロールで無効にされています",
+			"deny_listed": "このタイプのチケットは、<@&%d >ロールがあるため開くことができません。",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "このタイプのチケットを開くには次のいずれかのロールが必要です: %s",
+				"single": "このタイプのチケットを開くには次のロールが必要です: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "ノートスレッドはチャンネルモードでのみサポートされています"
 		}
 	}
 }

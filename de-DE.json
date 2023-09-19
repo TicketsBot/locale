@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe bei Whitelabel, lese [unsere Whitelabel Einstellungsanleitung](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Du wurdest dem bestehenden Notiz-Thread hinzugefügt: <#%d>",
+			"thread_name": "notizen",
+			"created": "Für dieses Ticket wurde ein Notiz-Thread erstellt: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Zeigt einen Button, um nach oben zu springen",
 		"on_call": "Markiert dich als aktiv, um in neuen Tickets automatisch hinzugefügt und markiert zu werden",
 		"reopen": "Öffnet ein zuvor geschlossenes Ticket erneut",
-		"notes": ""
+		"notes": "Erstellt einen Thread für private Diskussionen zwischen Supportmitarbeitern"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "Dieses Panel wurde deaktiviert. Bitte frage einen Admin, Premium erneut zu aktivieren und %s auszuführen, um das Panel wieder zu aktivieren.",
 		"panel_disabled": "Die Serveradministratoren haben das Öffnen von diesem Tickettyp deaktiviert",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Der Zugriff auf diese Art von Ticket wurde für alle Rollen deaktiviert",
+			"deny_listed": "Du kannst diese Art von Ticket nicht öffnen, da du die Rolle <@&%d> hast",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Sie benötigen eine der folgenden Rollen, um diesen Tickettyp zu öffnen: %s",
+				"single": "Du benötigst folgende Rolle, um ein Ticket in dieser Kategorie zu öffnen: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Beachte, dass Threads nur im Chatmodus unterstützt werden"
 		}
 	}
 }

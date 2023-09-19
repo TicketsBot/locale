@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "¡Buenas noticias! Premium ya está activo en este servidor.\n\nPara obtener ayuda para comenzar con whitelabel, lee [nuestra guía de configuración de whitelabel] (https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Te han añadido al hilo de notas existente: <#%d>",
+			"thread_name": "notas",
+			"created": "Se ha creado un hilo de notas para este ticket: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Proporciona un botón para saltar al inicio del ticket",
 		"on_call": "Te marca como llamada en llamada, a ser añadido y hecho ping en todos los nuevos tickets",
 		"reopen": "Vuelve a abrir un ticket que estaba cerrado anteriormente",
-		"notes": ""
+		"notes": "Crea un hilo para la discusión privada entre los representantes de soporte"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -337,13 +337,13 @@
 			"deny_listed": "No puedes abrir este tipo de ticket porque tienes el rol <@&%d>",
 			"not_allow_listed": {
 				"multiple": "Necesitas uno de los siguientes roles para abrir este tipo de ticket: %s",
-				"single": ""
+				"single": "Necesitas el siguiente rol para abrir este tipo de ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Los hilos de notas solo son compatibles con el modo canal"
 		}
 	}
 }
