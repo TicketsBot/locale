@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "好消息！高级订阅已经在此服务器上激活。\n\n为了帮助开始自定义机器人，请阅读[配置自定义机器人](https://docs.ticketsbot.net/prem/whitlabel-setup-guide)。"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "您已被添加到现有的备注主题中：<#%d>",
+			"thread_name": "备注",
+			"created": "已为此Ticket创建了一个备注主题：<#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "点击下面的按钮跳到工单顶部",
 		"on_call": "将您标记为在线，将自动加入新的工单中并且你在这个线程里发的消息会被标记。",
 		"reopen": "重新打开之前关闭的工单",
-		"notes": ""
+		"notes": "创建一个提供给支持团队私下讨论的主题"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "此面板已被禁用。请询问服务器管理员以重新激活付费，并运行 %s 以重新启用此面板。",
 		"panel_disabled": "服务器管理员已禁用此类型的工单",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "已禁止所有身份组打开此Ticket的权限",
+			"deny_listed": "你无法打开此Ticket，因为你有身份组：<@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "你需要以下任意一个身份组才能打开这个Ticket：%s",
+				"single": "你需要以下身份组才能打开此Ticket：%s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Note功能仅在频道模式才可以创建"
 		}
 	}
 }
