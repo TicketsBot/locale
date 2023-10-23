@@ -9,7 +9,7 @@
 	"commands.addsupport.no_members": "Трябва да споменете потребителя или името на ролята, на която да дадете привилегията \"Съпорт\"",
 	"commands.blacklist.no_members": "Трябва да споменете потребителя, на който желаете да дадете блеклист",
 	"commands.blacklist.self": "Не можете да блеклистнете себе си",
-	"commands.claim.success": "Вашият билет ще бъде поет от",
+	"commands.claim.success": "Вашият билет ще бъде поет от %s",
 	"commands.invite": "[Натисни тук](<https://invite.ticketsbot.net>)",
 	"commands.language.invalid": "Трябва да поясните език или знаме. Достъпните езици са",
 	"commands.open.ticket_limit": "Вие можете да отворите само %d %s тикет наведнъж",
