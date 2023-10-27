@@ -96,7 +96,7 @@
 	"setup.info.category": "Zadejte **název** **kategorie kanálů**, pod kterou byste si přáli vytvořit tikety",
 	"setup.info.choose": "Zvolte prosím možnost. Můžete použít `/setup` nebo `/setup auto` pro rychlý běh nebo použít jiné příkazy k jemnému nastavení ladění",
 	"setup.info.dashboard": "",
-	"setup.info.panels": "",
+	"setup.info.panels": "Navštivte [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) pro vytvoření reakčních panelů",
 	"setup.info.prefix": "Změní prefix (např. `t!`) bota.\\n**Příklad:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Nastaví maximální počet ticketů, které **jediný uživatel** může otevřít **najednou**.\\n**Příklad:** `/setup limit 3`",
 	"setup.info.transcripts": "Nastaví přepisy kanálu jsou odeslány.\\n**Příklad:** `/setup transcripts #logs`",
