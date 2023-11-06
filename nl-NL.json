@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": ""
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Je bent toegevoegd aan de bestaande notitiethread: <#%d>",
+			"thread_name": "notities",
+			"created": "Voor deze ticket is een notitie gemaakt: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Biedt je met een knop om naar de bovenkant van het ticket te gaan",
 		"on_call": "Markeert je als \"on call\", zodat je wordt toegevoegd en gepingd in alle nieuwe tickets",
 		"reopen": "Heropent een ticket die eerder was gesloten",
-		"notes": ""
+		"notes": "Maakt een conversatie aan voor privé gesprek tussen ondersteunende vertegenwoordigers"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "Dit paneel is uitgeschakeld. Vraag een serverbeheerder om premium opnieuw te activeren en voer %s uit om dit paneel weer in te schakelen.",
 		"panel_disabled": "De beheerder van de server heeft het openen van dit type ticket uitgeschakeld",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Toegang tot het openen van dit type ticket is uitgeschakeld voor alle rollen",
+			"deny_listed": "Je kunt dit type ticket niet openen omdat je de rol <@&%d > hebt",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "U heeft een van de volgende rollen nodig om deze type ticket te openen: %s",
+				"single": "Je moet de volgende rol hebben om een ticket te openen: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Threads worden alleen in kanaalmodus ondersteund"
 		}
 	}
 }
