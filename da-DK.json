@@ -14,7 +14,7 @@
 	"commands.language.invalid": "Du skal vælge en sprog kode eller et flag. Tilgængelige sprog:\\n%s",
 	"commands.open.ticket_limit": "Du kan kun åbne %d %s på en gang",
 	"commands.open.too_many_tickets": "Der er for mange tickets i kategorien. Bed en administrator om at lukke eller flytte nogen, til en anden kategori",
-	"commands.panel": "",
+	"commands.panel": "Besøg <https://dashboard.ticketsbot.net/manage/%d/panels> for at konfigurere et panel",
 	"commands.premium": "Du kan købe et premium abonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium giver mange fordele, såsom s:\\n```diff\\n+ skab ubegrænsede antal paneler\\n+ Tilpas bot navn, avaterer og status (whitelabel)\\n+ Detaljeret statistik om serveren, brugere og supportpersonalet\\n+ Ingen reklamer i fodnoten af beskeder\\n+ Support udvikling og hjælp mig med at betale server omkostningerne\\n+```\\n\\nAlternativt, kan du stemme på <https://vote.ticketsbot.net> for at få premium gratis i 24 timer",
 	"commands.premium.already_premium": "Denne guild har allerede premium abonnement. Den udløber %s",
 	"commands.premium.invalid_key": "Ugyldig nøgle. Sørg for at du har kopieret den korrekt.",
@@ -95,7 +95,7 @@
 	"setup.info.auto": "Vælger automatisk tilvalg og laver de krævede kanaler",
 	"setup.info.category": "Skriv **navn** på **kanalkategorien**, som du gerne vil have tickets oprettet under",
 	"setup.info.choose": "Vælg venligst en mulighed. Du kan bruge `/setup` eller `/setup auto` for at komme hurtigt igang, eller bruge de andre kommandoer til at finjustere indstillinger",
-	"setup.info.dashboard": "",
+	"setup.info.dashboard": "Flere indstillinger er tilgængelige på [instrumentbrættet](https://dashboard.ticketsbot.net)",
 	"setup.info.panels": "Besøg [instrumentbrættet](https://dashboard.ticketsbot.net/manage/%d/panels) for at oprette reaktionspaneler",
 	"setup.info.prefix": "Ændrer præfikset (f.eks. `t!`) for botten.\\n**Eksempel:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Sætter det maksimale antal tickets en **enkelt bruger** kan åbne **på én gang**.\\n**Eksempel:** `/setup limit 3`",
@@ -204,11 +204,11 @@
 		"blacklist": {
 			"staff": "Personale kan ikke blive blacklisted",
 			"add_role": {
-				"success": "",
+				"success": "<@&%d> er blevet blacklistet",
 				"limit": "Du har nået grænsen for blacklisting af roller (%d)"
 			},
 			"add": {
-				"limit": ""
+				"limit": "Du har nået grænsen for brugerens blacklist (%d): overvej at bruge en rolle i stedet for"
 			}
 		},
 		"jump_to_top": {
@@ -216,7 +216,7 @@
 			"content": "Klik på knappen nedenfor for at hoppe til toppen af ticketen"
 		},
 		"addsupport": {
-			"confirm": "",
+			"confirm": "Bekræft venligst, at du ønsker at tilføje %s til standard-supportteamet",
 			"everyone": "Du kan ikke tilføje rollen `@everyone` som staff"
 		},
 		"addadmin": {
@@ -224,126 +224,126 @@
 		},
 		"tags": {
 			"create": {
-				"limit": ""
+				"limit": "Du har nået tag-grænsen (%d)"
 			}
 		},
 		"language": {
-			"content": "",
-			"success": "",
-			"select": ""
+			"content": "De tilgængelige sprog og deres oversættelsesstatus er som følger:\n%s",
+			"success": "Serversproget er blevet ændret til **%s** (%s)",
+			"select": "Vælg et sprog (%c-%c)"
 		},
 		"interaction_switch": "Fra og med <t:1662030000:D> har Discord tvunget **alle** bots til at skifte til [slash-kommandoer] (https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nFor at udføre en slash-kommando skal du trykke på knappen `/` på dit tastatur eller klikke her: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` kan kun bruges i trådtilstand. Besøg vores [dokumenter](https://docs.ticketsbot.net/features/thread-mode) for at finde ud af mere om tråde",
-			"success": "",
-			"remove_success": ""
+			"success": "Du er nu på vagt",
+			"remove_success": "Du er ikke længere på vagt"
 		},
 		"reopen": {
 			"not_found": "Ticket ikke fundet",
 			"no_permission": "Du har ikke tilladelse til at genåbne denne ticket",
 			"already_open": "Denne ticket er allerede åben",
-			"not_thread": "",
+			"not_thread": "Kun tråde kan genåbnes",
 			"thread_deleted": "Ticketen er blevet slettet permanent",
 			"success": "Ticket %d genåbnet: <#%d>",
 			"in_ticket": "Denne ticket er blevet genåbnet af <@%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
+			"key": "Nøgle",
+			"check_again": "Tjek igen",
+			"subscription_found": "Abonnement Fundet!",
 			"subscription_found_content": "For at kunne anvende dit abonnement på denne server, skal serverens ejer (<@%d>) tilføje dig som admin **bruger** (roller ignoreres) via kommandoen </addadmin:%d>\\n\\n Du kan bekræfte, at du er blevet tilføjet som admin ved at køre </viewstaff:%d>.",
 			"activate_key": "Aktiver En Premium Nøgle",
 			"checking": "Tjekker premiumstatus...",
-			"please_wait": "",
+			"please_wait": "Vent venligst...",
 			"success_after_check": "Premium er nu aktiveret på denne server!",
 			"link_patreon_account": "Forbind Patreon Konto",
 			"no_subscription": "Kunne ikke finde et aktivt Patreon-abonnement knyttet til din Discord-konto. Sørg for, at du [har linket dine Patreon- og Discord-konti] (https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role), og vent yderligere 10 minutter.",
-			"open_form": "",
-			"open_form_description": "",
+			"open_form": "Åbn Formular",
+			"open_form_description": "Tryk på knappen nedenfor for at genåbne formularen",
 			"use_key_anyway": "Brug Alligevel Premium Nøgle",
 			"already_purchased_title": "Har du allerede købt premium?",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"already_purchased_description": "Hvis du allerede har købt premium, skal du vælge en betalingsmetode fra rullemenuen for at komme i gang",
+			"giveaway_key": "Giveaway Nøgle",
 			"selector": {
-				"description": "",
+				"description": "Vælg, hvilken metode du brugte til at få premium",
 				"key": {
-					"description": ""
+					"description": "Vælg denne mulighed, hvis du har fået en giveaway nøgle"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Vælg denne mulighed, hvis du har foretaget et køb på vores Patreon"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "Premium giver dig adgang til flere paneler, statistikker, en brugerdefineret bot og meget mere! Besøg vores [hjemmeside](https://ticketsbot.net/premium) for mere viden.",
+			"already_activated": "Gode nyheder! Premium er allerede aktiv i denne server.",
+			"already_activated_whitelabel": "Gode nyheder! Premium er allerede aktiv i denne server.\n\nFor hjælp til at komme i gang med whitelabel, læs [vores guide til opsætning af whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Du er blevet tilføjet til den eksisterende notetråd: <#%d>",
+			"thread_name": "noter",
+			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "Ticked panel skiftet",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"jump_to_top": "Spring Til Toppen",
+			"reopened": "Ticket Genåbnet",
+			"ticket_closed": "Ticket Lukket"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "Klik her",
+		"confirm": "Bekræft",
+		"website": "Vores Hjemmeside"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": "",
-		"on_call": "",
-		"reopen": "",
-		"notes": ""
+		"switch_panel": "Skifter en ticket til et andet ticketpanel, skifter kanalens kategori, supportteams osv.",
+		"jump_to_top": "Giver dig en knap til at hoppe til toppen af denne ticket",
+		"on_call": "Markerer dig som \"På vagt\", så du bliver tilføjet og pinged i all nye tickets",
+		"reopen": "Genåbner en ticket, som tidligere var lukket",
+		"notes": "Opretter en tråd til privat diskussion mellem supportrepræsentanter"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> er blevet unblacklisted"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Vil du udforske mere? Vores [dokumentation](https://docs.ticketsbot.net) kommer til at lære dig, hvordan du konfigurerer alle aspekter af botten!"
 		},
 		"threads": {
-			"missing_boosts": "",
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"missing_boosts": "Discord kræver, at serveren har et [boost niveau](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) på 2 eller højere for at kunne bruge private tråde",
+			"no_notification_channel": "Du skal angive en kanal til ticketnotifikationer",
+			"notification_channel_type": "Kanalen til ticketnotifikationer skal være en tekstkanal",
+			"success": "Trådtilstand er blevet aktiveret",
+			"disabled": "Trådtilstand er blevet deaktiveret"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Denne ticket er allerede blevet lukket",
+			"no_permission": "Du har ikke tilladelse til at se denne type ticket",
+			"already_joined": "Du har allerede tilsluttet dig denne ticket (<#%d>)",
+			"success": "Tilføjet dig til ticketen: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"thread_in_announcement_channel": "Tråde kan ikke oprettes i meddelelseskanaler",
+		"panel_force_disabled": "Denne panel er blevet deaktiveret. Bed venligst en serveradministrator om at genaktivere premium, og kør %s for at genaktivere dette panel.",
+		"panel_disabled": "Serveradministratorerne har deaktiveret muligheden for at åbne denne type ticket",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Adgang til at åbne denne type ticket er blevet deaktiveret for alle roller",
+			"deny_listed": "Du kan ikke åbne denne type af ticket, fordi du har rollen <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Du skal have en af følgende roller for at åbne denne type af ticket: %s",
+				"single": "Du skal have følgende rolle for at åbne denne type af ticket: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Tråde er kun understøttet i kanaltilstand"
 		}
 	}
 }
