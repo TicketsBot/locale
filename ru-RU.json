@@ -99,7 +99,7 @@
 	"setup.info.panels": "Воспользуйтесь [панелью управления](https://dashboard.ticketsbot.net/manage/%d/panels) для создания панелей реакций.",
 	"setup.info.prefix": "Меняет префикс (т.е. `t!`) бота.\\n**Пример** `/setup prefix -`",
 	"setup.info.ticket_limit": "Устанавливает максимальное количество заявок для **каждого пользователя** открытых **одновременно**. \\n**Пример:**`/setup limit 3`",
-	"setup.info.transcripts": "Задаёт канал для хранения записей запросов. \\n**Нпример:** `/setup transcripts #logs`",
+	"setup.info.transcripts": "Устанавливает канал для хранения записей обращений.\\n**Например:** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "Напишите сообщение, которое должно быть отправлено ботом когда билет открыт ",
 	"setup.prefix.success": "Префикс был изменен на `%s`. Вы можете использовать `%sopen` чтобы использовать билет",
 	"setup.ticket_limit.success": "Лимит билетов был обновлен до `%d`",

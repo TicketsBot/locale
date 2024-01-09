@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nSe ti serve aiuto a configurare whitelabel, leggi [la nostra guida di configurazione whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Sei stato aggiunto al thread delle note seguente: <#%d>",
+			"thread_name": "note",
+			"created": "Un thread dedicato alle note è stato creato per questo ticket: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Fornisce un tasto per tornare all'inizio del ticket",
 		"on_call": "Ti indica come in servizio, per essere aggiunto e notificato in tutti i nuovi ticket",
 		"reopen": "Riapre un ticket precedentemente chiuso",
-		"notes": ""
+		"notes": "Crea un thread per discussioni private tra i rappresentanti del supporto"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -334,7 +334,7 @@
 		"panel_disabled": "Gli amministratori del server hanno disattivato la possibilità di aprire questo tipo di ticket",
 		"acl": {
 			"no_allow_rules": "L'accesso ad aprire questo tipo di ticket è stato disabilitato per tutti i ruoli",
-			"deny_listed": "",
+			"deny_listed": "Non puoi aprire questo tipo di ticket perché hai il ruolo <@&%d>",
 			"not_allow_listed": {
 				"multiple": "È necessario uno dei seguenti ruoli per aprire questo tipo di ticket: %s",
 				"single": "È necessario il seguente ruolo per aprire questo tipo di ticket: %s"
@@ -343,7 +343,7 @@
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "I thread dedicati alle note sono supportati solo in modalità canale"
 		}
 	}
 }
