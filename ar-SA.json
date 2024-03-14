@@ -14,7 +14,7 @@
 	"commands.language.invalid": "\n%s :الرجاء تحديد رمز اللغة او علم . اللغات المتوفرة",
 	"commands.open.ticket_limit": "في الوقت ذاته %d %s يمكن فتح ",
 	"commands.open.too_many_tickets": "هناك عدد كبير من التذاكر في فئة التذاكر هذه. اطلب من الاّدمن إغلاق البعض أو نقلهم إلى فئة أخرى",
-	"commands.panel": "",
+	"commands.panel": "افتح <https://dashboard.ticketsbot.net/manage/%d/panels> لتعديل لوحة",
 	"commands.premium": "للحصول على النسخة المميزة لمدة 24 ساعة <https://vote.ticketsbot.net> ولكن يمكنك التصويت في  \n```\n\n تدعم مطورينا وتدعمنا ماديا \n+ خالي من الاعلانات \n+ ومعلومات دقيقة عن السيرفر والمستخدمين والموظفين (whitelabel)\n+ يمكنك تخصيص اسم البوت والصورة والحالة \n+يمكنك عمل لوحات لتذاكر بشكل لانهائي  \n```diff\n+  :الإشتراك المميز لديه العديد من الخواص ,مثل \n <https://www.patreon.com/ticketsbot> يمكنك شراء اشتراك مميز من ",
 	"commands.premium.already_premium": "%s المالك لديه النسخة الخاصة. تنتهي صلاحيتها في ",
 	"commands.premium.invalid_key": "الرمز غير صالح .الرجاء التأكد من نسخخها بشكل صحيح ",
@@ -84,7 +84,7 @@
 	"open.success": "تم فتح تذكرة جديدة: %s",
 	"setup.auto.category.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.category.success": "تم إنشاء فئة التذاكر",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "اكتمل الإعداد! انقر [هنا](https://panel.ticketsbot. et/manage/%d/panels) لإعداد لوحة التفاعل، وإضافة الأدوار <@&%d> و <@&%d> لموظفيك",
 	"setup.auto.roles.failure": "انا افتقد إذن \"إدارة الأدوار\"",
 	"setup.auto.roles.success": "تم انشاء أدوار `مشرف التذاكر` & `دعم التذاكر`",
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",
@@ -95,8 +95,8 @@
 	"setup.info.auto": "يحدد تلقائياً الخيارات وينشئ القنوات المطلوبة",
 	"setup.info.category": "اكتب الأسم لفئة القناة التي تحب إنشاء التذاكر فيها ",
 	"setup.info.choose": "قم بإختيار اي خيار, تستطيع استخدام امر /setup او /setup auto للعمل والتفعيل السريع, او استخدام اي امر من الاوامر الاخرى لضبط الاعدادات",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
+	"setup.info.dashboard": "تتوفر المزيد من الإعدادات على [dashboard](https://dashboard.ticketsbot.net)",
+	"setup.info.panels": "قم بزيارة [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) لإنشاء لوحات تفاعل",
 	"setup.info.prefix": "تغير بادئة (e.g. `t!`) الخاصة بالبوت. \\n **مثال:** `/setup prefix -`",
 	"setup.info.ticket_limit": "يعين الحد الأقصى لعدد التذاكر التي يمكن فتحها **لمستخدم واحد** **في الوقت ذاته**. \\n**مثال:**`/setup limit 3`",
 	"setup.info.transcripts": "وضع الروم التي يتم ارسال الـ \"Transcript\" الخاص بالتذكرة اليها\\n**مثال** `/setup transcripts #logs`",
@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "تم تحديث رسالة الترحيب. افتح تذكرة لرؤيتها",
 	"commands.language.help_wanted": "هل تتحدث لغة أخرى؟ انضم إلى [خادم الدعم](https://discord.gg/bh6aAfP) الخاص بنا إذا كنت مهتما بترجمة البوت إلى لغات أكثر",
 	"commands.rename.too_long": "اسماء القنوات لا يمكن ان تكون اطول من 100 حرف",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "قم بزيارة [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) لتغيير إعدادات الإغلاق التلقائي",
 	"help.autoclose": "إغلاق تلقائي للإوامر ذات الصلة",
 	"help.autoclose.exclude": "يستبعد التذكرة الحالية من أن تغلق تلقائياً",
 	"help.autoclose.configure": "تعديل إعدادات الإغلاق التلقائي",
@@ -274,13 +274,13 @@
 				}
 			},
 			"about": "البريموم يعطيك الصلاحية للمزيد من اللوحات والاحصائيات , وبوت خاص بك , والمزيد!\nقم بزيارة الموقع الإلكتروني الخاص بنا (https://ticketsbot.net/premium) لإكتشاف المزيد",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"already_activated": "أخبار جيدة! بريميوم نشط بالفعل في هذا الخادم.",
+			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "لقد تم اضافتك الى موضوع الملاحظات الحالية: <#%d>",
+			"thread_name": "ملاحظة",
+			"created": "تم إنشاء موضوع ملاحظات لهذه التذكرة: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "يوفر لك زر للإنتقال الى اعلى التذكرة",
 		"on_call": "وضع علامة عليك كأنك داخل مكالمة , حتى يتم اضافتك وتنبيهك في جميع التذاكر الجديدة",
 		"reopen": "اعادة فتح تذكرة تم إغلاقها سابقاً",
-		"notes": ""
+		"notes": "يقوم بإنشاء موضوع للمناقشة الخاصة بين ممثلي الدعم"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -333,17 +333,17 @@
 		"panel_force_disabled": "تم ايقاف هذه اللوحة, قم بطلب من مشرف السيرفر ان يقوم بإعادة تفعيل البريميوم, واستخدام كوماند %s لإعادة تفعيل هذه اللوحة",
 		"panel_disabled": "قاموا مشرفين السيرفر بمنع فتح هذا النوع من التذاكر",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "تم تعطيل الوصول لفتح هذا النوع من التذكرة لجميع الأدوار",
+			"deny_listed": "لا يمكنك فتح هذا النوع من التذكرة لأنك تملك الدور <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "تحتاج إلى واحد من الأدوار التالية لفتح هذا النوع من التذكرة: %s",
+				"single": "أنت بحاجة إلى الدور التالي لفتح هذا النوع من التذاكر: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "نقاط الملاحظة مدعومة فقط في وضع القناة"
 		}
 	}
 }
