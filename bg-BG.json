@@ -96,7 +96,7 @@
 	"setup.info.category": "Въведете **името на категорията**, под която желаете да се нареждат тикетите",
 	"setup.info.choose": "Моля изберете опция. Можете да използвате `/setup` или `/setup auto` за автоматична настройка, или използвайте останалите команди за настройка на предпочитания",
 	"setup.info.dashboard": "Повече настройки са достъпни в панела [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "",
+	"setup.info.panels": "Посетете [dashboard](https://dashboard ticketsbot.net/manage/%d/panels), за да създадете повече реакции тикет панели",
 	"setup.info.prefix": "Променя префикс-а (Например t!) на бота. \nПример: /setup prefix -",
 	"setup.info.ticket_limit": "Задава максимален брой тикети, които един потребител може да отвори наведнъж. \nНапример: /setup limit 3",
 	"setup.info.transcripts": "Задава канала за изпращане на тикет логовете\nНапример: /setup transcripts #logs",
