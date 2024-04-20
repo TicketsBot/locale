@@ -84,7 +84,7 @@
 	"open.success": "Neues Ticket geöffnet: %s",
 	"setup.auto.category.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
 	"setup.auto.category.success": "Ticket-Kategorie erstellt",
-	"setup.auto.completed": "Setup abgeschlossen! Klicken Sie auf [here](https://dashboard.ticketsbot. et/manage/%d/panels), um ein Reaktionsfeld einzurichten und <@&%d> und <@&%d> Rollen zu Ihren Mitarbeitern hinzuzufügen",
+	"setup.auto.completed": "Setup abgeschlossen! Klicken Sie auf [here](https://dashboard.ticketsbot.net/manage/%d/panels), um ein Reaktionsfeld einzurichten und <@&%d> und <@&%d> Rollen zu Ihren Mitarbeitern hinzuzufügen",
 	"setup.auto.roles.failure": "Ich benötige die `Rollen verwalten` Berechtigung",
 	"setup.auto.roles.success": "`Tickets Admin` & `Tickets Support` Rollen erstellt",
 	"setup.auto.transcript.failure": "Ich benötige die `Kanäle verwalten` Berechtigung",
