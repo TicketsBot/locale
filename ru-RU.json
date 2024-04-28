@@ -1,5 +1,5 @@
 {
-	"commands.about": "Tickets - простой в использовании и гибкий в настройке бот.\\nСервер поддержки: https://discord.gg/VtV3rSk\\nУзнать список команд: '/help'\\nНастроить бота: '/setup'",
+	"commands.about": "Tickets - простой в использовании и гибкий в настройке бот для создания обращений и организации поддержки.\\nСервер поддержки Tickets https://discord.gg/VtV3rSk\\nУзнать список команд: `/help`\\nДля начала настройки введите `/setup`",
 	"commands.add.no_channel": "Вам нужно указать канал обращения, куда хотите добавить пользователей.",
 	"commands.add.no_members": "Вам нужно указать пользователей, которых хотите добавить в канал обращения.",
 	"commands.add.no_permission": "У вас нет прав на добавление пользователей в канал этого обращения.",
@@ -343,7 +343,7 @@
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": "Ветки для заметок поддерживаются только в канальном режиме"
+			"channel_mode_onlye only supported in channel mode": "Ветки для заметок поддерживаются только в режиме каналов."
 		}
 	}
 }
