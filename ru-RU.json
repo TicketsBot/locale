@@ -89,7 +89,7 @@
 	"setup.auto.roles.success": "Созданы роли `Tickets Admin` и `Tickets Support`.",
 	"setup.auto.transcript.failure": "У меня нет прав на `Управление каналами`.",
 	"setup.auto.transcript.success": "Создан канал <#%d>",
-	"setup.category.invalid": "Вы должны указать название [**категории каналов**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\\\n**Пример:**`/setup category Tickets`",
+	"setup.category.invalid": "Вы должны указать название [**категории каналов**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Пример:**`/setup category Tickets`",
 	"setup.category.success": "Категория каналов для создания обращений изменена на `%s`.",
 	"setup.info.archive_channel": "Пожалуйста, укажите, куда вы хотите отправлять архивные логи обращений, после их закрытия.\\nНапример: `#logs`",
 	"setup.info.auto": "Автоматически выбирает настройки и создает необходимые каналы.",
@@ -97,7 +97,7 @@
 	"setup.info.choose": "Пожалуйста, выберите один из вариантов. Вы можете использовать `/setup` или `/setup auto`, чтобы произвести быструю настройку, или использовать другие команды для более тонкой настройки параметров.",
 	"setup.info.dashboard": "Больше настроек доступно на [панели управления](https://dashboard.ticketsbot.net).",
 	"setup.info.panels": "Воспользуйтесь [панелью управления](https://dashboard.ticketsbot.net/manage/%d/panels) для создания панелей реакций.",
-	"setup.info.prefix": "Меняет префикс (например, `t!`) бота.\\\\n**Пример:** `/setup prefix -`",
+	"setup.info.prefix": "Меняет префикс (например, `t!`) бота.\\n**Пример:** `/setup prefix -`",
 	"setup.info.ticket_limit": "Устанавливает максимальное количество обращений, которое **один пользователь** может открыть **одновременно**. \\n**Пример:**`/setup limit 3`",
 	"setup.info.transcripts": "Устанавливает канал для хранения записей обращений.\\n**Например:** `/setup transcripts #logs`",
 	"setup.info.welcome_message": "Введите сообщение, которое должно быть отправлено ботом при открытии обращения.",
@@ -105,7 +105,7 @@
 	"setup.ticket_limit.success": "Лимит обращений был обновлен до `%d`",
 	"setup.transcript.invalid": "Вы должны указать существующий текстовый канал на сервере(например, <#%d>)\\n**Например:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Канал хранения записей обращений был изменен на <#%d>.",
-	"setup.welcome_message.invalid": "Приветственные сообщения имеют ограничение в 1024 символа.\\\\n**Например:**`/setup welcomemessage Спасибо, что открыли обращение!`",
+	"setup.welcome_message.invalid": "Приветственные сообщения имеют ограничение в 1024 символа.\\n**Например:**`/setup welcomemessage Спасибо, что открыли обращение!`",
 	"setup.welcome_message.success": "Приветственное сообщение было изменено. Откройте обращение, чтобы увидеть его в действии.",
 	"commands.language.help_wanted": "Говорите на другом языке? Присоединяйтесь к нашему [серверу поддержки](https://discord.gg/bh6aAfP), если вы заинтересованы в переводе бота на другие языки.",
 	"commands.rename.too_long": "Название канала не может быть длиннее 100 символов.",
@@ -186,7 +186,7 @@
 	},
 	"close": {
 		"reason": {
-			"placeholder": "Причина для закрытия обращения, например, \\\"Решено\\\""
+			"placeholder": "Причина для закрытия обращения, например, \"Решено\""
 		},
 		"success": "Обращение было закрыто <@%d>"
 	},
