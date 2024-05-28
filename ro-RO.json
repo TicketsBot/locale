@@ -278,9 +278,9 @@
 			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Ai fost adăugat într-un thread cu notițe existent: <#%d>",
+			"thread_name": "notițe",
+			"created": "A fost creat un thread cu notițe pentru acest tichet: <#%d>"
 		}
 	},
 	"generic": {
@@ -299,7 +299,7 @@
 		"jump_to_top": "Îți furnizează un buton pentru a sări în partea de sus a tichetului",
 		"on_call": "Te marchează ca fiind la datorie, pentru a fi adăugat și a primi pinguri în toate tichetele noi",
 		"reopen": "Redeschide un tichet care a fost închis anterior",
-		"notes": ""
+		"notes": "Creează un thread pentru discuții private între reprezentanții de suport"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -343,7 +343,7 @@
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Threadurile cu notițe sunt suportate numai în modul canal"
 		}
 	}
 }
