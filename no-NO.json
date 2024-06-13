@@ -240,27 +240,27 @@
 		},
 		"reopen": {
 			"not_found": "",
-			"no_permission": "",
-			"already_open": "",
+			"no_permission": "Du har ikke tillatelse til å gjenåpne denne ticketen",
+			"already_open": "Denne ticketen er allerede åpen",
 			"not_thread": "",
 			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"success": "Sak %d gjenåpnet: <#%d>",
+			"in_ticket": "Denne støtteforespurselen har hatt navnet sitt endret til <#%d>"
 		},
 		"premium": {
 			"key": "",
 			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
+			"subscription_found": "Abonnement funnet!",
+			"subscription_found_content": "For å legge til abonnement på denne serveren, servereieren (<@%d>) må legge deg til som administrator **bruker** (roller blir ignorert) via </addadmin:%d> kommandoen.\\n\\nDu kan verifisere at du er lagt til som administrator ved å kjøre </viewstaff:%d>.",
+			"activate_key": "Aktiver Premium nøkkel",
+			"checking": "Kontrollerer Premium Status...",
+			"please_wait": "Vennligst vent...",
 			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
+			"link_patreon_account": "Link Patreon konto",
+			"no_subscription": "Finner ikke et aktivt Patreon abonnement knyttet til din Discord konto. Sørg for at du [har koblet til dine Patreon og Discord-kontoer](https://support. atreon.com/hc/en-us/articles/212052266-Get-my-Discord-rolle), og en avvent ytterligere 10 minutter.",
+			"open_form": "Åpne skjema",
+			"open_form_description": "Trykk på knappen nedenfor for å åpne skjemaet på nytt",
+			"use_key_anyway": "Bruk Premium nøkkel uansett",
 			"already_purchased_title": "",
 			"already_purchased_description": "",
 			"giveaway_key": "",
@@ -287,7 +287,7 @@
 		"title": {
 			"panel_switched": "Ticket Panel Byttet",
 			"jump_to_top": "Hopp til toppen",
-			"reopened": "",
+			"reopened": "Sak gjenåpnet",
 			"ticket_closed": ""
 		},
 		"click_here": "Trykk her",
@@ -297,9 +297,9 @@
 	"help": {
 		"switch_panel": "Bytter ticket til et annet ticket panel, endrer kanalkategori, support teams, osv.",
 		"jump_to_top": "Gir deg en knapp for å hoppe til toppen av ticketen",
-		"on_call": "",
+		"on_call": "Markerer deg som et samtale, som vil bli lagt til og pinged i alle nye saker",
 		"reopen": "",
-		"notes": ""
+		"notes": "Oppretter en tråd for privat diskusjon mellom støtte representanter"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -313,7 +313,7 @@
 			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.net) lærer deg hvordan du konfigurerer alle aspekter av botten!"
 		},
 		"threads": {
-			"missing_boosts": "",
+			"missing_boosts": "Discord krever at serveren har et [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) av 2 eller høyere for å bruke private tråder",
 			"no_notification_channel": "",
 			"notification_channel_type": "",
 			"success": "",
@@ -324,8 +324,8 @@
 		"join_thread": {
 			"closed_ticket": "",
 			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"already_joined": "Du har allerede blitt med i denne billetten (<#%d>)",
+			"success": "La deg til i billetten: <#%d>"
 		}
 	},
 	"open": {
@@ -337,13 +337,13 @@
 			"deny_listed": "",
 			"not_allow_listed": {
 				"multiple": "",
-				"single": ""
+				"single": "Du trenger følgende rolle for å åpne denne typen sak: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Husk threads er kun støttet i kanal modus"
 		}
 	}
 }
