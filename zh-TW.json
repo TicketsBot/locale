@@ -281,6 +281,9 @@
 			"added_to_existing": "你已被加入到現有的註釋串中：<#%d>",
 			"thread_name": "註釋",
 			"created": "已為此客服單建立了一個註釋串：<#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
