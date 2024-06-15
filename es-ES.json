@@ -281,6 +281,9 @@
 			"added_to_existing": "Te han añadido al hilo de notas existente: <#%d>",
 			"thread_name": "notas",
 			"created": "Se ha creado un hilo de notas para este ticket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
