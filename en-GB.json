@@ -281,6 +281,9 @@
 			"added_to_existing": "You have been added to the existing notes thread: <#%d>",
 			"thread_name": "notes",
 			"created": "A notes thread has been created for this ticket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		}
 	},
 	"generic": {
