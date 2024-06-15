@@ -281,6 +281,9 @@
 			"added_to_existing": "Zostałeś dodany do istniejącego wątku notatek: <#%d>",
 			"thread_name": "notatki",
 			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

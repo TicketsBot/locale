@@ -281,6 +281,9 @@
 			"added_to_existing": "Vous avez été ajouté au fil de notes suivant : <#%d>",
 			"thread_name": "notes",
 			"created": "Un fil de notes a été créé pour ce ticket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

@@ -281,6 +281,9 @@
 			"added_to_existing": "Mevcut not başlığına eklendiniz: <#%d>",
 			"thread_name": "notlar",
 			"created": "Bu bilet için bir not başlığı oluşturuldu: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

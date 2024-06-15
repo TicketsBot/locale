@@ -281,6 +281,9 @@
 			"added_to_existing": "Boli ste pridaní do existujúceho vlákna poznámok: <#%d>",
 			"thread_name": "poznámky",
 			"created": "Pre tento lístok bolo vytvorené vlákno poznámok: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

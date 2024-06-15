@@ -281,6 +281,9 @@
 			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",
 			"thread_name": "ghi chú",
 			"created": "Một chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

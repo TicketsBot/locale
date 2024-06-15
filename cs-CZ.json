@@ -281,6 +281,9 @@
 			"added_to_existing": "Byl/a jsi přidán/a do již existujícího vlákna <#%d>",
 			"thread_name": "poznámky",
 			"created": "Bylo vytořeno vlákno pro tento ticket <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

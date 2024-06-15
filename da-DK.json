@@ -281,6 +281,9 @@
 			"added_to_existing": "Du er blevet tilføjet til den eksisterende notetråd: <#%d>",
 			"thread_name": "noter",
 			"created": "Der er blevet oprettet en notetråd til denne ticket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

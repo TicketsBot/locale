@@ -281,6 +281,9 @@
 			"added_to_existing": "",
 			"thread_name": "",
 			"created": ""
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

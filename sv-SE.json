@@ -281,6 +281,9 @@
 			"added_to_existing": "Du har lagts till den befintliga tråden: <#%d>",
 			"thread_name": "anteckningar",
 			"created": "En tråd för anteckningar har skapats för detta ärende: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {

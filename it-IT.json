@@ -281,6 +281,9 @@
 			"added_to_existing": "Sei stato aggiunto al thread delle note seguente: <#%d>",
 			"thread_name": "note",
 			"created": "Un thread dedicato alle note è stato creato per questo ticket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
