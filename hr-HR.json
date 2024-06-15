@@ -281,6 +281,9 @@
 			"added_to_existing": "Dodani ste u postojeću nit bilješki: <#%d>",
 			"thread_name": "bilješke",
 			"created": "Nit bilješki stvorena je za ovaj tiket: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
