@@ -281,6 +281,9 @@
 			"added_to_existing": "Ai fost adăugat într-un thread cu notițe existent: <#%d>",
 			"thread_name": "notițe",
 			"created": "A fost creat un thread cu notițe pentru acest tichet: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
