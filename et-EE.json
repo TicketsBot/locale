@@ -281,6 +281,9 @@
 			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",
 			"thread_name": "märkmed",
 			"created": "Märkmete thread on selle abipileti jaoks tehtud: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
