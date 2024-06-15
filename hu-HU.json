@@ -281,6 +281,9 @@
 			"added_to_existing": "Hozzá lettél adva a meglévő jegyzetekhez: <#%d>",
 			"thread_name": "jegyzetek",
 			"created": "Egy jegyzet lett készítve a tickethez: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
