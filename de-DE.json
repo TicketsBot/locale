@@ -281,6 +281,9 @@
 			"added_to_existing": "Du wurdest dem bestehenden Notiz-Thread hinzugefügt: <#%d>",
 			"thread_name": "notizen",
 			"created": "Für dieses Ticket wurde ein Notiz-Thread erstellt: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
