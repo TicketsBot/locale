@@ -281,6 +281,9 @@
 			"added_to_existing": "Je bent toegevoegd aan de bestaande notitiethread: <#%d>",
 			"thread_name": "notities",
 			"created": "Voor deze ticket is een notitie gemaakt: <#%d>"
+		},
+		"rename": {
+			"ratelimited": ""
 		}
 	},
 	"generic": {
