@@ -283,7 +283,7 @@
 			"created": "Wątek notatek został utworzony dla tego zgłoszenia: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Ze względu na ograniczenia nałożone przez Discorda, nazwy zgłoszeń można zmieniać tylko dwa razy na 10 minut"
 		}
 	},
 	"generic": {
