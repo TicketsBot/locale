@@ -283,7 +283,7 @@
 			"created": "Se ha creado un hilo de notas para este ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Debido a limitaciones impuestas por Discord, los tickets solo pueden ser renombrados dos veces cada 10 minutos"
 		}
 	},
 	"generic": {
