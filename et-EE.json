@@ -283,7 +283,7 @@
 			"created": "Märkmete thread on selle abipileti jaoks tehtud: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Discordi liimitide tõttu saab abipiletite nime vahetada 2 korda iga 10 minuti jooksul"
 		}
 	},
 	"generic": {

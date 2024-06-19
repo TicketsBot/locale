@@ -283,7 +283,7 @@
 			"created": "Für dieses Ticket wurde ein Notiz-Thread erstellt: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Aufgrund von Einschränkungen durch Discord können Tickets nur zweimal alle 10 Minuten umbenannt werden"
 		}
 	},
 	"generic": {

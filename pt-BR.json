@@ -340,7 +340,7 @@
 			"deny_listed": "",
 			"not_allow_listed": {
 				"multiple": "",
-				"single": ""
+				"single": "Você precisa do seguinte cargo para abrir essa categoria de \"ticket\": %s"
 			}
 		}
 	},

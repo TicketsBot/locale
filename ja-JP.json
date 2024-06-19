@@ -283,7 +283,7 @@
 			"created": "このチケットのノートスレッドが作成されました: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Discord によって課された制限により、チケットの名前は 10 分ごとに 2 回のみ変更できます"
 		}
 	},
 	"generic": {
