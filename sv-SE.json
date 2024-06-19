@@ -283,7 +283,7 @@
 			"created": "En tråd för anteckningar har skapats för detta ärende: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "På grund av begränsningar som har införts av Discord kan tickets bara ändra namn två gånger var 10 minut"
 		}
 	},
 	"generic": {
