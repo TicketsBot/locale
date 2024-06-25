@@ -109,7 +109,7 @@
 	"setup.welcome_message.success": "Съобщението за \"добре дошли\" беше променено",
 	"commands.language.help_wanted": "Говорите друг език? Може да посетите дискорда ни https://discord.gg/bh6aAfP ако имате интерес да помогнете в превода на бота на повече езици",
 	"commands.rename.too_long": "Имената на каналите не трябва да са повече от 100 символа",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "Посетете [dashboard](https://dashboard ticketsbot.net/manage/%d/panels), за да промените настройките на автоматичното затваряне",
 	"help.autoclose": "Подобни команди на autoclose",
 	"help.autoclose.exclude": "Добавя изключение този тикет да не бъде затварян автоматично",
 	"help.autoclose.configure": "Модифициране на настройките на autoclose",
@@ -274,16 +274,16 @@
 				}
 			},
 			"about": "Премиум, Ви дава възможност за повече панели, статистики, къстъм бот и още много неща! Посети нашия [website] (https://ticketsbot.net/premium), за да научиш повече.",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"already_activated": "Добри новини! Премиум вече е активен в този сървър.",
+			"already_activated_whitelabel": "Добри новини! Премиум вече е активен в този сървър.\nЗа да получите помощ при стартиране с whitelabel, прочетете [нашия whitelabel сетъп](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Ти беше добавен в тази вече съществуваща се тема: <#%d>",
+			"thread_name": "бележки",
+			"created": "Бележки в темата бяха създадени за този тикет: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Поради ограничения на Дискорд, тикетите могат да се преименуват веднъж на всеки 10 минути"
 		}
 	},
 	"generic": {
@@ -302,7 +302,7 @@
 		"jump_to_top": "Осигурява ви бутон, с който да се качите най-отгоре на билета",
 		"on_call": "Маркира ви в разговор, да бъде добавен и тагван във всички нови билети",
 		"reopen": "Отваря наново билет, който преди това е затворен ",
-		"notes": ""
+		"notes": "Направи тема за лични дискусии със екип мембърите"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -336,17 +336,17 @@
 		"panel_force_disabled": "Този панел вече е изключен. Моля попитайте админ, за да включите отново премиум и да изпълните %s в сметка да пуснете този панел наново.",
 		"panel_disabled": "Сървър админите са премахнали отварянето на такъв вид билети",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Достъпът за отваряне на този тип билет е деактивиран за всички роли",
+			"deny_listed": "Не можете да отворите този тип билет, защото имате ролята <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Имате нужда от една от следните роли, за да отворите този тип билет: %s",
+				"single": "Имате нужда от една от следните роли, за да отворите този тип билет: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Запиши, че темите се поддържат само в канален режим"
 		}
 	}
 }
