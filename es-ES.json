@@ -228,7 +228,7 @@
 			}
 		},
 		"language": {
-			"content": "Los idiomas disponibles y sus progresos de traducción son los siguientes: %s",
+			"content": "",
 			"success": "El idioma del servidor ha sido cambiado a **%s** (%s)",
 			"select": "Seleccione un idioma (%c-%c)"
 		},
