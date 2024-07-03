@@ -283,7 +283,7 @@
 			"created": "Bylo vytořeno vlákno pro tento ticket <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Vzhledem k omezením společnosti Discord lze tickety přejmenovat pouze dvakrát za 10 minut."
 		}
 	},
 	"generic": {

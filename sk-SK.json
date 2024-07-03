@@ -283,7 +283,7 @@
 			"created": "Pre tento lístok bolo vytvorené vlákno poznámok: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Vzhľadom na obmedzenia spoločnosti Discord je možné tickety premenovať len dvakrát za 10 minút."
 		}
 	},
 	"generic": {
