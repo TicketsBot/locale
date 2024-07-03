@@ -283,7 +283,7 @@
 			"created": "已为此Ticket创建了一个备注主题：<#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "由于 Discord 限制，您仅可在 10 分钟内重命名工单两次"
 		}
 	},
 	"generic": {
