@@ -283,7 +283,7 @@
 			"created": "A fost creat un thread cu notițe pentru acest tichet: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Din cauza limitărilor impuse de Discord, tichetele pot fi redenumite doar de două ori la fiecare 10 minute"
 		}
 	},
 	"generic": {

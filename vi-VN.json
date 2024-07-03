@@ -283,7 +283,7 @@
 			"created": "Một chủ đề ghi chú đã được tạo cho phiếu hỗ trợ này: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
 		}
 	},
 	"generic": {
