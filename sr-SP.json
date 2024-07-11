@@ -1,9 +1,7 @@
 {
 	"commands.about": "\"Tickets\" је лако користити и врло конфигуративне карте и подршка бот. \\nПодршка серверу: https://discord.gg/VtV3rSk\\n Команде: Тип `/help`\\n Започните писањем `/setup`",
-	"commands.add.no_channel": "Морате да поменете канал за тикет да бисте додали корисника(е)",
 	"commands.add.no_members": "Мораш да поменеш чланове да додаш на карту",
 	"commands.add.no_permission": "Немаш дозволу да додајеш људе на ову карту",
-	"commands.add.not_ticket": "Споменути канал није улазница",
 	"commands.addadmin.no_members": "Морате да поменете корисника или да именујете улогу која ће дати административне привилегије",
 	"commands.addadmin.owner": "Власник сервера је већ администратор",
 	"commands.addsupport.no_members": "Морате да поменете корисника или да именујете улогу да дате привилегије представника подршке",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Има превише карата у категорији карата. Замолите администрацију да затвори неке, или да их пребаци у другу категорију",
 	"commands.panel": "",
 	"commands.premium": "Претплату можете купити на <https://www.patreon.com/ticketsbot>\\nПремија пружа многе предности, као што су:\\n```diff\\n+ Створите неограничене карте.\\n+ Име робота, аватар и статус (whitelabel)\\n+ Детаљна статистика о серверу, корисницима и помоћном особљу\\n+ Нема жигосања у подножју порука\\n+Подржи развој и помози ми да платим трошкове сервера\\n```\\n\\nКао алтернативу, можете гласати на <https://vote.ticketsbot.net> Да добијемо премију бесплатно 24 сата",
-	"commands.premium.already_premium": "Овај сервер већ има премију. Истекло је %s",
 	"commands.premium.invalid_key": "Неважећи кључ. Увери се да си га добро ископирао.",
 	"commands.remove.no_permission": "Немаш дозволу да уклониш људе са ове карте",
 	"commands.remove.staff": "Не можете уклонити особље из казне",
@@ -50,11 +47,9 @@
 	"help.admin": "Управљање Бат-ом",
 	"help.admin.blacklist": "Црна листа сервера који користи робота",
 	"help.admin.check_premium": "Провери статус сервера",
-	"help.admin.force_close": "Поставља стање осигураних карата на затворено",
 	"help.admin.generate_premium": "Генеришите кључеве од премије",
 	"help.admin.get_owner": "Набави DynIP сервера",
 	"help.admin.unblacklist": "Уклоните сервер са црне листе сервера",
-	"help.admin.update_schema": "Ажурира шему базе података",
 	"help.blacklist": "Да ли је корисницима дозвољено да комуницирају са роботом",
 	"help.cancel": "Поништава процес постављања",
 	"help.claim": "Додијељује карту једном особљу",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Створене су улоге 'Управе за карте' и 'Подршке за карте'",
 	"setup.auto.transcript.failure": "Недостаје ми дозвола за \"руковање каналима\"",
 	"setup.auto.transcript.success": "Креиран <#%d> канала",
-	"setup.category.invalid": "Morate da kažete ime [**kategorije kanala**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Example:** `/setup category Tickets`",
-	"setup.category.success": "Категорија карата је промењена у `%s`",
-	"setup.info.archive_channel": "Молимо вас да наведете да желите да се записи о картама пошаљу након затварања карата\\nNa primer: `#logs`",
-	"setup.info.auto": "Аутоматски бира опције и ствара потребне канале",
-	"setup.info.category": "Напишите **име** у категорији **канала** под којом желите да се направе карте",
-	"setup.info.choose": "Молим вас, изаберите опцију. Можете користити '/ сет' или '/ сет ауто' да брзо устанете, или користити друге команде за фину подешавање",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "Мења префикс (нпр. Не! Не!') од робота.\\n **Пример: ** / постављање префикс -'",
-	"setup.info.ticket_limit": "Поставља максималну количину улазница **Један корисник** може да отвори **одједном**\\n **Пример:** /setup limit 3 *",
-	"setup.info.transcripts": "Поставља транскрипте за канале на које се шаљу.\\n **Пример: ** `/ Упореди транскрипте # лог`",
-	"setup.info.welcome_message": "Напиши поруку коју би робот требао да пошаље када се карта отвори",
-	"setup.prefix.success": "Prefiks je promenjen na`%s`. Možete koristiti `%sopen` da otvorite kartu",
 	"setup.ticket_limit.success": "Лимит карата је ажуриран на `%d`",
 	"setup.transcript.invalid": "Morate spomenuti valjan kanal na serveru (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Канал транскрипата је промењен на <#%d>",
-	"setup.welcome_message.invalid": "Поруке добродошлице морају бити максимално 1024 знака.\\n**`/setup welcomemessage Хвала што сте отворили улазницу!`",
-	"setup.welcome_message.success": "Порука добродошлице је ажурирана. Отвори карту да је видиш у акцији",
 	"commands.language.help_wanted": "Govoriš li još jedan jezik? Придружите се нашем [подржавајућем серверу](https://discord.gg/bh6aAfP) Ако сте заинтересовани да помогнете у преводу робота на више језика",
 	"commands.rename.too_long": "Идентификација не може бити дужа од 100 знакова",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Придружи се серверу подршке",
 	"commands.open.guild_channel_limit": "Овај сервер је достигао границу од 500 канала",
 	"commands.open.missing_form_answer": "Мораш да одговориш на питање `%s`",
-	"generic.use_slash_commands": "Упозорење: Мораш да пребациш на наређења до 31. августа. Након овог датума, поруке ће престати да раде.",
 	"close.no_permission": "Vi nemate dozvolu da zatvorite ovaj ticket",
 	"": {
 		"generic.title.close_with_reason": "Затвори са разлогом",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Разлог за затварање карте, пример \"Ресолвед\""
 		},
-		"success": "Карта је била затворена <@%d>"
+		"success": "Карта је била затворена <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Jezik servera je promenjen na **%s** (%s)",
 			"select": "Изабери језик (%c-%c)"
 		},
-		"interaction_switch": "Од <t:1662030000:D>, Дисцорд је присилио **све** роботе да се пребаце на [слаш Цомманд](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nДа би извршили наређење, притисните дугме на тастатури, или кликните овде: %s",
 		"on_call": {
 			"channel_mode": "'/ на позив' се може користити само у начину. Посетите наше [docs](https://docs.ticketsbot.net/features/thread-mode) да сазнате више о нити",
 			"success": "Сада сте на дужности",
@@ -316,7 +300,6 @@
 			"docs": "Хоћеш да истражујемо? Наш [documentation](https://docs.ticketsbot.net) Научићу те како да конфигуришеш сваки аспект робота!"
 		},
 		"threads": {
-			"missing_boosts": "Несугласице захтевају да сервер има [\"Boost Level\"]](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) од 2 или више за коришћење приватних нити",
 			"no_notification_channel": "Морате да обезбедите канал за обавештавање о картама",
 			"notification_channel_type": "Канал за пријављивање карата мора да је текстуални канал",
 			"success": "Режим је укључен",
