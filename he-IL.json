@@ -1,9 +1,7 @@
 {
 	"commands.about": "בוט הטיקטים הוא קל לשימוש ויש לו רמה גבוהה של עיצוב לטיקט ובוט עזרה. \\nשרת העזרה לבוט: https://discord.gg/VtV3rSk פקודות: תרשום \"help/\" \\nותתחיל בעזרת הפקודה \"setup/\"",
-	"commands.add.no_channel": "אפשר להוסיף משתמשים רק אם עושים להם mention בערוץ עזרה",
 	"commands.add.no_members": "אפשר להוסיף משתמשים לערוץ עזרה רק אם עושים להם mention",
 	"commands.add.no_permission": "אין לך הרשאה להוספת משתמשים לערוץ זה",
-	"commands.add.not_ticket": "הערוץ שעשתה לו mention הוא לא ערוץ עזרה",
 	"commands.addadmin.no_members": "עליך להזכיר שם משתמש או שם התפקיד כדי להעניק לו הרשאות מנהל",
 	"commands.addadmin.owner": "בעל השרת הוא כבר מנהל",
 	"commands.addsupport.no_members": "עליך להזכיר משתמש או שם התפקיד כדי להעניק לו הרשאות של נציגי תמיכה",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "יש יותר מדי כרטיסים בקטגוריית הכרטיסים. בקש ממנהללסגור חלק, להעביר אותם לקטגוריה אחרת, או להגדיר קטגוריית הצפה.\n\nזוהי **הגבלה שהוטלה על ידי דיסקורד** של 50 ערוצים לקטגוריה.",
 	"commands.panel": "בקר ב-<https://dashboard.ticketsbot.net/manage/%d/panels> כדי להגדיר פאנל",
 	"commands.premium": "אתה יכול לרכוש מנוי פרימיום מ-<https://www.patreon.com/ticketsbot>.\\nPremium מספקת הטבות רבות, כגון:\\n```diff\\n+ צור לוחות כרטיסים ללא הגבלה\\n+ התאם אישית את שם הבוט, הדמות & סטטוס (תווית לבנה)\\n+ סטטיסטיקות מפורטות על השרת, המשתמשים וצוות התמיכה\\n+ אין מיתוג בכותרת התחתונה של ההודעות\\n+ תמכו בפיתוח ועזרו לי לשלם את עלויות השרת\\n```\\n\\nלחילופין, תוכלו להצביע בכתובת <https://vote.ticketsbot.net> כדי לקבל פרימיום בחינם למשך 24 שעות",
-	"commands.premium.already_premium": "לפרוייקט הזה כבר יש פרימיום, זה נגמר בעוד %s",
 	"commands.premium.invalid_key": "המפתח לא עובד. ודא שהעתקת אותו נכון.",
 	"commands.remove.no_permission": "אין לך הרשאה להסיר אנשים מהכרטיס הזה",
 	"commands.remove.staff": "לא ניתן להסיר צוות מהכרטיס",
@@ -50,11 +47,9 @@
 	"help.admin": "ניהול הבוט",
 	"help.admin.blacklist": "רשימה שחורה של אנשים משימוש בבוט",
 	"help.admin.check_premium": "בדוק את סטטוס הפרימיום של שרת",
-	"help.admin.force_close": "מגדיר את מצב הכרטיסים שסופקו לסגור",
 	"help.admin.generate_premium": "צור מפתחות פרימיום",
 	"help.admin.get_owner": "מקבל את הבעלים של השרת",
 	"help.admin.unblacklist": "הסר את המשתמש מהרשימה השחורה",
-	"help.admin.update_schema": "מעדכן את סכימת מסד הנתונים",
 	"help.blacklist": "משנה אם משתמשים מורשים לקיים אינטראקציה עם הבוט",
 	"help.cancel": "מבטל את תהליך ההגדרה",
 	"help.claim": "רושם איש צוות יחיד לכרטיס",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "יצר את תפקידי 'ניהול כרטיסים' & 'תמיכה בכרטיסים'",
 	"setup.auto.transcript.failure": "חסרה לי ההרשאה 'Manage Channels'",
 	"setup.auto.transcript.success": "נוצר חדר <#%d>",
-	"setup.category.invalid": "עליך לספק את השם של [**קטגוריית ערוץ**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**דוגמה:** `setup category/ כרטיסים`",
-	"setup.category.success": "קטגוריית ערוץ הכרטיסים שונתה ל-`%s`",
-	"setup.info.archive_channel": "נא לציין שברצונך לשלוח יומני כרטיסים לאחר סגירת הכרטיסים\\nדוגמה: `#logs`",
-	"setup.info.auto": "בוחר אוטומטית אפשרויות ויוצר את החדרים הנדרשים",
-	"setup.info.category": "הקלד את **שם** של **קטגוריית הערוץ** שתחתיה תרצה שייווצרו כרטיסים",
-	"setup.info.choose": "בבקשה בחר אפשרות. אתה יכול להשתמש ב`setup/` או `setup auto/` כדי להתחיל לפעול במהירות, או להשתמש בפקודות האחרות כדי לכוונן את ההגדרות",
-	"setup.info.dashboard": "הגדרות נוספות זמינות ב [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "בקר ב[dashboard](https://panel.ticketsbot.net/manage/%d/panels) כדי ליצור לוחות תגובה",
-	"setup.info.prefix": "משנה את הקידומת (למשל `t!`) של הבוט.\\n**דוגמה:** `setup prefix/ -",
-	"setup.info.ticket_limit": "מגדיר את כמות הכרטיסים המקסימלית ש**משתמש יחיד** יכול לפתוח **בבת אחת**.\\n**דוגמה:** `setup limit 3/`",
-	"setup.info.transcripts": "מגדיר את תמלולי הכרטיסים שאליהם יישלחו.\\n**דוגמה:** `setup/ תמלילים #logs`",
-	"setup.info.welcome_message": "הקלד את ההודעה שאמורה להישלח על ידי הבוט בעת פתיחת כרטיס",
-	"setup.prefix.success": "הקידומת שונתה ל-`%s`. אתה יכול להשתמש ב-%sopen כדי לפתוח כרטיס",
 	"setup.ticket_limit.success": "מגבלת הכרטיסים עודכנה ל-%d",
 	"setup.transcript.invalid": "עליך לציין חדר חוקי בשרת (למשל <#%d>)\\n**דוגמה:** `setup transcripts #logs/`",
 	"setup.transcript.success": "חדר התמלילים שונה ל-<#%d>",
-	"setup.welcome_message.invalid": "הודעות קבלת פנים חייבות להיות באורך של 1024 תווים לכל היותר\\n**דוגמה:**`setup/ הודעת קבלת פנים תודה שפתחת כרטיס!`",
-	"setup.welcome_message.success": "הודעת הפתיחה עודכנה. פתח כרטיס כדי לראות אותה בפעולה",
 	"commands.language.help_wanted": "האם אתה מדבר שפה נוספת? הצטרף ל[שרת התמיכה] שלנו (https://discord.gg/bh6aAfP) אם אתה מעוניין לעזור בתרגום הבוט לשפות נוספות",
 	"commands.rename.too_long": "שמות החדרים אינם יכולים להיות יותר מ-100 תווים",
 	"commands.autoclose.configure": "בקר ב[dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) כדי לשנות את הגדרות הסגירה האוטומטית",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "הצטרף לשרת התמיכה",
 	"commands.open.guild_channel_limit": "שרת זה הגיע למגבלה של Discord ל500 חדרים",
 	"commands.open.missing_form_answer": "עליך לענות על השאלה `%s`",
-	"generic.use_slash_commands": "אזהרה: עליך לעבור לפקודות סלאש עד ה-31 באוגוסט. לאחר תאריך זה, פקודות פקודות הודעה יפסיקו לפעול.",
 	"close.no_permission": "אינך רשאי לסגור כרטיס זה",
 	"": {
 		"generic.title.close_with_reason": "סגור עם סיבה",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "סיבת סגירת הכרטיס, למשל. \"נפתר\""
 		},
-		"success": "הכרטיס נסגר על ידי <@%d>"
+		"success": "הכרטיס נסגר על ידי <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "שפת השרת שונתה ל-**%s** (%s)",
 			"select": "בחר שפה (%c-%c)"
 		},
-		"interaction_switch": "החל מ-<t:1662030000:D>, Discord אילצה את **כל** הבוטים לעבור ל[פקודות סלאש](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands ).\n\nכדי לבצע פקודת סלאש, לחץ על הלחצן `/` במקלדת שלך, או לחץ כאן: %s",
 		"on_call": {
 			"channel_mode": "'on-call/' יכול לשמש רק במצב פורומים. בקר ב-[docs](https://docs.ticketsbot.net/features/thread-mode) שלנו למידע נוסף על פורומים",
 			"success": "אתה עכשיו בשיחה",
@@ -316,7 +300,6 @@
 			"docs": "רוצה לחקור עוד? [documentation](https://docs.ticketsbot.net) שלנו ילמד אותך כיצד להגדיר כל עיצוב של הבוט!"
 		},
 		"threads": {
-			"missing_boosts": "Discord דורש שהשרת תהיה בעלת [רמת חיזוק](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) של 2 ומעלה כדי להשתמש פורומים פרטיים",
 			"no_notification_channel": "עליך לספק חדר הודעות על כרטיסים",
 			"notification_channel_type": "חדר הודעות הכרטיס חייב להיות חדר טקסט",
 			"success": "מצב פורומים הופעל",
