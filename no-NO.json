@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets er en enkel og høyt konfigurabel ticket bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandoer: Skriv `t!help`\\nKom i gang ved å bruke `t!setup`",
-	"commands.add.no_channel": "Du må oppgi en støtteforespurselskanal å legge brukeren(e) til i",
 	"commands.add.no_members": "Du må oppgi medlemmer du vil ha lagt til støtteforespurselen",
 	"commands.add.no_permission": "Du har ikke adgang til å legge til brukere til denne støtteforespurselen",
-	"commands.add.not_ticket": "Den oppgitte kanalen er ikke en støtteforespursel",
 	"commands.addadmin.no_members": "Du må oppgi en bruker eller rolle å gi administratorprivilegier til",
 	"commands.addadmin.owner": "Servereieren er allerede en administrator",
 	"commands.addsupport.no_members": "Du må oppgi en bruker eller rolle å gi støttekontaktprivilegier til",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Det er for mange støtteforespurseler i støttekategorien. Spør en administrator om å lukke noen eller flytte dem til en annen kategori",
 	"commands.panel": "",
 	"commands.premium": "Du kan kjøpe premiumsabonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium gir mange fordeler, som:\\n```diff\\n+ Lage ubegrensede støtteforespurselspaneler\\n+ Endre robot navn, avatar og status (ser som din egen)\\n+ Detaljert statistikk om sørveren, brukere og stabmedlemmer\\n+ Ingen reklame på slutten av meldinger\\n+ Støtte utviklinga og hjelpe meg med å betale regingene\\n```\\n\\nOm dette ikke passer, kan du stemme for roboten på <https://vote.ticketsbot.net> for å få premium gratis for ett døgn",
-	"commands.premium.already_premium": "Denne sørveren har allerede premium. Den utgår %s",
 	"commands.premium.invalid_key": "Ugyldig nøkkel. Pass på at du kopierte nøkkelen ordentlig",
 	"commands.remove.no_permission": "Du har ikke lov til å fjerne folk fra denne støtteforespurselen",
 	"commands.remove.staff": "Du kan ikke fjerne stabmedlemmer fra en støtteforespursen",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot administering",
 	"help.admin.blacklist": "Svartelist en guild fra å bruke botten",
 	"help.admin.check_premium": "Sjekker premium statusen på en server",
-	"help.admin.force_close": "Setter statusen til angitte tickets til lukket",
 	"help.admin.generate_premium": "Generer premium nøkler",
 	"help.admin.get_owner": "Henter eieren av en server",
 	"help.admin.unblacklist": "Fjern en guild fra guild svartelisten",
-	"help.admin.update_schema": "Oppdaterer databaseskjemaet",
 	"help.blacklist": "Endrer brukeres tilgang til roboten",
 	"help.cancel": "Stopper oppsettsprosessen",
 	"help.claim": "Tildeler den oppgitte støtteforespurselen et stabmedlem",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Opprettet `Ticket Admin` og `Ticket Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tillatelsen `Administrer kanaler`",
 	"setup.auto.transcript.success": "Opprettet <#%d> kanal",
-	"setup.category.invalid": "Du må oppgi navnet på en [**kanalkategori**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Eksempel:** `/setup category Tickets`",
-	"setup.category.success": "Ticket kategorien har blitt endret til `%s`",
-	"setup.info.archive_channel": "Vennligst oppgi kanalen du vil at støtteforespurselsloggoppføringer skal bli sendt til etter stenging\\nEksempel: `#logs`",
-	"setup.info.auto": "Velger automatiske instillinger og opprett nødvendige kanaler",
-	"setup.info.category": "Oppgi **navnet** av **kanal kategorien** du vil at støtteforespurseler skal åpnes under",
-	"setup.info.choose": "Velg et alternativ. Du kan bruke `/setup` eller `/setup auto` for å komme opp og kjøre raskt, eller bruke de andre kommandoene til å finjustere innstillingene",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "Endrer prefikset (feks. `t!`) av boten.\\n**Eksempel:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Oppgi det maksimale antallet tickets **en enkelt bruker** skal kunne åpne om **samtidig**.\\n**Eksempel:** `/setup limit 3`",
-	"setup.info.transcripts": "Angir at kana ticket transkripsjon skal sendes til.\\n**Example:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Oppgi meldingen som skal bli sendt av roboten når en ny støtteforespursel blir åpnet",
-	"setup.prefix.success": "Prefikset har blitt endret til `%s`. Du kan bruke `%sopen` for å åpne en ticket",
 	"setup.ticket_limit.success": "Ticketgrensen har blitt oppdatert til `%d`",
 	"setup.transcript.invalid": "Du må nevne en gyldig kanal i serveren (f.eks <#%d>)\\n**Eksempel:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Transkripsjons kanalen har blitt endret til <#%d>",
-	"setup.welcome_message.invalid": "Velkommen meldinger må være maksimalt 1024 tegn lange\\n**Eksempel:**`/setup welcomemessage Takk for å åpne en ticket!`",
-	"setup.welcome_message.success": "Velkomstmeldingen har blitt oppdatert. Åpne en ticket for å se den i handling",
 	"commands.language.help_wanted": "Snakker du et annet språk? Bli med i vår [support server](https://discord.gg/bh6aAfP) hvis du er interessert i å hjelpe til å oversette boten til flere språk",
 	"commands.rename.too_long": "Kanal navn kan ikke være lengre enn 100 tegn",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Bli med i support serveren",
 	"commands.open.guild_channel_limit": "Denne serveren har nådd Discords' grense på 500 kanaler",
 	"commands.open.missing_form_answer": "Du må svare på spørsmålet `%s`",
-	"generic.use_slash_commands": "Advarsel: Du MÅ bytte til skråstrek kommandoer til 30 april. Etter denne datoen vil meldings-baserte kommandoer slutte å fungere.",
 	"close.no_permission": "Du har ikke tilattelse til å stenge denne ticketen",
 	"": {
 		"generic.title.close_with_reason": "Steng med en årsak",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Grunn for å stenge ticketen, f.eks \"Løst\""
 		},
-		"success": ""
+		"success": "",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Serverspråket har blitt endret til **%s** (%s)",
 			"select": "Velg et språk (%c-%c)"
 		},
-		"interaction_switch": "",
 		"on_call": {
 			"channel_mode": "",
 			"success": "",
@@ -316,7 +300,6 @@
 			"docs": "Vil du utforske mer? Vår [dokumentasjon](https://docs.ticketsbot.net) lærer deg hvordan du konfigurerer alle aspekter av botten!"
 		},
 		"threads": {
-			"missing_boosts": "Discord krever at serveren har et [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) av 2 eller høyere for å bruke private tråder",
 			"no_notification_channel": "",
 			"notification_channel_type": "",
 			"success": "",
