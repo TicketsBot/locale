@@ -170,7 +170,7 @@
 		"success": "The ticket was closed by <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "You cannot rate this ticket because you are a support representative in %s",
+				"staff": "You cannot rate this ticket because you are a support representative",
 				"empty": "You cannot rate this ticket because you did not send any messages"
 			}
 		}
