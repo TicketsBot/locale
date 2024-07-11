@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets é um bot de bilhetes e suporte fácil de utilizar e altamente configurável.\\nServidor de apoio: https://discord.gg/VtV3rSk\\n Comandos: Escreve `/help`\\nComeça por executar `/setup`",
-	"commands.add.no_channel": "Você precisa mencionar um canal de ticket para adicionar o(s) membro(s) em",
 	"commands.add.no_members": "Você precisa mencionar membro(s) para adicionar ao ticket",
 	"commands.add.no_permission": "Não tens permissões para adicionar pessoa(s) a este ticket",
-	"commands.add.not_ticket": "O canal mencionado não é um ticket",
 	"commands.addadmin.no_members": "Tu precisas de mencionar um utilizador ou nomear um cargo para lhe concederes privilégios de administrador",
 	"commands.addadmin.owner": "O dono do servidor já é um administrador",
 	"commands.addsupport.no_members": "Tu precisas de mencionar um utilizador ou nomear um cargo para lhe concederes privilégios de representante de suporte",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Há muitos bilhetes na categoria de bilhetes. Pede a um administrador para fechar alguns, movê-los para outra categoria ou configura uma categoria de saída.\n\nEste é um **limite imposto pelo Discord** de 50 canais por categoria.",
 	"commands.panel": "",
 	"commands.premium": "Tu podes comprar uma assinatura premium de <https://www.patreon.com/ticketsbot>.\\nO premium fornece muitos benefícios, tais como:\\n```diff\\n+ Criar painéis de bilhete ilimitados\\n+ Personalizar o nome do bot, avatar e estado (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, utilizadores e equipe de suporte\\n+ Sem marca no rodapé de mensagens\\n+ Apoiar o desenvolvimento e ajudar-me a pagar o servidor custa\\n```\\n\\nAlternadamente, tu podes votar <https://vote.ticketsbot.net> para ganhares premium grátis por 24 horas",
-	"commands.premium.already_premium": "Este servidor já possui o premium. Expira em %s",
 	"commands.premium.invalid_key": "Chave inválida. Assegura-te que a copiaste corretamente.",
 	"commands.remove.no_permission": "Tu não tens permissões para remover pessoas deste bilhete",
 	"commands.remove.staff": "Tu não podes remover membros da equipa de um bilhete",
@@ -50,11 +47,9 @@
 	"help.admin": "Gestão do bot",
 	"help.admin.blacklist": "Coloca um servidor na lista negra de utilização do bot",
 	"help.admin.check_premium": "Verifica o estado do premium de um servidor",
-	"help.admin.force_close": "Define o estado dos bilhetes fornecidos para fechado",
 	"help.admin.generate_premium": "Gerar chaves premium",
 	"help.admin.get_owner": "Obtém o dono do servidor",
 	"help.admin.unblacklist": "Remove um servidor da lista negra de servidores",
-	"help.admin.update_schema": "Atualiza o esquema do banco de dados",
 	"help.blacklist": "Altera se os utilizadores podem interagir com o bot",
 	"help.cancel": "Cancela o processo de configuração",
 	"help.claim": "Atribui um único membro da equipa a um bilhete",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Os cargos `Tickets Admin` & `Tickets Support` foram criados",
 	"setup.auto.transcript.failure": "Eu não tenho a permissão `Gerir Canais`",
 	"setup.auto.transcript.success": "Canal <#%d> criado",
-	"setup.category.invalid": "Tu tens que fornecer o nome de uma [**categoria de canais**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exemplo:** `/setup category Tickets`",
-	"setup.category.success": "A categoria do canal de bilhetes foi alterada para `%s`",
-	"setup.info.archive_channel": "Por favor, especifica onde que desejas que os registos dos bilhetes sejam enviados depois de os bilhetes terem sido fechados\\nExemplo: `#logs`",
-	"setup.info.auto": "Automaticamente seleciona opções e cria os canais necessários",
-	"setup.info.category": "Escreve o **nome** da **categoria do canal** onde desejas que os tickets sejam criados",
-	"setup.info.choose": "Por favor, seleciona uma opção. Tu podes usar `/setup` ou `/setup auto` para colocar a funcionar rapidamente, ou usar os outros comandos para ajustar as definições",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "Altera o prefixo (p.ex. `t!`) do bot.\\n**Exemplo:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Define a quantidade máxima de bilhetes que um **único utilizador** pode abrir **de uma só vez**.\\n**Exemplo:** `/setup limit 3`",
-	"setup.info.transcripts": "Define o canal para onde as transcrições de bilhetes são enviadas.\\n**Exemplo:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Escreve a mensagem que deve ser enviada pelo bot quando um bilhete é aberto",
-	"setup.prefix.success": "O prefixo foi alterado para `%s`. Tu podes usar `%sopen` para abrir um bilhete",
 	"setup.ticket_limit.success": "O limite de bilhetes foi atualizado para `%d`",
 	"setup.transcript.invalid": "Tu tens que mencionar um canal válido no servidor (p.ex. <#%d>)\\n**Exemplo:** `/setup transcripts #logs`",
 	"setup.transcript.success": "O canal das transcrições foi alterado para <#%d>",
-	"setup.welcome_message.invalid": "As mensagens de boas-vindas têm de ter o máximo de 1024 caracteres\\n**Exemplo:**`/setup welcomemessage Obrigado por abrires um bilhete!`",
-	"setup.welcome_message.success": "A mensagem de boas-vindas foi atualizada. Abre um bilhete para a veres em ação",
 	"commands.language.help_wanted": "Tu falas outra língua? Entra no nosso [servidor de suporte](https://discord.gg/bh6aAfP) se estiveres interessado em ajudar a traduzir o bot para mais línguas",
 	"commands.rename.too_long": "Os nomes dos canais não podem ter mais de 100 caracteres",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Entrar no servidor de suporte",
 	"commands.open.guild_channel_limit": "Este servidor atingiu o limite do Discord de 500 canais",
 	"commands.open.missing_form_answer": "Tu tens que responder à questão `%s`",
-	"generic.use_slash_commands": "Aviso: Tu TENS que mudar para comandos com barra até 31 de agosto. Após esta data, comandos baseados em mensagens deixarão de funcionar.",
 	"close.no_permission": "Tu não tens permissão para fechar este bilhete",
 	"": {
 		"generic.title.close_with_reason": "Fechar Com Razão",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Razão para fechar o bilhete, p.ex. \"Resolvido\""
 		},
-		"success": "O bilhete foi fechado por <@%d>"
+		"success": "O bilhete foi fechado por <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "O idioma do servidor foi alterado para **%s** (%s)",
 			"select": "Seleciona um idioma (%c-%c)"
 		},
-		"interaction_switch": "Desde <t:1662030000:D>, o Discord obrigou a **todos** os bots a mudar para [comandos de barra](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPara executar um comando de barra, pressiona o botão `/` no teu teclado, ou clica aqui: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` só pode ser utilizado no modo de tópico. Visita o nosso [docs](https://docs.ticketsbot.net/features/thread-mode) para saberes mais sobre tópicos",
 			"success": "Tu estás agora em alerta",
@@ -316,7 +300,6 @@
 			"docs": "Queres explorar mais? A nossa [documentation](https://docs.ticketsbot.net) vai ensinar-te como configurar qualquer aspeto do bot!"
 		},
 		"threads": {
-			"missing_boosts": "O Discord requer que o servidor tenha um [nível de impulso](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) de 2 ou mais para utilizar tópicos privados",
 			"no_notification_channel": "Tu tens que fornecer um canal de notificação de bilhetes",
 			"notification_channel_type": "O canal de notificação do bilhete tem de ser um canal de texto",
 			"success": "O modo de tópico foi ativado",
