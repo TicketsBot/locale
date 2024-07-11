@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets on lihtne bot mida kasutada ning see on hästi konfigureeritav abibot.\\nAbi server: https://discord.gg/VtV3rSk\\nkäsud: Kirjuta `/help`\\nAlustamiseks kirjuta `/setup`",
-	"commands.add.no_channel": "Sa pead mentionima abipileti kanali, millesse kasutaja(d) lisada",
 	"commands.add.no_members": "Sa pead mentionima kasutajaid keda lisada abipileti kanalisse",
 	"commands.add.no_permission": "Sul ei ole luba, et inimesi siia abipileti kanalisse lisada",
-	"commands.add.not_ticket": "Mentionitud kanal ei ole abipilet",
 	"commands.addadmin.no_members": "Sa pead mentionima kasutajat või rolli millele administraatori õigused anda",
 	"commands.addadmin.owner": "Serveri omanik on juba administraator",
 	"commands.addsupport.no_members": "Sa pead mentionima kasutajat või rolli millele abi andja õigused anda",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Abipiletite kategooria all on liiga palju abipileti kanaleid. Küsi, et administraator paneks mõned kinni, liigutaks neid teise kategooria alla või seadistaks ületäitumiskategooria.\n\nSee on **Discordi kehtestatud limiit** ehk maksimaalselt 50 kanalit igas kategoorias.",
 	"commands.panel": "Külasta\n<https://dashboard.ticketsbot.net/manage/%d/panels> et konfigureerida paneele",
 	"commands.premium": "Sa saad osta premium tellimuse siit: <https://www.patreon.com/ticketsbot>.\\nPremium annab palju kasulikke asju, nag näiteks:\\n```diff\\n+ Teha ükskõik kui palju abipiletite paneele\\n+\nMuuta boti nime, pilti ja staatust(whitelabel)\\n+ Detailsed statistikad serveri kohta, kasutajad ja abi personaale\\n+ Bränding puudub jaluse osas\\n+ Toetada arengut ja aitada mul maksta serveri maksud\\n```\\n\\nAlternatiivselt, saad sa hääletada siin <https://vote.ticketsbot.net> et saada premium 24-ks tunniks tasuta",
-	"commands.premium.already_premium": "Sellel serveril on juba premium. See aegub: %s",
 	"commands.premium.invalid_key": "Ebasobiv võti. Tee kindlaks, et sa kopeerisid selle õigesti.",
 	"commands.remove.no_permission": "Sul ei ole luba, et inimesi siit abipileti kanalist ära võtta",
 	"commands.remove.staff": "Sa ei saa personaale abipiletist ära võtta",
@@ -50,11 +47,9 @@
 	"help.admin": "Boti muutmine",
 	"help.admin.blacklist": "Blacklisti mingi server boti kasutamisest",
 	"help.admin.check_premium": "Vaata mingi serveri premiumi staatust",
-	"help.admin.force_close": "Muudab antud abipiletite staatuse kinniseks",
 	"help.admin.generate_premium": "Genereeri premium võti",
 	"help.admin.get_owner": "Saab mingi serveri omaniku",
 	"help.admin.unblacklist": "Võtab mingi serveri serveri blacklistist",
-	"help.admin.update_schema": "Uuendab mälubaasi skeemi",
 	"help.blacklist": "Muudab kas kasutajad saavad botiga tegeleda",
 	"help.cancel": "Tühistab seadistamis protsessi",
 	"help.claim": "Paneb abipiletile üksiku personaali",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Tegin `Tickets Admin` ja `Tickets Support` rollid",
 	"setup.auto.transcript.failure": "Mul puudub \"Manage Channels\" luba",
 	"setup.auto.transcript.success": "Tegin <#%d> kanali",
-	"setup.category.invalid": "Sa pead andma nime [**kanali kategooriast**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Näide:** `/setup kategooria Tickets`",
-	"setup.category.success": "Abipileti kategooria on muudetud selleks `%s`",
-	"setup.info.archive_channel": "Palun täpsusta kuhu sa tahad et abipiletid logitud oleks pärast nende kinni panemist \\nNäide: `#logs`",
-	"setup.info.auto": "Automaatselt valib valikud & teeb vajalikud kanalid",
-	"setup.info.category": "Kirjuta **kanali kategooria nimi** kuhu sa tahad, et abipiletid oleks tehtud",
-	"setup.info.choose": "Palun vali mingi valik. Sa võid kasutada `/setup` või `/setup auto` et saada tööle kiiresti, või võid kasutada teisi käske et sätted oleks nii nagu tahad",
-	"setup.info.dashboard": "Rohkem sätteid saab vahetada [dashboardis] (https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Külasta [dashboardi](https://dashboard.ticketsbot.net/manage/%d/panels) et reaktsiooni paneele teha",
-	"setup.info.prefix": "Muudab boti prefixi (nt `t!`). \\n**Näide:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Muudab **üksiku kasutaja** maksimum abipiletite numbri, mida nad saavad **korraga avada.** \\n**Näide:** `/setup limiit 3`",
-	"setup.info.transcripts": "Seab kanali, kuhu abipiletite koopiad saata.\\n**Näide:** `/setup koopiad #logs`",
-	"setup.info.welcome_message": "Kirjuta kiri, mis bot peaks saatma kui abipilet avatakse",
-	"setup.prefix.success": "Prefix on muudetud järgmisele: `%s`. Sa saad kasutada `%sopen` et avada abipilet",
 	"setup.ticket_limit.success": "Abipiletite limiit on muudetud järgmisele: `%d`",
 	"setup.transcript.invalid": "Sa pead mentionima sobiva kanali serveris (e.g. <#%d>)\\n**Näide:** `/setup koopiad #logs`",
 	"setup.transcript.success": "Koopiate kanal on muudetud järgmiseks: <#%d>",
-	"setup.welcome_message.invalid": "\"Tere tulemast\" kirjad peavad olema maksimaalselt 1024 tähemärki pikad\\n**Näide:**`/setup teretulemastkiri Aitäh abipileti avamise eest!`",
-	"setup.welcome_message.success": "\"Tere tulemast\" kiri on uuendatud. Ava abipilet, et seda näha",
 	"commands.language.help_wanted": "Kas sa räägid mingit teist keelt? Liitu meie [abi serveriga](https://discord.gg/bh6aAfP) kui sa oled huvitatud boti tõlkimisega rohkem keeltesse aitada",
 	"commands.rename.too_long": "Kanali nimed ei saa olla pikemas kui 100 tähemärki",
 	"commands.autoclose.configure": "Külasta [dashboardi](https://dashboard.ticketsbot.net/manage/%d/settings) et muuta automaatse kinni minemise sätteid",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Liitu Abi Serveriga",
 	"commands.open.guild_channel_limit": "See server on jõudnud Discordi 500 kanali limiidini",
 	"commands.open.missing_form_answer": "Sa pead vastama küsimusele `%s`",
-	"generic.use_slash_commands": "Märkus: Sa PEAD vahetama kaldkriipsu käskudele enne August 31simest. Pärast seda kuupäeva, kirja käsud lõpetavad töötamise.",
 	"close.no_permission": "Sul ei ole luba et seda abipiletit kinni panna",
 	"": {
 		"generic.title.close_with_reason": "Sulge Põhjusega",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Põhjus abipileti sulgemiseks, nt \"Lahendatud\""
 		},
-		"success": "Abipileti sulges <@%d>"
+		"success": "Abipileti sulges <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Selle serveri keel on muudetud järgmisele: **%s** (%s)",
 			"select": "Vali keel (%c-%c)"
 		},
-		"interaction_switch": "Ajast <t:1662030000:D>, on Discord sundinud **kõikidel** bottidel vahetada [kaldkriipsu käskudele](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nEt kasutada kaldkriipsu käske, vajuta `/` nuppu enda klaviatuuril, või vajuta siia: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` saab olla kasutatud ainult thread moodil. Külasta meie [docse](https://docs.ticketsbot.net/features/thread-mode) et saada rohkem teada threadide kohta",
 			"success": "Sa oled nüüd \"on call\"",
@@ -316,7 +300,6 @@
 			"docs": "Tahad uurida rohkem? Meie [dokumenteerimine](https://docs.ticketsbot.net) õpetab sulle kuidas konfigureerida igat osa botist!"
 		},
 		"threads": {
-			"missing_boosts": "Discord vajab et serveril oleks [boosti level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) kas 2 või suurem et kasutada privaatseid threade",
 			"no_notification_channel": "Sa pead andma abipileti märguande kanali",
 			"notification_channel_type": "Abipileti märguande kanal peab olema teksti kanal",
 			"success": "Threadi mood on sisse lülitatud",
