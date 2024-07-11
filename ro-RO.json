@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets este un bot pentru tichete și suport, ușor de folosit și foarte ușor de configurat.\\nServerul pentru suport: https://discord.gg/VtV3rSk\\nComenzi: Tastează `/help`\\nÎncepe prin a rula `/setup`",
-	"commands.add.no_channel": "Trebuie să menționezi un canal al unui tichet pentru a adăuga utilizatori în acesta",
 	"commands.add.no_members": "Trebuie să menționezi membri pentru a-i adăuga în tichet",
 	"commands.add.no_permission": "Nu ai permisiunea de a adăuga persoane în acest tichet",
-	"commands.add.not_ticket": "Canalul menționat nu este un tichet",
 	"commands.addadmin.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de admin",
 	"commands.addadmin.owner": "Proprietarul serverului este deja un administrator",
 	"commands.addsupport.no_members": "Trebuie să menționezi un utilizator sau să numești un rol pentru a-i acorda privilegii de reprezentant de suport",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Există prea multe tichete în categoria cu tichete. Cere-i unui admin să închidă unele, să le mute într-o altă categorie sau să configureze o categorie pentru excedent.\n\nAceasta este o limită impusă de **Discord** de 50 de canale pe categorie.",
 	"commands.panel": "Vizitează <https://dashboard.ticketsbot.net/manage/%d/panels> pentru a configura un panou",
 	"commands.premium": "Poți achiziționa un abonament premium de pe <https://www.patreon.com/ticketsbot>.\\nPremium oferă multe beneficii, cum ar fi:\\n```diff\\n+ Creează panouri nelimitate pentru tichete\\n+ Personalizează numele botului, avatarul și statusul (whitelabel)\\n+ Statistici detaliate despre server, utilizatori și stafful de suport\\n+ Fără branding în subsolul mesajelor\\n+ Sprijină dezvoltarea și ajută-mă să plătesc costurile serverului\\n```\\n\\nCa alternativă, poți vota la <https://vote.ticketsbot.net> pentru a obține premium gratuit timp de 24 de ore",
-	"commands.premium.already_premium": "Acest server are deja premium. Acesta expiră pe %s",
 	"commands.premium.invalid_key": "Cheie nevalidă. Asigură-te că ai copiat-o corect.",
 	"commands.remove.no_permission": "Nu ai permisiunea de a elimina persoane din acest tichet",
 	"commands.remove.staff": "Nu poți elimina stafful dintr-un tichet",
@@ -50,11 +47,9 @@
 	"help.admin": "Managementul botului",
 	"help.admin.blacklist": "Pune un server pe lista neagră pentru a-l împiedica să folosească botul",
 	"help.admin.check_premium": "Verifică statusul premium al unui server",
-	"help.admin.force_close": "Setează starea tichetelor furnizate pentru a fi închise",
 	"help.admin.generate_premium": "Generează chei premium",
 	"help.admin.get_owner": "Obține proprietarul unui server",
 	"help.admin.unblacklist": "Elimină un server din lista neagră a serverelor",
-	"help.admin.update_schema": "Actualizează schema bazei de date",
 	"help.blacklist": "Comută dacă utilizatorilor li se permite să interacționeze cu botul",
 	"help.cancel": "Anulează procesul de configurare",
 	"help.claim": "Atribuie un singur membru din staff unui tichet",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Rolurile `Tickets Admin` și `Tickets Support` au fost create",
 	"setup.auto.transcript.failure": "Îmi lipsește permisiunea `Manage Channels`",
 	"setup.auto.transcript.success": "Canalul <#%d> a fost creat",
-	"setup.category.invalid": "Trebuie să furnizezi numele unei [**categorii de canale**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exemplu:** `/setup category Tickets`",
-	"setup.category.success": "Categoria canalului de tichete a fost modificată în `%s`",
-	"setup.info.archive_channel": "Te rugăm să specifici unde dorești ca log-urile tichetelor să fie trimise după ce tichetele au fost închise\\nExemplu: `#logs`",
-	"setup.info.auto": "Selectează automat opțiunile și creează canalele necesare",
-	"setup.info.category": "Tastează **numele** **categoriei canalelor** sub care dorești ca tichetele să fie create",
-	"setup.info.choose": "Te rugăm să selectezi o opțiune. Poți folosi `/setup` sau `/setup auto` pentru a-l pune pe picioare și în funcțiune rapid sau poți folosi celelalte comenzi pentru a ajusta setările",
-	"setup.info.dashboard": "Mai multe setări sunt disponibile în [tabloul de bord](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Vizitează [tabloul de bord](https://dashboard.ticketsbot.net/manage/%d/panels) pentru a crea panouri de reacție",
-	"setup.info.prefix": "Schimbă prefixul (de ex., `t!`) botului.\\n**Exemplu:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Setează numărul maxim de tichete pe care un **un singur utilizator** le poate deschide **odată**.\\n**Exemplu:** `/setup limit 3`",
-	"setup.info.transcripts": "Setează canalul în care sunt trimise transcripturile tichetelor.\\n**Exemplu:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Tastează mesajul care ar trebui trimis de bot atunci când se deschide un tichet",
-	"setup.prefix.success": "Prefixul a fost schimbat în `%s`. Poți folosi `%sopen` pentru a deschide un tichet",
 	"setup.ticket_limit.success": "Limita de tichete a fost actualizată la `%d`",
 	"setup.transcript.invalid": "Trebuie să menționezi un canal valid în server (de ex., <#%d>)\\n**Exemplu:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Canalul transcripturilor a fost schimbat în <#%d>",
-	"setup.welcome_message.invalid": "Mesajele de bun venit trebuie să aibă o lungime maximă de 1024 de caractere\\n**Exemplu:**`/setup welcomemessage Îți mulțumim că ai deschis un tichet!``",
-	"setup.welcome_message.success": "Mesajul de bun venit a fost actualizat. Deschide un tichet pentru a-l vedea în acțiune",
 	"commands.language.help_wanted": "Vorbești altă limbă? Alătură-te [serverului nostru de suport](https://discord.gg/bh6aAfP) dacă ești interesat să ajuți la traducerea botului în mai multe limbi",
 	"commands.rename.too_long": "Numele canalelor nu pot fi mai lungi de 100 de caractere",
 	"commands.autoclose.configure": "Vizitează [tabloul de bord](https://dashboard.ticketsbot.net/manage/%d/settings) pentru a modifica setările de închidere automată",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Alătură-te serverului de suport",
 	"commands.open.guild_channel_limit": "Acest server a atins limita Discord de 500 de canale",
 	"commands.open.missing_form_answer": "Trebuie să răspunzi la întrebarea `%s`",
-	"generic.use_slash_commands": "Avertisment: TREBUIE să treci la comenzile slash până la 31 august. După această dată, comenzile bazate pe mesaje nu vor mai funcționa.",
 	"close.no_permission": "Nu îți este permis să închizi acest tichet",
 	"": {
 		"generic.title.close_with_reason": "Închide cu un motiv",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Motivul închiderii tichetului, de ex., „Rezolvat”"
 		},
-		"success": "Tichetul a fost închis de <@%d>"
+		"success": "Tichetul a fost închis de <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Limba serverului a fost schimbată în **%s** (%s)",
 			"select": "Selectează o limbă (%c-%c)"
 		},
-		"interaction_switch": "Începând cu <t:1662030000:D>, Discord a forțat **toți** boții să treacă la [comenzi slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPentru a executa o comandă slash, apasă butonul `/` de pe tastatură sau dă clic aici: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` poate fi folosit numai în modul thread. Vizitează-ne [documentația](https://docs.ticketsbot.net/features/thread-mode) pentru a afla mai multe despre threaduri",
 			"success": "Acum ești la datorie",
@@ -316,7 +300,6 @@
 			"docs": "Vrei să explorezi mai multe? [Documentația](https://docs.ticketsbot.net) noastră te va învăța cum să configurezi fiecare aspect al botului!"
 		},
 		"threads": {
-			"missing_boosts": "Discord necesită ca serverul să aibă un [nivel de boost](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) de 2 sau mai mare pentru a folosi threadurile private",
 			"no_notification_channel": "Trebuie să furnizezi un canal de notificare a tichetelor",
 			"notification_channel_type": "Canalul de notificare a tichetelor trebuie să fie un canal text",
 			"success": "Modul thread a fost activat",
