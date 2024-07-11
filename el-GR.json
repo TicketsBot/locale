@@ -1,9 +1,7 @@
 {
 	"commands.about": "Το Tickets είναι ένα εύκολο με μεγάλες δυνατότητες διαμόρφωσης ticket και support bot.\\nServer εξυπηρετήσεις https://discord.gg/VtV3rSk\\nΕντολες: Γράψε `/help`\\nΞεκίνα τώρα χρησιμοποιώντας `/setup`",
-	"commands.add.no_channel": "Πρέπει να αναφέρεται το ticket για να προσθέσετε χρήστη(ες)",
 	"commands.add.no_members": "Πρέπει να αναφέρεται τους χρήστες για να τους βάλουμε στο ticket",
 	"commands.add.no_permission": "Δεν έχεις την άδεια για να προσθέσεις χρήστες στο ticket",
-	"commands.add.not_ticket": "Το αναφερόμενο κανάλι δεν είναι ticket",
 	"commands.addadmin.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να το βάλεις σαν διαχειριστή",
 	"commands.addadmin.owner": "Ο ιδιοκτήτης του server είναι ήδη διαχειριστής",
 	"commands.addsupport.no_members": "Πρέπει να αναφέρεις έναν χρήστη ή έναν ρόλο για να βάλεις δικαιώματα υποστήριξης",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Υπάρχουν πολλά tickets στην κατηγορία των tickets, ζητά από έναν διαχειριστή να κλείσει μερικά ή να τα μεταφέρει σε άλλη κατηγορία",
 	"commands.panel": "Επισκεφτείτε το <https://dashboard.ticketsbot.net/manage/%d/panels> για να διαμορφώσετε έναν πίνακα",
 	"commands.premium": "Μπορείς να αγοράσεις premium συνδρομή στο <https://www.patreon.com/ticketsbot>.\\nΤο premium σου παρέχει πολλά οφέλη, όπως:\\n```diff\\n+Δημιουργία απεριόριστων ticket πίνακες\\n+Προσαρμογή ονόματος, avatar και status του bot (whitelabel)\\n+ Λεπτομερή στατιστικά στοιχεία για το διακομιστή, χρήστες και το προσωπικό υποστήριξης\\n+ Χωρίς εμπορικό σήμα στο υποσέλιδο των μηνυμάτων\\n+ Υποστηρίζει την ανάπτυξη και βοηθάει να πληρώσω το κόστος του διακοσμητή\\n```\\n\\nΕναλλακτικά, μπορείτε να ψηφίσετε στο <https://vote.ticketsbot.net> για να πάρεις δωρεάν premium για 24 ώρες",
-	"commands.premium.already_premium": "Αυτή η συντεχνία έχει ήδη premium. Λήγει στις %s",
 	"commands.premium.invalid_key": "Λανθασμένο κλειδί, σιγουρευτείτε ότι το αντιγράψετε σωστά.",
 	"commands.remove.no_permission": "Δεν έχεις άδεια να αφαιρέσεις χρήστες από το ticket",
 	"commands.remove.staff": "Δεν μπορείς να αφαιρέσεις το προσωπικό από το ticket",
@@ -50,11 +47,9 @@
 	"help.admin": "Διαχείριση bot",
 	"help.admin.blacklist": "Αποκλεισμός μιας συντεχνίας από το να χρησιμοποιήσει το bot",
 	"help.admin.check_premium": "Ελέγξτε την κατάσταση Premium ενός διακομιστή",
-	"help.admin.force_close": "Ορίζει την κατάσταση των παρεχόμενων tickets για να κλείσει",
 	"help.admin.generate_premium": "Δημιουργία premium κλειδιού",
 	"help.admin.get_owner": "Παίρνει τον ιδιοκτήτη ενός διακομιστή",
 	"help.admin.unblacklist": "Αφαίρεση συντεχνίας από τη μαύρη λίστα συντεχνίας",
-	"help.admin.update_schema": "Ενημερώνει το σχήμα βάσης δεδομένων",
 	"help.blacklist": "Εναλλάσσει αν επιτρέπεται στους χρήστες να αλληλεπιδρούν με το bot",
 	"help.cancel": "Ακύρωση της διαδικασίας ρύθμισης",
 	"help.claim": "Εκχωρεί ένα μόνο μέλος του προσωπικού σε ένα ticket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Δημιουργήθηκαν `Tickets Admin` και `Tickets Support` ρόλοι",
 	"setup.auto.transcript.failure": "Μου λείπει το δικαίωμα `Manage Channels`",
 	"setup.auto.transcript.success": "Δημιουργήθηκε <#%d> κανάλι",
-	"setup.category.invalid": "Πρέπει να δώσετε το όνομα ενός [**κατηγορία καναλιού**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Παράδειγμα:** `/setup category Tickets`",
-	"setup.category.success": "Η κατηγορία καναλιού ticket άλλαξε σε `%s`",
-	"setup.info.archive_channel": "Προσδιορίστε ότι επιθυμείτε να αποστέλλονται τα αρχεία καταγραφής εισιτηρίων μετά το κλείσιμο των tickets\\nΠαράδειγμα: `#logs`",
-	"setup.info.auto": "Αυτόματη επιλογή επιλογών και δημιουργία των απαιτούμενων καναλιών",
-	"setup.info.category": "Πληκτρολογήστε το **όνομα** της **κατηγορίας καναλιού** που θα θέλατε να δημιουργηθούν τα tickets κάτω από",
-	"setup.info.choose": "Παρακαλώ επιλέξτε μια επιλογή. Μπορείτε να χρησιμοποιήσετε το `/setup` ή το `/setup auto` για να ξεκινήσετε και να εκτελέσετε γρήγορα ή χρησιμοποιήστε τις άλλες εντολές για να ρυθμίσετε τις ρυθμίσεις",
-	"setup.info.dashboard": "Περισσότερες ρυθμίσεις είναι διαθέσιμες στο [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Επισκεφτείτε το [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) για να δημιουργήσετε πλαίσια αντιδράσεων",
-	"setup.info.prefix": "Αλλάζει το πρόθεμα (π.χ. `t!`) του bot.\\n**Παράδειγμα:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Ορίζει το μέγιστο ποσό των εισιτηρίων που ένας **μοναδικός χρήστης** μπορεί να ανοίξει **ταυτόχρονα**.\\n**Παράδειγμα:** `/setup limit 3`",
-	"setup.info.transcripts": "Ορίζει τις μεταγραφές των ticket καναλιών που έχουν αποσταλεί.\\n**Παράδειγμα:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Γράψε το μήνυμα που θα πρέπει να σταλεί από το bot όταν ένα ticket ανοίγει",
-	"setup.prefix.success": "Το πρόθεμα έχει αλλάξει σε `%s`. Μπορείς να χρησιμοποιήσεις `%sopen` για να ανοίξεις ένα ticket",
 	"setup.ticket_limit.success": "Το όριο των ticket έχει ενημερωθεί σε `%d`",
 	"setup.transcript.invalid": "Πρέπει να αναφέρεις ένα έγκυρο κανάλι στον διακομιστή (π.χ. <#%d>)\\n**Παράδειγμα:**`/setup transcripts #logs`",
 	"setup.transcript.success": "Το κανάλι μεταγραφών έχει αλλάξει στο <#%d>",
-	"setup.welcome_message.invalid": "Το μυνήματα καλωσορίσματος πρέπει να είναι το μέγιστο 1024 χαρακτήρες\\n**Παράδειγμα:**`/setup welcomemessage Ευχαριστώ που άνοιξες ένα ticket`",
-	"setup.welcome_message.success": "Το μήνυμα καλωσορίσματος έχει ενημερωθεί. Ανοίξτε ένα ticket για να το δείτε σε δράση",
 	"commands.language.help_wanted": "Μιλάτε μια άλλη γλώσσα? Γίνετε μέλος του [διακομιστή υποστήριξης](https://discord.gg/bh6aAfP) αν ενδιαφέρεστε να βοηθήσετε το bot στη μετάφραση σε περισσότερες γλώσσες",
 	"commands.rename.too_long": "Το όνομα του καναλιού δεν μπορεί να είναι μεγαλύτερο από 100 χαρακτήρες",
 	"commands.autoclose.configure": "Επισκεφτείτε το [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) για να αλλάξετε τις ρυθμίσεις αυτόματου κλεισίματος",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Μπες στον διακομιστή υποστήριξής μας",
 	"commands.open.guild_channel_limit": "Αυτός ο server έχει φτάσει το όριο του Discord με 500 κανάλια",
 	"commands.open.missing_form_answer": "Πρέπει να απαντήσετε στην ερώτηση `%s`",
-	"generic.use_slash_commands": "Προειδοποίηση: ΠΡΕΠΕΙ να αλλάξετε σε slash commands μέχρι τις 31 Αυγούστου. Μετά από αυτήν την ημέρα, οι εντολές από μυνήματα θα σταματήσουν να λειτουργούν.",
 	"close.no_permission": "Δεν επιτρέπεται να κλείσεις αυτό το ticket",
 	"": {
 		"generic.title.close_with_reason": "Κλείσιμο Με Λόγο",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Ο λόγος που έκλεισε το ticket, π.χ. \"Λύθηκε\""
 		},
-		"success": "Το ticket έκλεισε από τον <@%d>"
+		"success": "Το ticket έκλεισε από τον <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Η γλώσσα του διακομιστή έχει αλλάξει σε **%s** (%s)",
 			"select": "Επιλέξτε μια γλώσσα (%c-%c)"
 		},
-		"interaction_switch": "Από την <t:1662030000:D>, το Discord αναγκάζει **όλα** τα bots να αλλάξουν σε [εντολές slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).",
 		"on_call": {
 			"channel_mode": "`/on-call` μπορεί να χρησιμοποιηθεί μόνο σε λειτουργία thread. Επισκεφθείτε το [docs](https://docs.ticketsbot.net/features/thread-mode) για να μάθετε περισσότερα σχετικά με τα threads",
 			"success": "Είσαι τώρα σε υπηρεσία",
@@ -316,7 +300,6 @@
 			"docs": "Θέλετε να εξερευνήσετε περισσότερο; Το [documentation](https://docs.ticketbot.net) θα σας διδάξει πως να ρυθμίσετε κάθε πτυχή του bot!"
 		},
 		"threads": {
-			"missing_boosts": "Το Discord απαιτεί ο διακομιστής να έχει [επίπεδο ενίσχυσης](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) από 2 ή περισσότερα για να χρησιμοποιεί ιδιωτικά νήματα",
 			"no_notification_channel": "Πρέπει να παρέχετε ένα κανάλι ειδοποιήσεων των ticket",
 			"notification_channel_type": "Το κανάλι ειδοποίησης αιτήματος πρέπει να είναι ένα κανάλι κειμένου",
 			"success": "Η λειτουργία thread ενεργοποιήθηκε",
