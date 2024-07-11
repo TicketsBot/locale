@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets er nem at bruge og er en yderst brugervenlig support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandoer: Type `/hjælp`\\nGå i gang med at bruge `/setup`",
-	"commands.add.no_channel": "Du skal nævne en ticket kanal for at tilføje brugeren(brugerne) i",
 	"commands.add.no_members": "Du skal nævne brugere at tilføje til denne ticket",
 	"commands.add.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
-	"commands.add.not_ticket": "Den nævnte kanal er ikke en ticket kanal",
 	"commands.addadmin.no_members": "Du skal nævne en bruger eller en rolle for at give administratorrettigheder",
 	"commands.addadmin.owner": "Server ejeren er allerede administrator",
 	"commands.addsupport.no_members": "Du er nød til at nævne en bruger eller en rolle for at give denne tilladelse til at udføre support",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Der er for mange tickets i kategorien. Bed en administrator om at lukke eller flytte nogen, til en anden kategori",
 	"commands.panel": "Besøg <https://dashboard.ticketsbot.net/manage/%d/panels> for at konfigurere et panel",
 	"commands.premium": "Du kan købe et premium abonnement fra <https://www.patreon.com/ticketsbot>.\\nPremium giver mange fordele, såsom s:\\n```diff\\n+ skab ubegrænsede antal paneler\\n+ Tilpas bot navn, avaterer og status (whitelabel)\\n+ Detaljeret statistik om serveren, brugere og supportpersonalet\\n+ Ingen reklamer i fodnoten af beskeder\\n+ Support udvikling og hjælp mig med at betale server omkostningerne\\n+```\\n\\nAlternativt, kan du stemme på <https://vote.ticketsbot.net> for at få premium gratis i 24 timer",
-	"commands.premium.already_premium": "Denne guild har allerede premium abonnement. Den udløber %s",
 	"commands.premium.invalid_key": "Ugyldig nøgle. Sørg for at du har kopieret den korrekt.",
 	"commands.remove.no_permission": "Du har ikke tilladelse til at tilføje brugere til denne ticket",
 	"commands.remove.staff": "Du kan ikke fjerne personale fra en ticket",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot håndtering",
 	"help.admin.blacklist": "Blacklist en guild, så de ikke kan bruge denne bot",
 	"help.admin.check_premium": "Kontroller premium-status på en server",
-	"help.admin.force_close": "Sætter tilstanden af de angivne tickets til lukket",
 	"help.admin.generate_premium": "Generer premium nøgler",
 	"help.admin.get_owner": "Henter ejeren af en server",
 	"help.admin.unblacklist": "Fjerner en guild fra blacklisten",
-	"help.admin.update_schema": "Opdaterer databaseskemaet",
 	"help.blacklist": "Angiver om brugere har tilladelse til at interagere med botten",
 	"help.cancel": "Annullerer opsætningsprocessen",
 	"help.claim": "Tildel en enkelt ansat til en ticket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Oprettet `Tickets Administrator` & `Tickets Support` roller",
 	"setup.auto.transcript.failure": "Jeg mangler tilladelsen `Administrer kanaler`",
 	"setup.auto.transcript.success": "Oprettede <#%d> kanal",
-	"setup.category.invalid": "Du skal angive navnet på en [**kanalkategori**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Eksempel:** `/setup category Tickets`",
-	"setup.category.success": "Denne ticket kanals kategori er blevet ændret til `%s`",
-	"setup.info.archive_channel": "Angiv venligst at du ønsker at få ticket logs tilsendt, efter tickets er blevet lukket\\nEksempel: `#logs`",
-	"setup.info.auto": "Vælger automatisk tilvalg og laver de krævede kanaler",
-	"setup.info.category": "Skriv **navn** på **kanalkategorien**, som du gerne vil have tickets oprettet under",
-	"setup.info.choose": "Vælg venligst en mulighed. Du kan bruge `/setup` eller `/setup auto` for at komme hurtigt igang, eller bruge de andre kommandoer til at finjustere indstillinger",
-	"setup.info.dashboard": "Flere indstillinger er tilgængelige på [instrumentbrættet](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Besøg [instrumentbrættet](https://dashboard.ticketsbot.net/manage/%d/panels) for at oprette reaktionspaneler",
-	"setup.info.prefix": "Ændrer præfikset (f.eks. `t!`) for botten.\\n**Eksempel:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Sætter det maksimale antal tickets en **enkelt bruger** kan åbne **på én gang**.\\n**Eksempel:** `/setup limit 3`",
-	"setup.info.transcripts": "Vælger hvilken kanal som transkriptionerne skal sendes til.\\n**Eksempel:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Skriv den besked, der skal sendes af botten, når en ticket åbnes",
-	"setup.prefix.success": "Præfikset er blevet ændret til `%s`. Du kan bruge `%sopen` for at åbne en ticket",
 	"setup.ticket_limit.success": "Grænsen for antallet af tickets er blevet opdateret til `%d`",
 	"setup.transcript.invalid": "Du skal nævne en gyldig kanal på serveren (f.eks. <#%d>)\\n**Eksempel:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Transskriptionskanalen er blevet ændret til <#%d>",
-	"setup.welcome_message.invalid": "Velkomstbeskeder skal højst være 1024 tegn lange\\n**Eksempel:**`/setup welcomemessage Tak for at åbne en ticket!`",
-	"setup.welcome_message.success": "Velkomstbeskeden er blevet opdateret. Åbn en ticket for at se den i aktion",
 	"commands.language.help_wanted": "Taler du et andet sprog? Tilmeld dig vores [supportserver](https://discord.gg/bh6aAfP) hvis du er interesseret i at hjælpe med at oversætte botten til flere sprog",
 	"commands.rename.too_long": "Kanal navne kan ikke være længere end 100 tegn",
 	"commands.autoclose.configure": "Besøg [instrumentbrættet](https://dashboard.ticketsbot.net/manage/%d/settings) for at ændre indstillinger for autolukning af tickets",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Join support serveren",
 	"commands.open.guild_channel_limit": "Denne server har nået Discord's grænse på 500 kanaler",
 	"commands.open.missing_form_answer": "Du skal besvare spørgsmålet `%s`",
-	"generic.use_slash_commands": "Advarsel: Du SKAL skifte til slashkommandoer senest den 31 August. Efter denne dato vil meddelelsesbaserede kommandoer stoppe med at virke.",
 	"close.no_permission": "Du har ikke tilladelse til at lukke denne ticket",
 	"": {
 		"generic.title.close_with_reason": "Luk Med Årsag",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Årsag til lukning af denne ticket, fx \"Løst\""
 		},
-		"success": "Ticketen blev lukket af <@%d>"
+		"success": "Ticketen blev lukket af <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Serversproget er blevet ændret til **%s** (%s)",
 			"select": "Vælg et sprog (%c-%c)"
 		},
-		"interaction_switch": "Fra og med <t:1662030000:D> har Discord tvunget **alle** bots til at skifte til [slash-kommandoer] (https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nFor at udføre en slash-kommando skal du trykke på knappen `/` på dit tastatur eller klikke her: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` kan kun bruges i trådtilstand. Besøg vores [dokumenter](https://docs.ticketsbot.net/features/thread-mode) for at finde ud af mere om tråde",
 			"success": "Du er nu på vagt",
@@ -316,7 +300,6 @@
 			"docs": "Vil du udforske mere? Vores [dokumentation](https://docs.ticketsbot.net) kommer til at lære dig, hvordan du konfigurerer alle aspekter af botten!"
 		},
 		"threads": {
-			"missing_boosts": "Discord kræver, at serveren har et [boost niveau](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) på 2 eller højere for at kunne bruge private tråde",
 			"no_notification_channel": "Du skal angive en kanal til ticketnotifikationer",
 			"notification_channel_type": "Kanalen til ticketnotifikationer skal være en tekstkanal",
 			"success": "Trådtilstand er blevet aktiveret",
