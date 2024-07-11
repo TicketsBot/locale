@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets to łatwy w obsłudze, wysoce konfigurowalny i pomocny bot.\\nSerwer wsparcia: https://discord.gg/VtV3rSk\\nKomendy: Wpisz `/help`\\nAby rozpocząć wpisz `/setup`",
-	"commands.add.no_channel": "Musisz oznaczyć kanał zgłoszeń, żeby dodać do niego użytkownika(ów)",
 	"commands.add.no_members": "Musisz oznaczyć użytkowników, aby dodać ich do zgłoszenia",
 	"commands.add.no_permission": "Nie masz uprawnień, aby dodać użytkowników do tego zgłoszenia",
-	"commands.add.not_ticket": "Ten kanał nie jest kanałem zgłoszeń",
 	"commands.addadmin.no_members": "Musisz oznaczyć użytkownika lub rolę, aby przypisać mu uprawnienia administratora",
 	"commands.addadmin.owner": "Właściciel serwera jest już administratorem",
 	"commands.addsupport.no_members": "Musisz oznaczyć użytkownika lub rolę, aby przypisać im uprawnienia reprezentanta wsparcia",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "W tej kategorii jest zbyt dużo otwartych zgłoszeń. Poproś administrację o zamknięcie paru, przeniesienie ich do innej kategorii lub skonfigurowanie kategorii przeciążenia.\n\nTo jest limit 50 kanałów na kategorię **narzucony przez Discorda**.",
 	"commands.panel": "Odwiedź <https://dashboard.ticketsbot.net/manage/%d/panels>, aby skonfigurować panel",
 	"commands.premium": "Możesz kupić subskrypcje premium na <https://www.patreon.com/ticketsbot>.\\nPremium zapewnia wiele korzyści, takich jak:\\n```diff\\n+ Tworzenie panelów bez limitu\\n+ Własna nazwa, awatar i status (whitelabel)\\n+ Dokładne statystyki o serwerze, użytkownikach i obsłudze\\n+ Brak reklamy w stopkach wiadomości\\n+ Wspieraj rozwój i pomóż mi opłacić koszty serwera\\n```\\n\\nOpcjonalnie, możesz zagłosować na <https://vote.ticketsbot.net> aby dostać darmowe premium na 24 godziny",
-	"commands.premium.already_premium": "Ten serwer ma już premium. Premium trwa do %s",
 	"commands.premium.invalid_key": "Nieprawidłowy klucz. Upewnij się, że skopiowałeś go prawidłowo.",
 	"commands.remove.no_permission": "Nie masz uprawnień, aby usuwać użytkowników z tego zgłoszenia",
 	"commands.remove.staff": "Nie możesz usunąć obsługi ze zgłoszenia",
@@ -50,11 +47,9 @@
 	"help.admin": "Zarządzanie botem",
 	"help.admin.blacklist": "Zablokuj możliwość używania bota w serwerze",
 	"help.admin.check_premium": "Sprawdź status premium serwera",
-	"help.admin.force_close": "Wymusza zamknięcie zgłoszeń",
 	"help.admin.generate_premium": "Generuje klucz premium",
 	"help.admin.get_owner": "Sprawdza właściciela serwera",
 	"help.admin.unblacklist": "Usuwa serwer z czarnej listy serwerów",
-	"help.admin.update_schema": "Aktualizuje schemat bazy danych",
 	"help.blacklist": "Ustawia, czy poszczególni użytkownicy mają mieć możliwość interakcji z botem",
 	"help.cancel": "Anuluje proces konfiguracyjny",
 	"help.claim": "Przypisuje jednego członka obsługi do zgłoszenia",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Utworzono role `Tickets Admin` i `Tickets Support`",
 	"setup.auto.transcript.failure": "Nie posiadam uprawnienia `Zarządzanie kanałem`",
 	"setup.auto.transcript.success": "Utworzono kanał <#%d>",
-	"setup.category.invalid": "Musisz podać nazwę [**kategorii kanału**](https://support.discord.com/hc/pl/articles/115001580171-Kategorie-kanałów-101)\\n**Przykład:** `/setup category Tickets`",
-	"setup.category.success": "Kategoria kanału zgłoszeń została zmieniona na `%s`",
-	"setup.info.archive_channel": "Określ kanał, na który mają być wysyłane zamknięte zgłoszenia\\nPrzykład: `#logs`",
-	"setup.info.auto": "Automatycznie wybiera opcje i tworzy wymagane kanały",
-	"setup.info.category": "Napisz **nazwę kategorii** pod którą mają tworzone być zgłoszenia",
-	"setup.info.choose": "Proszę wybrać opcję. Możesz użyć `/setup` lub `/setup auto`, aby szybko skonfigurować bota lub użyć innych poleceń, aby dostosować ustawienia",
-	"setup.info.dashboard": "Więcej ustawień jest dostępnych w [panelu sterowania](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Odwiedź [panel sterowania](https://dashboard.ticketsbot.net/manage/%d/panels), by stworzyć panele reakcji",
-	"setup.info.prefix": "Zmień prefix bota (np. `t!`).\\n**Przykład:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Ustaw maksymalną ilość zgłoszeń na **pojedynczego użytkownika**, którą może otworzyć **jednocześnie**.\\n**Przykład:** `/setup limit 3`",
-	"setup.info.transcripts": "Ustawia kanał transkrypcji zgłoszeń, do którego mają być wysyłane.\\n**Przykład:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Napisz wiadomość, która będzie wysyłana przez bota przy utworzeniu zgłoszenia",
-	"setup.prefix.success": "Prefix został ustawiony na `%s`. Możesz użyć `%sopen`, aby utworzyć zgłoszenie",
 	"setup.ticket_limit.success": "Limit zgłoszeń został zaktualizowany do `%d`",
 	"setup.transcript.invalid": "Musisz podać prawidłowy kanał na serwerze (np. <#%d>)\\n**Przykład:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Kanał transkrypcji został zmieniony na <#%d>",
-	"setup.welcome_message.invalid": "Wiadomość powitalna nie może być dłuższa niż 1024 znaki\\n**Przykład:**`/setup welcomemessage Dziękujemy za utworzenie zgłoszenia!`",
-	"setup.welcome_message.success": "Wiadomość powitalna została zaktualizowana. Utwórz zgłoszenie, aby zobaczyć ją w akcji",
 	"commands.language.help_wanted": "Mówisz w innym języku? Dołącz do naszego [serwera wsparcia](https://discord.gg/bh6aAfP), jeśli jesteś zainteresowany pomocą w tłumaczeniu bota na większą ilość języków",
 	"commands.rename.too_long": "Nazwa kanału nie może być dłuższa niż 100 znaków",
 	"commands.autoclose.configure": "Odwiedź [panel sterowania](https://dashboard.ticketsbot.net/manage/%d/settings), by zmienić ustawienia zamykania automatycznego",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Dołącz do serwera wsparcia",
 	"commands.open.guild_channel_limit": "Ten serwer osiągnął limit 500 kanałów na Discordzie",
 	"commands.open.missing_form_answer": "Musisz odpowiedzieć na pytanie `%s`",
-	"generic.use_slash_commands": "Ostrzeżenie: MUSISZ przejść na polecenia slash do 30 kwietnia. Po tym czasie, polecenia oparte na wiadomościach przestaną działać.",
 	"close.no_permission": "Nie posiadasz uprawnień, aby zamknąć to zgłoszenie",
 	"": {
 		"generic.title.close_with_reason": "Zamknij z powodem",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Powód zamknięcia zgłoszenia, np. ''Rozwiązane''"
 		},
-		"success": "Zgłoszenie zostało zamknięte przez <@%d>"
+		"success": "Zgłoszenie zostało zamknięte przez <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Język serwera został zmieniony na **%s** (%s)",
 			"select": "Wybierz język (%c-%c)"
 		},
-		"interaction_switch": "Od <t:1662030000:D>, Discord zmusza **wszystkie** boty do przełączenia się na [komendy slash](https://support.discord.com/hc/pl/articles/1500000368501-Slash-Commands).\n\nAby użyć komendy slash, naciśnij przycisk `/` na klawiaturze lub kliknij tutaj: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` może zostać użyte tylko w trybie wątkowym. Odwiedź [dokumentacje](https://docs.ticketsbot.net/features/thread-mode), aby dowiedzieć się więcej na temat wątków",
 			"success": "Jesteś teraz oznaczany w nowych zgłoszeniach",
@@ -316,7 +300,6 @@
 			"docs": "Chcesz odkryć więcej? Nasza [dokumentacja](https://docs.ticketsbot.net) nauczy Cię jak skonfigurować każdy aspekt bota!"
 		},
 		"threads": {
-			"missing_boosts": "Discord wymaga od serwera [poziomu ulepszeń](https://support.discord.com/hc/pl/articles/360028038352-Wzmacnianie-serwera-) 2 lub wyższego, aby używać prywatnych wątków",
 			"no_notification_channel": "Musisz podać kanał powiadamiania o zgłoszeniach",
 			"notification_channel_type": "Kanał powiadomień o zgłoszeniach musi być kanałem tekstowym",
 			"success": "Tryb wątku został włączony",

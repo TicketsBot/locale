@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets je enostaven za uporabo in zelo nastavljiv bot za vstopnice in podporo.\\nPodporni strežnik: https://discord.gg/VtV3rSk\\nUkazi: Vnesite `/help`\\nZačnite tako, da zaženete `/setup`",
-	"commands.add.no_channel": "Če želite dodati uporabnike(s), morate omeniti kanal vstopnic",
 	"commands.add.no_members": "Za dodajanje vstopnice morate omeniti člane",
 	"commands.add.no_permission": "Nimate dovoljenja za dostop do tega zahtevka",
-	"commands.add.not_ticket": "Omenjeni kanal ni vstopnica",
 	"commands.addadmin.no_members": "Omeniti morate uporabnika ali poimenovati vlogo, ki ji želite podeliti skrbniške pravice",
 	"commands.addadmin.owner": "Lastnik strežnika je že skrbnik",
 	"commands.addsupport.no_members": "Omeniti morate uporabnika ali poimenovati vlogo, ki ji želite podeliti privilegije predstavnika podpore",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "V kategoriji vstopnic je preveč vstopnic. Prosite skrbnika, da nekatere zapre, jih premakne v drugo kategorijo ali nastavi kategorijo presežka. To je **Discordova omejitev** 50 kanalov na kategorijo.",
 	"commands.panel": "Obiščite <https://panel.ticketsbot.net/manage/%d/panels>, da konfigurirate ploščo",
 	"commands.premium": "Premijsko naročnino lahko kupite pri <https://www.patreon.com/ticketsbot>.\\nPremium ponuja številne prednosti, kot so:\\n```diff\\n+ Ustvarite neomejene plošče vstopnic\\n+ Prilagodite ime bota, avatar in stanje (bela oznaka)\\n+ Podrobna statistika o strežniku, uporabnikih in podpornem osebju\\n+ Brez blagovnih znamk v nogi sporočil\\n+ Podprite razvoj in mi pomagajte plačati stroške strežnika\\n```\\n\\nLahko pa glasujete tudi na <https://vote.ticketsbot.net> za 24-urno brezplačno premijo",
-	"commands.premium.already_premium": "Ta ceh že ima premium. Poteče %s",
 	"commands.premium.invalid_key": "Neveljaven ključ. Prepričajte se, da ste ga pravilno kopirali.",
 	"commands.remove.no_permission": "Nimate dovoljenja za odstranjevanje oseb s te vstopnice",
 	"commands.remove.staff": "Osebja ne morete odstraniti z vstopnice",
@@ -50,11 +47,9 @@
 	"help.admin": "Upravljanje botov",
 	"help.admin.blacklist": "Na črni seznam ceha, ki ne uporablja bota",
 	"help.admin.check_premium": "Preverite premium status strežnika",
-	"help.admin.force_close": "Nastavi stanje priloženih vstopnic na zaprto",
 	"help.admin.generate_premium": "Ustvarite manjkajoče ključe",
 	"help.admin.get_owner": "Pridobi DynIP strežnika",
 	"help.admin.unblacklist": "Odstranite ceh s črnega seznama ceha",
-	"help.admin.update_schema": "Posodobi shemo baze podatkov",
 	"help.blacklist": "Preklopi, ali je uporabnikom dovoljena interakcija z botom",
 	"help.cancel": "Prekliče postopek nastavitve",
 	"help.claim": "Karti dodeli enega člana osebja",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Ustvarjene vlogi `Tickets Admin` & `Tickets Support`",
 	"setup.auto.transcript.failure": "Manjka mi dovoljenje za upravljanje kanalov",
 	"setup.auto.transcript.success": "Ustvarjen je bil <#%d> kanal",
-	"setup.category.invalid": "Navesti morate ime [**kategorije kanala**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Primer:** `/setup kategorija Vstopnice`",
-	"setup.category.success": "Kategorija kanala vstopnic je bila spremenjena v `%s`",
-	"setup.info.archive_channel": "Določite, ali želite, da se dnevniki vstopnic pošljejo po zaprtju vstopnic\\nPrimer: `#dnevniki`",
-	"setup.info.auto": "Samodejno izbere možnosti in ustvari zahtevane kanale",
-	"setup.info.category": "Vnesite **ime** **kategorije kanala**, za katero želite, da se ustvarijo vstopnice",
-	"setup.info.choose": "Izberite možnost. Uporabite lahko `/setup` ali `/setup auto`, da hitro začnete delovati, ali uporabite druge ukaze za natančno nastavitev",
-	"setup.info.dashboard": "Več nastavitev je na voljo na [dashboard] (https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Obiščite [dashboard] (https://dashboard.ticketsbot.net/manage/%d/panels), da ustvarite odzivne plošče",
-	"setup.info.prefix": "Spremeni predpono (npr. `t!`) bota.\\n**Primer:** `/setup prefix –`",
-	"setup.info.ticket_limit": "Nastavi največje število vstopnic, ki jih lahko **en uporabnik** odpre **naenkrat**.\\n**Primer:** `/setup limit tri`",
-	"setup.info.transcripts": "Nastavi, na katerega so poslani prepisi vstopnic kanala.\\n**Primer:** `/setup transkripti #dnevniki`",
-	"setup.info.welcome_message": "Vnesite sporočilo, ki naj ga pošlje bot, ko se vstopnica odpre",
-	"setup.prefix.success": "Predpona je bila spremenjena v »%s«. Za odpiranje vstopnice lahko uporabite `%sopen`",
 	"setup.ticket_limit.success": "Omejitev vstopnic je bila posodobljena na `%d`",
 	"setup.transcript.invalid": "",
 	"setup.transcript.success": "",
-	"setup.welcome_message.invalid": "",
-	"setup.welcome_message.success": "",
 	"commands.language.help_wanted": "",
 	"commands.rename.too_long": "",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
 	"close.no_permission": "",
 	"": {
 		"generic.title.close_with_reason": "",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": ""
 		},
-		"success": ""
+		"success": "",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "",
 			"select": ""
 		},
-		"interaction_switch": "",
 		"on_call": {
 			"channel_mode": "",
 			"success": "",
@@ -316,7 +300,6 @@
 			"docs": ""
 		},
 		"threads": {
-			"missing_boosts": "",
 			"no_notification_channel": "",
 			"notification_channel_type": "",
 			"success": "",

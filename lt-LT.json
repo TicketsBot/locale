@@ -1,9 +1,7 @@
 {
 	"commands.about": "Bilietai, tai lengvai naudojamas ir konfiguruojamas pagalbos įrankis. \\nServeris prireikus pagalbos: https://discord.gg/VtV3rSk\\nKomandos: Parašykite `/pagalba`\\nPradėti galite parašius `/konfiguruoti`",
-	"commands.add.no_channel": "Jūs turite pažymėti bilieto kanalą, kad pridėtumete vartotoją ar vartotojus",
 	"commands.add.no_members": "Jūs turite paminėti vartotojus, kad pridėtumėte prie bilieto",
 	"commands.add.no_permission": "Jūs neturite privilegijų, kad galėtumėte pridėti vartotojus prie bilieto",
-	"commands.add.not_ticket": "Pažymėtas kanalas nėra bilietas",
 	"commands.addadmin.no_members": "Jūs turite paminėti vartotoją arba rolę, kad suteiktumėte administratoriaus privilegijas",
 	"commands.addadmin.owner": "Šio serverio savininkas jau turi administratoriaus privilegijas",
 	"commands.addsupport.no_members": "Jūs turite paminėti vartotoją arba rolę, kad suteiktumėte pagalbos nario privilegijas",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Bilietų kategorijoje yra per daug bilietų. Paprašykite administracijos, kad uždarytu kelis arba perkeltu į kitą kategoriją.\n\nTai yra **Discord nustatytas limitas**, 50 kanalų vienoje kategorijoje.",
 	"commands.panel": "Apsilankykite <https://dashboard.ticketsbot.net/manage/%d/panels>, kad sukonfiguruotumėte skydelį",
 	"commands.premium": "Galite įsigyti premium prenumeratą iš <https://www.patreon.com/ticketsbot>.\\nPremium suteikia daug papildomų privalumų, tokių kaip:\\n```diff\\n+ Galėsite sukurti neribotą kiekį skydelių \\n+ Galėsite pakeisti roboto pavadinimą, paveikslėlį ir būsėną į jums patinkantį\\n+ Detali statistika apie serverį, vartotojus ir pagalbos narius\\n+ Pranešime nebus mūsų žymėjimo\\n+ Prisidėsite prie plėtros ir padėtis išlaikyti roboto išlaidas\\n```\\n\\nGalite prabalsuoti nuėję į <https://vote.ticketsbot.net>, kad gautumėte premium nemokamai 24 valandom",
-	"commands.premium.already_premium": "Šis serveris jau turi premium. Jis pasibaigs %s",
 	"commands.premium.invalid_key": "Neteisingas kodas. Įsitikinkite, kad nukopijavote teisingai.",
 	"commands.remove.no_permission": "Jūs neturite privilegijos, kad galėtumėte pašalinti vartotoja iš šio bilieto",
 	"commands.remove.staff": "Jūs negalite pašalinti pagalbą suteikiančių narių iš šio bilieto",
@@ -50,11 +47,9 @@
 	"help.admin": "Roboto valdymas",
 	"help.admin.blacklist": "Įtraukite serverį į juodąjį sąrašą, kad negalėtu naudoti šio roboto",
 	"help.admin.check_premium": "Patikrinkite šio serverio, premium prenumeratos būseną",
-	"help.admin.force_close": "Nustato nurodyto bilieto būseną į uždarytą",
 	"help.admin.generate_premium": "Generuoti premium kodus",
 	"help.admin.get_owner": "Gaunate serverio savininką",
 	"help.admin.unblacklist": "Panaikinti serverį iš juodojo sąrašo",
-	"help.admin.update_schema": "Atnaujina duomenų bazės schemą",
 	"help.blacklist": "Įjungia ar vartotojai gali sąveikauti su robotu",
 	"help.cancel": "Atšaukia konfiguracijos procesą",
 	"help.claim": "Priskiria vieną narį prie bilieto",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Sukurtos `Bilietų administracija` ir `Bilietų pagalba` rolės",
 	"setup.auto.transcript.failure": "Man trūksta `Tvarkyti kanalus (Manage Channels)` privilegijų",
 	"setup.auto.transcript.success": "Sukurtas <#%d> kanalas",
-	"setup.category.invalid": "Jūs turite nurodyti [**kanalų kategorijos**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101) pavadinimą\\n**Pavyzdys:** `/konfiguruoti kategorija Bilietai`",
-	"setup.category.success": "Bilietų kanalų kategorija buvo pakeista į `%s`",
-	"setup.info.archive_channel": "Nurodykite, kur norite, kad bilietų log'ai būtų siunčiami uždarius bilietus\\nPavyzdys: `#logai`",
-	"setup.info.auto": "Automatiškai pasirenka parinktis ir sukuria reikiamus kanalus",
-	"setup.info.category": "Parašykite pavadinimą **kanalų kategorijai** kurioje norėtumėte, kad būtu sukurti kanalai",
-	"setup.info.choose": "Pasirinkite parinktį. Jūs galite naudoti `/konfiguruoti` arba `/konfiguruoti auto`, kad greitai užbaigti arba naudokite kitas komandas, kad patikslintumėte nustatymus",
-	"setup.info.dashboard": "Daugiau nustatymu galite rasti [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Apsilankykite mūsų [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels), kad sukurtumėte reakcijos skydelį",
-	"setup.info.prefix": "Pakeičiamas roboto priešdelis (pvz., `t!').\\n**Pavyzdzys:**`/konfiguruoti priesdelis -`",
-	"setup.info.ticket_limit": "Nustato didžiausią bilietų skaičių, kurį **vienas vartotojas** gali atidaryti **vienu metu**.\\n**Pavyzdys:**`/konfiguruoti limitas 3`",
-	"setup.info.transcripts": "Nustato, kur siunčiami kanalo bilietų įrašai.\\n**Pavyzdys:** `/konfiguruoti įrašai #įrašai`",
-	"setup.info.welcome_message": "Įveskite pranešimą, kurį robotas turėtų išsiųsti atidarius bilietą",
-	"setup.prefix.success": "Priešdelis buvo pakeistas į `%s`. Jūs galite naudoti `%satidaryti`, kad atidaryti bilietą",
 	"setup.ticket_limit.success": "Bilietų limitas buvo atnaujintas į `%d`",
 	"setup.transcript.invalid": "Jūs turite nurodyti jau sukurtą kanalą (pvz., <#%d>)\\n**Pavyzdys:** `/konfiguruoti įrašai #įrašai`",
 	"setup.transcript.success": "Įrašų kanalas buvo pakeistas į <#%d>",
-	"setup.welcome_message.invalid": "Pasisveikinimo žinutė turi būti ne ilgesnė nei 1024 simboliai\\n**Pavyzdys:**` /konfiguruoti pasisveikinimas Ačiū, kad sukūrei bilietą!'",
-	"setup.welcome_message.success": "Pasisveikinimo žinutė buvo atnaujinta. Atidarykite bilietą ir pažiūrėkite ar ji pasikeitė",
 	"commands.language.help_wanted": "Ar tu kalbi kita kalba? Prisijunk prie mūsų [pagalbos serverio](https://discord.gg/bh6aAfP) jeigu tau įdomu ir nori mums padėti išversti mūsų robota į daugiau kalbų",
 	"commands.rename.too_long": "Kanalo pavadinimas negali būti ilgesnis nei 100 simbolių",
 	"commands.autoclose.configure": "Apsilankykite mūsų [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings), kad pakeistumėte automatinio uždarymo nustatymus",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Prisijunkite į pagalbos serverį",
 	"commands.open.guild_channel_limit": "Šis serveris pasiekė Discord 500 kanalų limitą",
 	"commands.open.missing_form_answer": "Turite atsakyti į klausimą `%s`",
-	"generic.use_slash_commands": "Įspėjimas: iki rugpjūčio 31 d. PRIVALOTE pereiti prie pasvirusiųjų ( / ) komandų. Po šios datos žinutėmis pagrįstos komandos nustos veikti.",
 	"close.no_permission": "Jūs negalite uždaryti bilieto",
 	"": {
 		"generic.title.close_with_reason": "Uždaryti su priežastimi",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Priežastis kodėl uždarote bilieta, pvz., \"Išspręsta\""
 		},
-		"success": "Šiį bilietą uždarė <@%d>"
+		"success": "Šiį bilietą uždarė <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Serverio kalba buvo pakeista į **%s** (%s)",
 			"select": "Pasirinkite kalbą (%c-%c)"
 		},
-		"interaction_switch": "Nuo <t:1662030000:D> Discord privertė **visus** robotus pereiti prie [ / komandų](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nNorėdami vykdyti pasvirojo brūkšnio ( / ) komandą, paspauskite klaviatūros mygtuką `/` arba spustelėkite čia: %s",
 		"on_call": {
 			"channel_mode": "`/budėjimas` gali būti naudojamas tik gijų režime. Apsilankykite mūsų [docs](https://docs.ticketsbot.net/features/thread-mode), kad rastumėte daugiau informacijos apie gijas",
 			"success": "Dabar jūs esate budėjime",
@@ -316,7 +300,6 @@
 			"docs": "Nori sužinoti daugiau? Mūsų [documentation](https://docs.ticketsbot.net) išmokys tave kaip viską sukonfiguruoti!"
 		},
 		"threads": {
-			"missing_boosts": "Discord reikalauja, kad serveris turėtu [pastiprinimų lygį](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 arba didenį, kad galėtu naudoti privačias gijas",
 			"no_notification_channel": "Turite nurodyti bilietų pranešimų kanalą",
 			"notification_channel_type": "Bilietų pranešimų kanalas privalo būti teksto kanalas",
 			"success": "Gijų rėžimas buvo įjungtas",

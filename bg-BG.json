@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets е лесен за използване и високо-функционален бот. \nСъпорт за него може да откриете тук https://discord.gg/VtV3rSk\nИзползвайте /help за лист с команди\nЗапочнете настройка с /setup",
-	"commands.add.no_channel": "Трябва да поясните тикет канала, в който желаете да добавите конкретните потребители",
 	"commands.add.no_members": "Трябва да споменете членовете, които желаете да добавите",
 	"commands.add.no_permission": "Нямате привилегии да добавяте потребители към този тикет",
-	"commands.add.not_ticket": "Споменатият канал не е тикет",
 	"commands.addadmin.no_members": "Трябва да споменете името на потребителя или името на ролята, на която желаете да дадете админ привилегии",
 	"commands.addadmin.owner": "Собственикът вече е админстратор",
 	"commands.addsupport.no_members": "Трябва да споменете потребителя или името на ролята, на която да дадете привилегията \"Съпорт\"",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Има твърде много тикети в тази категорията. Помолете администратор да затвори няколко или да ги премести в друга категория",
 	"commands.panel": "Посетете <https://dashboard.ticketsbot.net/manage/%d/panels>, за да можете да конфигурирате панела",
 	"commands.premium": "Можете да си закупите премиум абонамент от https://www.patreon.com/ticketsbot\nПремумът Ви дава повече възможности, като: \n- Неограничени тикет панели\n- Възможност да модифицирате името на бота и статуса му (Важи само за Whitelabel) \n- Детайлни статистики за сървъра, потребителите му и елипа му\n- Премахнати имена на бота и икони в съобщенята, които изпраща\n- Подпомагате бъдещото развитие на бота\n\nАко желаете, можете да гласувате за бота на https://vote.ticketsbot.net за да получите безплатен премум за 24 часа",
-	"commands.premium.already_premium": "Този сървър вече има премум, който изтича на %s",
 	"commands.premium.invalid_key": "Неправилен бутон, моля уверете се, че е копиран правилно.",
 	"commands.remove.no_permission": "Нямате привилегии да премахвате потребители от този тикет",
 	"commands.remove.staff": "Не можете да премахнете член на екипа от тикет",
@@ -50,11 +47,9 @@
 	"help.admin": "Управление на бота",
 	"help.admin.blacklist": "Поставяне на забрана даден сървър да използва бота",
 	"help.admin.check_premium": "Проверка на премимум статуса на сървър",
-	"help.admin.force_close": "Задава причината за затварянето на тикетите",
 	"help.admin.generate_premium": "Генерира премиум ключове",
 	"help.admin.get_owner": "Споменава собственика на сървъра",
 	"help.admin.unblacklist": "Премахва сървър от листа със забрани",
-	"help.admin.update_schema": "Обменя схемата на датабазата",
 	"help.blacklist": "Включване / изкючване на възможността хората да комуникират с бота чрез команди",
 	"help.cancel": "Преустановява процеса по настройване",
 	"help.claim": "Добавя един член на екипа към тикета",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Направени са Tickets Admin & Tickets Support роли",
 	"setup.auto.transcript.failure": "Нямам привилегия `Manage Channels`",
 	"setup.auto.transcript.success": "Направен е каналът <#%d>",
-	"setup.category.invalid": "Трябва да зададете име на [**Категория на канали**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\nПример: `/setup category Tickets`",
-	"setup.category.success": "Категорията за билетите е променена на `%s`",
-	"setup.info.archive_channel": "Моля потвърдете, че желаете логовете от тикетите да се изпращат при затварянето им\nПример: `#logs`",
-	"setup.info.auto": "Автоматично избира опции и създава нужните канали",
-	"setup.info.category": "Въведете **името на категорията**, под която желаете да се нареждат тикетите",
-	"setup.info.choose": "Моля изберете опция. Можете да използвате `/setup` или `/setup auto` за автоматична настройка, или използвайте останалите команди за настройка на предпочитания",
-	"setup.info.dashboard": "Повече настройки са достъпни в панела [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Посетете [dashboard](https://dashboard ticketsbot.net/manage/%d/panels), за да създадете повече реакции тикет панели",
-	"setup.info.prefix": "Променя префикс-а (Например t!) на бота. \nПример: /setup prefix -",
-	"setup.info.ticket_limit": "Задава максимален брой тикети, които един потребител може да отвори наведнъж. \nНапример: /setup limit 3",
-	"setup.info.transcripts": "Задава канала за изпращане на тикет логовете\nНапример: /setup transcripts #logs",
-	"setup.info.welcome_message": "Въведете съобщението, което трябва да се изпрати от бота при отваряне на нов тикет",
-	"setup.prefix.success": "Префикс-а беше променен на `%s`. Може да изпозлвате `%sopen`, за да отворите тикет",
 	"setup.ticket_limit.success": "Тикет лимита беше променен на `%d`",
 	"setup.transcript.invalid": "Трябва да споменете валиден канал в сървъра (Пример <#%d>)\nНапример: /setup transcripts #logs",
 	"setup.transcript.success": "Каналът за тикет логове е променен на <#%d>",
-	"setup.welcome_message.invalid": "Съобщенията за \"добре дошли\" не трябва да съдържат повече от 1024 символа \nНапример: /setup welcomemessage Вие успешно отворихите тикет!",
-	"setup.welcome_message.success": "Съобщението за \"добре дошли\" беше променено",
 	"commands.language.help_wanted": "Говорите друг език? Може да посетите дискорда ни https://discord.gg/bh6aAfP ако имате интерес да помогнете в превода на бота на повече езици",
 	"commands.rename.too_long": "Имената на каналите не трябва да са повече от 100 символа",
 	"commands.autoclose.configure": "Посетете [dashboard](https://dashboard ticketsbot.net/manage/%d/panels), за да промените настройките на автоматичното затваряне",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Присъединете се към сървъра за поддръжка",
 	"commands.open.guild_channel_limit": "Този сървър достигна лимита на Discord от 500 канала",
 	"commands.open.missing_form_answer": "Трябва да отговорите на този въпрос `%s`",
-	"generic.use_slash_commands": "Внимание: трябва да преминете към команди с наклонена черта до 30 април. След тази дата командите, базирани на съобщения, ще спрат да работят.",
 	"close.no_permission": "Нямате право да затваряте този билет",
 	"": {
 		"generic.title.close_with_reason": "Затвори с причина",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Причина за затваряне на билета, п.р \"Проблема е решен\""
 		},
-		"success": "Билета беше затворен от <@%d>"
+		"success": "Билета беше затворен от <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Езика на сървъра беше сменен на **%s** (%s)",
 			"select": "Избери език (%c-%c)"
 		},
-		"interaction_switch": "Към <t:1662030000:D> Discord принуди **всички** ботове да преминат към [команди с наклонена черта](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)\n\nЗа да използваш наклонена черта, натисни `/` на клавиатурата си или натисни тук %s",
 		"on_call": {
 			"channel_mode": "`on-call` може да се използва само в теми. Посети нашия [docs] (https://docs.ticketsbot.net/features/thread-mode), за да намериш повече относно темите",
 			"success": "Ти сега говориш ",
@@ -316,7 +300,6 @@
 			"docs": "Искаш да научиш повече? Нашата [documentation] (https://docs.ticketsbot.net), ще ви научи как да конфигурирате всичко възможно на бота!"
 		},
 		"threads": {
-			"missing_boosts": "Дискорд сървъра трябва да има бууст левел [boost level] \n(https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2ро левел или по-висок, за да се използват привейт теми",
 			"no_notification_channel": "Трябва да направиш канал за известия на тикетите",
 			"notification_channel_type": "Канала за известия, трябва да може да се пише в него",
 			"success": "Тема-мода е активиран",

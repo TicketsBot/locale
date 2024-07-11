@@ -1,9 +1,7 @@
 {
 	"commands.about": "تيكت بوت (Tickets) هو بوت للدعم الفني في سيرفرك الديسكورد, حيث يعد سهل الاستخدام وقابل للتخصيص والتعديل بشكل كبير\nتستطيع الدخول إلى سيرفر ديسكورد الدعم الفني الخاص بالبوت: https://discord.gg/VtV3rSk\nلمعرفة جميع الأوامر استخدم كوماند: /help\nولتبدأ بإستخدام البوت استخدم كوماند: /setup",
-	"commands.add.no_channel": "يجب أن تذكر قناة التذكرة لإضافة المستخدم (المستخدمين) إليها",
 	"commands.add.no_members": "تحتاج إلى ذكر الأعضاء لإضافتهم إلى التذكرة",
 	"commands.add.no_permission": "ليس لديك صلاحية لإضافة أشخاص إلى هذه التذكرة",
-	"commands.add.not_ticket": "القناة المذكورة ليست تذكرة",
 	"commands.addadmin.no_members": "عليك ان تذكر اسم المستخدم او اسم الرتبة لمنح امتيازات الاّدمن إلى ",
 	"commands.addadmin.owner": "مالك الخادم هو بالفعل مسؤول",
 	"commands.addsupport.no_members": "عليك ان تذكر اسم المستخدم او اسم رتبة الموظف للحصول على المساعدة",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "هناك عدد كبير من التذاكر في فئة التذاكر هذه. اطلب من الاّدمن إغلاق البعض أو نقلهم إلى فئة أخرى",
 	"commands.panel": "افتح <https://dashboard.ticketsbot.net/manage/%d/panels> لتعديل لوحة",
 	"commands.premium": "للحصول على النسخة المميزة لمدة 24 ساعة <https://vote.ticketsbot.net> ولكن يمكنك التصويت في  \n```\n\n تدعم مطورينا وتدعمنا ماديا \n+ خالي من الاعلانات \n+ ومعلومات دقيقة عن السيرفر والمستخدمين والموظفين (whitelabel)\n+ يمكنك تخصيص اسم البوت والصورة والحالة \n+يمكنك عمل لوحات لتذاكر بشكل لانهائي  \n```diff\n+  :الإشتراك المميز لديه العديد من الخواص ,مثل \n <https://www.patreon.com/ticketsbot> يمكنك شراء اشتراك مميز من ",
-	"commands.premium.already_premium": "%s المالك لديه النسخة الخاصة. تنتهي صلاحيتها في ",
 	"commands.premium.invalid_key": "الرمز غير صالح .الرجاء التأكد من نسخخها بشكل صحيح ",
 	"commands.remove.no_permission": "لا تملك الصلاحية لإزالة أشخاص من هذه التذكرة ",
 	"commands.remove.staff": "لا يمكنك إزالة الموظف من التذكرة",
@@ -50,11 +47,9 @@
 	"help.admin": "إدارة البوت",
 	"help.admin.blacklist": "وضع خادم في القائمة السوداء من استخدام البوت",
 	"help.admin.check_premium": "تحقق من حالة البريميوم للخادم",
-	"help.admin.force_close": "ضبط حالة التذاكر المقدمة الى تذاكر مغلقة",
 	"help.admin.generate_premium": "إنشاء رموز بريميوم",
 	"help.admin.get_owner": "يحصل على مالك الخادم",
 	"help.admin.unblacklist": "إزالة خادم من القائمة السوداء",
-	"help.admin.update_schema": "تحديث هيئة او مخطط قواعد البيانات",
 	"help.blacklist": "تفعيل خاصية السماح للمستخدمين بإستخدام البوت",
 	"help.cancel": "يلغي عملية الإعداد",
 	"help.claim": "إستلام التذكرة من قبل اّدمن واحد فقط",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "تم انشاء أدوار `مشرف التذاكر` & `دعم التذاكر`",
 	"setup.auto.transcript.failure": "انا افتقد إذن \"إدارة القنوات\"",
 	"setup.auto.transcript.success": "تم إنشاء قناة <#%d>",
-	"setup.category.invalid": "يجب عليك كتابة اسم للفئة الرئيسية : [**channel category**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\nمثال : \n/setup category Tickets",
-	"setup.category.success": "تم تغيير فئة قناة التذاكر إلى `%s`",
-	"setup.info.archive_channel": "\n:مثال `#logs` الرجاء تحديد سجلات التذاكر التي تريد أرسالها عندما تغلق التذكرة ",
-	"setup.info.auto": "يحدد تلقائياً الخيارات وينشئ القنوات المطلوبة",
-	"setup.info.category": "اكتب الأسم لفئة القناة التي تحب إنشاء التذاكر فيها ",
-	"setup.info.choose": "قم بإختيار اي خيار, تستطيع استخدام امر /setup او /setup auto للعمل والتفعيل السريع, او استخدام اي امر من الاوامر الاخرى لضبط الاعدادات",
-	"setup.info.dashboard": "تتوفر المزيد من الإعدادات على [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "قم بزيارة [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) لإنشاء لوحات تفاعل",
-	"setup.info.prefix": "تغير بادئة (e.g. `t!`) الخاصة بالبوت. \\n **مثال:** `/setup prefix -`",
-	"setup.info.ticket_limit": "يعين الحد الأقصى لعدد التذاكر التي يمكن فتحها **لمستخدم واحد** **في الوقت ذاته**. \\n**مثال:**`/setup limit 3`",
-	"setup.info.transcripts": "وضع الروم التي يتم ارسال الـ \"Transcript\" الخاص بالتذكرة اليها\\n**مثال** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "اكتب الرسالة التي سوف يرسلها البوت عندما تفتح التذكرة",
-	"setup.prefix.success": "تم تغيير البادئة إلى '%s`. يمكنك استخدام '%sopen` لفتح تذكرة",
 	"setup.ticket_limit.success": "تم تحديث حد التَّذْكِرَة إلى `%d`",
 	"setup.transcript.invalid": "يجب أن تذكر قناة صالحة في الخادم (على سبيل المثال <#%d>)\\n**مثال:** `/setup transcripts #logs`",
 	"setup.transcript.success": "تم تغيير قناة النصوص إلى <#%d>",
-	"setup.welcome_message.invalid": "يجب أن تكون رسائل الترحيب بحد أقصى 1024 حرفاً\\n**مثال:**`/setup Welemessage شكراً لفتح تذكرة!`",
-	"setup.welcome_message.success": "تم تحديث رسالة الترحيب. افتح تذكرة لرؤيتها",
 	"commands.language.help_wanted": "هل تتحدث لغة أخرى؟ انضم إلى [خادم الدعم](https://discord.gg/bh6aAfP) الخاص بنا إذا كنت مهتما بترجمة البوت إلى لغات أكثر",
 	"commands.rename.too_long": "اسماء القنوات لا يمكن ان تكون اطول من 100 حرف",
 	"commands.autoclose.configure": "قم بزيارة [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) لتغيير إعدادات الإغلاق التلقائي",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "الانضمام إلى خادم الدعم",
 	"commands.open.guild_channel_limit": "هذا الخادم وصل إلى حد ديسكورد 500 قناة",
 	"commands.open.missing_form_answer": "يجب عليك الإجابة على السؤال `%s`",
-	"generic.use_slash_commands": "تحذير: يمكنك التبديل إلى أوامر الـ/ بحلول 31 أغسطس. بعد هذا التاريخ، الأوامر المستندة إلى الرسائل ستتوقف عن العمل.",
 	"close.no_permission": "لا يسمح لك بإغلاق هذه التذكرة",
 	"": {
 		"generic.title.close_with_reason": "إغلاق مع سبب",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "سبب إغلاق التذاكرة، على سبيل المثال \"تم الحل\""
 		},
-		"success": "تم إغلاق التذكرة من قبل <@%d>"
+		"success": "تم إغلاق التذكرة من قبل <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "تم تغيير لغة السيرفر الى **%s** (%s)",
 			"select": "اختر لغة (%c-%c)"
 		},
-		"interaction_switch": "بناءا على <t:1662030000:D>, ديسكورد يجبر جميع البوتات الى تحويل الاوامر الى اوامر ([Slash Commands) (https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)\n\nلإستخدام الاوامر الـ (Slash Commands), اضغط على زر `/` على الكيبورد, او اضغط هنا : %s",
 		"on_call": {
 			"channel_mode": "تستطيع استخدام امر `/on-call` فقط في المواضيع (الثريدات), قم بزيادة [docs] (https://docs.ticketsbot.net/features/thread-mode) لإكتشاف المزيد عن المواضيع (الثريدات)",
 			"success": "انت الأن في مكالمة",
@@ -316,7 +300,6 @@
 			"docs": "هل تريد إكتشاف المزيد ؟ [documentation] (https://docs.ticketsbot.net) ستجد بها جميع الشروحات التي تخص اعداد وتشغيل البوت"
 		},
 		"threads": {
-			"missing_boosts": "ديسكورد يتطلب ان يكون لدى السيرفر [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) اثنين بوست او اعلى لإستخدام المواضيع (الثريدات) الخاصة",
 			"no_notification_channel": "يجب عليك توفير قناة إشعار التذكرة",
 			"notification_channel_type": "يجب أن تكون قناة إشعار التذكرة عبارة عن قناة نصية",
 			"success": "تم تفعيل وضع الموضوع",

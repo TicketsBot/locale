@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets est un bot de tickets et de support facile à utiliser et hautement configurable.\\nServeur de support : https://discord.gg/VtV3rSk\\nListe des commandes : Tapez `/help`\\nCommencez en tapant `/setup`",
-	"commands.add.no_channel": "Vous devez préciser un salon de ticket pour y ajouter des utilisateurs",
 	"commands.add.no_members": "Vous devez mentionner des membres à ajouter au ticket",
 	"commands.add.no_permission": "Vous n'avez pas la permission d'ajouter des personnes à ce ticket.",
-	"commands.add.not_ticket": "La salon mentionné n'est pas un ticket",
 	"commands.addadmin.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui attribuer les privilèges d'administrateur",
 	"commands.addadmin.owner": "Le propriétaire du serveur est déjà administrateur",
 	"commands.addsupport.no_members": "Vous devez mentionner un utilisateur ou désigner un rôle pour lui accorder des privilèges de  support",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Il y a trop de tickets dans la catégorie des tickets. Demandez à un administrateur d'en fermer quelques-uns, ou de les déplacer dans une autre catégorie",
 	"commands.panel": "Rendez-vous sur <https://panel.ticketsbot.net/manage/%d/panels> pour configurer un panneau",
 	"commands.premium": "Vous pouvez acheter un abonnement premium depuis le site <https://www.patreon.com/ticketsbot>.\\nLa version premium offre de nombreux avantages tels que :\\n```diff\\n+ La création illimitée de panneaux de tickets\\n+ La personnalisation du nom du bot, de l'avatar et du status (whitelabel)\\n+ L'accès aux statistiques détaillées sur le serveur, les utilisateurs et le support\\n+ L'absence de publicité pour le bot en bas des embeds\\n+ Soutenir le développement du bot et aider à payer les coûts des serveurs\\n```\\n\\nVous pouvez également voter à l'adresse <https://vote.ticketsbot.net> pour obtenir la version premium gratuitement pendant 24 heures",
-	"commands.premium.already_premium": "Ce serveur possède déjà la version premium. Elle expire le %s",
 	"commands.premium.invalid_key": "Clé invalide. Assurez-vous que vous l'avez copiée correctement.",
 	"commands.remove.no_permission": "Vous n'avez pas la permission de retirer des personnes de ce ticket",
 	"commands.remove.staff": "Vous ne pouvez pas retirer un membre du staff d'un ticket",
@@ -50,11 +47,9 @@
 	"help.admin": "Gestion du bot",
 	"help.admin.blacklist": "Met un serveur sur liste noire pour l'empêcher d'utiliser le bot",
 	"help.admin.check_premium": "Vérifie le statut premium d'un serveur",
-	"help.admin.force_close": "Définit l'état des tickets fournis sur fermé",
 	"help.admin.generate_premium": "Génère des clés premium",
 	"help.admin.get_owner": "Permet de connaître le propriétaire d'un serveur",
 	"help.admin.unblacklist": "Supprime un serveur de la liste noire",
-	"help.admin.update_schema": "Met à jour le schéma de la base de données",
 	"help.blacklist": "Contrôle de la permission des utilisateurs d'interagir avec le bot",
 	"help.cancel": "Annule le processus de configuration",
 	"help.claim": "Affecte un seul membre du staff à un ticket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Crée les rôles `Tickets Admin` & `Tickets Support`",
 	"setup.auto.transcript.failure": "Il me manque la permission `Gérer Les Salons`",
 	"setup.auto.transcript.success": "Salon <#%d> créé",
-	"setup.category.invalid": "Vous devez fournir le nom d'une [**catégorie de salons**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exemple :** `/setup category Tickets`",
-	"setup.category.success": "La catégorie de salons de tickets a été changée par `%s`",
-	"setup.info.archive_channel": "Veuillez préciser dans quel salon vous souhaitez que les historiques des tickets soient envoyés après leur fermeture\\nExemple : `#logs`",
-	"setup.info.auto": "Choisit automatiquement les options et crée les salons nécessaires",
-	"setup.info.category": "Définit la catégorie dans laquelle les salons de tickets sont créés.\\n**Exemple :** `t!setup transcripts Support`",
-	"setup.info.choose": "Veuillez choisir une option. Vous pouvez utiliser `/setup` ou `/setup auto` pour mettre en place le bot rapidement ou utiliser les autres commandes pour personnaliser les réglages",
-	"setup.info.dashboard": "Plus de réglages sont disponibles sur le [tableau de bord](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Visitez le [tableau de bord](https://panel.ticketsbot.net/manage/%d/panels) pour créer des panneaux de réaction",
-	"setup.info.prefix": "Change le préfixe (par exemple `t!`) du bot.\\n**Exemple :** `/setup prefix -`",
-	"setup.info.ticket_limit": "Définit le nombre maximum de tickets qu'un **seul utilisateur** peut ouvrir **à la fois**.\\n**Exemple:** `/setup limit 3`",
-	"setup.info.transcripts": "Définit le salon d'envoi des retranscriptions des tickets.\\n**Exemple :** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Tapez le message qui doit être envoyé par le bot lorsqu'un ticket est ouvert",
-	"setup.prefix.success": "Le préfixe a été changé et devient %s. Vous pouvez utiliser `%sopen` pour ouvrir un ticket",
 	"setup.ticket_limit.success": "La limite de tickets a été mise à jour et passe à `%d`",
 	"setup.transcript.invalid": "Vous devez mentionner un salon valide du serveur (par exemple <#%d>)\\n**Exemple :** `/setup transcripts #logs`",
 	"setup.transcript.success": "Le salon de retranscriptions des tickets a été changé par <#%d>",
-	"setup.welcome_message.invalid": "Les messages de bienvenue peuvent comporter 1024 caractères au maximum\\n**Exemple :**`/setup welcomemessage Merci d'avoir ouvert un ticket !`",
-	"setup.welcome_message.success": "Le message de bienvenue a été mis à jour. Ouvrez un ticket pour le voir fonctionner",
 	"commands.language.help_wanted": "Vous parlez une autre langue ? Rejoignez notre [serveur de support](https://discord.gg/bh6aAfP) si vous souhaitez participer à la traduction du bot dans d'autres langues",
 	"commands.rename.too_long": "Le nom du salon ne peut pas excéder 100 caractères",
 	"commands.autoclose.configure": "Visitez le [tableau de bord](https://panel.ticketsbot.net/manage/%d/settings) pour modifier les paramètres de fermeture automatique",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Rejoindre le serveur de support",
 	"commands.open.guild_channel_limit": "Ce serveur a atteint la limite de 500 salons fixée par Discord",
 	"commands.open.missing_form_answer": "Vous devez répondre à la question `%s`",
-	"generic.use_slash_commands": "Attention : Vous DEVEZ passer aux commandes slash avant le 30 avril. Après cette date, les commandes basées sur les messages cesseront de fonctionner.",
 	"close.no_permission": "Vous n'êtes pas autorisé à fermer ce ticket",
 	"": {
 		"generic.title.close_with_reason": "Fermer avec motif",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Motif de la fermeture du ticket, par exemple \"Résolu\""
 		},
-		"success": "Le ticket a été fermé par <@%d>"
+		"success": "Le ticket a été fermé par <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "La langue du serveur a été mise à jour sur **%s** (%s)",
 			"select": "Sélectionnez une langue (%c-%c)"
 		},
-		"interaction_switch": "À partir du <t:1662030000:D>, Discord a obligé **tous** les bots à basculer vers des [commandes slash](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPour exécuter une commande slash, appuyez sur le bouton `/` de votre clavier ou cliquez ici : %s",
 		"on_call": {
 			"channel_mode": "`/on-call` ne peut être utilisé qu'en mode fil de discussion. Visitez notre [documentation](https://docs.ticketsbot.net/features/thread-mode) pour en savoir plus sur les fils de discussion",
 			"success": "Vous êtes maintenant disponible",
@@ -316,7 +300,6 @@
 			"docs": "Vous voulez en explorer davantage ? Notre [documentation](https://docs.ticketsbot.net) vous apprendra à configurer chaque aspect du bot!"
 		},
 		"threads": {
-			"missing_boosts": "Discord nécessite que le serveur ait un [niveau de boost](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) supérieur ou égal à 2 pour utiliser des fils de discussion privés",
 			"no_notification_channel": "Vous devez préciser un salon de notification de tickets",
 			"notification_channel_type": "Le salon de notification de tickets doit être un salon textuel",
 			"success": "Le mode fils de discussion à été activé",

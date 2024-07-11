@@ -1,9 +1,7 @@
 {
 	"commands.about": "Ticket adalah bot tiket dan dukugan yang mudah digunakan dan sangat dikonfigurasi.\\nServer dukungan: https://discord.gg/VtV3rSk\\nPerintah: Ketik `/help`\\nMulai dengan menjalankan `/setup`",
-	"commands.add.no_channel": "Anda perlu menyebutkan saluran tiket untuk menambahkan pengguna",
 	"commands.add.no_members": "Anda perlu menyebutkan anggota untuk ditambahkan ke tiket",
 	"commands.add.no_permission": "Anda tidak memiliki izin untuk menambahkan orang ke tiket ini",
-	"commands.add.not_ticket": "Saluran yang disebutkan bukanlah tiket",
 	"commands.addadmin.no_members": "Anda perlu menyebutkan pengguna atau memberi nama peran untuk memberikan hak istimewa admin",
 	"commands.addadmin.owner": "Pemilik server sudah menjadi administrator",
 	"commands.addsupport.no_members": "Anda perlu menyebutkan pengguna atau menyebutkan peran untuk memberikan hak istimewa kepada perwakilan dukungan",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Anda terlalu banyak tiket di kategori tiket. Minta admin untuk menutup beberapa, memindahkannya ke kategori lain, atau mgrenyiapkan kategori tambahan.\n\nIni adalah **Batas yang diberlakukan Discord** sebanyak 50 saluran per kategori.",
 	"commands.panel": "Kunjungi <https://dashboard.ticketsbot.net/manage/%d/panels> untuk mungonfigurasi panel",
 	"commands.premium": "Anda dapat membeli langganan premium dari <https://www.patreon.com/ticketsbot>.\\nPremium memberikan banyak keuntungan, seperti\\n```diff\\n+Membuat panel tiket tanpa batas\\n+ Sesuaikan nama bot, avatar & status (label putih)\\n+Statistik terperinci tentang server, pengguna, dan staf pendukung\\n+ Tidak ada merek di footer pesan\\n+Mendukung pengembangan dan membantu saya membayar biaya server\\n```\\n\\nAtau, Anda dapat memilih di <https://vote.ticketsbot.net> untuk mendapatkan premium gratis selama 24 jam",
-	"commands.premium.already_premium": "Guild ini sudah memiliki premium. Masa berlakunya habis pada %s",
 	"commands.premium.invalid_key": "Kunci tidak sesuai. Pastikan Anda telah menyalinnya dengan benar.",
 	"commands.remove.no_permission": "Anda tidak memiliki izin untuk menghapus orang dari tiket ini",
 	"commands.remove.staff": "Anda tidak dapat menghapus staf dari ticket",
@@ -50,11 +47,9 @@
 	"help.admin": "Manajemen bot",
 	"help.admin.blacklist": "Daftar hitamkan guild agar tidak menggunakan bot",
 	"help.admin.check_premium": "Periksa status premium server",
-	"help.admin.force_close": "Menyetel status tiket yang disediakan menjadi ditutup",
 	"help.admin.generate_premium": "Hasilkan kunci premium",
 	"help.admin.get_owner": "Mendapatkan pemilik server",
 	"help.admin.unblacklist": "Menghaps guild dari daftar hitam guild",
-	"help.admin.update_schema": "Perbarui skema database",
 	"help.blacklist": "Mengalihkan apakah pengguna diizinkan berinteraksi dengan bot",
 	"help.cancel": "Membatalkan proses pengaturan",
 	"help.claim": "Menguaskan satu anggota staf ke tiket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Membuat peran `Admin Ticket` & `Dukungan Tiket`",
 	"setup.auto.transcript.failure": "Saya kehilangan izin `Kelola Saluran`",
 	"setup.auto.transcript.success": "Membuat saluran <#%d>",
-	"setup.category.invalid": "Anda harus memberikan nama [**kategori saluran**(https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Contoh:**`/setup category Tickets`",
-	"setup.category.success": "Kategori saluran tiket telah diubah menjadi `%s`",
-	"setup.info.archive_channel": "Silakan tentukan tujuan pengiriman log tiket setelah tiket ditutup\\nContoh: `#logs`",
-	"setup.info.auto": "Secara otomatis memilih opsi & membuat saluran yang diperlukan",
-	"setup.info.category": "Ketik **nama** dari **kategori saluran** yang tiketnya ingin Anda buat",
-	"setup.info.choose": "Silakan pilih salah satu opsi. Anda dapat menggunakan `/setup` atau `/setup auto` untuk memulai dan menjalankan dengan cepat, atau menggunakan perintah lain untuk menyempurnakan pengaturan",
-	"setup.info.dashboard": "Pengaturan lebih lanjut tersedia di [dasbor](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Kunjugni [dasbor](https://dashboard.ticketsbot.net/manage/%d/panels) untuk membuat panel reaksi",
-	"setup.info.prefix": "Mengubah awalan (misalnya `t!`) bot.\\n**Contoh:**`/setup prefix -`",
-	"setup.info.ticket_limit": "Menetapkan jumlah maksimum tike yang dapat dibuka oleh **satu pengguna sekaligus**.\\n**Contoh:**`/setup limit 3`",
-	"setup.info.transcripts": "Menetapkan tujuan pengiriman transkrip tiket saluran.\\n**Contoh:`/setup transcripts #logs`",
-	"setup.info.welcome_message": "Ketikkan pesan yang harus dikirimkan oleh bot saat tiket dibuka",
-	"setup.prefix.success": "Awalannya telah diubah menjadi `%s`. Anda dapat menggunakan `%sopen` untuk membuka tiket",
 	"setup.ticket_limit.success": "Batas tiket telah diperbarui menjadi `%d`",
 	"setup.transcript.invalid": "Anda harus menyebutkan saluran valid di server (misalnya <#%d>)\\n**Contoh:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Saluran transkrip telah diubah menjadi <#%d>",
-	"setup.welcome_message.invalid": "Pesan selamat datang harus maksimal 1024 karakter\\n**Contoh:**`/setup welcomemessage Thanks for opening a ticket!`",
-	"setup.welcome_message.success": "Pesan selamat datang telah diperbarui. Buka tiket untuk melihatnya beraksi",
 	"commands.language.help_wanted": "Apakah Anda berbicara bahasa lain? Bergabunglah dengan [server dukungan](https://discord.gg/bh6aAfP) kami jika Anda tertarik membantu menerjemahkan bot ke lebih banyak bahasa",
 	"commands.rename.too_long": "Nama saluran tidak boleh lebih dari 100 karakter",
 	"commands.autoclose.configure": "Kunjungi [dasbor](https://dashboard.ticketsbot.net/manage/%d/settings) untuk mengubah pengaturan tutup otomatis",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Bergabunglah dengan Server Dukungan",
 	"commands.open.guild_channel_limit": "Server ini telah mencapai batas 500 saluran Discord",
 	"commands.open.missing_form_answer": "Anda harus menjawab pertanyaan `%s`",
-	"generic.use_slash_commands": "Peringatan: Anda HARUS beralih ke perintah garis miring paling lambat tanggal 31 Agustus. Setelah tanggal ini, perintah berbasis pesan akan berhenti berfungsi.",
 	"close.no_permission": "Anda tidak diperbolehkan menutup tiket ini",
 	"": {
 		"generic.title.close_with_reason": "Tutup Dengan Alasan",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Alasan penutupan tiket, mis. \"Terselesaikan\""
 		},
-		"success": "Tiket ditutup oleh <@%d>"
+		"success": "Tiket ditutup oleh <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Bahasa server telah diubah menjadi **%s** (%s)",
 			"select": "Pilih bahasa (%c-%c)"
 		},
-		"interaction_switch": "Mulai <t:1662030000:D>, Discord telah memaksa **semua** bot utuk beralih ke [perintah garus miring](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nUntuk menjalankan perintah garis miring, tekan tobol `/` pada keyboard Anda, atau klik di sini: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` hanya dapat digunakan dalam mode thread. Kunjungi [dokumen](https://docs.ticketsbot.net/features/thread-mode) untuk mengetahui lebih lanjut tentang rangkaian pesan",
 			"success": "Anda sekarang sedang dihubungi",
@@ -316,7 +300,6 @@
 			"docs": "Ingin menjelajahi lebih jauh? [Dokumentasi](https://docs.ticketsbot.net) kami akan mengajari Anda cara mengonfigurasi setiap aspek bot!"
 		},
 		"threads": {
-			"missing_boosts": "Discord mengharuskan server memiliki []level peningkatan](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 atau lebih tinggi untuk menggunakan thread pribadi",
 			"no_notification_channel": "Anda harus menyediakan saluran notifikasi tiket",
 			"notification_channel_type": "Saluran notifikasi tiket harus berupa saluran teks",
 			"success": "Mode thread telah diaktifkan",

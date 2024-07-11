@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets 是一個易於使用且幾乎可以完全自定義的問題單機器人\\n支援頻道: https://discord.gg/VtV3rSk\\n指令: 請輸入 `t!help`\\n輸入`t!setup`開始設定吧！",
-	"commands.add.no_channel": "記得標注問題單",
 	"commands.add.no_members": "你必須標註一個人嗄",
 	"commands.add.no_permission": "你沒有權限添加該成員到問題單",
-	"commands.add.not_ticket": "提到的頻道不是問題單",
 	"commands.addadmin.no_members": "您需要提及一個用戶或一個身份組來授予管理員權限",
 	"commands.addadmin.owner": "伺服器創建者本來就有管理員權限咯~",
 	"commands.addsupport.no_members": "您需要提及用戶或命身份組以授予支持代表權限",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "客服單類別中的客服單過多。要求管理員關閉一些，或將它們移到另一個類別，否則將無法開啟\n\n這是 **Discord 的限制**，每個類別最多 50 個頻道。",
 	"commands.panel": "查看 <https://dashboard.ticketsbot.net/manage/%d/panels> 以設定面板",
 	"commands.premium": "您可以從 <https://www.patreon.com/ticketsbot> 購買高級訂閱。\\nPremium 提供許多好處，例如：\\n```diff\\n+ 創建無限制的問題單面板\\n+ 自定義機器人名稱、頭像和狀態\\n+ 關於伺服器、用戶和支持人員的詳細統計\\n+ 沒有品牌顯示\\n+ 支持開發並幫助我支付服務器費用\\n```\\n\\n或者，您可以投票<https://vote.ticketsbot.net> 獲得 24 小時免費高級版",
-	"commands.premium.already_premium": "目前伺服器已經啟用高級方案，將在 %s 過期",
 	"commands.premium.invalid_key": "無效的密鑰。確保您已正確複製它。",
 	"commands.remove.no_permission": "沒有權限踢掉他唷",
 	"commands.remove.staff": "不能移除工作人員",
@@ -50,11 +47,9 @@
 	"help.admin": "機器人管理",
 	"help.admin.blacklist": "將伺服器使用機器人列入黑名單",
 	"help.admin.check_premium": "檢查伺服器是否有開通高級版",
-	"help.admin.force_close": "將所提供問題單的狀態設置為已關閉",
 	"help.admin.generate_premium": "產生高級版代碼",
 	"help.admin.get_owner": "獲取伺服器的擁有者資訊",
 	"help.admin.unblacklist": "將該伺服器從黑名單移除",
-	"help.admin.update_schema": "更新資料庫方案",
 	"help.blacklist": "切換是否允許用戶與機器人互動（表情符號回饋等等）",
 	"help.cancel": "取消設定精靈",
 	"help.claim": "將成員分配到該問題單中",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "創建 `問題單管理者` & `問題單支持者` 的身份組",
 	"setup.auto.transcript.failure": "我沒有 `管理頻道` 的權限唷",
 	"setup.auto.transcript.success": "創建 <#%d> 頻道",
-	"setup.category.invalid": "請提供 [**頻道類別**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**舉例:** `t!setup category Tickets`",
-	"setup.category.success": "問題單類別切換到 `%s`",
-	"setup.info.archive_channel": "請指定您希望在問題單關閉後將問題單日誌發送到哪個頻道\\n例如：`#logs`",
-	"setup.info.auto": "自動選擇選項並創建所需的頻道",
-	"setup.info.category": "輸入您希望在其下創建問題單的 **頻道類別** 的**名稱**",
-	"setup.info.choose": "請選擇一個選項。您可以使用 t!setup 或 t!auto​​ 快速啟動和運行，或使用其他命令微調設置",
-	"setup.info.dashboard": "更多設定可在 [控制面板](https://dashboard.ticketsbot.net) 上使用",
-	"setup.info.panels": "查看 [控制面板](https://dashboard.ticketsbot.net/manage/%d/panels) 以建立反應片坂",
-	"setup.info.prefix": "更改機器人的前綴（例如`t!`）。\\n**舉例：** `t!setup prefix -` 就可以將指令前綴變成 - 咯",
-	"setup.info.ticket_limit": "設置**單個用戶**可以**一次**打開的最大問題單。\\n** 舉例：** `t!setup limit 3`",
-	"setup.info.transcripts": "設置問題單紀錄將發送到哪裡。\\n**舉例：** `t!setup transcripts #logs`",
-	"setup.info.welcome_message": "設定當問題單開啟時的歡迎訊息.\\n** 舉例:** `t!setup welcomemessage 感謝你開啟問題單！`",
-	"setup.prefix.success": "前綴已更改為 `%s`。您可以使用 `%sopen` 來打開問題單",
 	"setup.ticket_limit.success": "問題單限制已經更改為`%d`",
 	"setup.transcript.invalid": "您必須提供伺服器的有效頻道（例如 <#%d>）\\n**Example:** `t!setup transcripts #logs`",
 	"setup.transcript.success": "問題單記錄頻道已更改到 <#%d>",
-	"setup.welcome_message.invalid": "歡迎信息的長度不得超過 1024 個字，太長的話 Discord 會限制長度\\n**舉例：**`t!setup welcomemessage 感謝您打開問題單！`",
-	"setup.welcome_message.success": "歡迎信息已更新。打開問題單以查看其運行情況",
 	"commands.language.help_wanted": "如果你想一起翻譯，就加入 [Ticket Bot 官方群組](https://discord.gg/bh6aAfP) 吧！",
 	"commands.rename.too_long": "頻道名稱不能超過 100 個字啦",
 	"commands.autoclose.configure": "查看 [控制面板](https://dashboard.ticketsbot.net/manage/%d/panels) 以變更自動關閉設定",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "加入官方Discord",
 	"commands.open.guild_channel_limit": "該伺服器已經達到 Discord 限制的 500 個伺服器",
 	"commands.open.missing_form_answer": "請回答 `%s`",
-	"generic.use_slash_commands": "請改用斜線指令，現有文字指令將再 2022.8.31 停止支援",
 	"close.no_permission": "你無法關閉此客服單",
 	"": {
 		"generic.title.close_with_reason": "有原因的關閉客服單",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "為甚麼要關閉這個客服單"
 		},
-		"success": "客服單被 <@%d> 關閉"
+		"success": "客服單被 <@%d> 關閉",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "伺服器語言已更改成 **%s**（%s）",
 			"select": "選擇一個語言（%c-%c）"
 		},
-		"interaction_switch": "截止 <t:1662030000:D>，Discord 強制**所有**機器人切換到 [斜線指令](https://support.discord.com/hc/zh-tw/articles/1500000368501-Slash-Commands-FAQ)\n\n要執行斜線指令，在您的鍵盤上按下 `/` 按鈕或按一下此處：%s",
 		"on_call": {
 			"channel_mode": "`/on-call` 只能在討論串模式中使用，查看我們的 [文件](https://docs.ticketsbot.net/features/thread-mode) 來找到更多關於討論串的資訊",
 			"success": "您現在處於在線狀態",
@@ -316,7 +300,6 @@
 			"docs": "想要進一步了解更多嗎？我們的 [文件](https://docs.ticketsbot.net) 將教您如何設定機器人！"
 		},
 		"threads": {
-			"missing_boosts": "Discord 要求伺服器擁有 2 等以上的 [加成等級](https://support.discord.com/hc/zh-tw/articles/360028038352-伺服器加成常見問題-) 才能使用私人討論串。",
 			"no_notification_channel": "您必須提供一個客服單通知頻道",
 			"notification_channel_type": "客服單通知頻道必須是文字頻道",
 			"success": "討論串模式已啟用",

@@ -1,9 +1,7 @@
 {
 	"commands.about": "A jegyrendszer bot egy könnyen kezelhető és jól konfigurálható jegy és támogató bot.\\nTámogató szerver: https://discord.gg/VtV3rSk\\nParancsok: Írja be a `/help` parancsot\\nKezdje el a `/setup` parancsal",
-	"commands.add.no_channel": "A felhasználók hozzáadásához meg kell adni a csatorna nevét is.",
 	"commands.add.no_members": "Meg kell említenie a tagokat, hogy hozzá lehessen adni a jegyhez.",
 	"commands.add.no_permission": "Nincs engedélye hozzáadni személyeket ehhez a jegyhez.",
-	"commands.add.not_ticket": "Ez a csatorna nem egy jegy.",
 	"commands.addadmin.no_members": "Meg kell említened egy felhasználót vagy meg kell neveznie egy szerepkört, amelyhez adminisztrátori jogosultságokat biztosít.",
 	"commands.addadmin.owner": "A tulajdonos már rendelkezik adminisztrátor jogkörrel",
 	"commands.addsupport.no_members": "Meg kell említened egy felhasználót vagy meg kell neveznie egy szerepkört, amelyhez kisegítői jogosultságokat biztosít.",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Túl sok jegy van a jegykategóriában. Kérjen meg egy rendszergazdát, hogy zárjon be néhányat, vagy helyezzen át egy másik kategóriába.",
 	"commands.panel": "Látogasd meg a <https://dashboard.ticketsbot.net/manage/%d/panels> weboldalt, hogy szerkeszthesd a panelt",
 	"commands.premium": "Prémium előfizetést vásárolhat <https://www.patreon.com/ticketsbot>.\\nA prémium számos előnnyel jár, mint pl:\\n```diff\\n+ Korlátlan jegypanel\\n+ Személyreszabható bot név, kép (whitelabel)\\n+ Részletes statisztikák a szerverről, a felhasználókról és a staffokról\\n+ Lábrészben szereplő vízjel eltávolítása.\\n+ Támogassa a fejlesztést, és segítsen a szerver költségeinek kifizetésében\\n```\\n\\nAlternatív megoldásként szavazhat itt: <https://vote.ticketsbot.net> Szerezz ingyenes prémiumot 24 óráig.",
-	"commands.premium.already_premium": "Ennek a szervernek már prémium előfizetése van. Ekkor jár le: %s",
 	"commands.premium.invalid_key": "Hibás kulcs. Győződjön meg arról, hogy helyesen másolta-e be.",
 	"commands.remove.no_permission": "Nincs jogosúltságod személyek eltávolításához.",
 	"commands.remove.staff": "Staff tagot nem távolíthatsz el.",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot menedzsment.",
 	"help.admin.blacklist": "Csoport feketelistára tétele.",
 	"help.admin.check_premium": "Ellenőrzi a szerver prémium állapotát",
-	"help.admin.force_close": "A jelenlegi jegyek bezárása",
 	"help.admin.generate_premium": "Prémium kulcs generálása",
 	"help.admin.get_owner": "Szerver tulajdonosának beállítása",
 	"help.admin.unblacklist": "Csoport levétele a feketelistáról.",
-	"help.admin.update_schema": "Frissíti az adatbázis sémáját.",
 	"help.blacklist": "Beállítja, hogy a felhasználók interakcióba léphetnek-e a bottal.",
 	"help.cancel": "Törli a beállítási folyamatot",
 	"help.claim": "Adott jegy lefoglalása egy személy részére.",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "`Tickets Admin` & `Tickets Support` jogosúltságok létrehozva.",
 	"setup.auto.transcript.failure": "Hiányzik a `Csatornák kezelése` engedély",
 	"setup.auto.transcript.success": "Létrehozta: <#%d> csatornát",
-	"setup.category.invalid": "Meg kell adnod a [**Kategóriát**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Például:** `/setup category Jegyek`",
-	"setup.category.success": "A jegycsatorna kategóriája `%s`-ra változott",
-	"setup.info.archive_channel": "Kérlek add meg azt a csatornát ahová szeretnéd a naplózást végezni:\\nPéldául: `#logs`",
-	"setup.info.auto": "Autómatikusan kiválasztja az opciókat, létrehozza a csatornákat.",
-	"setup.info.category": "Add meg a **csatornakategória** **nevét** ahová a jegyeket szeretnéd nyitni.",
-	"setup.info.choose": "Válassz egy opcitót. Használhatod a `/setup` vagy a `/setup auto` parancsokat, hogy egyszerűen és gyorsan beállíthasd a botot, vagy használd a többi parancsot a finomhangolásért",
-	"setup.info.dashboard": "Még több beállítás elérhető a [dashboard](https://dashboard.ticketsbot.net) weboldalon",
-	"setup.info.panels": "Látogasd meg a [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) weboldalt reakciópanelek készítéséhez",
-	"setup.info.prefix": "Add meg az előtagot amellyel szeretnéd ha a parancsok kezdődnének\\nEz a prefix a parancs **előttfog szerepelni (A parancsot nem kell bele írni) \\n**Például:** ´/setup prefix -`",
-	"setup.info.ticket_limit": "Beállítja a maximális jegymennyiséget, amelyet **egy felhasználó** **egyszerre** nyithat.\\n**Példa:** `/setup limit 3`",
-	"setup.info.transcripts": "Megváltoztatja a naplózási csatornát.\\n**Például:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Add meg azt az üzenetet amelyet a bot autómatikusan elküld majd a jegy megnyitójának!",
-	"setup.prefix.success": "Az előtag mostantól: `%s`. Így használhatod: `%sopen` egy új jegy megnyitásához.",
 	"setup.ticket_limit.success": "Új jegylimit lett beállítva: `%d`",
 	"setup.transcript.invalid": "Meg kell említened egy létező csatornát a szerveren (pl. <#%d>)\\n**Például:** `/setup transcripts #logs`",
 	"setup.transcript.success": "A naplózásra létrehozott csatorna ez lett: <#%d>",
-	"setup.welcome_message.invalid": "A válasz üzenet maximum 1024 karakter hosszú lehet \\n**Például:**`/setup welcomemessage Köszönjük a jegyed!`",
-	"setup.welcome_message.success": "Sikeresen beállítottad az üdvözlő üzenetet. Nyiss egy jegyet és nézd meg, hogy mi történik",
 	"commands.language.help_wanted": "Más nyelven beszélsz? Csatlakozz a [szerverünkhöz](https://discord.gg/bh6aAfP) ha szeretnél segteni a fordításban",
 	"commands.rename.too_long": "Csatorna nevek nem lehetnek hosszabbak 100 karakternél",
 	"commands.autoclose.configure": "Látogass el a [dashboard](https://panel.ticketsbot.net/manage/%d/settings) weboldalra, hogy megváltoztasd az automata lezárás beállításait",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Csatlakozz szerverünkhöz",
 	"commands.open.guild_channel_limit": "A szerver elérte a Discord 500 csatornás felső határát",
 	"commands.open.missing_form_answer": "Meg kell válaszolnod a kérdést `%s`",
-	"generic.use_slash_commands": "Figyelem: Április 30-al MUSZÁJ váltani /-es parancsokra, mert az üzenet-alapú parancsok támogatása megszűnik.",
 	"close.no_permission": "Nincs jogosultságod lezárni ezt a jegyet",
 	"": {
 		"generic.title.close_with_reason": "Lezárás indokkal",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Lezárás indoka, pl. \"Megoldva\""
 		},
-		"success": "A ticket be lett zárva <@%d> által"
+		"success": "A ticket be lett zárva <@%d> által",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "A szerveren használt nyelvezet átállítva: **%s** (%s)",
 			"select": "Válassz ki egy nyelvet (%c-%c)"
 		},
-		"interaction_switch": "Úgy, ahogy a <t:1662030000:D>, Discord az összes botot megkérdte, hogy váltson át perjeles parancsokra.\n (https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPerjeles parancshoz meg kell nyomnod a `/` gombot a billentyűzeteden, vagy kattints ide: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` csak a thread módban használható. Nézz rá a [docs](https://docs.ticketsbot.net/features/thread-mode), hogy többet tudj meg a threadekről",
 			"success": "Mostantól hívásban vagy",
@@ -316,7 +300,6 @@
 			"docs": "Fel akarsz fedezni többet? A mi [documentation](https://docs.ticketsbot.net) megtanít, hogyan konfiguráld a botot!"
 		},
 		"threads": {
-			"missing_boosts": "A discord követeli hogy legyen [gyorsítás szint](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 vagy annál több hogy használd a privát threadeket",
 			"no_notification_channel": "Muszáj egy ticket értesítési csatornát beállítanod",
 			"notification_channel_type": "A ticket étresítése csatornája csak egy szövegcsatorna lehet",
 			"success": "Thread mód bekapcsolva",

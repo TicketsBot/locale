@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets는 사용하기 쉽고 구성하기 쉬운 티켓 및 지원 봇이에요.\\n지원 서버: https://discord.gg/VtV3rSk\\n명령어 목록을 보려면 `/help`를 입력하세요.\\n`/setup` 명령어로 시작해 보세요.",
-	"commands.add.no_channel": "사용자를 추가하려면 티켓 채널을 멘션해야 해요",
 	"commands.add.no_members": "티켓에 추가하려면 멤버를 멘션해야 해요",
 	"commands.add.no_permission": "티켓에 멤버를 추가할 권한이 없어요",
-	"commands.add.not_ticket": "멘션된 채널은 티켓이 아니에요",
 	"commands.addadmin.no_members": "관리자 권한을 부여하려면 사용자나 역할 이름을 멘션해야 해요",
 	"commands.addadmin.owner": "서버 소유자는 이미 관리자예요",
 	"commands.addsupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 멘션해야 해요",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "티켓 카테고리에 티켓이 너무 많습니다. 관리자에게 일부를 닫거나 다른 카테고리로 이동하도록 요청하세요.",
 	"commands.panel": "",
 	"commands.premium": "프리미엄 구독은 <https://www.patreon.com/ticketsbot>에서 구입할 수 있습니다.\\n프리미엄은 다음과 같은 많은 혜택을 제공합니다.\\n\\n\\```diff\\n+ 무제한 티켓 패널 만들기\\n+ 사용자 및 상태 사용자 지정 봇 이름, 상태(흰색 레이블)\\n+ 서버, 사용자 및 지원 담당자에 대한 자세한 통계\\n+ 지원 개발 메시지 아래에 브랜드 없음 및 서버 비용 지불을 도와드립니다.\\n```\\n\\n<https://vote.ticketsbot.net>에서 24시간 동안 프리미엄 무료 제공받을 수 있습니다.",
-	"commands.premium.already_premium": "이 길드에는 이미 프리미엄이 있습니다. %s에 만료됩니다.",
 	"commands.premium.invalid_key": "잘못된 키입니다. 올바르게 복사했는지 확인해주세요.",
 	"commands.remove.no_permission": "이 티켓에서 사용자를 제거할 수 있는 권한이 없습니다.",
 	"commands.remove.staff": "스태프를 티켓에서 제거할 수 없습니다.",
@@ -50,11 +47,9 @@
 	"help.admin": "봇 관리",
 	"help.admin.blacklist": "봇 사용을 길드에서 차단합니다.",
 	"help.admin.check_premium": "서버의 프리미엄 상태 확인",
-	"help.admin.force_close": "티켓의 상태를 닫힘으로 설정합니다.",
 	"help.admin.generate_premium": "프리미엄 키 생성",
 	"help.admin.get_owner": "서버의 소유자를 가져옵니다.",
 	"help.admin.unblacklist": "길드 블랙리스트에서 길드 제거",
-	"help.admin.update_schema": "데이터베이스 스키마를 업데이트합니다.",
 	"help.blacklist": "사용자가 봇과 상호 작용할 수 있는지 여부를 전환합니다.",
 	"help.cancel": "설정 프로세스를 취소합니다.",
 	"help.claim": "티켓에 직원 한 명 배정",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "`티켓 관리자` 및 `티켓 지원` 역할을 생성했습니다.",
 	"setup.auto.transcript.failure": "`채널 관리`권한이 없습니다.",
 	"setup.auto.transcript.success": "<#%d> 채널을 만들었습니다.",
-	"setup.category.invalid": "[**채널 카테고리**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n의 이름을 제공해야 합니다. **예시:** `/setup category Tickets`",
-	"setup.category.success": "티켓 채널 카테고리가 `%s`로 변경되었습니다.",
-	"setup.info.archive_channel": "티켓이 닫힌 후 보낼 티켓 로그를 지정하십시오.\\n예시: `#logs`",
-	"setup.info.auto": "자동으로 옵션을 선택하고 필요한 채널을 만듭니다.",
-	"setup.info.category": "티켓을 생성할 **채널 카테고리 ***의 **이름**을 입력합니다.",
-	"setup.info.choose": "옵션을 선택하십시오. `/setup` 또는 `/setup auto`를 사용하여 빠르게 실행하거나 다른 명령을 사용하여 설정을 조정할 수 있습니다.",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "봇의 접두사(예: `t!`)를 변경합니다.\\n**예시:** `/setup prefix -`",
-	"setup.info.ticket_limit": "**단일 사용자**가 **동시에 **를 열 수 있는 최대 티켓 양을 설정합니다.\\n**예:** `/setup limit 3`",
-	"setup.info.transcripts": "채널 티켓 기록이 전송되는 대상을 설정합니다.\\n**예:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "티켓이 열려 있을 때 봇이 보내야 하는 메시지 입력",
-	"setup.prefix.success": "접두사가 `%s`로 변경되었습니다. `%sopen`을(를) 사용하여 티켓을 열 수 있습니다.",
 	"setup.ticket_limit.success": "티켓 제한이 `%d`로 업데이트되었습니다.",
 	"setup.transcript.invalid": "서버의 유효한 채널(예: <#%d>)을 멘션해야 합니다.\\n** 예시:** `/setup transcripts #logs`",
 	"setup.transcript.success": "채팅 기록 채널이 <#%d>로 변경되었습니다.",
-	"setup.welcome_message.invalid": "시작 메시지는 최대 1024자여야 합니다.\\n**예:**`/setup welcomemessage 티켓을 열어 주셔서 감사합니다!`",
-	"setup.welcome_message.success": "시작 메시지가 업데이트되었습니다. 작동 중인 티켓을 보려면 티켓을 여십시오.",
 	"commands.language.help_wanted": "당신은 다른 언어를 할 줄 아나요? 봇을 더 많은 언어로 번역하는 데 관심이 있으신 경우 [지원 서버](https://discord.gg/bh6aAfP)에 가입하세요!",
 	"commands.rename.too_long": "채널 이름은 100자를 초과할 수 없습니다.",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "지원 서버 참가",
 	"commands.open.guild_channel_limit": "이 서버는 Discord의 한계인 500채널에 도달했습니다.",
 	"commands.open.missing_form_answer": "질문 `%s`에 답해야 합니다.",
-	"generic.use_slash_commands": "경고: 8월 31일까지 슬래시 커맨드로 전환해야 합니다. 이 날짜 이후 메시지 기반 명령은 작동을 중지합니다.",
 	"close.no_permission": "당신은 이 티켓을 닫을 수 없습니다.",
 	"": {
 		"generic.title.close_with_reason": "사유와 함께 종료",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "티켓을 닫는 이유(예: \"해결됨\")"
 		},
-		"success": "<@%d>님이 티켓을 닫으셨어요."
+		"success": "<@%d>님이 티켓을 닫으셨어요.",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "서버 언어가 **%s**으(로) 변경됐어요 (%s)",
 			"select": "언어를 선택하세요 (%c-%c)"
 		},
-		"interaction_switch": "<t:1662030000:D>부로, Discord가 **모든** 봇에 [빗금 명령어](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands)를 사용하도록 요구해요.\n\n빗금 명령어를 실행하려면, 키보드에 있는 `/` 버튼을 누르시거나 여기를 클릭하세요: %s",
 		"on_call": {
 			"channel_mode": "'/on-call'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](http://https://docs.ticketsbot.net/features/thread-mode) 를 참조해주세요.",
 			"success": "",
@@ -316,7 +300,6 @@
 			"docs": "더 많은 것을 확인하고 싶으신가요? [문서](https://docs.ticketsbot.net)에서 봇의 모든것을 구성하는 방법을 알려드립니다!"
 		},
 		"threads": {
-			"missing_boosts": "",
 			"no_notification_channel": "",
 			"notification_channel_type": "",
 			"success": "",

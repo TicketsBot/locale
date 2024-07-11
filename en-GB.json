@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets is an easy to use and highly configurable ticket and support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nCommands: Type `/help`\\nGet started by running `/setup`",
-	"commands.add.no_channel": "You need to mention a ticket channel to add the user(s) in",
 	"commands.add.no_members": "You need to mention members to add to the ticket",
 	"commands.add.no_permission": "You don't have permission to add people to this ticket",
-	"commands.add.not_ticket": "The mentioned channel is not a ticket",
 	"commands.addadmin.no_members": "You need to mention a user or name a role to grant admin privileges to",
 	"commands.addadmin.owner": "The server owner is already an administrator",
 	"commands.addsupport.no_members": "You need to mention a user or name a role to grant support representative privileges to",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "There are too many tickets in the ticket category. Ask an admin to close some, move them to another category, or setup an overflow category.\n\nThis is a **Discord imposed limit** of 50 channels per category.",
 	"commands.panel": "Visit <https://dashboard.ticketsbot.net/manage/%d/panels> to configure a panel",
 	"commands.premium": "You can purchase a premium subscription from <https://www.patreon.com/ticketsbot>.\\nPremium provides many benefits, such as:\\n```diff\\n+ Create unlimited ticket panels\\n+ Customise bot name, avatar & status (whitelabel)\\n+ Detailed statistics about the server, users and support staff\\n+ No branding in the footer of messages\\n+ Support development and help me pay the server costs\\n```\\n\\nAlternatively, you can vote at <https://vote.ticketsbot.net> to get premium free for 24 hours",
-	"commands.premium.already_premium": "This guild already has premium. It expires on %s",
 	"commands.premium.invalid_key": "Invalid key. Ensure that you have copied it correctly.",
 	"commands.remove.no_permission": "You don't have permission to remove people from this ticket",
 	"commands.remove.staff": "You cannot remove staff from a ticket",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot management",
 	"help.admin.blacklist": "Blacklist a guild from using the bot",
 	"help.admin.check_premium": "Check the premium status of a server",
-	"help.admin.force_close": "Sets the state of the provided tickets to closed",
 	"help.admin.generate_premium": "Generate premium keys",
 	"help.admin.get_owner": "Gets the owner of a server",
 	"help.admin.unblacklist": "Remove a guild from the guild blacklist",
-	"help.admin.update_schema": "Updates the database schema",
 	"help.blacklist": "Toggles whether users are allowed to interact with the bot",
 	"help.cancel": "Cancels the setup process",
 	"help.claim": "Assigns a single staff member to a ticket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Created `Tickets Admin` & `Tickets Support` roles",
 	"setup.auto.transcript.failure": "I am missing the `Manage Channels` permission",
 	"setup.auto.transcript.success": "Created <#%d> channel",
-	"setup.category.invalid": "You must provide the name of a [**channel category**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Example:** `/setup category Tickets`",
-	"setup.category.success": "The ticket channel category has been changed to `%s`",
-	"setup.info.archive_channel": "Please specify you wish ticket logs to be sent to after tickets have been closed\\nExample: `#logs`",
-	"setup.info.auto": "Automatically selects options & creates the required channels",
-	"setup.info.category": "Type the **name** of the **channel category** that you would like tickets to be created under",
-	"setup.info.choose": "Please select an option. You can use `/setup` or `/setup auto` to get up and running quickly, or use the other commands to fine tune settings",
-	"setup.info.dashboard": "More settings are available on the [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Visit the [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) to create reaction panels",
-	"setup.info.prefix": "Changes the prefix (e.g. `t!`) of the bot.\\n**Example:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Sets the maximum amount of tickets a **single user** can open **at once**.\\n**Example:** `/setup limit 3`",
-	"setup.info.transcripts": "Sets the channel ticket transcripts are sent to.\\n**Example:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Type the message that should be sent by the bot when a ticket is opened",
-	"setup.prefix.success": "The prefix has been changed to `%s`. You can use `%sopen` to open a ticket",
 	"setup.ticket_limit.success": "The ticket limit has been updated to `%d`",
 	"setup.transcript.invalid": "You must mention a valid channel in the server (e.g. <#%d>)\\n**Example:** `/setup transcripts #logs`",
 	"setup.transcript.success": "The transcripts channel has been changed to <#%d>",
-	"setup.welcome_message.invalid": "Welcome messages must be a maximum of 1024 characters long\\n**Example:**`/setup welcomemessage Thanks for opening a ticket!`",
-	"setup.welcome_message.success": "The welcome message has been updated. Open a ticket to see it in action",
 	"commands.language.help_wanted": "Do you speak another language? Join our [support server](https://discord.gg/bh6aAfP) if you're interested in helping translating the bot into more languages",
 	"commands.rename.too_long": "Channel names cannot be longer than 100 characters",
 	"commands.autoclose.configure": "Visit the [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) to change autoclose settings",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Join Support Server",
 	"commands.open.guild_channel_limit": "This server has reached Discord's limit of 500 channels",
 	"commands.open.missing_form_answer": "You must answer the question `%s`",
-	"generic.use_slash_commands": "Warning: You MUST switch to slash commands by August 31st. After this date, message-based commands will stop working.",
 	"close.no_permission": "You are not permitted to close this ticket",
 	"": {
 		"generic.title.close_with_reason": "Close With Reason",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Reason for closing the ticket, e.g. \"Resolved\""
 		},
-		"success": "The ticket was closed by <@%d>"
+		"success": "The ticket was closed by <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "You cannot rate this ticket because you are a support representative",
+				"empty": "You cannot rate this ticket because you did not send any messages"
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "The server language has been changed to **%s** (%s)",
 			"select": "Select a language (%c-%c)"
 		},
-		"interaction_switch": "As of <t:1662030000:D>, Discord has forced **all** bots to switch to [slash commands](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\r\n\r\nTo execute a slash command, press the `/` button on your keyboard, or click here: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` can only be used in thread mode. Visit our [docs](https://docs.ticketsbot.net/features/thread-mode) to find out more about threads",
 			"success": "You are now on call",
@@ -316,7 +300,6 @@
 			"docs": "Want to explore more? Our [documentation](https://docs.ticketsbot.net) will teach you how to configure every aspect of the bot!"
 		},
 		"threads": {
-			"missing_boosts": "Discord requires the server to have a [boost level](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) of 2 or higher to use private threads",
 			"no_notification_channel": "You must provide a ticket notification channel",
 			"notification_channel_type": "The ticket notification channel must be a text channel",
 			"success": "Thread mode has been enabled",
