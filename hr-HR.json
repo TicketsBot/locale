@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets su jednostavan za korištenje i visoko podesivi bot za ulaznice i podršku.\n\\nPodržavački server:\nhttps://discord.gg/VtV3rSk\\nnaredbe: upiši `/help`\\nzapočnite sa pokretanjem `/setup`",
-	"commands.add.no_channel": "Morate spomenuti kanal ulaznice za dodavanje korisnika(s) u",
 	"commands.add.no_members": "Morate spomenuti članove koje želite dodati na listu",
 	"commands.add.no_permission": "Nemate dozvolu za dodavanje osoba na ovu kartu",
-	"commands.add.not_ticket": "Spomenuti kanal nije ulaznica",
 	"commands.addadmin.no_members": "Morate spomenuti korisnika ili ime uloge kojoj možete dodijeliti administratorske ovlasti",
 	"commands.addadmin.owner": "Vlasnik servera već je administrator",
 	"commands.addsupport.no_members": "Morate spomenuti korisnika ili imenovati ulogu kojoj ćete dodijeliti privilegije predstavnika podrške",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Previše je ulaznica u kategoriji ticket. Zatražite od administratora da neke zatvori ili da ih premjesti u drugu kategoriju",
 	"commands.panel": "<https://dashboard.ticketsbot.net/manage/%d/panels> Da podesite panel",
 	"commands.premium": "Možete kupiti premium pretplatu od <https://www.patreon.com/ticketsbot>.\\nPremium ti pruža mnoge prednosti kao što su:\\n```diff\\n+ Napraviti beskonačno ticket panela\\n+ prilagoditi bot ime, avatar & status(whitelabel)\\n+ Detaljne statistike o serveru, korisniku i podrška timu\\n+ Nema brendiranja u podnožju poruka\\n+ podržati razvoj i pomoći mi platiti server troškove\\n```\\n\\nAlternativno, možete glasati na <https://vote.ticketsbot.net> da dobijete premium besplatno na 24 sata",
-	"commands.premium.already_premium": "Ovaj ceh već ima premium. Ističe %s",
 	"commands.premium.invalid_key": "Nevaljan ključ. Pobrinite se da ste ga točno kopirali.",
 	"commands.remove.no_permission": "Nemate dozvolu da uklonite osobe iz ovog tiketa",
 	"commands.remove.staff": "Ne može ukloniti radnika iz ovog tiketa",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot management",
 	"help.admin.blacklist": "Blacklist ceh od korištenja bot-a",
 	"help.admin.check_premium": "Provjerite premium status servera",
-	"help.admin.force_close": "Postavlja stanje dostavljenih tiketa na zatvoreno",
 	"help.admin.generate_premium": "Generirajte premium keys",
 	"help.admin.get_owner": "Dobiva vlasnika servera",
 	"help.admin.unblacklist": "Uklonite ceh s crne liste ceha",
-	"help.admin.update_schema": "Ažurira shemu baze podataka",
 	"help.blacklist": "Isključuje je li korisnicima dopuštena interakcija s botom",
 	"help.cancel": "Otkazuje setup proces",
 	"help.claim": "Dodjeljuje jednog radnika tiketu",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Napravio `Tiket Admin` & `Tiket Pomoć` uloge",
 	"setup.auto.transcript.failure": "Nedostaje mi `upravljanje kanalima` dopuštenje",
 	"setup.auto.transcript.success": "Napravio <#%d> kanal",
-	"setup.category.invalid": "Morate navesti ime od [**kategorije kanala**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Primjer:** `/postavite kategoriju tiketa`",
-	"setup.category.success": "Tiket kanal kategorija se promijenila u `%s`",
-	"setup.info.archive_channel": "Navedite želite li da se tiket logovi šalju nakon što se tiketi zatvore\\nPrimjer: `#logovi`",
-	"setup.info.auto": "Automatski bira opciju & stvara potrebne kanale",
-	"setup.info.category": "Napiši **ime** od **kanal kategorije** pod kojim želite da se kreiraju tiketi",
-	"setup.info.choose": "Odaberite opciju. Možete koristiti `/postaviti` ili `/postaviti auto` za brzo pokretanje ili koristiti druge naredbe za fino podešavanje postavki",
-	"setup.info.dashboard": "Više postavki dostupno je na [nadzorna ploča](https://dashboard.ticketsbot.net))",
-	"setup.info.panels": "Posjetite [nadzornu ploču](https://dashboard.ticketsbot.net/manage/%d/panels) da napravite reakcijske panele",
-	"setup.info.prefix": "Promjenite prefix (npr. `t!`) od bota.\\n**Primjer** `/setup prefix -`",
-	"setup.info.ticket_limit": "Postavlja najveći broj tiketa koje **jedan korisnik** može otvoriti **odjednom**.\\n**Primjer:** `/setup limit 3`",
-	"setup.info.transcripts": "Postavlja na koji se kanal šalju transkripti tiketa.\\n**Primjer:** `/setup transkripti #logs`",
-	"setup.info.welcome_message": "Upišite poruku koju bi bot trebao poslati kada se otvori tiket",
-	"setup.prefix.success": "Prefix je promijenjen u `%s`. Možete koristiti `%sotvori` da otvorite tiket",
 	"setup.ticket_limit.success": "Ograničenje karte je ažurirano na `%d`",
 	"setup.transcript.invalid": "Morate spomenuti važeći kanal na serveru (npr. <#%d>)\\n**Primjer:** `/setup transkripti #logs`",
 	"setup.transcript.success": "Kanal za transkripte je promijenjen u <#%d>",
-	"setup.welcome_message.invalid": "Poruke dobrodošlice moraju imati najviše 1024 znaka\\n**Primjer:**`/setup welcomemessage Hvala što ste otvorili kartu!`",
-	"setup.welcome_message.success": "Poruka dobrodošlice je ažurirana. Otvori tiket da bi je vidio u akciji",
 	"commands.language.help_wanted": "Govorite li neki drugi jezik? Pridružite se našem [Serveru za podršku](https://discord.gg/bh6aAfP) ako ste zainteresirani pomoći u prevođenju bota na više jezika",
 	"commands.rename.too_long": "Imena kanala ne mogu biti duža od 100 znakova",
 	"commands.autoclose.configure": "Posjetite [nadzornu ploču](https://dashboard.ticketsbot.net/manage/%d/settings) da promijenite autoclose postavku",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Pridružite se serveru za podršku",
 	"commands.open.guild_channel_limit": "Ovaj server je dosegao ograničenje od 500 kanala",
 	"commands.open.missing_form_answer": "Morate odgovoriti na pitanje `%s`",
-	"generic.use_slash_commands": "Upozorenje: MORATE prijeći na naredbe kose crte do 31. kolovoza. Nakon tog datuma naredbe temeljene na porukama prestat će raditi.",
 	"close.no_permission": "Nemate dozvolu da zatvorite ovaj tiket",
 	"": {
 		"generic.title.close_with_reason": "Zatvori sa razlogom",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Razlog zatvaranja tiketa, npr. \"Riješeno\""
 		},
-		"success": "Tiket je zatvorio <@%d>"
+		"success": "Tiket je zatvorio <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Jezik servera je promijenjen u **%s** (%s)",
 			"select": "Odaberi jezik (%c-%c)"
 		},
-		"interaction_switch": "Od <t:1662030000:D>, Discord je prisilio **sve** botove da prijeđu na [kose naredbe](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nDa biste izvršili naredbu kose crte, pritisnite gumb `/` na tipkovnici ili kliknite ovdje: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` se može koristiti samo u načinu niti. Posjetite naše [dokumente](https://docs.ticketsbot.net/features/thread-mode) da saznate više o nitima",
 			"success": "Sada ste na pozivu",
@@ -316,7 +300,6 @@
 			"docs": "Želite li istražiti više? Naša [dokumentacija](https://docs.ticketsbot.net) će vas naučiti kako konfigurirati svaki aspekt bota!"
 		},
 		"threads": {
-			"missing_boosts": "Discord zahtijeva da poslužitelj ima [razinu pojačanja](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 ili višu za korištenje privatnih niti",
 			"no_notification_channel": "Morate osigurati kanal za obavijest o tiketima",
 			"notification_channel_type": "Kanal obavijesti o tiketima mora biti tekstualni kanal",
 			"success": "Način niti je omogućen",
