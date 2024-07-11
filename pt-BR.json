@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets é um bot de suporte fácil de usar e altamente configurável.\\nServidor de Suporte: https://discord.gg/VtV3rSk\\nComandos: Digite `/help`\\nInicie a configuração com o comando `/setup`",
-	"commands.add.no_channel": "Você precisa mencionar um canal de ticket para adicionar o(s) usuário(s)",
 	"commands.add.no_members": "Você precisa mencionar membros para serem adicionados ao ticket",
 	"commands.add.no_permission": "Você não tem permissão para adicionar usuários neste ticket",
-	"commands.add.not_ticket": "O canal mencionado não é um ticket",
 	"commands.addadmin.no_members": "Você precisa mencionar um usuário ou um cargo para atribuir os privilégios de admin",
 	"commands.addadmin.owner": "O dono do servidor já é um administrador",
 	"commands.addsupport.no_members": "Você precisa mencionar um usuário ou um cargo para atribuir os privilégios de atendente de suporte",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Existem tickets demais na categoria de tickets. Peça pra um admin fechar alguns, ou movê-los para outra categoria",
 	"commands.panel": "",
 	"commands.premium": "Você pode comprar uma assinatura premium subscription em <https://www.patreon.com/ticketsbot>.\\nO premium fornece vários benefícios, como:\\n```diff\\n+ Criar painéis de ticket ilimitados\\n+ Customizar o nome, avatar e status do bot (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, usuários e equipe de suporte\\n+ Sem propaganda no rodapé das mensagens\\n+ Apoia o desenvolvimento e me ajuda a pagar os custos com servidores\\n```\\n\\nAlternativamente, você pode votar em <https://vote.ticketsbot.net> para obter o premium gratuitamente por 24 horas.",
-	"commands.premium.already_premium": "Esta guilda já possui premium. Expira em %s",
 	"commands.premium.invalid_key": "Chave inválida. Certifique-se de que a copiou ela corretamente.",
 	"commands.remove.no_permission": "Você não tem permissão para remover usuários deste ticket",
 	"commands.remove.staff": "Você não pode remover membros da equipe de um ticket",
@@ -50,11 +47,9 @@
 	"help.admin": "Gerenciamento do bot",
 	"help.admin.blacklist": "Bloqueia uma guilda de usar o bot",
 	"help.admin.check_premium": "Verifica o status premium de um servidor",
-	"help.admin.force_close": "Define o estado dos tickets informados como fechado",
 	"help.admin.generate_premium": "Gerar chaves premium",
 	"help.admin.get_owner": "Obtém o dono de um servidor",
 	"help.admin.unblacklist": "Remove uma guilda da lista de bloqueio",
-	"help.admin.update_schema": "Atualiza o schema do banco de dados",
 	"help.blacklist": "Define se os usuários podem interagir com o bot",
 	"help.cancel": "Cancela o processo de configuração",
 	"help.claim": "Atribui um único membro da equipe a um ticket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Cargos `Tickets Admin` & `Tickets Support` criados",
 	"setup.auto.transcript.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
 	"setup.auto.transcript.success": "Canal <#%d> criado",
-	"setup.category.invalid": "Você precisa fornecer o nome de uma [**categoria de canais**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exemplo:** `/setup category Tickets`",
-	"setup.category.success": "A categoria de canais de tickets foi alterada para `%s`",
-	"setup.info.archive_channel": "Por favor especifique o canal para onde você deseja que os registros de tickets sejam enviados após eles serem fechados\\nExemplo: `#logs`",
-	"setup.info.auto": "Seleciona as opções e cria os canais necessários automaticamente",
-	"setup.info.category": "Define a categoria de canais onde os tickets criados ficarão.\\n**Exemplo:** `t!setup transcripts Suporte`",
-	"setup.info.choose": "Favor selecionar uma opção. Você pode usar /setup ou /setup auto para começar rapidamente, ou usar os outros comandos para ajustar as configurações individualmente",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "Muda o prefixo (ex: `t!`) do bot.\\n**Exemplo:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Define a quantidade máxima de tickets que um **único usuário** pode ter aberto **ao mesmo tempo**.\\n**Exemplo:** `/setup limit 3`",
-	"setup.info.transcripts": "Define o canal para onde serão enviados os registros de tickets.\\n**Exemplo:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Define a mensagem enviada aos tickets ao serem abertos.\\n**Exemplo:** `t!setup welcomemessage Obrigado por abrir um ticket!`",
-	"setup.prefix.success": "O prefixo foi alterado para `%s`. Você pode usar `%sopen` para abrir um ticket",
 	"setup.ticket_limit.success": "O limite de tickets foi atualizado para `%d`",
 	"setup.transcript.invalid": "Você precisa mencionar um canal válido no servidor (ex: <#%d>)\\n**Exemplo:** `/setup transcripts #logs`",
 	"setup.transcript.success": "O canal de transcrições foi alterado para <#%d>",
-	"setup.welcome_message.invalid": "Mensagens de boas-vindas precisam ter no máximo 1024 caracteres\\n**Exemplo:**`/setup welcomemessage Obrigado por abrir um ticket!`",
-	"setup.welcome_message.success": "A mensagem de boas-vindas foi atualizada. Abra um ticket para visualizá-la",
 	"commands.language.help_wanted": "Você fala outra língua? Junte-se ao nosso [servidor de suporte](https://discord.gg/bh6aAfP) se você estiver interessado em traduzir o bot para mais idiomas",
 	"commands.rename.too_long": "Nomes de canais não podem ter mais de 100 caracteres",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Junte-se ao servidor de suporte",
 	"commands.open.guild_channel_limit": "Este servidor atingiu o limite de 500 canais do Discord",
 	"commands.open.missing_form_answer": "Você deve responder a pergunta `%s`",
-	"generic.use_slash_commands": "Aviso: você DEVE mudar para comandos de barra até 31 de Agosto. Após esta data, os comandos baseados em mensagens deixarão de funcionar.",
 	"close.no_permission": "Você não tem permissão para fechar este ticket",
 	"": {
 		"generic.title.close_with_reason": "Fechar com Motivo",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Motivo do fechamento do ticket. Por exemplo: \"Resolvido\""
 		},
-		"success": "O ticket foi fechado por <@%d>"
+		"success": "O ticket foi fechado por <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "O idioma do servidor foi alterado para **%s** (%s)",
 			"select": "Selecione um idioma (%c-%c)"
 		},
-		"interaction_switch": "A partir de <t:1662030000:D>, o Discord forçou **todos** os bots a mudar para [comandos de barra](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPara executar um comando de barra, pressione `/` no seu teclado ou clique aqui: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` só pode ser usado no modo thread. Visite o nossa [doc](https://docs.ticketsbot.net/features/thread-mode) para saber mais sobre tópicos",
 			"success": "Você agora está em chamada",
@@ -316,7 +300,6 @@
 			"docs": "Quer explorar mais? Nossa [documentação](https://docs.ticketsbot.net) vai lhe ensinar como configurar todos os aspectos do bot!"
 		},
 		"threads": {
-			"missing_boosts": "O Discord requer que o servidor tenha um [nível de impulssos](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) de 2 ou mais para usar tópicos privados",
 			"no_notification_channel": "Você deve fornecer um canal de notificação de ticket",
 			"notification_channel_type": "O canal de notificação de ticket deve ser um canal de texto",
 			"success": "O modo de tópicos foi ativado",
