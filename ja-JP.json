@@ -1,9 +1,7 @@
 {
 	"commands.about": "Ticketsは使いやすく、高度な設定が可能なチケット＆サポートボットです。\\nサポートサーバー: https://discord.gg/VtV3rSk\\nコマンド一覧: `/help`\\nまずは `/setup` を実行して始めてください。",
-	"commands.add.no_channel": "メンバーを追加するには、チケットチャンネルでメンションする必要があります。",
 	"commands.add.no_members": "チケットにメンバーを追加するにはメンションする必要があります。",
 	"commands.add.no_permission": "このチケットにメンバーを追加する権限がありません。",
-	"commands.add.not_ticket": "メンションされたチャンネルはチケットではありません。",
 	"commands.addadmin.no_members": "管理者権限を付与するには、ユーザーまたはロールを指定する必要があります。",
 	"commands.addadmin.owner": "サーバーの所有者は既に管理者です。",
 	"commands.addsupport.no_members": "サポート担当者権限を付与するには、ユーザーまたはロールを指定する必要があります。",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "チケットカテゴリにチケットが多すぎます。管理者に依頼していくつかのチケットを閉じるか、他のカテゴリに移動してください。",
 	"commands.panel": "パネルの設定は、<https://dashboard.ticketsbot.net/manage/%d/panels>を参照してください。",
 	"commands.premium": "プレミアムサブスクリプションは<https://www.patreon.com/ticketsbot>から購入できます。\\nプレミアムでは、以下のような多くの特典があります。\\n```diff\\n+チケットパネルを無制限に作成可能\\n+ ボット名、アバター、ステータスのカスタマイズが可能（ホワイトラベルのみ）\\n+ サーバー、ユーザー、サポートスタッフに関する詳細な統計情報\\n+ メッセージフッターのブランド名を非表示\\n+ 開発のサポートやサーバーコストの支払いに支払いに当てられます\\n```\\n\\n<https://vote.ticketsbot.net>で投票することにより、プレミアムを24時間無料で入手することもできます",
-	"commands.premium.already_premium": "このサーバーはすでにプレミアムを持っています。有効期限は %sです。",
 	"commands.premium.invalid_key": "無効なキーです。正しくコピーされているか確認してください。",
 	"commands.remove.no_permission": "このチケットから人を削除する権限がありません。",
 	"commands.remove.staff": "チケットからスタッフを削除することはできません。",
@@ -50,11 +47,9 @@
 	"help.admin": "ボットの管理",
 	"help.admin.blacklist": "サーバーをサーバーブラックリストに登録します。",
 	"help.admin.check_premium": "サーバーのプレミアム加入状態を確認します。",
-	"help.admin.force_close": "指定したチケットのステータスをクローズに設定します。",
 	"help.admin.generate_premium": "プレミアムキーを生成します。",
 	"help.admin.get_owner": "サーバーの所有者を取得します。",
 	"help.admin.unblacklist": "サーバーブラックリストからサーバーを削除します。",
-	"help.admin.update_schema": "データベーススキーマを更新します。",
 	"help.blacklist": "ユーザーがボットとやり取りできるかどうかを切り替えます。",
 	"help.cancel": "セットアップをキャンセルします。",
 	"help.claim": "チケットにスタッフを1人割り当てます。",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "`チケット管理者` と `チケットサポート` のロールを作成しました",
 	"setup.auto.transcript.failure": "`チャンネルの管理` 権限がありません。",
 	"setup.auto.transcript.success": "<#%d>チャンネルを作成しました。",
-	"setup.category.invalid": "[**チャンネルカテゴリー**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**例:** `/set category Tickets`",
-	"setup.category.success": "チケットチャネルのカテゴリが`%s `に変更されました",
-	"setup.info.archive_channel": "チケットがクローズされた後に送信されるチケットログを指定してください\\n例: `#logs`",
-	"setup.info.auto": "オプションを自動的に選択し、必要なチャンネルを作成します。",
-	"setup.info.category": "チケットを作成したい**チャンネルカテゴリ**の**名前**を入力してください。",
-	"setup.info.choose": "オプションを選択してください。 `/setup` や `/setup auto` を使って素早く起動するか、他のコマンドを使って設定を微調整することができます。",
-	"setup.info.dashboard": "詳細設定は [dashboard](https://dashboard.ticketsbot.net) でご覧いただけます",
-	"setup.info.panels": "[dashboard](https://dashboard.ticketsbot.net/manage/%d/panel) にアクセスしてリアクションパネルを作成してください。",
-	"setup.info.prefix": "Botのプレフィックス（例：`t!`）を変更します。\\n**例：** `/setup prefix -`",
-	"setup.info.ticket_limit": "**1人のユーザー**が一度に開くことができるチケットの最大数を設定します。\\n**例:** `/setup limit 3`",
-	"setup.info.transcripts": "チケットのトランスクリプトを送信するチャンネルを設定します。\\n**例:** `/set transscripts #logs`",
-	"setup.info.welcome_message": "チケットが開かれたときにボットが送信するメッセージを入力します",
-	"setup.prefix.success": "プレフィックスは`%s`に変更されました。`%sopen`を使用してチケットを開くことができます",
 	"setup.ticket_limit.success": "チケットの上限は `%d ` に更新されました",
 	"setup.transcript.invalid": "サーバで有効なチャンネルをメンションする必要があります（例：<%d>）\\n**例：** `/setup transscripts #logs`",
 	"setup.transcript.success": "トランスクリプトチャンネルが <#%d > に変更されました",
-	"setup.welcome_message.invalid": "ウェルカムメッセージは最大1024文字以下でなければなりません\\n**例:**`/set welcomemessage チケットを開いていただきありがとうございます！`",
-	"setup.welcome_message.success": "ウェルカムメッセージが更新されました。チケットを開いて、実行中に確認してください。",
 	"commands.language.help_wanted": "他の言語を話せますか？もしあなたがボットをより多くの言語に翻訳することに興味があるなら、私たちの[support server](https://discord.gg/bh6aAfP)に参加してください。",
 	"commands.rename.too_long": "チャンネル名を100文字以上にすることはできません。",
 	"commands.autoclose.configure": "[dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) にアクセスして、自動クローズの設定を変更してください。",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "サポートサーバーに参加",
 	"commands.open.guild_channel_limit": "このサーバーはDiscordの500チャンネルの上限に達しました",
 	"commands.open.missing_form_answer": "質問に回答する必要があります`%s`",
-	"generic.use_slash_commands": "警告: 8月31日までにスラッシュコマンドに切り替えなければなりません。この日付以降、メッセージベースのコマンドは機能しなくなります。",
 	"close.no_permission": "このチケットをクローズすることはできません。",
 	"": {
 		"generic.title.close_with_reason": "理由を指定して閉じる",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "チケットを閉じる理由（例：「解決済み」）"
 		},
-		"success": "<@%d> このチケットはによって閉じられました"
+		"success": "<@%d> このチケットはによって閉じられました",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "サーバーの言語が**%s**（%s）に変更されました",
 			"select": "言語を選択 (%c-%c)"
 		},
-		"interaction_switch": "<t:1662030000:D> の時点で、Discord は **すべて** ボットを [スラッシュ コマンド](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands) に強制的に切り替えました。 ）。\n\nスラッシュ コマンドを実行するには、キーボードの「/」ボタンを押すか、ここをクリックしてください: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` はスレッドモードでのみ使用できます。 [ドキュメント](https://docs.ticketsbot.net/features/thread-mode) にアクセスしてスレッドの詳細を確認してください。",
 			"success": "現在通話中です",
@@ -316,7 +300,6 @@
 			"docs": "もっと詳しく知りたいですか？私たちの [ドキュメンテーション](https://docs.ticketsbot.net) は、ボットのあらゆる側面を設定する方法を教えてくれます！"
 		},
 		"threads": {
-			"missing_boosts": "Discordでは、プライベートスレッドを使用するにはサーバーが2以上の[ブーストレベル](https://support.discord.com/hc/en-us/articles/360028028038352-Server-Boosting-FAQ-)を持つ必要があります。",
 			"no_notification_channel": "チケット通知チャンネルを入力してください",
 			"notification_channel_type": "チケット通知チャンネルはテキストチャンネルで指定してください",
 			"success": "スレッドモードが無効になっています",
