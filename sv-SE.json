@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets är en lätt att använda och hög konfigurerbar ticket och support bot.\\nSupport server: https://discord.gg/VtV3rSk\\nKommandon: Skriv `/help`\\nBörja med att skriva `/setup`",
-	"commands.add.no_channel": "Du måste nämna en ticketkanal för att lägga till användare i",
 	"commands.add.no_members": "Du måste nämna medlemmar för att lägga till dem i ärendet",
 	"commands.add.no_permission": "Du har inte behörighet att lägga till personer till den här ticketen",
-	"commands.add.not_ticket": "Den nämnda kanalen är inte en ticket",
 	"commands.addadmin.no_members": "Du måste nämna en användare eller en roll att ge administratörsbehörigheter till",
 	"commands.addadmin.owner": "Serverns ägare är redan administratör",
 	"commands.addsupport.no_members": "Du måste nämna en användare eller en roll att ge support-representativ privilegier till",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Det finns för många tickets i ticketkategorin. Be en administratör att stänga några eller flytta dom till en annan kategori",
 	"commands.panel": "Besök <https://dashboard.ticketsbot.net/manage/%d/panels> för att konfigurera en panel",
 	"commands.premium": "Du kan köpa premium från <https://www.patreon.com/ticketsbot>.\\nPremium ger många fördelar, som:\\n```diff\\n+ Skapa oändligt med ticketpaneler\\n+ Ändra botnamn, avatar & status (whitelabel)\\n+ Detaljerad statistik om servern, användare och support-staff\\n+ Inget märke längst nere på meddelanden\\n+Stöd utveckling och hjälp mig att betala serverkostnaderna\\n```\\n\\nEller så kan du rösta på <https://vote.ticketsbot.net> för att få gratis premium i 24 timmar",
-	"commands.premium.already_premium": "Denna server har redan premium. Den går ut %s",
 	"commands.premium.invalid_key": "Ogiltig nyckel. Se till att du har kopierat det korrekt.",
 	"commands.remove.no_permission": "Du har inte behörighet att ta bort personer från den här ticketen",
 	"commands.remove.staff": "Du kan inte ta bort staff från den här ticketen",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot hantering",
 	"help.admin.blacklist": "Bannlys en server från att använda botten",
 	"help.admin.check_premium": "Kontrollera premiumstatus för en server",
-	"help.admin.force_close": "Stänger de medföljande tickets",
 	"help.admin.generate_premium": "Generera premium nycklar",
 	"help.admin.get_owner": "Visar ägaren av servern",
 	"help.admin.unblacklist": "Ta bort en guild från guild svartlistan",
-	"help.admin.update_schema": "Uppdaterar databasschemat",
 	"help.blacklist": "Växlar om användare får använda botten eller inte",
 	"help.cancel": "Avbryter konfigurationsprocessen",
 	"help.claim": "Tilldelar en enda personal till en ticket",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Skapade `Tickets Admin` & `Tickets Support` roller",
 	"setup.auto.transcript.failure": "Jag saknar behörigheten `Hantera kanaler`",
 	"setup.auto.transcript.success": "Skapade <#%d> kanal",
-	"setup.category.invalid": "Du måste ange namnet på en [**kanal kategori**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exempel:** `/setup category Tickets`",
-	"setup.category.success": "Kategorin för ärendekanalen har ändrats till `%s`",
-	"setup.info.archive_channel": "Vänligen ange var du vill att ärendeloggar ska skickas efter att ärendet har stängts\\nExempel: `#logs`",
-	"setup.info.auto": "Automatiskt väljer alternativ och skapar nödvändiga kanaler",
-	"setup.info.category": "Skriv **namnet** av **kanalkategorin** där du vill att tickets ska skapas under",
-	"setup.info.choose": "Välj ett alternativ. Du kan använda `/setup` eller `/setup auto` för att komma igång snabbt eller använda de andra kommandona för att finjustera inställningar",
-	"setup.info.dashboard": "Flera inställningar är möjliga på [dashboard](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Kolla på [dashboard](https://dashboard.ticketsbot.net/manage/%d/panels) för att skapa reaktions paneler",
-	"setup.info.prefix": "Ändrar prefixet (t.ex. `t!`) för boten.\\n**Exempel:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Anger maximalt antal ärenden som en **enskild användare** kan öppna **på en gång**.\\n**Exempel:** `/setup limit 3`",
-	"setup.info.transcripts": "Anger kanalens ärendeutskrifter skickas till.\\n**Exempel:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Skriv meddelandet som ska skickas av botten när en ticket öppnas",
-	"setup.prefix.success": "Prefixet har ändrats till `%s`. Du kan använda `%sopen` för att öppna ett ärende",
 	"setup.ticket_limit.success": "Ärendegränsen har uppdaterats till `%d`",
 	"setup.transcript.invalid": "Du måste nämna en giltig kanal på servern (t.ex. <#%d>)\\n**Exempel:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Kanalen för utskrifter har ändrats till <#%d>",
-	"setup.welcome_message.invalid": "Välkomstmeddelanden måste vara högst 1024 tecken långa\\n**Exempel:**`/setup welcomemessage Tack för att du har öppnat ett ärende!`",
-	"setup.welcome_message.success": "Välkomstmeddelandet har uppdaterats. Öppna ett ärende för att se det i handling",
 	"commands.language.help_wanted": "Talar du ett annat språk? Gå med i vår [supportserver](https://discord.gg/bh6aAfP) om du är intresserad av att hjälpa till att översätta boten till fler språk",
 	"commands.rename.too_long": "Kanalnamn kan inte vara längre än 100 tecken",
 	"commands.autoclose.configure": "Besök [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) för att byta automatisk stängning inställningar",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Anslut till support servern",
 	"commands.open.guild_channel_limit": "Denna server har nått Discords gräns på 500 kanaler",
 	"commands.open.missing_form_answer": "Du måste svara på frågan `%s`",
-	"generic.use_slash_commands": "Varning: Du MÅSTE byta till snedstreck kommandon senast den 31 augusti. Efter detta datum kommer meddelandebaserade kommandon att sluta fungera.",
 	"close.no_permission": "Du har inte behörighet för att stänga det här ärendet",
 	"": {
 		"generic.title.close_with_reason": "Stäng med anledning",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Anledning till att avsluta ärendet, t.ex. \"Löst\""
 		},
-		"success": "Ärendet avslutades av <@%d>"
+		"success": "Ärendet avslutades av <@%d>",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Serverspråket har ändrats till **%s** (%s)",
 			"select": "Välj ett språk (%c-%c)"
 		},
-		"interaction_switch": "Från och med <t:1662030000:D>har Discord tvingat **alla** robotar att byta till [slash kommandon](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nFör att köra ett snedstreck kommando, tryck på `/`-knappen på tangentbordet, eller klicka här: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` kan endast användas i trådläge. Besök vår [docs](https://docs.ticketsbot.net/features/thread-mode) för att läsa mer om trådar",
 			"success": "Du är nu i samtal",
@@ -316,7 +300,6 @@
 			"docs": "Vill du utforska mer? Vår [documentation](https://docs.ticketsbot.net) lär dig hur du konfigurerar varje aspekt av boten!"
 		},
 		"threads": {
-			"missing_boosts": "Discord kräver att servern har en [boost nivå](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) på 2 eller högre för att använda privata trådar",
 			"no_notification_channel": "Du måste ange en kanal för ärendeavisering",
 			"notification_channel_type": "Anvisningskanalen måste vara en textkanal",
 			"success": "Trådläge har aktiverats",
