@@ -1,9 +1,7 @@
 {
 	"commands.about": "Destek Talebi botu, kullanımı kolay ve neredeyse bütün ayarları istediğiniz gibi düzenleyebileceğiniz bir bottur. \\nYardım sunucusu: https://discord.gg/VtV3rSk \\nKomutlar: Yardım için `/help`\\nKuruluma başlamak için `/setup` yazınız",
-	"commands.add.no_channel": "Talebe kullanıcı(ları) eklemek için talep kanalını etiketlemeniz gerekiyor.",
 	"commands.add.no_members": "Talebe kullanıcı eklemek için kullanıcıyı etiketlemeniz gerekiyor.",
 	"commands.add.no_permission": "Talebe kullanıcı eklemek için izniniz yok.",
-	"commands.add.not_ticket": "Etiketlenen kanal bir talep kanalı değil.",
 	"commands.addadmin.no_members": "Yönetici yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
 	"commands.addadmin.owner": "Sunucu sahibi zaten bir yönetici",
 	"commands.addsupport.no_members": "Destek yetkilerini verebilmek için bir kullanıcı veya rolü etiketlemeniz gerekir.",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Talep kategorisinde çok fazla talep var. Bir yöneticiden bazılarını kapatmasını veya başka bir yere taşımasını isteyin.",
 	"commands.panel": "Bir paneli yapılandırmak için <https://panel.ticketsbot.net/manage/%d/panels> bağlantısını ziyaret edin.",
 	"commands.premium": "<https://www.patreon.com/ticketsbot> bağlantısından premium abonelik satın alabilirsiniz.\nPremium abonelik şu özellikler gibi bir çok özellik sağlar:\n```diff\n+ Sınırsız talep paneli oluşturun.\n+ Botun ismini, avatarını ve durumunu kişiselleştirin (whitelabel)\n+ Sunucu, kullanıcılar ve yetkililer hakkında detaylı istatistikler\n+ Mesajların altında bot bilgisi bulunmaz\n+ Botun gelişimini destekleyin ve sunucu masraflarına katkı sağlayın\n```\n\nAlternatif olarak, <https://vote.ticketsbot.net> bağlantısından oy kullanarak 1 günlük ücretsiz premium ayrıcalıklarına sahip olabilirsin.",
-	"commands.premium.already_premium": "Bu sunucunun zaten premium aboneliği var. %s tarihinde süresi doluyor.",
 	"commands.premium.invalid_key": "Geçersiz anahtar. Doğru bir şekilde kopyaladığınızdan emin olun.",
 	"commands.remove.no_permission": "Talepten kullanıcı çıkarmak için izniniz yok.",
 	"commands.remove.staff": "Talepten yetkilileri çıkaramazsın!",
@@ -50,11 +47,9 @@
 	"help.admin": "Bot yönetimi",
 	"help.admin.blacklist": "Sunucunun botu kullanmasını kara listeye alarak engelle",
 	"help.admin.check_premium": "Sunucunun premium olup olmadığını kontrol et",
-	"help.admin.force_close": "Sağlanan taleplerin durumunu kapalı olarak ayarlar",
 	"help.admin.generate_premium": "Premium anahtarları oluşturur",
 	"help.admin.get_owner": "Bir sunucunun sahibini gösterir",
 	"help.admin.unblacklist": "Bir sunucuyu sunucu kara listesinden çıkarın",
-	"help.admin.update_schema": "Veritabanı şemasını günceller",
 	"help.blacklist": "Kullanıcıların botu kullanmasına izin verilip, verilmediğini değiştirir",
 	"help.cancel": "Kurulum işlemini iptal eder",
 	"help.claim": "Talebi tek bir yetkiliye devreder",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "Bilet yöneticisi ve bilet destek rolleri oluşturuldu",
 	"setup.auto.transcript.failure": "Kanalları yönet yetkisine sahip değil",
 	"setup.auto.transcript.success": "<#%d> adlı kanal oluşturuldu",
-	"setup.category.invalid": "Bir [**Kanal Kategori**] adı belirlemelisiniz. Kanal kategorisi nasıl açılır örnek: (https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101) \\n**Yada kısaca örnek:** `/setup category Tickets` Komutunu kullanabilirsiniz",
-	"setup.category.success": "Bilet kategori kanalı `%s` olarak değiştirildi",
-	"setup.info.archive_channel": "Lütfen talepler kapatıldıktan sonra talep kayıtlarının gönderilmesini istediğiniz kanalı belirtin.\nÖrneğin: `#kayıtlar`",
-	"setup.info.auto": "Seçenekleri otomatik olarak belirler ve gerekli kanalları oluşturur",
-	"setup.info.category": "Talep kanallarının hangi **kanal kategorisi** altında oluşmasını istiyorsanız o kategorinin **adını** belirtin.",
-	"setup.info.choose": "Lütfen bir seçenek belirleyin. Hızlı bir şekilde seçenek belirlemek için `/setup` yada `/setup auto` komutunu kullanabilirsiniz ince ayar için diğer komutları kullanınız",
-	"setup.info.dashboard": "Daha fazla ayar [gösterge paneli](https://dashboard.ticketsbot.net) adresinde mevcuttur",
-	"setup.info.panels": "Reaksiyon panelleri oluşturmak için [gösterge paneli](https://dashboard.ticketsbot.net/manage/%d/panels) adresini ziyaret edin",
-	"setup.info.prefix": "Botun komut ön ekini değiştirmek için `/setup prefix ` komutunu kullanın `/setup prefix -` komutunu kullanırsanız botun ön eki - olur",
-	"setup.info.ticket_limit": "Bir kullanıcının tek seferde açabileceği destek talebi sayısını ayarlamak için: `/setup limit 3` komutunu kullanınız",
-	"setup.info.transcripts": "Destek taleblerinin transcriptlerinin gönderileceği kanalı ayarlar.\\n**Örnek:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Talep açıldığı zaman bot tarafından gönderilmesini istediğiniz mesajı yazın.",
-	"setup.prefix.success": "Komut ön eki `%s` olarak değiştirildi. Bilet açmak için `%sopen` komutunu kullanabilirsiniz",
 	"setup.ticket_limit.success": "Bilet açma sayısı `%d` olarak güncellendi",
 	"setup.transcript.invalid": "Sunucuda geçerli bir kanaldan bahsetmelisiniz (ör. <#%d>)\\n**Örnek:** `/setup transcripts #logs`",
 	"setup.transcript.success": "Transkript kanalı <#%d> olarak güncellendi",
-	"setup.welcome_message.invalid": "Karşılama mesajları maksimum 1024 karakter uzunluğunda olmalıdır. \\n **Örnek** `/setup welcomemessage destek talebi açtığınız için teşekkürler!` Web panelden daha kolay şekilde karşılama mesajınızı düzenleyebilirsiniz",
-	"setup.welcome_message.success": "Karşılama mesajı güncellendi. Yeni karşılama mesajını görmek için destek talebi oluşturun",
 	"commands.language.help_wanted": "Başka bir dil biliyor musun? Botun daha fazla dile çevrilmesine yardımcı olmakla ilgileniyorsanız [destek sunucumuza](https://discord.gg/bh6aAfP) katılın",
 	"commands.rename.too_long": "Kanal isimleri 100 karakterden uzun olamaz",
 	"commands.autoclose.configure": "Otomatik kapatma ayarlarını değiştirmek için [gösterge paneli](https://dashboard.ticketsbot.net/manage/%d/settings) adresini ziyaret edin",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Destek sunucusuna katılın",
 	"commands.open.guild_channel_limit": "Sunucun discordun belirlemiş olduğu maksimum kanal sayısı olan 500'e ulaştı",
 	"commands.open.missing_form_answer": "Önce `%s` sorusuna cevap vermelisiniz",
-	"generic.use_slash_commands": "Uyarı: 31 Ağustos'tan sonra '/' eğik çizgi kullanarak komut yazmalısınız. 31 Ağustos'tan sonra eğik çizgi olmadan komut veremeyeceksiniz.",
 	"close.no_permission": "Bu talebi kapatmak için gereken yetkiye sahip değilsiniz",
 	"": {
 		"generic.title.close_with_reason": "Bileti Nedeniyle Kapat",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Biletin kapanma sebebi: \"Çözüldü\""
 		},
-		"success": "Bilet <@%d> tarafından kapatıldı"
+		"success": "Bilet <@%d> tarafından kapatıldı",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "Sunucu dili **%s** (%s) olarak değiştirildi",
 			"select": "Bir dil seçin (%c-%c)"
 		},
-		"interaction_switch": "<t:1662030000:D> itibariyle, Discord **tüm** botları [slash komutlarına](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands) geçiş yaptı.\n\nBir slash komutu çalıştırmak için klavyenizdeki `/` tuşuna basın veya buraya tıklayın: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` komutu yalnızca alt başlık modunda kullanılabilir. Alt başlıklar hakkında daha fazla bilgi almak için [belgelerimizi](https://docs.ticketsbot.net/features/thread-mode) ziyaret edin",
 			"success": "Şu anda görevdesiniz",
@@ -316,7 +300,6 @@
 			"docs": "Daha fazlasını keşfetmek ister misiniz? [Belgeler](https://docs.ticketsbot.net) size, botun her yönünü nasıl yapılandırılacağını öğretecek!"
 		},
 		"threads": {
-			"missing_boosts": "Discord'da alt başlıkları kullanmak için sunucunun [boost seviyesinin](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) 2 veya daha yüksek olması gerekir",
 			"no_notification_channel": "Bir bilet bildirimi kanalı sağlamalısınız",
 			"notification_channel_type": "Bilet bildirim kanalı, bir metin kanalı olmalıdır",
 			"success": "Alt başlık modu etkinleştirildi",
