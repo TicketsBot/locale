@@ -1,9 +1,7 @@
 {
 	"commands.about": "",
-	"commands.add.no_channel": "",
 	"commands.add.no_members": "",
 	"commands.add.no_permission": "",
-	"commands.add.not_ticket": "",
 	"commands.addadmin.no_members": "",
 	"commands.addadmin.owner": "",
 	"commands.addsupport.no_members": "",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "",
 	"commands.panel": "",
 	"commands.premium": "",
-	"commands.premium.already_premium": "",
 	"commands.premium.invalid_key": "",
 	"commands.remove.no_permission": "",
 	"commands.remove.staff": "",
@@ -50,11 +47,9 @@
 	"help.admin": "",
 	"help.admin.blacklist": "",
 	"help.admin.check_premium": "",
-	"help.admin.force_close": "",
 	"help.admin.generate_premium": "",
 	"help.admin.get_owner": "",
 	"help.admin.unblacklist": "",
-	"help.admin.update_schema": "",
 	"help.blacklist": "",
 	"help.cancel": "",
 	"help.claim": "",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "",
 	"setup.auto.transcript.failure": "",
 	"setup.auto.transcript.success": "",
-	"setup.category.invalid": "",
-	"setup.category.success": "",
-	"setup.info.archive_channel": "",
-	"setup.info.auto": "",
-	"setup.info.category": "",
-	"setup.info.choose": "",
-	"setup.info.dashboard": "",
-	"setup.info.panels": "",
-	"setup.info.prefix": "",
-	"setup.info.ticket_limit": "",
-	"setup.info.transcripts": "",
-	"setup.info.welcome_message": "",
-	"setup.prefix.success": "",
 	"setup.ticket_limit.success": "",
 	"setup.transcript.invalid": "",
 	"setup.transcript.success": "",
-	"setup.welcome_message.invalid": "",
-	"setup.welcome_message.success": "",
 	"commands.language.help_wanted": "",
 	"commands.rename.too_long": "",
 	"commands.autoclose.configure": "",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "",
 	"commands.open.guild_channel_limit": "",
 	"commands.open.missing_form_answer": "",
-	"generic.use_slash_commands": "",
 	"close.no_permission": "",
 	"": {
 		"generic.title.close_with_reason": "",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": ""
 		},
-		"success": ""
+		"success": "",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "",
 			"select": ""
 		},
-		"interaction_switch": "",
 		"on_call": {
 			"channel_mode": "",
 			"success": "",
@@ -316,7 +300,6 @@
 			"docs": ""
 		},
 		"threads": {
-			"missing_boosts": "",
 			"no_notification_channel": "",
 			"notification_channel_type": "",
 			"success": "",
