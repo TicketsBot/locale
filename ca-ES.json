@@ -1,9 +1,7 @@
 {
 	"commands.about": "Tickets és un bot de tiquets i suport fàcil d'utilitzar i altament configurable.\\nServidor de suport: https://discord.gg/VtV3rSk\\nOrdres: Escriu `/help`\\nComença executant `/setup`",
-	"commands.add.no_channel": "Has de mencionar el canal del tiquet on afegir el(s) participant(s)",
 	"commands.add.no_members": "Has de mencionar els membres que vols afegir al tiquet",
 	"commands.add.no_permission": "No tens permís per afegir persones a aquest tiquet",
-	"commands.add.not_ticket": "El canal mencionat no pertany a un tiquet",
 	"commands.addadmin.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'administració",
 	"commands.addadmin.owner": "El propietari del servidor ja és administrador",
 	"commands.addsupport.no_members": "Has de mencionar un usuari o rol per concedir-li privilegis d'equip de suport",
@@ -16,7 +14,6 @@
 	"commands.open.too_many_tickets": "Hi ha massa tiquets en aquesta categoria. Demana a un administrador que en tanqui alguns, els mogui a una altra categoria, o configuri una categoria de sobreeiximent.\n\nHi ha un **límit establert per Discord** de 50 canals per categoria.",
 	"commands.panel": "Visita <https://dashboard.ticketsbot.net/manage/%d/panels> per configurar un panell",
 	"commands.premium": "Pots comprar una subscripció prèmium a <https://www.patreon.com/ticketsbot>.\\nLa subscripció prèmium aporta molts beneficis, com:\\n```diff\\n+ Crear panells de tiquets il·limitats\\n+ Personalitzar el nom, la imatge i l'estat del bot (marca blanca)\\n+ Estadístiques detallades del servidor, usuaris i equip de suport\\n+ Sense informació del bot al peu dels missatges\\n+ Mostrar el teu suport al desenvolupament i ajudar a pagar els costos de servidor\\n```\\n\\nDe forma alternativa, pots votar a <https://vote.ticketsbot.net> per aconseguir 24 hores prèmium gratis",
-	"commands.premium.already_premium": "El servidor ja té prèmium activat. Caduca el %s",
 	"commands.premium.invalid_key": "Codi no vàlid. Assegura't que l'has copiat correctament.",
 	"commands.remove.no_permission": "No tens permís per treure persones d'aquest tiquet",
 	"commands.remove.staff": "No pots treure l'equip de suport d'un tiquet",
@@ -50,11 +47,9 @@
 	"help.admin": "Gestió del bot",
 	"help.admin.blacklist": "Posa un servidor a la llista negra del bot",
 	"help.admin.check_premium": "Comprova l'estat Premium del servidor",
-	"help.admin.force_close": "Estableix els tiquets com a tancats",
 	"help.admin.generate_premium": "Generar codis Premium",
 	"help.admin.get_owner": "Obté el propietari del servidor",
 	"help.admin.unblacklist": "Treu un servidor de la llista negra de servidors",
-	"help.admin.update_schema": "Actualitza l'esquema de la base de dades",
 	"help.blacklist": "Commuta que l'usuari pugui interactuar amb el bot o no",
 	"help.cancel": "Cancel·la el procés de configuració",
 	"help.claim": "Assigna un sol membre de l'equip al tiquet",
@@ -89,24 +84,9 @@
 	"setup.auto.roles.success": "S'ha creat els rols `Tickets Admin` i `Tickets Support`",
 	"setup.auto.transcript.failure": "Trobo a faltar el permís per gestionar canals `Manage Channels`",
 	"setup.auto.transcript.success": "Canal <#%d> creat",
-	"setup.category.invalid": "Has de proporcionar el nom d'una [**categoria de canals**](https://support.discord.com/hc/en-us/articles/115001580171-Channel-Categories-101)\\n**Exemple:**`/setup category Tiquets`",
-	"setup.category.success": "La categoria del tiquet ha canviat a `%s`",
-	"setup.info.archive_channel": "Si us plau, especifica on vols enviar el registre de cada tiquet en tancar-se\\nPer exemple: `#logs`",
-	"setup.info.auto": "Selecciona les opcions automàticament i crea els canals necessaris",
-	"setup.info.category": "Escriu el **nom** de la **categoria de canals** on vols crear els tiquets",
-	"setup.info.choose": "Si us plau, selecciona una opció. Pots utilitzar `/setup` o `/setup auto` per entrar en funcionament de forma ràpida, o utilitzar les altres ordres per ajustar la configuració",
-	"setup.info.dashboard": "Hi ha més configuracions disponibles al [tauler de control](https://dashboard.ticketsbot.net)",
-	"setup.info.panels": "Visita el [tauler de control](https://dashboard.ticketsbot.net/manage/%d/panels) per crear panells per reaccionar",
-	"setup.info.prefix": "Canvia el prefix (p.e. `t!`) del bot.\\n**Exemple:** `/setup prefix -`",
-	"setup.info.ticket_limit": "Estableix el nombre màxim de tiquets que **un sol usuari** pot tenir oberts **a la vegada**.\\n**Exemple:** `/setup limit 3`",
-	"setup.info.transcripts": "Estableix el canal on s'envien les transcripcions dels tiquets.\\n**Exemple:** `/setup transcripts #logs`",
-	"setup.info.welcome_message": "Escriu el missatge que enviarà el bot quan s'obri un nou tiquet",
-	"setup.prefix.success": "El prefix ha canviat a `%s`. Pots utilitzar `%sopen` per obrir un tiquet",
 	"setup.ticket_limit.success": "El límit de tiquets s'ha actualitzat a `%d`",
 	"setup.transcript.invalid": "Has de mencionar un canal vàlid del server (p.e. <#%d>)\\n**Exemple:** `/setup transcripts #logs`",
 	"setup.transcript.success": "El canal de transcripcions s'ha actualitzat a <#%d>",
-	"setup.welcome_message.invalid": "Els missatges de benvinguda no poden tenir més de 1024 caràcters\\n**Exemple:**`/setup welcomemessage Gràcies per obrir un tiquet!`",
-	"setup.welcome_message.success": "El missatge de benvinguda s'ha actualitzat. Obre un tiquet per veure'l en acció",
 	"commands.language.help_wanted": "Parles un altre idioma? Uneix-te al nostre [servidor de suport](https://discord.gg/bh6aAfP) si t'interessa ajudar a traduir el bot a altres idiomes",
 	"commands.rename.too_long": "Els noms dels canals no poden tenir més de 100 caràcters",
 	"commands.autoclose.configure": "Visita el [tauler de control](https://dashboard.ticketsbot.net/manage/%d/settings) per canviar la configuració de tancament automàtic",
@@ -178,7 +158,6 @@
 	"generic.join_support_server": "Unir-se al Servidor de Suport",
 	"commands.open.guild_channel_limit": "El servidor ha arribat al límit de Discord de 500 canals",
 	"commands.open.missing_form_answer": "Has de respondre la pregunta `%s`",
-	"generic.use_slash_commands": "Avís: HAS de canviar a ordres de barra abans del 31 d'agost. A partir d'aquesta data, les ordres tipus missatge deixaran de funcionar.",
 	"close.no_permission": "No se t'ha autoritzat tancar aquest tiquet",
 	"": {
 		"generic.title.close_with_reason": "Tancar amb una Raó",
@@ -188,7 +167,13 @@
 		"reason": {
 			"placeholder": "Raó de tancament del tiquet, p.e. \"Resolt\""
 		},
-		"success": "<@%d> ha tancat el tiquet"
+		"success": "<@%d> ha tancat el tiquet",
+		"rate": {
+			"not_allowed": {
+				"staff": "",
+				"empty": ""
+			}
+		}
 	},
 	"commands": {
 		"open": {
@@ -232,7 +217,6 @@
 			"success": "S'ha canviat l'idioma del servidor a **%s** (%s)",
 			"select": "Selecciona un idioma (%c-%c)"
 		},
-		"interaction_switch": "Des del <t:1662030000:D>, Discord ha obligat a **tots** els bots a canviar a [ordres de barra inclinada](https://support.discord.com/hc/en-us/articles/1500000368501-Slash-Commands).\n\nPer executar una ordre de barra, prem el botó `/` del teu teclat, o clica aquí: %s",
 		"on_call": {
 			"channel_mode": "`/on-call` només es pot utilitzar en el mode fil. Visita la nostra [documentació](https://docs.ticketsbot.net/features/thread-mode) per conèixer més sobre els fils",
 			"success": "Ara estàs disponible",
@@ -316,7 +300,6 @@
 			"docs": "Vols descobrir més? La nostra [documentació](https://docs.ticketsbot.net) t'ensenyarà com configurar cada aspecte del bot!"
 		},
 		"threads": {
-			"missing_boosts": "Per utilitzar tiquets privats, Discord obliga que el [nivell de Boost](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ-) del servidor sigui 2 o superior",
 			"no_notification_channel": "Has de proporcionar un canal de notificació de tiquet",
 			"notification_channel_type": "El canal de notificació de tiquet ha de ser de tipus text",
 			"success": "El mode Fil ha estat activat",
