@@ -170,8 +170,8 @@
 		"success": "El ticket fue cerrado por <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "No puedes calificar este ticket porque eres un representante de soporte",
+				"empty": "No puedes calificar este ticket porque no enviaste ningún mensaje"
 			}
 		}
 	},

@@ -170,7 +170,7 @@
 		"success": "Das Ticket wurde von <@%d> geschlossen",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
+				"staff": "Sie können dieses Ticket nicht bewerten, da Sie ein Support-Mitarbeiter sind",
 				"empty": ""
 			}
 		}

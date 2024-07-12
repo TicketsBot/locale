@@ -170,8 +170,8 @@
 		"success": "Il ticket è stato chiuso da <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "Non puoi votare questo ticket perché sei un rappresentante del supporto",
+				"empty": "Non puoi votare questo ticket perché non hai inviato nessun messaggio"
 			}
 		}
 	},
@@ -267,7 +267,7 @@
 			"created": "Un thread dedicato alle note è stato creato per questo ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "A causa di limitazioni imposte da Discord, i ticket possono essere rinominati solo una volta ogni 10 minuti"
 		}
 	},
 	"generic": {
