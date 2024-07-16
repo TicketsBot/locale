@@ -170,7 +170,7 @@
 		"success": "Il ticket è stato chiuso da <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "Non puoi votare questo ticket perché sei un rappresentante del supporto",
+				"staff": "",
 				"empty": "Non puoi votare questo ticket perché non hai inviato nessun messaggio"
 			}
 		}
