@@ -170,8 +170,8 @@
 		"success": "Zgłoszenie zostało zamknięte przez <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "Nie możesz ocenić tego zgłoszenia, ponieważ jesteś przedstawicielem wsparcia w %s",
+				"empty": "Nie możesz ocenić tego zgłoszenia, ponieważ nie wysłałeś żadnych wiadomości"
 			}
 		}
 	},
