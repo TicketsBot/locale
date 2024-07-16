@@ -170,7 +170,7 @@
 		"success": "Ärendet avslutades av <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "Du kan inte ge feedback på detta ärendet då du är med i support-teamet",
+				"staff": "",
 				"empty": "Du kan inte betygsätta denna ticket eftersom du inte skickade några meddelanden"
 			}
 		}
