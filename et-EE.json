@@ -171,7 +171,7 @@
 		"rate": {
 			"not_allowed": {
 				"staff": "",
-				"empty": ""
+				"empty": "Sa ei saa hinnata seda abipiletit sest sa ei saatnud ühtegi sõnumit"
 			}
 		}
 	},
