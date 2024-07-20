@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Sa oled jõudnud sildi limiidini (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
