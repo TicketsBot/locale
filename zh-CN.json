@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "标签 (%d) 已达到可添加的数量上限"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
