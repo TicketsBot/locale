@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Bạn đã sử dụng hết %d giới hạn gắn thẻ"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
