@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Достигнали сте таг лимитът (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
