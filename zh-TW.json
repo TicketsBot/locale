@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "您達到了標籤限制（%d）"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
