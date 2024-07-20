@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Du har nådd tag grensen (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
