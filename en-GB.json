@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "You have reached the tag limit (%d)"
+			},
+			"get": {
+				"requires_premium": "Premium is required to use custom commands (tag aliases)"
 			}
 		},
 		"language": {
