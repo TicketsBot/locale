@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "태그 제한에 도달했어요 (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {

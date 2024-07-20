@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Ви досягли ліміту міток (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {

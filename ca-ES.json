@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Has arribat al límit d'etiquetes (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {

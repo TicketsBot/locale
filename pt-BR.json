@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Você alcançou o limite de (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {

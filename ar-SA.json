@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "لقد وصلت الحد الاقصى للوسوم (التاغات) : (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {

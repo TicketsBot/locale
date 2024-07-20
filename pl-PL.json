@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "Osiągnąłeś maksymalny limit tagów (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
