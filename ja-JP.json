@@ -210,6 +210,9 @@
 		"tags": {
 			"create": {
 				"limit": "タグの上限に達しました (%d)"
+			},
+			"get": {
+				"requires_premium": ""
 			}
 		},
 		"language": {
