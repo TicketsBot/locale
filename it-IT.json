@@ -170,7 +170,7 @@
 		"success": "Il ticket è stato chiuso da <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
+				"staff": "Non puoi votare questo ticket perché sei un rappresentante del supporto in %s",
 				"empty": "Non puoi votare questo ticket perché non hai inviato nessun messaggio"
 			}
 		}
@@ -212,7 +212,7 @@
 				"limit": "Hai raggiunto il limite di tag (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Per utilizzare i comandi personalizzati (alias dei tag) è richiesto il servizio Premium"
 			}
 		},
 		"language": {
