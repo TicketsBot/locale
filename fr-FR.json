@@ -212,7 +212,7 @@
 				"limit": "Vous avez atteint la limite du nombre de tags (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium est requis pour utiliser des commandes personnalisées (alias de tags)"
 			}
 		},
 		"language": {

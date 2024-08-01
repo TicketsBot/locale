@@ -12,7 +12,7 @@
 	"commands.language.invalid": "언어 코드 또는 플래그를 지정해야 합니다. 사용 가능한 언어:\\n%s",
 	"commands.open.ticket_limit": "한 번에 %d %s만 열 수 있습니다.",
 	"commands.open.too_many_tickets": "티켓 카테고리에 티켓이 너무 많습니다. 관리자에게 일부를 닫거나 다른 카테고리로 이동하도록 요청하세요.",
-	"commands.panel": "",
+	"commands.panel": "<https://dashboard.ticketsbot.net/manage/%d/panels>을 방문해 패널을 구성하세요",
 	"commands.premium": "프리미엄 구독은 <https://www.patreon.com/ticketsbot>에서 구입할 수 있습니다.\\n프리미엄은 다음과 같은 많은 혜택을 제공합니다.\\n\\n\\```diff\\n+ 무제한 티켓 패널 만들기\\n+ 사용자 및 상태 사용자 지정 봇 이름, 상태(흰색 레이블)\\n+ 서버, 사용자 및 지원 담당자에 대한 자세한 통계\\n+ 지원 개발 메시지 아래에 브랜드 없음 및 서버 비용 지불을 도와드립니다.\\n```\\n\\n<https://vote.ticketsbot.net>에서 24시간 동안 프리미엄 무료 제공받을 수 있습니다.",
 	"commands.premium.invalid_key": "잘못된 키입니다. 올바르게 복사했는지 확인해주세요.",
 	"commands.remove.no_permission": "이 티켓에서 사용자를 제거할 수 있는 권한이 없습니다.",
@@ -79,7 +79,7 @@
 	"open.success": "새 티켓을 열었습니다: %s",
 	"setup.auto.category.failure": "`채널 관리`권한이 없습니다.",
 	"setup.auto.category.success": "티켓 카테고리를 만들었습니다.",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "설정이 완료되었습니다! [여기](https://dashboard.ticketsbot.net/manage/%d/panels)를 클릭해 반응 패널을 설정해 보시고, 스태프 멤버를 <@&%d>, <@&%d> 역할에 추가해 보세요",
 	"setup.auto.roles.failure": "`역할 관리` 권한이 없습니다.",
 	"setup.auto.roles.success": "`티켓 관리자` 및 `티켓 지원` 역할을 생성했습니다.",
 	"setup.auto.transcript.failure": "`채널 관리`권한이 없습니다.",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "채팅 기록 채널이 <#%d>로 변경되었습니다.",
 	"commands.language.help_wanted": "당신은 다른 언어를 할 줄 아나요? 봇을 더 많은 언어로 번역하는 데 관심이 있으신 경우 [지원 서버](https://discord.gg/bh6aAfP)에 가입하세요!",
 	"commands.rename.too_long": "채널 이름은 100자를 초과할 수 없습니다.",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "[대시보드](https://dashboard.ticketsbot.net/manage/%d/settings)에 방문해 자동 닫기 설정을 변경하세요",
 	"help.autoclose": "자동 닫기 관련 명령어",
 	"help.autoclose.exclude": "현재 티켓을 자동 닫힘에서 제외합니다.",
 	"help.autoclose.configure": "자동 닫기 관련 설정 편집",
@@ -170,8 +170,8 @@
 		"success": "<@%d>님이 티켓을 닫으셨어요.",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "%s의 지원 담당자이기 때문에 이 티켓을 평가할 수 없습니다",
+				"empty": "아무 메시지도 보내지 않았기 때문에 이 티켓을 평가할 수 없습니다"
 			}
 		}
 	},
@@ -212,7 +212,7 @@
 				"limit": "태그 제한에 도달했어요 (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "사용자 지정 명령어를 사용하려면 프리미엄이 필요합니다(태그 별칭)"
 			}
 		},
 		"language": {
@@ -222,8 +222,8 @@
 		},
 		"on_call": {
 			"channel_mode": "'/on-call'은 스레드 모드에서만 사용할 수 있어요. 스레드에 대한 자세한 내용은 [문서](http://https://docs.ticketsbot.net/features/thread-mode) 를 참조해주세요.",
-			"success": "",
-			"remove_success": ""
+			"success": "대기 중 상태입니다",
+			"remove_success": "대기 중 상태가 아닙니다"
 		},
 		"reopen": {
 			"not_found": "티켓을 찾을 수 없습니다",
@@ -232,64 +232,64 @@
 			"not_thread": "스레드만 다시 열 수 있어요.",
 			"thread_deleted": "티켓이 영구적으로 삭제되었어요.",
 			"success": "티켓 %d가 다시 열렸어요: <#%d>",
-			"in_ticket": ""
+			"in_ticket": "<@%d>님이 이 티켓을 다시 열었습니다"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
-			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
-			"please_wait": "",
-			"success_after_check": "",
-			"link_patreon_account": "",
-			"no_subscription": "",
-			"open_form": "",
-			"open_form_description": "",
-			"use_key_anyway": "",
-			"already_purchased_title": "",
-			"already_purchased_description": "",
-			"giveaway_key": "",
+			"key": "키",
+			"check_again": "다시 확인하세요",
+			"subscription_found": "구독을 찾았습니다!",
+			"subscription_found_content": "이 서버에 구독을 적용하시려면, 서버 소유자(<@%d>)님이 당신을 </addadmin:%d> 명령어를 통해 어드민 **사용자**(역할은 무시됨)로 추가해야 합니다.\\n\\n</viewstaff:%d> 명령어로 어드민 사용자로 추가되었는지 확인할 수 있습니다.",
+			"activate_key": "프리미엄 키 활성화",
+			"checking": "프리미엄 상태 확인 중...",
+			"please_wait": "잠시 기다려 주세요...",
+			"success_after_check": "프리미엄이 이 서버에서 활성화되었습니다!",
+			"link_patreon_account": "Patreon 계정 연동",
+			"no_subscription": "Discord 계정과 연결된 활성 Patreon 구독을 찾지 못했습니다. [Patreon과 Discord 계정을 연동했는지](https://support.patreon.com/hc/en-us/articles/212052266-Get-my-Discord-role) 다시 확인해 주세요. 그리고, 10분 정도를 기다려 주세요.",
+			"open_form": "양식 열기",
+			"open_form_description": "양식을 다시 열려면 아래 버튼을 누르세요",
+			"use_key_anyway": "그래도 프리미엄 키 사용하기",
+			"already_purchased_title": "이미 프리미엄을 구매하셨나요?",
+			"already_purchased_description": "이미 프리미엄을 구매하셨다면, 드롭다운에서 결제 수단을 선택해 시작해 보세요",
+			"giveaway_key": "나눔 키",
 			"selector": {
-				"description": "",
+				"description": "어떤 방식으로 프리미엄을 획득할지 선택하세요",
 				"key": {
-					"description": ""
+					"description": "나눔 키를 받았다면 이 옵션을 선택하세요"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Patreon에서 구매했다면 이 옵션을 선택하세요"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"about": "프리미엄은 더 많은 패널, 통계, 사용자 지정 봇 등을 줍니다! 저희의 [웹 사이트](https://ticketsbot.net/premium)에 방문해 자세히 알아보세요.",
+			"already_activated": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.",
+			"already_activated_whitelabel": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.\n\n흰색 레이블 시작에 도움이 필요하시다면, [저희의 흰색 레이블 설정 가이드]\n(https://docs.ticketsbot.net/premium/whitelabel-setup-guide)를 읽어보세요."
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "이미 존재하는 노트 스레드에 추가되었습니다: <#%d>",
+			"thread_name": "노트",
+			"created": "이 티켓용 노트 스레드가 생성되었습니다: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Discord의 제한으로 인해, 티켓은 10분마다 이름을 변경할 수 있습니다"
 		}
 	},
 	"generic": {
 		"title": {
 			"panel_switched": "티켓 패널 전환됨",
 			"jump_to_top": "위로 올라가기",
-			"reopened": "",
-			"ticket_closed": ""
+			"reopened": "티켓이 다시 열림",
+			"ticket_closed": "티켓이 닫힘"
 		},
 		"click_here": "여기를 클릭",
 		"confirm": "확인",
-		"website": ""
+		"website": "웹 사이트"
 	},
 	"help": {
 		"switch_panel": "티켓을 다른 티켓 패널로 전환하여 카테고리, 지원 팀 등을 변경합니다.",
 		"jump_to_top": "티켓 맨 위로 이동할 수 있는 버튼을 제공합니다.",
-		"on_call": "",
-		"reopen": "",
-		"notes": ""
+		"on_call": "대기 중 상태로 표시합니다. 모든 신규 티켓에서 추가 및 핑될 수 있습니다",
+		"reopen": "이전에 닫힌 티켓을 다시 엽니다",
+		"notes": "지원 담당자 간의 비공개 논의용 스레드를 생성합니다"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -303,36 +303,36 @@
 			"docs": "더 많은 것을 확인하고 싶으신가요? [문서](https://docs.ticketsbot.net)에서 봇의 모든것을 구성하는 방법을 알려드립니다!"
 		},
 		"threads": {
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"no_notification_channel": "티켓 알림 채널을 제공해야 합니다",
+			"notification_channel_type": "티켓 알림 채널은 텍스트 채널이어야 합니다",
+			"success": "스레드 모드를 사용합니다",
+			"disabled": "스레드 모드를 사용하지 않습니다"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "티켓이 이미 닫혔습니다",
+			"no_permission": "이 유형의 티켓을 볼 권한이 없습니다",
+			"already_joined": "이미 이 티켓에 참여했습니다(<#%d>)",
+			"success": "당신을 티켓에 추가했습니다: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"thread_in_announcement_channel": "스레드는 공지 채널에서 생성할 수 없습니다",
+		"panel_force_disabled": "패널이 사용 중지되었습니다. 서버 어드민에게 프리미엄을 다시 활성화해달라고 요청해 주세요. 그리고 이 패널을 다시 사용하려면 %s 명령어를 실행하세요",
+		"panel_disabled": "서버 어드민이 이 유형의 티켓을 열지 못하도록 했습니다",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "모든 역할이 이 유형의 티켓에 접근하지 못하도록 했습니다",
+			"deny_listed": "<@&%d> 역할이 있기 때문에 이 유형의 티켓을 열 수 없습니다",
 			"not_allow_listed": {
-				"multiple": "",
+				"multiple": "이 유형의 티켓을 열려면 다음 중 하나의 역할이 필요합니다: %s",
 				"single": "이 유형의 티켓을 열려면 %s 역할이 필요해요."
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "노트 스레드는 채널 모드에서만 지원됩니다"
 		}
 	}
 }
