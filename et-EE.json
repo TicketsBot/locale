@@ -212,7 +212,7 @@
 				"limit": "Sa oled jõudnud sildi limiidini (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium on vajalik et kasutada kohandatud käske (siltide aliased)"
 			}
 		},
 		"language": {
