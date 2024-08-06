@@ -22,6 +22,7 @@ jobs:
           
     - name: Automatically Merge Pull Request
       uses: sudo-bot/action-pull-request-merge@v1.1.0
+      if: ${{ github.event.pull_request.user.login == 'TicketsBot-Locale' }}
       with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           number: ${{ github.event.pull_request.number }}
