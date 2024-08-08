@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Het `/open` commando is uitgeschakeld in deze server: gebruik een ticketpaneel om een ticket te openen",
 			"threads": {
-				"cant_see_parent_channel": "Kon <@%d> niet toevoegen aan de ticket: Zorg ervoor dat ze toestemming hebben om het hoofdkanaal van het gesprek te bekijken (<#%d>)"
+				"cant_see_parent_channel": "Kon <@%d> niet toevoegen aan de ticket: Zorg ervoor dat ze toestemming hebben om het hoofdkanaal van het gesprek te bekijken (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
