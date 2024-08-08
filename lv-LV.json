@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
