@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Kommandoen `/open` er deaktiveret på denne server: Brug venligst et ticketpanel til at åbne en ticket",
 			"threads": {
-				"cant_see_parent_channel": "Kunne ikke tilføje <@%d> til ticketen: Sørg for, at de har tilladelse til at se trådens overordnede kanal (<#%d>)"
+				"cant_see_parent_channel": "Kunne ikke tilføje <@%d> til ticketen: Sørg for, at de har tilladelse til at se trådens overordnede kanal (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
