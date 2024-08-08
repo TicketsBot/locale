@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Naredba `/open` je onemogućena na ovom serveru: molimo koristite ploču s tiketima za otvaranje tiketa",
 			"threads": {
-				"cant_see_parent_channel": "Nije moguće dodati <@%d> u tiket: Provjerite ima li dopuštenje za pregled nadređenog kanala niti (<#%d>)"
+				"cant_see_parent_channel": "Nije moguće dodati <@%d> u tiket: Provjerite ima li dopuštenje za pregled nadređenog kanala niti (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Il comando `/open` è disattivato in questo server: si prega di utilizzare un pannello ticket per aprire un ticket",
 			"threads": {
-				"cant_see_parent_channel": "Impossibile aggiungere <@%d> al ticket: assicurati che abbiano i permessi per visualizzare il canale in cui è stato creato il thread (<#%d>)"
+				"cant_see_parent_channel": "Impossibile aggiungere <@%d> al ticket: assicurati che abbiano i permessi per visualizzare il canale in cui è stato creato il thread (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Lệnh '/open' đã bị tắt trong máy chủ này, hãy sử dụng bảng tạo phiếu hỗ trợ để mở",
 			"threads": {
-				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)"
+				"cant_see_parent_channel": "Không thể thêm <@%d> vào phiếu hỗ trợ: Hãy chắc chắn họ có quyền để xem kênh chứa chủ đề (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

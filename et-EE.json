@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "`/open` käsk on välja lülitatud selles serveris: palun kasuta abipileti paneeli et abipiletit avada",
 			"threads": {
-				"cant_see_parent_channel": "Ei saanud lisada <@%d> abipiletisse: Kinnitage et neil on luba vaadata threadi alguskanalit (<#%d>)"
+				"cant_see_parent_channel": "Ei saanud lisada <@%d> abipiletisse: Kinnitage et neil on luba vaadata threadi alguskanalit (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

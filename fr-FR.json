@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "La commande `/open` est désactivée sur ce serveur : veuillez utiliser un panneau de tickets pour ouvrir un ticket",
 			"threads": {
-				"cant_see_parent_channel": "Impossible d'ajouter <@%d> au ticket: Assurez-vous que cet utilisateur a la permission de voir le salon parent du fil de discussion (<#%d>)"
+				"cant_see_parent_channel": "Impossible d'ajouter <@%d> au ticket: Assurez-vous que cet utilisateur a la permission de voir le salon parent du fil de discussion (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

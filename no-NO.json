@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "`/open` kommandoen er deaktivert i denne serveren: Vennligst bruk ticket panelet for å åpne en ticket",
 			"threads": {
-				"cant_see_parent_channel": ""
+				"cant_see_parent_channel": "",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

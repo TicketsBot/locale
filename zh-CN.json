@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "此服务器已禁用 `/open` 命令：请使用工单面板来开启工单",
 			"threads": {
-				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)"
+				"cant_see_parent_channel": "无法添加 <@%d> 到工单：确保他们有权限查看线程的主频道 (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

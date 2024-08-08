@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Príkaz `/open` je na tomto serveri vypnutý: na otvorenie tiketu použite panel",
 			"threads": {
-				"cant_see_parent_channel": "Do ticketu sa nepodarilo pridať <@%d>: Uistite sa, že má oprávnenie na zobrazenie nadradeného vlákna v kanály (<#%d>)"
+				"cant_see_parent_channel": "Do ticketu sa nepodarilo pridať <@%d>: Uistite sa, že má oprávnenie na zobrazenie nadradeného vlákna v kanály (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

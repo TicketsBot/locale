@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Comanda `/open` este dezactivată în acest server: te rugăm să folosești un panou de tichete pentru a deschide un tichet",
 			"threads": {
-				"cant_see_parent_channel": "Nu s-a putut adăuga <@%d> în tichet: Asigură-te că au permisiunea de a vedea canalul părinte al threadului (<#%d>)"
+				"cant_see_parent_channel": "Nu s-a putut adăuga <@%d> în tichet: Asigură-te că au permisiunea de a vedea canalul părinte al threadului (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Perintah `/open` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
 			"threads": {
-				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)"
+				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {

@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
 			"threads": {
-				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요."
+				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요.",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
