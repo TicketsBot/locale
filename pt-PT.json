@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "O comando `/open` está desativado neste servidor: por favor, usa um painel de bilhete para abrir um bilhete",
 			"threads": {
-				"cant_see_parent_channel": "Não foi possível adicionar <@%d> a este bilhete: Assegura-te que ele/a tem permissão para ver o canal principal do tópico (<#%d>)"
+				"cant_see_parent_channel": "Não foi possível adicionar <@%d> a este bilhete: Assegura-te que ele/a tem permissão para ver o canal principal do tópico (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
