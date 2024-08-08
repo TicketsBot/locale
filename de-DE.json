@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
 			"threads": {
-				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass die Person Rechte hat, den Hauptchannel (<#%d>) des Threads zu sehen"
+				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass die Person Rechte hat, den Hauptchannel (<#%d>) des Threads zu sehen",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
