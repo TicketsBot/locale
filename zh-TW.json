@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "/open 指令已經在這伺服器取消使用了唷",
 			"threads": {
-				"cant_see_parent_channel": "不能將 <@%d> 增加至客服單：請確保他們有權限查看討論串的父頻道（<#%d>）"
+				"cant_see_parent_channel": "不能將 <@%d> 增加至客服單：請確保他們有權限查看討論串的父頻道（<#%d>）",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
