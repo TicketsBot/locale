@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Bu sunucuda `/open` komutu devre dışı: lütfen bilet açmak için bir bilet paneli kullanın",
 			"threads": {
-				"cant_see_parent_channel": "Bilete <@%d> eklenemedi: Konunun ana kanalını (<#%d>) görüntüleme iznine sahip olduklarından emin olun"
+				"cant_see_parent_channel": "Bilete <@%d> eklenemedi: Konunun ana kanalını (<#%d>) görüntüleme iznine sahip olduklarından emin olun",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
