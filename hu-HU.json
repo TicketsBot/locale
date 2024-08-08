@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Az `/open` parancs ki van kapcsolva ezen a szerveren: kérlek, használd a jegy panelt egy jegy nyitásához",
 			"threads": {
-				"cant_see_parent_channel": "Nem tudtam hozzáadni <@%d> felhasználót a tickethez. Győződj meg arról, hogy van joga a csatornákat megtekinteni (<#%d>)"
+				"cant_see_parent_channel": "Nem tudtam hozzáadni <@%d> felhasználót a tickethez. Győződj meg arról, hogy van joga a csatornákat megtekinteni (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
