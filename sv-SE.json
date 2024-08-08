@@ -179,7 +179,8 @@
 		"open": {
 			"disabled": "Kommandot `/open` är inaktiverat i denna server: använd ärendepanelen för att öppna ett ärende",
 			"threads": {
-				"cant_see_parent_channel": "Kunde inte lägga till <@%d> till ärendet: Se till att de har behörighet att visa trådens överordnade kanal (<#%d>)"
+				"cant_see_parent_channel": "Kunde inte lägga till <@%d> till ärendet: Se till att de har behörighet att visa trådens överordnade kanal (<#%d>)",
+				"cant_message_in_threads": ""
 			}
 		},
 		"switch_panel": {
