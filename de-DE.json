@@ -180,7 +180,7 @@
 			"disabled": "Der `/open` Befehl ist auf diesem Server deaktiviert: Bitte benutze ein Ticket-Panel, um ein Ticket zu öffnen",
 			"threads": {
 				"cant_see_parent_channel": "<@%d> konnte nicht zum Ticket hinzugefügt werden: Stelle sicher, dass die Person Rechte hat, den Hauptchannel (<#%d>) des Threads zu sehen",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Dir fehlt die Berechtigung `Nachrichten in Threads senden`, die benötigt wird, um ein Ticket zu öffnen. Bitte frag einen Serveradministrator, dir diese Berechtigung zu erteilen und versuch es erneut."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Sie haben das Tag Limit erreicht (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium wird benötigt, um benutzerdefinierte Befehle zu nutzen (Tag-Alias)"
 			}
 		},
 		"language": {

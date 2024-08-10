@@ -180,7 +180,7 @@
 			"disabled": "Komenda `/open` jest wyłączona na tym serwerze: użyj panelu zgłoszeń, by otworzyć zgłoszenie",
 			"threads": {
 				"cant_see_parent_channel": "Nie można dodać <@%d> do zgłoszenia: Upewnij się, że użytkownik ma uprawnienia do przeglądania kanału nadrzędnego wątku (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Brakuje Ci uprawnienia `Wysyłanie wiadomości w wątkach`, które jest wymagane do otwarcia zgłoszenia. Poproś administratora serwera o przyznanie Ci tego uprawnienia i spróbuj ponownie."
 			}
 		},
 		"switch_panel": {
