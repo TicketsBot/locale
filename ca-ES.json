@@ -170,8 +170,8 @@
 		"success": "<@%d> ha tancat el tiquet",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "No pots qualificar aquest tiquet perquè pertanys a l'equip de suport de %s",
+				"empty": "No pots qualificar aquest tiquet perquè no hi has enviat cap missatge"
 			}
 		}
 	},
@@ -213,7 +213,7 @@
 				"limit": "Has arribat al límit d'etiquetes (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "No pots utilitzar ordres personalitzades (àlies d'etiquetes) sense subscripció Premium"
 			}
 		},
 		"language": {
