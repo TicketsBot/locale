@@ -170,7 +170,7 @@
 		"success": "Abipileti sulges <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
+				"staff": "Sa ei saa seda abipiletit hinnata sest sa oled abi andja selles kohas: %s",
 				"empty": "Sa ei saa hinnata seda abipiletit sest sa ei saatnud ühtegi sõnumit"
 			}
 		}
@@ -180,7 +180,7 @@
 			"disabled": "`/open` käsk on välja lülitatud selles serveris: palun kasuta abipileti paneeli et abipiletit avada",
 			"threads": {
 				"cant_see_parent_channel": "Ei saanud lisada <@%d> abipiletisse: Kinnitage et neil on luba vaadata threadi alguskanalit (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Sul puudub `Kirjade Saatmine Threadides` luba, mis on vajalik abipileti avamiseks. Palun küsi serveri adminstraatorilt et nad sulle selle loa annaks, siis proovi uuesti."
 			}
 		},
 		"switch_panel": {
