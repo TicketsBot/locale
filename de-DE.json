@@ -2,7 +2,7 @@
 	"commands.about": "Tickets ist ein Ticket und Support Bot, der einfach zu benutzen ist und sehr viele Konfigurationsmöglichkeiten bietet.\\nSupport Server: https://discord.gg/VtV3rSk\\nBefehle: Siehe `/help`\\nLeg los, indem Du `/setup` benutzt",
 	"commands.add.no_members": "Du mußt Benutzer erwähnen, um sie zum Ticket hinzuzufügen",
 	"commands.add.no_permission": "Du hast keine Berechtigung, um Benutzer zu diesem Ticket hinzuzufügen",
-	"commands.addadmin.no_members": "Du mußt einen Benutzer bzw. einie Rollen erwähnen, um ihnen Administratorenberechtigungen zu erteilen",
+	"commands.addadmin.no_members": "Du musst einen Benutzer bzw. eine Rolle erwähnen, um ihnen Administratorberechtigungen zu erteilen",
 	"commands.addadmin.owner": "Der Serverbesitzer ist bereits ein Administrator",
 	"commands.addsupport.no_members": "Du mußt Benutzer bzw. Rollen erwähnen, um sie als Support-Mitarbeiter hinzuzufügen",
 	"commands.blacklist.no_members": "Du mußt einen Benutzer erwähnen, um ihn von der Blacklist zu löschen oder zur Blacklist hinzuzufügen",
@@ -170,8 +170,8 @@
 		"success": "Das Ticket wurde von <@%d> geschlossen",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "Du kannst dieses Ticket nicht bewerten, weil du ein Support-Mitarbeiter in %s bist",
+				"empty": "Du kannst dieses Ticket nicht bewerten, weil du keine Nachrichten gesendet hast"
 			}
 		}
 	},
