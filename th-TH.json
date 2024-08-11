@@ -1,5 +1,5 @@
 {
-	"commands.about": "ตั๋วเป็นตั๋วที่ใช้งานง่ายและกำหนดค่าได้สูง และบอทสนับสนุน\\nเซิร์ฟเวอร์สนับสนุน: https://discord.gg/VtV3rSk\\nคำสั่ง: พิมพ์ `/help`\\nเริ่มต้นใช้งานโดยเรียกใช้ `/setup'",
+	"commands.about": "Tickets เป็นบอทสนับสนุน (Support Bot) ที่ใช้งานง่ายและปรับแต่งได้สูง\\nSupport server: https://discord.gg/VtV3rSk\\nเรียกดูคำสั่ง : พิมพ์ `/help`\\nเริ่มต้นใช้งาน : พิมพ์ `/setup`",
 	"commands.add.no_members": "คุณต้องระบุสมาชิกเพื่อเพิ่มลงในตั๋ว",
 	"commands.add.no_permission": "คุณไม่ได้รับสิทธิให้เพิ่มบุคคลในตั๋วนี้",
 	"commands.addadmin.no_members": "คุณต้องระบุผู้ใช้ หรือ ระบุบทบาทเพื่อให้สิทธิ์ผู้ดูแล",
