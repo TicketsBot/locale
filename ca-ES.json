@@ -180,7 +180,7 @@
 			"disabled": "L'ordre `/open` s'ha deshabilitat en aquest servidor: si us plau, utilitza un panell per obrir un tiquet",
 			"threads": {
 				"cant_see_parent_channel": "No s'ha pogut afegir <@%d> al tiquet: Assegura't que tinc permís per veure el canal pare (<#%d>) del fil",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Et falta el permís `Enviar Missatges en Fils`, necessari per obrir un tiquet. Si us plau, demana a l'administrador que activi el permís, i prova-ho un altre cop."
 			}
 		},
 		"switch_panel": {
