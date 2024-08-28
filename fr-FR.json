@@ -124,7 +124,7 @@
 	"generic.title.claim": "Réclamer",
 	"generic.title.blacklisted": "Bloqué",
 	"generic.title.blacklist": "Liste noire",
-	"generic.error.blacklisted": "Vous êtes sur liste noire de ce serveur",
+	"generic.error.blacklisted": "Vous êtes sur la liste noire de ce serveur",
 	"commands.blacklist.add.success": "<@%d> a été ajouté à la liste noire",
 	"commands.blacklist.remove.success": "<@%d> a été retiré de la liste noire",
 	"generic.title.add_admin": "Administrateur ajouté",
