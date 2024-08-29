@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Selectează această opțiune dacă ai făcut achiziția pe Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium îți oferă acces la mai multe panouri, statistici, un bot personalizat și multe altele! Vizitează-ne [site-ul web](https://ticketsbot.net/premium) pentru a afla mai multe.",
 			"already_activated": "Vești bune! Premium este deja activ pe acest server.",
-			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Ai fost adăugat într-un thread cu notițe existent: <#%d>",
