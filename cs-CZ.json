@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Vyberte tuto možnost, pokud jste provedli nákup na Patreonu"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium vám umožní přístup k více panelům, statistikám, vlastnímu botovi a dalšímu! Navštivte naši [website](https://ticketsbot.net/premium), abyste se dozvěděli více.",
 			"already_activated": "Super! Premium je na tomto serveru už aktivováno.",
-			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Super! Premium je na tomto serveru už aktivováno.\n\nPokud potřebujete další pomoc při nastavení whitelabelů, přečtěte si naší [dokumentaci o whitelabelech](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Byl/a jsi přidán/a do již existujícího vlákna <#%d>",
