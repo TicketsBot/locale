@@ -278,6 +278,14 @@
 		},
 		"rename": {
 			"ratelimited": "Vì một số giới hạn của Discord, phiếu hỗ trợ chỉ có thể đổi tên 2 lần mỗi 10 phút"
+		},
+		"vote": {
+			"with_credits": "",
+			"redeem_credits": "",
+			"no_credits": "",
+			"redeem": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
