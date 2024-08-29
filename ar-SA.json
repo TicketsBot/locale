@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "قم بإختيار هذا الخيار فيه حال قم بالشراء من خلال باتريون"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "البريموم يعطيك الصلاحية للمزيد من اللوحات والاحصائيات , وبوت خاص بك , والمزيد!\nقم بزيارة الموقع الإلكتروني الخاص بنا (https://ticketsbot.net/premium) لإكتشاف المزيد",
 			"already_activated": "أخبار جيدة! بريميوم نشط بالفعل في هذا الخادم.",
-			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "أخبار سارّة! تم بالفعل تفعيل البريميوم لهذا السيرفر\n\nللحصول على مساعدة في البدء بالتخصيص, قم بقراءة [الدليل الخاص بنا لاستخدام التخصيص](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "لقد تم اضافتك الى موضوع الملاحظات الحالية: <#%d>",
