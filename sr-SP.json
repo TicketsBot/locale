@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Изаберите ову опцију ако сте купили Патреон"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Премија ти даје приступ више панела, статистике, робот по наруџби и више! Посетите нас да сазнате више. [website](https://ticketsbot.net/premium).",
 			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"already_activated_whitelabel": "",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "",
