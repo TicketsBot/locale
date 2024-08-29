@@ -280,11 +280,14 @@
 			"ratelimited": "Karena batasan yang diberlakukan oleh Discord, tiket hanya dapat diganti dua kali setiap 10 menit"
 		},
 		"vote": {
-			"with_credits": "",
 			"redeem_credits": "",
 			"no_credits": "",
 			"redeem": {
 				"success": ""
+			},
+			"with_credits": {
+				"plural": "",
+				"singular": ""
 			}
 		}
 	},
