@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Välj det här alternativet om du gjorde ditt köp på Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium ger dig tillgång till fler paneler, statistik, en anpassad bot och mer! Besök vår [website](https://ticketsbot.net/premium) för att ta reda på mer.",
 			"already_activated": "Goda nyheter! Premium är redan aktiv på denna server.",
-			"already_activated_whitelabel": "Goda nyheter! Premium är redan aktiv på denna server.\n\nFör att komma igång med whitelabel, läs [vår whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Goda nyheter! Premium är redan aktiv på denna server.\n\nFör att komma igång med whitelabel, läs [vår whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Du har lagts till den befintliga tråden: <#%d>",
