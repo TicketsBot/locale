@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "如果您在 Patreon 上購買，請選擇此選項"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium 可以讓您存取更多的面板、統計、自訂機器人等功能！請訪問我們的 [網站](https://ticketsbot.net/premium) 以了解更多資訊。",
 			"already_activated": "好消息！Premium 已在此伺服器啟用。",
-			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)。"
+			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)。",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "你已被加入到現有的註釋串中：<#%d>",
