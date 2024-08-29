@@ -280,11 +280,14 @@
 			"ratelimited": "Vzhledem k omezením společnosti Discord lze tickety přejmenovat pouze dvakrát za 10 minut."
 		},
 		"vote": {
-			"with_credits": "",
 			"redeem_credits": "",
 			"no_credits": "",
 			"redeem": {
 				"success": ""
+			},
+			"with_credits": {
+				"plural": "",
+				"singular": ""
 			}
 		}
 	},
