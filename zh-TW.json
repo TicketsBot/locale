@@ -280,11 +280,14 @@
 			"ratelimited": "由於 Discord 的限制，客服單每 10 分鐘只能重新命名兩次。"
 		},
 		"vote": {
-			"with_credits": "",
 			"redeem_credits": "",
 			"no_credits": "",
 			"redeem": {
 				"success": ""
+			},
+			"with_credits": {
+				"plural": "",
+				"singular": ""
 			}
 		}
 	},
