@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Pilih opsi ini jika Anda melakukan pembelian dari Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium memberi Anda akses ke lebih banyak panel, statistik, bot khusu, dan banyak lagi! Kunjungi [situs web](https://ticketsbot.net/premium) untuk mengetahui lebih lanjut.",
 			"already_activated": "Kabar bait! Premium sudah aktif di server ini.",
-			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Anda telah ditambahkan ke rangkaian catatan yang ada: <#%d>",
