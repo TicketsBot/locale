@@ -261,14 +261,14 @@
 					"description": "Sélectionnez cette option si vous avez effectué votre achat sur Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Sélectionnez cette option si vous avez effectué votre achat dans le magasin Discord au moyen de l'application intégrée"
 				}
 			},
 			"about": "La version premium vous donne accès à plus de panneaux, de statistiques, un bot personnalisé et plus encore ! Visitez notre [site web](https://ticketsbot.net/premium) pour en savoir plus.",
 			"already_activated": "Bonne nouvelle ! La version Premium est déjà active sur ce serveur.",
 			"already_activated_whitelabel": "Bonne nouvelle ! La version Premium est déjà active sur ce serveur.\n\nPour obtenir de l'aide pour commencer avec whitelabel, lisez [notre guide de configuration whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Vous pouvez acheter Premium directement sur Discord. Appuyez sur le bouton sous ce message pour être redirigé vers la page de gestion des abonnements. \n\nAprès votre achat, s'il-vous-plaît patientez 5 minutes pour compléter la détection de votre abonnement."
 			}
 		},
 		"notes": {
@@ -280,17 +280,14 @@
 			"ratelimited": "En raison des limitations imposées par Discord, les tickets ne peuvent être renommés que deux fois toutes les 10 minutes"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Échanger mes crédits",
+			"no_credits": "L'échange a échoué: vous n'avez pas de crédits de vote !",
 			"redeem": {
-				"success": {
-					"plural": "",
-					"singular": ""
-				}
+				"success": ""
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jours de Premium sur ce serveur.",
+				"singular": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jours de Premium sur ce serveur."
 			}
 		}
 	},

@@ -261,14 +261,14 @@
 					"description": "Wybierz tę opcję, jeśli dokonałeś zakupu przez Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Wybierz tę opcję, jeżeli dokonałeś zakupu w sklepie Discord"
 				}
 			},
 			"about": "Premium daje Ci dostęp do większej liczby paneli, statystyk, niestandardowego bota i więcej! Odwiedź naszą [stronę](https://ticketsbot.net/premium), aby dowiedzieć się więcej.",
 			"already_activated": "Dobre wieści! Premium jest już aktywne na tym serwerze.",
 			"already_activated_whitelabel": "Dobre wieści! Premium jest już aktywne na tym serwerze.\n\nAby uzyskać pomoc w rozpoczęciu pracy z whitelabel, przeczytaj [nasz przewodnik konfiguracji whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium może być zakupione bezpośrednio poprzez Discord. Kliknij przycisk poniżej tej wiadomości, aby otworzyć stronę zarządzania subskrypcją.\n\nPo zakupie proszę poczekać do 5 minut na wykrycie subskrypcji."
 			}
 		},
 		"notes": {
@@ -280,17 +280,14 @@
 			"ratelimited": "Ze względu na ograniczenia nałożone przez Discorda, nazwy zgłoszeń można zmieniać tylko dwa razy na 10 minut"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Zrealizuj Kredyty",
+			"no_credits": "Realizacja nie powiodła się: nie masz żadnych kredytów za głosowanie!",
 			"redeem": {
-				"success": {
-					"plural": "",
-					"singular": ""
-				}
+				"success": ""
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Masz **%d** kredytów za głosowanie. Kliknij przycisk \"Zrealizuj Kredyty\" poniżej, aby zrealizować je za %d dni premium na tym serwerze.",
+				"singular": "Masz **%d** kredytów za głosowanie. Kliknij przycisk \"Zrealizuj Kredyty\" poniżej, aby zrealizować je za %d dzień premium na tym serwerze."
 			}
 		}
 	},
