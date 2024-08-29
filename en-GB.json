@@ -280,11 +280,14 @@
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
 		},
 		"vote": {
-			"with_credits": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
 			"redeem_credits": "Redeem Credits",
 			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
 				"success": "Your vote credits have been redeemed for **%d** days of premium!"
+			},
+			"with_credits": {
+				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+				"singular": "You have **%d** vote credit. Click the \"Redeem Credits\" button below to redeem them for %d day of premium in this server."
 			}
 		}
 	},
