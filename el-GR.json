@@ -278,6 +278,14 @@
 		},
 		"rename": {
 			"ratelimited": "Λόγω των περιορισμών που επιβάλλονται από το Discord, τα αιτήματα μπορούν να μετονομαστούν μόνο δύο φορές κάθε 10 λεπτά"
+		},
+		"vote": {
+			"with_credits": "",
+			"redeem_credits": "",
+			"no_credits": "",
+			"redeem": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
