@@ -283,7 +283,10 @@
 			"redeem_credits": "Zrealizuj Kredyty",
 			"no_credits": "Realizacja nie powiodła się: nie masz żadnych kredytów za głosowanie!",
 			"redeem": {
-				"success": ""
+				"success": {
+					"plural": "Twoje kredyty za głosowanie zostały zrealizowane na **%d** dni premium!",
+					"singular": "Twoje kredyty za głosowanie zostały zrealizowane na **%d** dzień premium!"
+				}
 			},
 			"with_credits": {
 				"plural": "Masz **%d** kredytów za głosowanie. Kliknij przycisk \"Zrealizuj Kredyty\" poniżej, aby zrealizować je za %d dni premium na tym serwerze.",

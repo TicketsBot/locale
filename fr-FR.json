@@ -283,11 +283,14 @@
 			"redeem_credits": "Échanger mes crédits",
 			"no_credits": "L'échange a échoué: vous n'avez pas de crédits de vote !",
 			"redeem": {
-				"success": ""
+				"success": {
+					"plural": "Vos crédits de votes ont été échangés pour **%d** jours de Premium!",
+					"singular": "Vos crédits de votes ont été échangés pour **%d** jour de Premium!"
+				}
 			},
 			"with_credits": {
 				"plural": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jours de Premium sur ce serveur.",
-				"singular": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jours de Premium sur ce serveur."
+				"singular": "Vous avez **%d** crédits de vote. Cliquez sur le bouton \"Échanger mes crédits\" ci-dessous pour les échanger contre %d jour de Premium sur ce serveur."
 			}
 		}
 	},
