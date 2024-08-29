@@ -280,11 +280,14 @@
 			"ratelimited": "Discord의 제한으로 인해, 티켓은 10분마다 이름을 변경할 수 있습니다"
 		},
 		"vote": {
-			"with_credits": "",
 			"redeem_credits": "",
 			"no_credits": "",
 			"redeem": {
 				"success": ""
+			},
+			"with_credits": {
+				"plural": "",
+				"singular": ""
 			}
 		}
 	},
