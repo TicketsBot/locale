@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "เลือกตัวเลือกนี้หากคุณทำการซื้อผ่าน Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "พรีเมียมช่วยให้คุณเข้าถึงพาเนล สถิติ บอทแบบกำหนดเอง และอื่นๆ อีกมากมาย! เยี่ยมชม [เว็บไซต์](https://ticketsbot.net/premium) ของเราเพื่อดูข้อมูลเพิ่มเติม",
 			"already_activated": "มีข่าวดี! พรีเมี่ยมถูกเปิดใช้งานไปแล้วในเซิร์ฟเวอร์นี้",
-			"already_activated_whitelabel": "มีข่าวดี! พรีเมี่ยมถูกเปิดใช้งานไปแล้วในเซิร์ฟเวอร์นี้\n\nสำหรับการช่วยเหลือในการเริ่มต้นใช้งาน Whitelabel ให้อ่าน[คู่มือการตั้งค่า Whitelabel ของเรา](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)"
+			"already_activated_whitelabel": "มีข่าวดี! พรีเมี่ยมถูกเปิดใช้งานไปแล้วในเซิร์ฟเวอร์นี้\n\nสำหรับการช่วยเหลือในการเริ่มต้นใช้งาน Whitelabel ให้อ่าน[คู่มือการตั้งค่า Whitelabel ของเรา](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "คุณได้ถูกเพิ่มเข้าในเธรดโน๊ตที่มีอยู่: <#%d>",
