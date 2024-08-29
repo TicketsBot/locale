@@ -283,10 +283,7 @@
 			"redeem_credits": "",
 			"no_credits": "",
 			"redeem": {
-				"success": {
-					"plural": "",
-					"singular": ""
-				}
+				"success": ""
 			},
 			"with_credits": {
 				"plural": "",
