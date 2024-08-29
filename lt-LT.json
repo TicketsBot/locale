@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Pasirinkite šią parinktį, jei pirkote per Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium suteikia prieigą prie daugiau skydelių, statistikos, koreaguojamo roboto ir dar daugiau! Apsilankykite mūsų [website](https://ticketsbot.net/premium), kad pasiskaitytumėte daugiau.",
 			"already_activated": "Geros naujienos! Premium jau aktyvuotas serveryje.",
-			"already_activated_whitelabel": ""
+			"already_activated_whitelabel": "",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "",
