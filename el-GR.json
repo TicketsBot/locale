@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Επιλέξτε αυτήν την επιλογή αν κάνατε την αγορά σας στο Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Το Premium σάς δίνει πρόσβαση σε περισσότερα panels, στατιστικά, ένα προσαρμοσμένο bot και πολλά άλλα! Επισκεφθείτε το [website](https://ticketsbot.net/premium) για να μάθετε περισσότερα.",
 			"already_activated": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν το διακομιστή.",
-			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Έχετε προστεθεί στο υπάρχον νήμα σημειώσεων: <#%d>",
