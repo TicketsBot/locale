@@ -278,6 +278,14 @@
 		},
 		"rename": {
 			"ratelimited": "Ze względu na ograniczenia nałożone przez Discorda, nazwy zgłoszeń można zmieniać tylko dwa razy na 10 minut"
+		},
+		"vote": {
+			"with_credits": "",
+			"redeem_credits": "",
+			"no_credits": "",
+			"redeem": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
