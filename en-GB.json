@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "This ticket is not claimed",
 	"commands.unclaim.not_claimer": "Only admins and the user who claimed the ticket can unclaim the ticket",
 	"commands.unclaim.success": "All support representatives can now respond to the ticket",
-	"commands.vote": "Click here to vote for 24 hours of free premium:\\n<https://vote.ticketsbot.net>",
+	"commands.vote": "Click the button below to vote for the bot and receive 24 hours of premium for free.\n\nOnce you have voted, run the %s command again to redeem your vote credits.",
 	"generic.invalid_argument": "Invalid argument: refer to usage",
 	"generic.invalid_user": "Couldn't find the target user",
 	"generic.no_permission": "You do not have permission for this",
@@ -278,6 +278,14 @@
 		},
 		"rename": {
 			"ratelimited": "Due to limitations imposed by Discord, tickets can only be renamed twice every 10 minutes"
+		},
+		"vote": {
+			"with_credits": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
+			"redeem_credits": "Redeem Credits",
+			"no_credits": "Redemption failed: you do not have any vote credits!",
+			"redeem": {
+				"success": "Your vote credits have been redeemed for **%d** days of premium!"
+			}
 		}
 	},
 	"generic": {
