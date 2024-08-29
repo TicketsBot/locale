@@ -278,6 +278,14 @@
 		},
 		"rename": {
 			"ratelimited": "A causa di limitazioni imposte da Discord, i ticket possono essere rinominati solo una volta ogni 10 minuti"
+		},
+		"vote": {
+			"with_credits": "",
+			"redeem_credits": "",
+			"no_credits": "",
+			"redeem": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
