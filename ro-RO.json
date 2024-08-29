@@ -278,6 +278,14 @@
 		},
 		"rename": {
 			"ratelimited": "Din cauza limitărilor impuse de Discord, tichetele pot fi redenumite doar de două ori la fiecare 10 minute"
+		},
+		"vote": {
+			"with_credits": "",
+			"redeem_credits": "",
+			"no_credits": "",
+			"redeem": {
+				"success": ""
+			}
 		}
 	},
 	"generic": {
