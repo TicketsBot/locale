@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Patreonで購入した場合はこのオプションを選択してください"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "プレミアムは、より多くのパネル、統計情報、カスタムボットなどにアクセスできます！詳細については、 [公式サイト](https://ticketsbot.net/premium) をご覧ください。",
 			"already_activated": "良いお知らせです！プレミアムは既にこのサーバーで有効になっています。",
-			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](https://docs.ticketsbot.net/premium/whiteabel-setup-guide)をご覧ください。"
+			"already_activated_whitelabel": "良いお知らせです！プレミアムはこのサーバーで既に有効になっています。\n\nホワイトラベルの使い方については、 [ホワイトラベルのセットアップガイド](https://docs.ticketsbot.net/premium/whiteabel-setup-guide)をご覧ください。",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "ノートスレッドに追加されました: <#%d>",
