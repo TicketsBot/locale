@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Selecciona aquesta opció si has fet la compra a Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium et dona accés a més panells, estadístiques, un bot personalitzat i més! Visita la nostra [web](https://ticketsbot.net/premium) per més informació.",
 			"already_activated": "Bones notícies! Premium ja està activat en aquest servidor.",
-			"already_activated_whitelabel": "Bones notícies! Prèmium ja està activat en aquest servidor.\n\nPer ajuda sobre com fer servir Whitelabel, llegeix la nostra [guia de configuració de Whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Bones notícies! Prèmium ja està activat en aquest servidor.\n\nPer ajuda sobre com fer servir Whitelabel, llegeix la nostra [guia de configuració de Whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Has estat afegit a un fil de notes existent: <#%d>",

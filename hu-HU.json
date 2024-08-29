@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Válaszd ezt a lehetőséget ha a vásárlásodat Patreonon végezted el"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "A prémium ad jogot több panelhez, statisztikához, egy különböző bothoz és még sok minden máshoz! Nézd meg a [website](https://ticketsbot.net/premium) a részletekért.",
 			"already_activated": "Jó hír! A prémium már aktív ezen a szerveren.",
-			"already_activated_whitelabel": "Jó hír! A prémium már aktív ezen a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Jó hír! A prémium már aktív ezen a szerveren.\n\nSegítségért a whitelabellel, olvasd el a [a whitelabel összerakási útmutatónkat](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Hozzá lettél adva a meglévő jegyzetekhez: <#%d>",

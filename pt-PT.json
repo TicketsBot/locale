@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Seleciona esta opção se tu fizeste a tua compra no Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "O premium fornece-te acesso a mais painéis, estatísticas, um bot personalizado e mais! Visita o nosso [website](https://ticketsbot.net/premium) para saberes mais.",
 			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"already_activated_whitelabel": "",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "",

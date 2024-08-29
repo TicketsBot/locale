@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Select this option if you made your purchase on Patreon"
+				},
+				"discord": {
+					"description": "Select this option if you made your purchase within the Discord in-app store"
 				}
 			},
 			"about": "Premium gives you access to more panels, statistics, a custom bot and more! Visit our [website](https://ticketsbot.net/premium) to find out more.",
 			"already_activated": "Good news! Premium is already active in this server.",
-			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Good news! Premium is already active in this server.\n\nFor help getting started with whitelabel, read [our whitelabel setup guide](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": "Premium can be purchased within Discord directly. Click the button below this message to open the subscription management page.\r\n\r\nOne purchased, please allow up to 5 minutes for the subscription to be detected."
+			}
 		},
 		"notes": {
 			"added_to_existing": "You have been added to the existing notes thread: <#%d>",

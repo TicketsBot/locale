@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Виберіть цю опцію якщо ви зробили покупку на Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium дає вам доступ до розширенних налаштувань, статистик, властного бота та більше! Відвідайте наш [website](https://ticketsbot.net/premium) щоб дізнатися більше.",
 			"already_activated": "Гарні новини! Premium вже активний на цьому сервері.",
-			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Гарні новини! Premium вже активований на цьому сервері.\n\nПеред налаштуванням whitelabel прочитайте [наш гайд про налаштування whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Ви були додані до існуючої гілки нотаток: <#%d>",

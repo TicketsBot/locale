@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Chọn tuỳ chọn này nếu bạn đã thực hiện thanh toán qua Patreon"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Nâng cấp cho bạn truy cập thêm bảng, số liệu, bot tuỳ chỉnh và nhiều hơn! Truy cập [website] (https://ticketsbot.net/premium) để tìm hiểu thêm.",
 			"already_activated": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.",
-			"already_activated_whitelabel": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.\n\nCần trợ giúp để bắt đầu sử dụng nhãn trắng? Đọc [hướng dẫn cài đặt](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Tin vui nè! Nâng cấp đã được kích hoạt trên máy chủ này rồi.\n\nCần trợ giúp để bắt đầu sử dụng nhãn trắng? Đọc [hướng dẫn cài đặt](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Bạn đã được thêm vào chủ đề ghi chú có sẵn: <#%d>",

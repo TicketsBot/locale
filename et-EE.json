@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": "Vali see valik kui sa tegid oma tellimuse Patreonis"
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "Premium annab sulle juurdepääsu rohkem paneelidele, statistikale, kohandatud boti ja rohkem! Külasta meie [veebilehte](https://ticketsbot.net/premium) et saada rohkem teada.",
 			"already_activated": "Head uudised! Premium on selles serveris juba aktiivne.",
-			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)."
+			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",

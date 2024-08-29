@@ -259,11 +259,17 @@
 				},
 				"patreon": {
 					"description": ""
+				},
+				"discord": {
+					"description": ""
 				}
 			},
 			"about": "",
 			"already_activated": "",
-			"already_activated_whitelabel": ""
+			"already_activated_whitelabel": "",
+			"discord": {
+				"no_subscription": ""
+			}
 		},
 		"notes": {
 			"added_to_existing": "",
