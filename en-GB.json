@@ -283,7 +283,10 @@
 			"redeem_credits": "Redeem Credits",
 			"no_credits": "Redemption failed: you do not have any vote credits!",
 			"redeem": {
-				"success": "Your vote credits have been redeemed for **%d** days of premium!"
+				"success": {
+					"plural": "Your vote credits have been redeemed for **%d** days of premium!",
+					"singular": "Your vote credits have been redeemed for **%d** day of premium!"
+				}
 			},
 			"with_credits": {
 				"plural": "You have **%d** vote credits. Click the \"Redeem Credits\" button below to redeem them for %d days of premium in this server.",
