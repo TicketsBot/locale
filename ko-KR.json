@@ -3,7 +3,7 @@
 	"commands.add.no_members": "티켓에 추가하려면 멤버를 멘션해야 해요",
 	"commands.add.no_permission": "티켓에 멤버를 추가할 권한이 없어요",
 	"commands.addadmin.no_members": "관리자 권한을 부여하려면 사용자나 역할 이름을 멘션해야 해요",
-	"commands.addadmin.owner": "서버 소유자는 이미 관리자예요",
+	"commands.addadmin.owner": "",
 	"commands.addsupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 멘션해야 해요",
 	"commands.blacklist.no_members": "블랙리스트 상태를 전환하려면 사용자를 멘션해야 해요",
 	"commands.blacklist.self": "나 자신을 블랙리스트에 추가할 수 없어요",
