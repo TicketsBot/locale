@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Bonne nouvelle ! La version Premium est déjà active sur ce serveur.\n\nPour obtenir de l'aide pour commencer avec whitelabel, lisez [notre guide de configuration whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Vous pouvez acheter Premium directement sur Discord. Appuyez sur le bouton sous ce message pour être redirigé vers la page de gestion des abonnements. \n\nAprès votre achat, s'il-vous-plaît patientez 5 minutes pour compléter la détection de votre abonnement."
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Vous avez été ajouté au fil de notes suivant : <#%d>",
