@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Vești bune! Premium este deja activ pe acest server.\n\nPentru ajutor privind începerea folosirii whitelabelului, citește-ne [ghidul de configurare pentru whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Ai fost adăugat într-un thread cu notițe existent: <#%d>",

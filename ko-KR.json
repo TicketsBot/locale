@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.\n\n흰색 레이블 시작에 도움이 필요하시다면, [저희의 흰색 레이블 설정 가이드]\n(https://docs.ticketsbot.net/premium/whitelabel-setup-guide)를 읽어보세요.",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "이미 존재하는 노트 스레드에 추가되었습니다: <#%d>",

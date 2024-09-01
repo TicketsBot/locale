@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Bones notícies! Prèmium ja està activat en aquest servidor.\n\nPer ajuda sobre com fer servir Whitelabel, llegeix la nostra [guia de configuració de Whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Has estat afegit a un fil de notes existent: <#%d>",

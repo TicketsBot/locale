@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Goed nieuws! Premium is al actief in deze server.\n\nVoor hulp bij het gebruik van whitelabel, zie [onze whitelabel installatiehandleiding](https://docs.ticketsbot/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Je bent toegevoegd aan de bestaande notitiethread: <#%d>",

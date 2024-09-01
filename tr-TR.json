@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "İyi haber! Premium zaten bu sunucuda aktif.\n\nSunucunuza özel botu kullanmaya başlama konusunda yardım almak için [özel bot kurulumu kılavuzumuzu](https://docs.ticketsbot.net/premium/whitelabel-setup-guide) okuyun.",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Mevcut not başlığına eklendiniz: <#%d>",

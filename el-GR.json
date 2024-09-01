@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Καλά νέα! Το Premium είναι ήδη ενεργό σε αυτόν τον διακομιστή.\n\nΓια βοήθεια ξεκινήματος του whitelabel, διαβάστε [τον οδηγό εγκατάστασης του whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": "Το Premium μπορεί να αγοραστεί απευθείας στο Discord. Κάντε κλικ στο κουμπί κάτω από αυτό το μήνυμα για να ανοίξετε τη σελίδα διαχείρισης συνδρομής.\n\nΈνα αγορασμένο, αφήστε έως και 5 λεπτά για να εντοπιστεί η συνδρομή."
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Έχετε προστεθεί στο υπάρχον νήμα σημειώσεων: <#%d>",

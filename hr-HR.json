@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Dobre vijesti! Premium je već aktivan na ovom poslužitelju.\n\nZa pomoć pri početku rada s whitelabelom pročitajte [naš vodič za postavljanje whitelabela](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Dodani ste u postojeću nit bilješki: <#%d>",

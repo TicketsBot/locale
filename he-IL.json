@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "חדשות טובות! פרימיום כבר פעיל בשרת הזה.\n\nלקבלת עזרה בתחילת העבודה עם התווית הלבנה, קרא את [מדריך ההתקנה של התווית הלבנה שלנו](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "",
