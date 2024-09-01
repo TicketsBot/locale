@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe bei Whitelabel, lese [unsere Whitelabel Einstellungsanleitung](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Du wurdest dem bestehenden Notiz-Thread hinzugefügt: <#%d>",
