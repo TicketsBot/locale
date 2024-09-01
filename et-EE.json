@@ -269,7 +269,9 @@
 			"already_activated_whitelabel": "Head uudised! Premium on selles serveris juba aktiivne.\n\nEt saada abi whitelabeliga alustamisega, loe [meie whitelabeli seadistamisõpetust](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
 				"no_subscription": ""
-			}
+			},
+			"subscription_found_content_modern": "",
+			"open_server_selector": ""
 		},
 		"notes": {
 			"added_to_existing": "Sind on lisatud ekisteerivasse märkmete threadi: <#%d>",
