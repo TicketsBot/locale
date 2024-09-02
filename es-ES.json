@@ -261,17 +261,17 @@
 					"description": "Seleccione esta opción si realizó su compra en Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Selecciona esta opción si realizaste tu compra dentro de la tienda interna de Discord"
 				}
 			},
 			"about": "¡Premium te da acceso a más paneles, estadísticas, un bot personalizado y más! Visite nuestro [sitio web](https://ticketsbot.net/premium) para obtener más información.",
 			"already_activated": "¡Buenas noticias! Premium ya está activo en este servidor.",
 			"already_activated_whitelabel": "¡Buenas noticias! Premium ya está activo en este servidor.\n\nPara obtener ayuda para comenzar con whitelabel, lee [nuestra guía de configuración de whitelabel] (https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Se puede comprar Premium directamente dentro de Discord. Haz clic en el botón de abajo para abrir la página de administración de suscripciones.\n\nTras completar la compra, por favor espera hasta 5 minutos para que se detecte la suscripción."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Se encontró tu suscripción de Patreon. Haz clic en el botón \"Abrir selector de servidor\" de abajo para abrir el panel de control para seleccionar a qué servidores deseas aplicar tu suscripción premium.",
+			"open_server_selector": "Abrir selector de servidor"
 		},
 		"notes": {
 			"added_to_existing": "Te han añadido al hilo de notas existente: <#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "Debido a limitaciones impuestas por Discord, los tickets solo pueden ser renombrados dos veces cada 10 minutos"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Canjear créditos",
+			"no_credits": "Falló la redención: no tienes créditos de voto!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "¡Tus créditos de voto han sido canjeados por **%d** días de premium!",
+					"singular": "¡Tus créditos de voto han sido canjeados por **%d** día de premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Tienes **%d** créditos de voto. Haz clic en el botón \"Canjear créditos\" para canjearlos por %d días de premium en este servidor.",
+				"singular": "Tienes **%d** créditos de voto. Haz clic en el botón \"Canjear créditos\" para canjearlos por %d día de premium en este servidor."
 			}
 		}
 	},

@@ -3,7 +3,7 @@
 	"commands.add.no_members": "티켓에 추가하려면 멤버를 멘션해야 해요",
 	"commands.add.no_permission": "티켓에 멤버를 추가할 권한이 없어요",
 	"commands.addadmin.no_members": "관리자 권한을 부여하려면 사용자나 역할 이름을 멘션해야 해요",
-	"commands.addadmin.owner": "",
+	"commands.addadmin.owner": "서버 소유자는 이미 관리자입니다",
 	"commands.addsupport.no_members": "지원 담당자 권한을 부여하려면 사용자 또는 역할 이름을 멘션해야 해요",
 	"commands.blacklist.no_members": "블랙리스트 상태를 전환하려면 사용자를 멘션해야 해요",
 	"commands.blacklist.self": "나 자신을 블랙리스트에 추가할 수 없어요",
@@ -180,7 +180,7 @@
 			"disabled": "이 서버에서 `/open` 명령을 사용할 수 없습니다. 티켓 패널을 사용하여 티켓을 여세요.",
 			"threads": {
 				"cant_see_parent_channel": "티켓에 <@%d>을(를) 추가할 수 없어요. 스레드의 상위 채널(<#%d>)를 볼 수 있는 권한이 있는지 확인해주세요.",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "티켓을 열기에 필요한, `스레드에서 메시지 보내기` 권한이 없습니다. 서버 관리자에게 권한을 부여하라고 요청해 주세요. 그리고 다시 시도하세요."
 			}
 		},
 		"switch_panel": {
@@ -261,14 +261,14 @@
 					"description": "Patreon에서 구매했다면 이 옵션을 선택하세요"
 				},
 				"discord": {
-					"description": ""
+					"description": "Discord 앱 내 스토어에서 구매했다면 이 옵션을 선택하세요"
 				}
 			},
 			"about": "프리미엄은 더 많은 패널, 통계, 사용자 지정 봇 등을 줍니다! 저희의 [웹 사이트](https://ticketsbot.net/premium)에 방문해 자세히 알아보세요.",
 			"already_activated": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.",
 			"already_activated_whitelabel": "좋은 소식입니다! 프리미엄이 이미 이 서버에서 활성화되었습니다.\n\n흰색 레이블 시작에 도움이 필요하시다면, [저희의 흰색 레이블 설정 가이드]\n(https://docs.ticketsbot.net/premium/whitelabel-setup-guide)를 읽어보세요.",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "프리미엄은 직접적으로 Discord 내에서 구매할 수 있습니다. 구독 관리 페이지를 열려면 이 아래 메시지의 버튼을 누르세요.\n\n구매가 완료되셨다면, 구독이 감지될 때까지 최대 5분 정도 기다려 주십시오."
 			},
 			"subscription_found_content_modern": "",
 			"open_server_selector": ""
@@ -282,17 +282,17 @@
 			"ratelimited": "Discord의 제한으로 인해, 티켓은 10분마다 이름을 변경할 수 있습니다"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "크레딧 교환",
+			"no_credits": "교환 실패: 투표 크레딧이 없습니다.",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "투표 크레딧으로 프리미엄 **%d**일만큼 교환했습니다.",
+					"singular": "투표 크레딧으로 프리미엄 **%d**일만큼 교환했습니다."
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "투표 크레딧 **%d**개가 있습니다. 아래의 \"크레딧 교환\" 버튼을 눌러 이 서버에서 프리미엄 %d일만큼 교환하세요.",
+				"singular": "투표 크레딧 **%d**개가 있습니다. 아래의 \"크레딧 교환\" 버튼을 눌러 이 서버에서 프리미엄 %d일만큼 교환하세요."
 			}
 		}
 	},

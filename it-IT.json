@@ -261,14 +261,14 @@
 					"description": "Seleziona questa opzione se hai fatto l'acquisto su Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Seleziona questa opzione se hai fatto l'acquisto tramite lo store in-app di Discord"
 				}
 			},
 			"about": "Premium ti dà accesso a più pannelli, statistiche, un bot personalizzato e molto altro! Visita il nostro [website](https://ticketsbot.net/premium) per saperne di più.",
 			"already_activated": "Buone notizie! Premium è già attivo in questo server.",
 			"already_activated_whitelabel": "Buone notizie! Premium è già attivo in questo server.\n\nSe ti serve aiuto a configurare whitelabel, leggi [la nostra guida di configurazione whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Il servizio premium può essere acquistato direttamente su Discord. Clicca il pulsante sotto questo messaggio per aprire la pagina di gestione dell'abbonamento.\n\nNel momento in cui viene acquistato, si prega di consentire al bot fino a 5 minuti per rilevare l'abbonamento."
 			},
 			"subscription_found_content_modern": "",
 			"open_server_selector": ""
@@ -282,17 +282,17 @@
 			"ratelimited": "A causa di limitazioni imposte da Discord, i ticket possono essere rinominati solo una volta ogni 10 minuti"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Riscatta Crediti",
+			"no_credits": "Riscatto fallito: non hai alcun credito di voto!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "I tuoi crediti di voto sono stati riscattati per **%d** giorni di premium!",
+					"singular": "I tuoi crediti di voto sono stati riscattati per **%d** giorno di premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Hai **%d** crediti di voto. Clicca il pulsante \"Riscatta Crediti\" qui sotto per riscattarli per %d giorni di premium in questo server.",
+				"singular": "Hai **%d** credito di voto. Clicca il tasto \"Riscatta Crediti\" qui sotto per riscattarlo per %d giorno di premium in questo server."
 			}
 		}
 	},
