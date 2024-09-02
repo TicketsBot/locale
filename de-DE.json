@@ -261,14 +261,14 @@
 					"description": "Wähle diese Option, wenn du Premium über Patreon gekauft hast"
 				},
 				"discord": {
-					"description": ""
+					"description": "Wähle diese Option, wenn du im Discord In-App Store eingekauft hast"
 				}
 			},
 			"about": "Premium gibt dir Zugang zu mehr Panels, Statistiken, einem personalisierten Bot und mehr! Besuche unsere [website](https://ticketsbot.net/premium) um mehr zu erfahren.",
 			"already_activated": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.",
 			"already_activated_whitelabel": "Gute Nachrichten! Premium ist bereits auf diesem Server aktiviert.\n\nFür Hilfe bei Whitelabel, lese [unsere Whitelabel Einstellungsanleitung](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium kann direkt in Discord eingekauft werden. Klicke auf den Button unter dieser Nachricht, um die Abonnementverwaltungsseite zu öffnen.\n\nWenn gekauft, bitte gib bis zu 5 Minuten Zeit, für die Abonnement zu erkennen."
 			},
 			"subscription_found_content_modern": "",
 			"open_server_selector": ""
@@ -282,7 +282,7 @@
 			"ratelimited": "Aufgrund von Einschränkungen durch Discord können Tickets nur zweimal alle 10 Minuten umbenannt werden"
 		},
 		"vote": {
-			"redeem_credits": "",
+			"redeem_credits": "Guthaben einlösen",
 			"no_credits": "",
 			"redeem": {
 				"success": {
