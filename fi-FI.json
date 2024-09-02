@@ -34,7 +34,7 @@
 	"commands.unclaim.not_claimed": "Tätä lippua ei ole lunastettu",
 	"commands.unclaim.not_claimer": "Vain ylläpitäjät ja käyttäjät, jotka lunastivat lipun voivat hylätä lipun",
 	"commands.unclaim.success": "Kaikki tukihenkilöt voivat nyt vastata lippuun",
-	"commands.vote": "Paina tästä äänestääksesi 24-tunnin ilmaisesta Premium:\\n<https://vote.ticketsbot.net>",
+	"commands.vote": "",
 	"generic.invalid_argument": "Virheellinen argumentti: viittaa käyttöön",
 	"generic.invalid_user": "Käyttäjää ei löydetty",
 	"generic.no_permission": "Sinulla ei ole oikeutta tähän",
