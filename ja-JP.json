@@ -180,7 +180,7 @@
 			"disabled": "このサーバーでは`/open`コマンドは無効です：チケットパネルを使用してチケットを開いてください。",
 			"threads": {
 				"cant_see_parent_channel": "チケットに <@%d> を追加できませんでした: スレッドの親チャンネルを表示する権限があることを確認してください (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "「スレッドにメッセージを送信」権限がありません。これはチケットを開くために必要です。 サーバー管理者にこの権限を許可するよう依頼して、もう一度やり直してください。"
 			}
 		},
 		"switch_panel": {
@@ -261,7 +261,7 @@
 					"description": "Patreonで購入した場合はこのオプションを選択してください"
 				},
 				"discord": {
-					"description": ""
+					"description": "アプリ内Discordストア内で購入した場合は、このオプションを選択します"
 				}
 			},
 			"about": "プレミアムは、より多くのパネル、統計情報、カスタムボットなどにアクセスできます！詳細については、 [公式サイト](https://ticketsbot.net/premium) をご覧ください。",
@@ -282,7 +282,7 @@
 			"ratelimited": "Discord によって課された制限により、チケットの名前は 10 分ごとに 2 回のみ変更できます"
 		},
 		"vote": {
-			"redeem_credits": "",
+			"redeem_credits": "クレジットを使う",
 			"no_credits": "",
 			"redeem": {
 				"success": {
