@@ -12,7 +12,7 @@
 	"commands.language.invalid": "Você precisa especificar uma código de idioma ou uma bandeira. Idiomas disponíveis:\\n%s",
 	"commands.open.ticket_limit": "Você só pode abrir %d %s de uma vez",
 	"commands.open.too_many_tickets": "Existem tickets demais na categoria de tickets. Peça pra um admin fechar alguns, ou movê-los para outra categoria",
-	"commands.panel": "",
+	"commands.panel": "Visite <https://dashboard.ticketsbot.net/manage/%d/panels> para configurar o painel",
 	"commands.premium": "Você pode comprar uma assinatura premium subscription em <https://www.patreon.com/ticketsbot>.\\nO premium fornece vários benefícios, como:\\n```diff\\n+ Criar painéis de ticket ilimitados\\n+ Customizar o nome, avatar e status do bot (whitelabel)\\n+ Estatísticas detalhadas sobre o servidor, usuários e equipe de suporte\\n+ Sem propaganda no rodapé das mensagens\\n+ Apoia o desenvolvimento e me ajuda a pagar os custos com servidores\\n```\\n\\nAlternativamente, você pode votar em <https://vote.ticketsbot.net> para obter o premium gratuitamente por 24 horas.",
 	"commands.premium.invalid_key": "Chave inválida. Certifique-se de que a copiou ela corretamente.",
 	"commands.remove.no_permission": "Você não tem permissão para remover usuários deste ticket",
@@ -79,7 +79,7 @@
 	"open.success": "Abriu um novo ticket: %s",
 	"setup.auto.category.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
 	"setup.auto.category.success": "Categoria de Tickets criada",
-	"setup.auto.completed": "",
+	"setup.auto.completed": "Configuração concluída! Clique [aqui](https://panel.ticketsbot.net/manage/%d/panels) para configurar um painel de reações, e adicione os cargos <@&%d> e <@&%d> para os seus membros da equipe",
 	"setup.auto.roles.failure": "Eu estou sem a permissão `Gerenciar Cargos` ",
 	"setup.auto.roles.success": "Cargos `Tickets Admin` & `Tickets Support` criados",
 	"setup.auto.transcript.failure": "Eu estou sem a permissão `Gerenciar Canais` ",
@@ -89,7 +89,7 @@
 	"setup.transcript.success": "O canal de transcrições foi alterado para <#%d>",
 	"commands.language.help_wanted": "Você fala outra língua? Junte-se ao nosso [servidor de suporte](https://discord.gg/bh6aAfP) se você estiver interessado em traduzir o bot para mais idiomas",
 	"commands.rename.too_long": "Nomes de canais não podem ter mais de 100 caracteres",
-	"commands.autoclose.configure": "",
+	"commands.autoclose.configure": "Visite o [painel de controle](https://panel.ticketsbot.net/manage/%d/settings) para alterar as configurações de fechamento automático",
 	"help.autoclose": "Comandos relacionados ao fechamento automático",
 	"help.autoclose.exclude": "Exclui o ticket atual de ser fechado automaticamente",
 	"help.autoclose.configure": "Editar configurações relacionadas ao fechamento automático",
@@ -170,8 +170,8 @@
 		"success": "O ticket foi fechado por <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "Você não pode avaliar este bilhete porque você é um representante de suporte em %s",
+				"empty": "Você não pode avaliar este bilhete porque você não enviou nenhuma mensagem"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "O comando `/open` está desabilitado neste servidor: por favor use um painel de ticket para abrir um ticket",
 			"threads": {
 				"cant_see_parent_channel": "Não foi possível adicionar <@%d> ao ticket: Certifique-se de que ele tenha permissão para ver o canal principal do tópico (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Está faltando a permissão \"Enviar mensagens em tópicos\", necessária abrir um bilhete. Por favor, peça a um administrador do servidor para conceder esta permissão a você e tente novamente."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Você alcançou o limite de (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "É necessário possuir comandos Premium para usar comandos personalizados (identificação de \"tag\")"
 			}
 		},
 		"language": {
@@ -261,38 +261,38 @@
 					"description": "Selecione esta opção se você fez sua compra no Patreon,"
 				},
 				"discord": {
-					"description": ""
+					"description": "Selecione esta opção se você fez sua compra na loja Discord"
 				}
 			},
 			"about": "O Premium lhe dá acesso a mais painéis, estatísticas, um bot personalizado e muito mais! Visite o nosso [website](https://ticketsbot.net/premium) para saber mais.",
-			"already_activated": "",
-			"already_activated_whitelabel": "",
+			"already_activated": "Boas notícias! O Premium já está ativo neste servidor.",
+			"already_activated_whitelabel": "Boas notícias! Premium já está ativo neste servidor.\n\nPara ajudar a começar com whitelabel, leia [nosso guia de instalação de whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "O premium pode ser comprado diretamente sem usar o Discord. Clique no botão logo após essa mensagem para abrir a página de gerenciamento de assinaturas.\n\nUma vez comprado, pode demorar até 5 minutos para a inscrição ser detectada."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Sua assinatura no Patreon foi encontrada. Por favor, clique no botão \"Abrir Seletor de Servidor\" abaixo para abrir o painel para selecionar em quais servidores você deseja aplicar sua assinatura premium.",
+			"open_server_selector": "Abrir Seletor de Servidores"
 		},
 		"notes": {
-			"added_to_existing": "",
-			"thread_name": "",
-			"created": ""
+			"added_to_existing": "Você foi adicionado ao tópico das notas existentes: <#%d>",
+			"thread_name": "notas",
+			"created": "Um tópico de notas foi criado para este ticket: <#%d>"
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Devido a limitações impostas pelo Discord, tickets só podem ser renomeados duas vezes a cada 10 minutos"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Resgatar Créditos",
+			"no_credits": "O resgate falhou: você não tem nenhum crédito de voto!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Seus créditos de voto foram resgatados por **%d** dias de prêmio!",
+					"singular": "Seus créditos de voto foram resgatados por **%d** dia de premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Você tem **%d** créditos de voto. Clique no botão \"Resgatar Créditos\" abaixo para resgatá-los por %d dias de premium neste servidor.",
+				"singular": "Você tem crédito de voto **%d. Clique no botão \"Resgatar Créditos\" abaixo para resgatá-los por um dia %d de premium neste servidor."
 			}
 		}
 	},
@@ -312,7 +312,7 @@
 		"jump_to_top": "Fornece a você um botão para ir para o topo do ticket",
 		"on_call": "Marca você como em chamada, para ser adicionado e ser notificado em todos os novos tickets",
 		"reopen": "Reabre um ticket que foi fechado anteriormente",
-		"notes": ""
+		"notes": "Cria um tópico para discussão privada entre representantes de suporte"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
@@ -345,17 +345,17 @@
 		"panel_force_disabled": "Este painel foi desativado. Por favor peça a um administrador do servidor para reativar o premium, e execute %s para reativar este painel.",
 		"panel_disabled": "Os administradores do servidor desativaram a abertura deste tipo de ticket",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Acesso para abrir este tipo de ticket foi desabilitado para todas as funções.",
+			"deny_listed": "Você não pode abrir este tipo de bilhete porque você tem a função  <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
+				"multiple": "Você precisa da seguinte função para abrir essa categoria de \"ticket\": %s",
 				"single": "Você precisa do seguinte cargo para abrir essa categoria de \"ticket\": %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Tópicos de notas só são suportados no modo de canal"
 		}
 	}
 }
