@@ -261,17 +261,17 @@
 					"description": "Selecciona aquesta opció si has fet la compra a Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Selecciona aquesta opció si has fet la compra a través de la botiga integrada de Discord"
 				}
 			},
 			"about": "Premium et dona accés a més panells, estadístiques, un bot personalitzat i més! Visita la nostra [web](https://ticketsbot.net/premium) per més informació.",
 			"already_activated": "Bones notícies! Premium ja està activat en aquest servidor.",
 			"already_activated_whitelabel": "Bones notícies! Prèmium ja està activat en aquest servidor.\n\nPer ajuda sobre com fer servir Whitelabel, llegeix la nostra [guia de configuració de Whitelabel](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "La subscripció Prèmium es pot fer directament a través de Discord. Clica el botó de sota per obrir el gestor de subscripcions.\n\nUn cop comprat, pot trigar fins a 5 minuts a detectar-se la subscripció."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "S'ha detectat la teva subscripció Patreon. Pulsa \"Obrir el Selector de Servidor\" a sota per obrir el tauler de control i assignar el servidor on aplicar la subscripció.",
+			"open_server_selector": "Obrir el Selector de Servidor"
 		},
 		"notes": {
 			"added_to_existing": "Has estat afegit a un fil de notes existent: <#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "Per limitacions imposades per Discord, els tiquets només es poden reanomenar 2 vegades cada 10 minuts"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Bescanviar Crèdits",
+			"no_credits": "Bescanvi fallit: no tens Crèdits de votació!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Els teus Crèdits de vot han estat bescanviats per **%d** dies de Prèmium!",
+					"singular": "Els teus Crèdits de vot han estat bescanviats per **%d** dia de Prèmium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Tens **%d** Crèdits de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dies Prèmium en aquest servidor.",
+				"singular": "Tens **%d** Crèdit de vot. Clica el botó \"Bescanviar Crèdits\" per reclamar %d dia Prèmium en aquest servidor."
 			}
 		}
 	},
