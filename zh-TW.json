@@ -170,8 +170,8 @@
 		"success": "客服單被 <@%d> 關閉",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "您無法評價這個客服單，因為您是 %s 的客服代表。",
+				"empty": "您無法評價這個客服單，因為您沒有傳送任何訊息。"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "/open 指令已經在這伺服器取消使用了唷",
 			"threads": {
 				"cant_see_parent_channel": "不能將 <@%d> 增加至客服單：請確保他們有權限查看討論串的父頻道（<#%d>）",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "您缺少開啟客服單所需的「在討論串中傳送訊息」權限。請要求伺服器管理員授予您此權限，然後再試一次。"
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "您達到了標籤限制（%d）"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "使用自訂指令 (標籤別名) 需要 Premium。"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "如果您在 Patreon 上購買，請選擇此選項"
 				},
 				"discord": {
-					"description": ""
+					"description": "如果您是在 Discord 應用程式內商店購買，請選擇這項選項。"
 				}
 			},
 			"about": "Premium 可以讓您存取更多的面板、統計、自訂機器人等功能！請訪問我們的 [網站](https://ticketsbot.net/premium) 以了解更多資訊。",
 			"already_activated": "好消息！Premium 已在此伺服器啟用。",
 			"already_activated_whitelabel": "好消息！Premium 已在此伺服器啟用。\n\n有關如何使用自訂機器人，請閱讀 [我們的自訂機器人設定指南](https://docs.ticketsbot.net/premium/whitelabel-setup-guide)。",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium 可以直接在 Discord 購買。按下下方按鈕前往訂閱管理頁面。\n\n購買後，系統可能需要最多 5 分鐘才能偵測到您的訂閱，請耐心等候。"
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "您的 Patreon 訂閱已成功連結。請按一下下方「開啟伺服器選單」按鈕，以開啟選單並選擇您要套用 Premium 訂閱的伺服器。",
+			"open_server_selector": "開啟伺服器選單"
 		},
 		"notes": {
 			"added_to_existing": "你已被加入到現有的註釋串中：<#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "由於 Discord 的限制，客服單每 10 分鐘只能重新命名兩次。"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "兌換投票點數",
+			"no_credits": "兌換失敗：您沒有任何投票點數！",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "您的投票點數已成功兌換 **%d** 天的 Premium！",
+					"singular": "您的投票點數已成功兌換 **%d** 天的 Premium！"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "您目前擁有 **%d** 點投票點數。按一下下方的「兌換投票點數」按鈕，即可兌換成 **%d** 天的伺服器 Premium。",
+				"singular": "您目前擁有 **%d** 點投票點數。按一下下方的「兌換投票點數」按鈕，即可兌換成 **%d** 天的伺服器 Premium。"
 			}
 		}
 	},
