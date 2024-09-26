@@ -111,7 +111,7 @@
 	"button.dms_only": "Aquest botó s'ha d'utilitzar en missatges privats",
 	"commands.tag.generic": "Etiqueta",
 	"commands.tags.delete.success": "L'etiqueta `%s` ha estat eliminada",
-	"generic.ticket": "Tiquest",
+	"generic.ticket": "Tiquet",
 	"generic.title.premium_only": "Ordre exclusiva Premium",
 	"generic.admin": "Administrador",
 	"commands.tags.create.success": "Etiqueta creada - pots utilitzar-la fent servir `/tag %s`",

@@ -270,8 +270,8 @@
 			"discord": {
 				"no_subscription": "Premium kann direkt in Discord eingekauft werden. Klicke auf den Button unter dieser Nachricht, um die Abonnementverwaltungsseite zu öffnen.\n\nWenn gekauft, bitte gib bis zu 5 Minuten Zeit, für die Abonnement zu erkennen."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Dein Patreon-Abonnement wurde gefunden. Bitte klicke unten auf die Schaltfläche „Serverauswahl öffnen“, um das Dashboard zu öffnen und die Server auszuwählen, für die du dein Premium-Abonnement verwenden möchten.",
+			"open_server_selector": "Serverauswahl öffnen"
 		},
 		"notes": {
 			"added_to_existing": "Du wurdest dem bestehenden Notiz-Thread hinzugefügt: <#%d>",
@@ -283,16 +283,16 @@
 		},
 		"vote": {
 			"redeem_credits": "Guthaben einlösen",
-			"no_credits": "",
+			"no_credits": "Einlösen fehlgeschlagen: Du hast kein Vote-Guthaben!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Dein Vote-Guthaben wurde für **%d** Tage Premium eingelöst!",
+					"singular": "Dein Vote-Guthaben wurde für **%d** Tag Premium eingelöst!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Du hast **%d** Vote-Punkte. Klicke den \"Punkte Einlösen\" Knopf unterhalb, um sie für %d Tage Premium auf diesem Server einzulösen.",
+				"singular": "Du hast **%d** Vote-Punkt. Klicke den \"Punkte Einlösen\" Knopf unterhalb, um ihn für %d Tag Premium auf diesem Server einzulösen."
 			}
 		}
 	},
