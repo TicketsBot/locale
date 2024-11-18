@@ -170,8 +170,8 @@
 		"success": "Tiket ditutup oleh <@%d>",
 		"rate": {
 			"not_allowed": {
-				"staff": "",
-				"empty": ""
+				"staff": "Anda tidak dapat menilai tiket ini karena Anda adalah perwakilan dukungan di %s",
+				"empty": "Anda tidak dapat menilai tiket ini karena Anda tidak mengirim pesan apa pun"
 			}
 		}
 	},
@@ -180,7 +180,7 @@
 			"disabled": "Perintah `/open` dinonaktifka di server ini: silakan gunakan panel tiket untuk membuka tiket",
 			"threads": {
 				"cant_see_parent_channel": "Tidak dapat menambahkan <@%d> ke tiket: Pastikan mereka memiliki izin untuk melihat saluran induk thread (<#%d>)",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Anda tidak memiliki izin `Kirim Pesan di Thread`, yang diperlukan untuk membuka tiket. Harap minta administrator server untuk memberikan izin ini kepada Anda lalu coba lagi."
 			}
 		},
 		"switch_panel": {
@@ -213,7 +213,7 @@
 				"limit": "Anda telah mencapai batas tag (%d)"
 			},
 			"get": {
-				"requires_premium": ""
+				"requires_premium": "Premium diperlukan untuk menggunakan perintah khusus (alias tag)"
 			}
 		},
 		"language": {
@@ -261,17 +261,17 @@
 					"description": "Pilih opsi ini jika Anda melakukan pembelian dari Patreon"
 				},
 				"discord": {
-					"description": ""
+					"description": "Pilih opsi ini jika Anda melakukan pembelian di toko dalam aplikasi Discord"
 				}
 			},
 			"about": "Premium memberi Anda akses ke lebih banyak panel, statistik, bot khusu, dan banyak lagi! Kunjungi [situs web](https://ticketsbot.net/premium) untuk mengetahui lebih lanjut.",
 			"already_activated": "Kabar bait! Premium sudah aktif di server ini.",
 			"already_activated_whitelabel": "Kabar baik! Premium sudah aktif di server ini.\n\nUntuk bantuan memulai whitelabel, baca [panduan penyiapan whitelabel kami](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premium dapat dibeli langsung di Discord. Klik tombol di bawah pesan ini untuk membuka halaman manajemen langganan.\n\nSetelah dibeli, harap tunggu hingga 5 menit agar langganan terdeteksi."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Langganan Patreon Anda telah ditemukan. Silakan klik tombol \"Buka Pemilih Server\" di bawah ini untuk membuka dasbor guna memilih server mana yang ingin Anda terapkan langganan premium Anda.",
+			"open_server_selector": "Buka Pemilih Server"
 		},
 		"notes": {
 			"added_to_existing": "Anda telah ditambahkan ke rangkaian catatan yang ada: <#%d>",
@@ -282,17 +282,17 @@
 			"ratelimited": "Karena batasan yang diberlakukan oleh Discord, tiket hanya dapat diganti dua kali setiap 10 menit"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Tukarkan Kredit",
+			"no_credits": "Penukaran gagal: Anda tidak memiliki kredit suara!",
 			"redeem": {
 				"success": {
-					"plural": "",
-					"singular": ""
+					"plural": "Kredit suara Anda telah ditukarkan selama **%d** hari premium!",
+					"singular": "Kredit suara Anda telah ditukarkan untuk **%d** hari premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Anda memiliki **%d** kredit suara. Klik tombol \"Tukarkan Kredit\" di bawah ini untuk menebusnya selama %d hari premium di server ini.",
+				"singular": "Anda memiliki **%d** kredit suara. Klik tombol \"Tukarkan Kredit\" di bawah ini untuk menukarkannya dengan %d hari premium di server ini."
 			}
 		}
 	},
