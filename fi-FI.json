@@ -90,14 +90,14 @@
 	"commands.language.help_wanted": "Puhutko toista kieltä? Liity [tukipalvelimeemme](https://discord.gg/bh6aAfP) jos olet kiinnostunut auttamaan botin kääntämisessä useammille kielille",
 	"commands.rename.too_long": "Kanavan nimessä ei voi olla yli 100 merkkiä",
 	"commands.autoclose.configure": "Vieraile [dashboard](https://dashboard.ticketsbot.net/manage/%d/settings) vaihtaaksesi automaattisen sulkemisen asetuksia",
-	"help.autoclose": "",
-	"help.autoclose.exclude": "",
-	"help.autoclose.configure": "",
-	"commands.autoclose.exclude.success": "",
-	"commands.claim.no_permission": "",
-	"commands.open.from": "",
-	"commands.open.from.moved": "",
-	"help.close_request": "",
+	"help.autoclose": "Sulje liittyvät komennot automaattisesti",
+	"help.autoclose.exclude": "Estää nykyisen tiketin automaattisen sulkemisen",
+	"help.autoclose.configure": "Muokkaa automaattisen sulkemisen asetuksia",
+	"commands.autoclose.exclude.success": "Tämä lipuke on poistettu automaattisesta sulkemisesta",
+	"commands.claim.no_permission": "Vain henkilökunnan jäsenet voivat lunastaa lippuja",
+	"commands.open.from": "Tämä lipuke on avattu [tästä viestistä](%s).\n\n<@%d> sanoi <#%d>:\n```%s```",
+	"commands.open.from.moved": "Keskustelu on siirretty lipukkeeseen (<#%d>)",
+	"help.close_request": "Lähettää viestin, jossa pyydetään käyttäjää vahvistamaan, että lipuke voidaan sulkea",
 	"close.reason_too_long": "Syyssä ei voi olla yli 255-kirjainta",
 	"commands.close_request.no_reason": "<@%d> on pyytänyt tämän lipun sulkemista.\n\nHyväksy tai hylkää alla olevien painikkeiden avulla.",
 	"commands.close_request.with_reason": "<@%d> on pyytänyt tämän lipun sulkemista. Syyllä:\n```\n%s\n```\nHyväksy tai hylkää alla olevista napeista.",
@@ -148,58 +148,58 @@
 	"commands.close_request.accept": "Hyväksy Ja Sulje",
 	"commands.close_request.deny": "Hylkää & Pidä Avattuna",
 	"commands.premium.success": "Premium on aktivoitu **%d** päiväksi",
-	"generic.title.claimed": "",
-	"generic.title.unclaimed": "",
-	"generic.title.add": "",
-	"commands.add.success": "",
-	"commands.remove.success": "",
-	"open.ratelimited": "",
+	"generic.title.claimed": "Lunastettu Lipuke",
+	"generic.title.unclaimed": "Lunastamaton Lipuke",
+	"generic.title.add": "Lisää",
+	"commands.add.success": "<@%d> on lisätty <#%d>",
+	"commands.remove.success": "<@%d> on poistettu <#%d>",
+	"open.ratelimited": "Lipukkeet avataan liian nopeasti tällä palvelimella",
 	"commands.claim.thread": "",
-	"generic.join_support_server": "",
-	"commands.open.guild_channel_limit": "",
-	"commands.open.missing_form_answer": "",
-	"close.no_permission": "",
+	"generic.join_support_server": "Liity Tukipalvelimelle",
+	"commands.open.guild_channel_limit": "Tämä palvelin on saavuttanut Discordin 500 kanavan rajan",
+	"commands.open.missing_form_answer": "Sinun täytyy vastata kysymykseen `%s`",
+	"close.no_permission": "Sinulla ei ole oikeuksia sulkea tätä lipuketta",
 	"": {
-		"generic.title.close_with_reason": "",
-		"generic.reason": ""
+		"generic.title.close_with_reason": "Sulje perusteluilla",
+		"generic.reason": "Perustelu"
 	},
 	"close": {
 		"reason": {
-			"placeholder": ""
+			"placeholder": "Lipun sulkemisen perustelu, esim. \"Ratkaistu\""
 		},
 		"success": "",
 		"rate": {
 			"not_allowed": {
 				"staff": "",
-				"empty": ""
+				"empty": "Et voi arvostella tätä lipuketta, koska et lähettänyt yhtään viestiä"
 			}
 		}
 	},
 	"commands": {
 		"open": {
-			"disabled": "",
+			"disabled": "`/avaa` komento on poistettu käytöstä tällä palvelimella: ole hyvä ja käytä lipukepaneelia avataksesi lipukkeen",
 			"threads": {
 				"cant_see_parent_channel": "",
-				"cant_message_in_threads": ""
+				"cant_message_in_threads": "Sinulta puuttuu `Lähetä viestejä ketjuissa` oikeus, joka vaaditaan lipukkeen avaamiseksi. Pyydä palvelimen järjestelmänvalvojaa antamaan tämä lupa sinulle ja yritä uudelleen."
 			}
 		},
 		"switch_panel": {
-			"invalid_panel": "",
+			"invalid_panel": "Virheellinen paneeli: Sinun on valittava yksi pudotusvalikosta",
 			"success": ""
 		},
 		"blacklist": {
-			"staff": "",
+			"staff": "Henkilöstön jäseniä ei voi olla mustalla listalla",
 			"add_role": {
-				"success": "",
+				"success": "<@&%d> on asetettu mustallelistalle",
 				"limit": ""
 			},
 			"add": {
-				"limit": ""
+				"limit": "Olet saavuttanut käyttäjien mustanlistan rajan (%d): harkitse roolin käyttöä sen sijaan"
 			}
 		},
 		"jump_to_top": {
-			"no_welcome_message": "",
-			"content": ""
+			"no_welcome_message": "Tällä lipukkeella ei ole tervetulo viestiä",
+			"content": "Paina alla olevaa painiketta hypätäksesi lipun yläreunaan"
 		},
 		"addsupport": {
 			"confirm": "",
@@ -227,21 +227,21 @@
 			"remove_success": ""
 		},
 		"reopen": {
-			"not_found": "",
+			"not_found": "Lippua ei löydy",
 			"no_permission": "",
 			"already_open": "",
 			"not_thread": "",
 			"thread_deleted": "",
-			"success": "",
-			"in_ticket": ""
+			"success": "Lipuke %d uudelleen avattu: <#%d>",
+			"in_ticket": "Tämä lippu on avattu uudelleen <#%d>"
 		},
 		"premium": {
-			"key": "",
-			"check_again": "",
-			"subscription_found": "",
+			"key": "Avain",
+			"check_again": "Tarkista uudelleen",
+			"subscription_found": "Tilaus Löydetty!",
 			"subscription_found_content": "",
-			"activate_key": "",
-			"checking": "",
+			"activate_key": "Aktivoi Premium-avain",
+			"checking": "Tarkistetaan Premiumin tilaa...",
 			"please_wait": "Ole hyvä ja odota...",
 			"success_after_check": "Premium on nyt aktivoitu tällä palvelimella!",
 			"link_patreon_account": "Linkitä Patreon tili",
@@ -258,20 +258,20 @@
 					"description": "Valitse tämä vaihtoehto, jos sinulle on annettu arvonta avain"
 				},
 				"patreon": {
-					"description": ""
+					"description": "Valitse tämä vaihtoehto, jos olet tehnyt ostoksesi Patreonissa"
 				},
 				"discord": {
-					"description": ""
+					"description": "Valitse tämä vaihtoehto, jos olet tehnyt ostoksesi Discordin sisäisessä kaupassa"
 				}
 			},
-			"about": "",
-			"already_activated": "",
-			"already_activated_whitelabel": "",
+			"about": "Premium antaa sinulle pääsyn useampiin paneeleihin, tilastoihin, mukautettuun bottiin ja paljon muuta! Vieraile meidän [verkkosivu](https://ticketsbot.net/premium) saadaksesi lisätietoja.",
+			"already_activated": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.",
+			"already_activated_whitelabel": "Hyviä uutisia! Premium on jo aktiivinen tällä palvelimella.\n\nSaadaksesi apua aloittaaksesi whitelabelin kanssa, lue [whitelabelin asennus ohje](https://docs.ticketsbot.net/premium/whitelabel-setup-guide).",
 			"discord": {
-				"no_subscription": ""
+				"no_subscription": "Premiumin voi ostaa suoraan Discordista. Avaa tilauksen hallintasivu napsauttamalla alla olevaa painiketta.\n\nYksi ostettu, salli enintään 5 minuuttia tilauksen havaitsemiseksi."
 			},
-			"subscription_found_content_modern": "",
-			"open_server_selector": ""
+			"subscription_found_content_modern": "Sinun Patreon-tilauksesi on löytynyt. Ole hyvä ja paima alla olevaa \"Avaa palvelinvalinta\" -painiketta avataksesi hallintapaneeli, valitaksesi ne palvelimet, joita haluat käyttää Premium-tilauksessasi.",
+			"open_server_selector": "Avaa Palvelimen Valitsin"
 		},
 		"notes": {
 			"added_to_existing": "",
@@ -279,83 +279,83 @@
 			"created": ""
 		},
 		"rename": {
-			"ratelimited": ""
+			"ratelimited": "Discordin asettamien rajoitusten vuoksi liput voidaan nimetä uudelleen vain kahdesti 10 minuutin välein"
 		},
 		"vote": {
-			"redeem_credits": "",
-			"no_credits": "",
+			"redeem_credits": "Lunasta Krediitit",
+			"no_credits": "Lunastaminen epäonnistui: sinulla ei ole äänestys krediittejä!",
 			"redeem": {
 				"success": {
 					"plural": "",
-					"singular": ""
+					"singular": "Äänestämis krediittisi on lunastettu **%d** päivän premium!"
 				}
 			},
 			"with_credits": {
-				"plural": "",
-				"singular": ""
+				"plural": "Sinulla on **%d** äänestämis krediittejä. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivää premiumia tälle serverille.",
+				"singular": "Sinulla on **%d** äänestämis krediitti. Paina \"Lunasta Krediitit\" näppäintä alhaalta lunastaaksesi %d päivä premiumia tälle serverille."
 			}
 		}
 	},
 	"generic": {
 		"title": {
-			"panel_switched": "",
-			"jump_to_top": "",
-			"reopened": "",
-			"ticket_closed": ""
+			"panel_switched": "Lipukkeen Paneeli Vaihdettu",
+			"jump_to_top": "Siirry Ylhäälle",
+			"reopened": "Lipuke uudelleen avattu",
+			"ticket_closed": "Lipuke Suljettu"
 		},
-		"click_here": "",
-		"confirm": "",
-		"website": ""
+		"click_here": "Paina Tästä",
+		"confirm": "Vahvista",
+		"website": "Meidän Verkkosivuiltamme"
 	},
 	"help": {
-		"switch_panel": "",
-		"jump_to_top": "",
+		"switch_panel": "Vaihtaa lipukkeen toiseen lippupaneeliin, vaihtaen kanavaluokan, tukitiimit jne.",
+		"jump_to_top": "Tarjoaa sinulle painikkeen, jonka avulla voit hypätä lipun alkuun",
 		"on_call": "",
-		"reopen": "",
-		"notes": ""
+		"reopen": "Avaa lipukkeen, joka oli aiemmin suljettu",
+		"notes": "Luo viestiketjun yksityiseen keskusteluun tukijoiden välillä"
 	},
 	"<@&%d> has been unblcommands": {
 		"blacklist": {
 			"remove_role": {
-				"successcklisted": ""
+				"successcklisted": "<@&%d> on poistettu mustaltalistalta"
 			}
 		}
 	},
 	"setup": {
 		"auto": {
-			"docs": ""
+			"docs": "Haluatko tutkia lisää? Meidän [documentation](https://docs.ticketsbot.net) opettaa sinulle kuinka määrittää kaikki botin ominaisuudet!"
 		},
 		"threads": {
-			"no_notification_channel": "",
-			"notification_channel_type": "",
-			"success": "",
-			"disabled": ""
+			"no_notification_channel": "Sinun on annettava lipukkeiden ilmoitus kanava",
+			"notification_channel_type": "Lipukkeen ilmoitus kanavan on oltava tekstikanava",
+			"success": "Ketju tila on otettu käyttöön",
+			"disabled": "Ketju tila on poistettu käytöstä"
 		}
 	},
 	"button": {
 		"join_thread": {
-			"closed_ticket": "",
-			"no_permission": "",
-			"already_joined": "",
-			"success": ""
+			"closed_ticket": "Tämä lipuke on jo suljettu",
+			"no_permission": "Sinulla ei ole oikeuksia tarkastella tämäntyyppistä lipuketta",
+			"already_joined": "Olet jo liittynyt tähän lippuun (<#%d>)",
+			"success": "Lisäsi sinut lippuun: <#%d>"
 		}
 	},
 	"open": {
-		"thread_in_announcement_channel": "",
-		"panel_force_disabled": "",
-		"panel_disabled": "",
+		"thread_in_announcement_channel": "Ketjuja ei voi luoda ilmoituskanavilla",
+		"panel_force_disabled": "Tämä paneeli on poistettu käytöstä. Pyydä palvelimen ylläpitäjää aktivoimaan premium ja suorita %s ottaaksesi tämän paneelin uudelleen käyttöön.",
+		"panel_disabled": "Palvelimen ylläpitäjät ovat poistaneet tämän tyyppisen lipukkeen avaamisen",
 		"acl": {
-			"no_allow_rules": "",
-			"deny_listed": "",
+			"no_allow_rules": "Oikeus avata tämäntyyppinen lippu on poistettu kaikilta rooleilta",
+			"deny_listed": "Et voi avata tällaista lippua, koska sinulla on rooli <@&%d>",
 			"not_allow_listed": {
-				"multiple": "",
-				"single": ""
+				"multiple": "Tarvitset yhden seuraavista rooleista avataksesi tämäntyyppisen lipukkeen: %s",
+				"single": "Tarvitset seuraavan roolin, avataksesi lipukkeen: %s"
 			}
 		}
 	},
 	"Private notes arcommands": {
 		"notes": {
-			"channel_mode_onlye only supported in channel mode": ""
+			"channel_mode_onlye only supported in channel mode": "Muistiinpanojen ketjut ovat tuettuja vain kanava tilassa"
 		}
 	}
 }
